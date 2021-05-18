@@ -7,6 +7,7 @@ from scrapy import signals
 # useful for handling different item types with a single interface
 from scrapy.http import TextResponse
 
+from scrapgitubapi.util import Config
 from scrapgitubapi.util.cache import Cache
 
 
@@ -70,6 +71,11 @@ class ScrapGithubSpiderDownloaderMiddleware:
         return s
 
     def process_request(self, request, spider):
+        headers = request.headers
+        x = f"token {Config.github_token()}"
+        print(x)
+        # headers[b'Authorization'] = bytes(x, 'utf-8')
+        # print(headers)
         if Cache.is_cached(request.url):
             text = Cache.load_cache(request.url)
             response = TextResponse(request.url, encoding="utf-8", status=200, body=text)
@@ -87,8 +93,8 @@ class ScrapGithubSpiderDownloaderMiddleware:
 
     def process_response(self, request, response, spider):
         # Called with the response returned from the downloader.
-
-        Cache.save_to_cache(response.url, response.text)
+        if int(response.status) == 200:
+            Cache.save_to_cache(response.url, response.text)
         # Must either;
         # - return a Response object
         # - return a Request object

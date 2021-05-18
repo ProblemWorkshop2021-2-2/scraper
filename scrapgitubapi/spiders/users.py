@@ -37,17 +37,21 @@ class UsersSpider(scrapy.Spider):
 
     def parse(self, response):
         text = response.text
-        x = json.loads(text)
-        id = x['id']
-        login = x['login']
-        site_admin = x['site_admin']
-        type = x['type']
-        name = x['name']
-        email = x['email']
-        hireable = x['hireable']
-        self.table_users.write(id, login, site_admin, type, name, email, hireable)
+        try:
 
-        nu = self.next_url
-        if not nu is None:
-            yield scrapy.Request(url=self.next_url, callback=self.parse)
-        return None
+            x = json.loads(text)
+            id = x['id']
+            login = x['login']
+            site_admin = x['site_admin']
+            type = x['type']
+            name = x['name']
+            email = x['email']
+            hireable = x['hireable']
+            self.table_users.write(id, login, site_admin, type, name, email, hireable)
+
+            nu = self.next_url
+            if not nu is None:
+                yield scrapy.Request(url=self.next_url, callback=self.parse)
+            return None
+        except:
+            print(text)
