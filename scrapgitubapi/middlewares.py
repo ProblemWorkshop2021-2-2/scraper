@@ -4,10 +4,8 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
 # useful for handling different item types with a single interface
-from itemadapter import is_item, ItemAdapter
-from scrapy.http import Response, TextResponse
+from scrapy.http import TextResponse
 
 from scrapgitubapi.util.cache import Cache
 
@@ -72,14 +70,10 @@ class ScrapGithubSpiderDownloaderMiddleware:
         return s
 
     def process_request(self, request, spider):
-        #
-        #print("process_request")
-        # TODO poprawić narazie nie działą i jest wyłączone lub się gdzieś wpiąć i pobrane rzeczy wczytwać z folderu
-        #if Cache.is_cached(request.url):
-        #    print("cached response")
-        #    text = Cache.load_cache(request.url)
-        #    response = TextResponse(request.url,encoding="utf-8",status=200,text=text)
-        #    return response
+        if Cache.is_cached(request.url):
+            text = Cache.load_cache(request.url)
+            response = TextResponse(request.url, encoding="utf-8", status=200, body=text)
+            return response
         # Called for each request that goes through the downloader
         # middleware.
 
