@@ -1,4 +1,4 @@
-from scrapgitubapi.util.data import Data
+from scrapgitubapi.data.data import Data
 
 
 class DataGithubApi(Data):

@@ -2,8 +2,9 @@ import json
 
 import scrapy
 
-from scrapgitubapi.util.datagithubapi import DataGithubApi
-from scrapgitubapi.util.datauser import DataUser
+from scrapgitubapi.data.datagithubapi import DataGithubApi
+from scrapgitubapi.data.datauser import DataUser
+from scrapgitubapi.table.TableContributors import TableContributors
 
 
 class ContributorsSpider(scrapy.Spider):
@@ -15,6 +16,7 @@ class ContributorsSpider(scrapy.Spider):
         self.page = 0
         self.data_github_api = DataGithubApi()
         self.data_user = DataUser()
+        self.table_contributors = TableContributors()
 
     @property
     def next_page(self) -> int:
@@ -32,7 +34,12 @@ class ContributorsSpider(scrapy.Spider):
         text = response.text
         obj = json.loads(text)
         for x in obj:
+            id = x['id']
             login = x['login']
+            contributions = x['contributions']
+            site_admin = x['site_admin']
+            type = x['type']
+            self.table_contributors.write(id, login, contributions, site_admin, type)
             self.data_user.add_user_login(login)
         if len(text) > 2 and text != '[]':
             yield scrapy.Request(url=self.next_url, callback=self.parse)

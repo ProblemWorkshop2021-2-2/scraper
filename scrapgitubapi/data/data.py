@@ -1,14 +1,15 @@
 import json
 import os
 
-from scrapgitubapi.util import Config
+from scrapgitubapi.util import Config, Util
 
 
 class Data:
 
     def __init__(self, file):
-        self.filePath = f"{Config.working_directory()}/{file}.json"
+        self.filePath = f"{Config.working_directory()}/data/{file}.json"
         self._data = {}
+        Util.mkdir(self.filePath)
 
     def data_load(self) -> None:
         if os.path.exists(self.filePath) and os.path.isfile(self.filePath):
@@ -47,6 +48,14 @@ class Data:
             print(f"Key not defined: {key}")
             raise RuntimeError(f"Key not defined: {key}")
 
+    def get_key_default(self, key: str, default):
+        self.data_load()
+        try:
+            return self._data[key]
+        except:
+            return default
+
     def set_key(self, key: str, value):
+        self.data_load()
         self._data[key] = value
         self.data_save()

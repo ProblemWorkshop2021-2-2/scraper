@@ -1,24 +1,11 @@
 import hashlib
 import os
 
+from scrapgitubapi.util import Util
 from scrapgitubapi.util.config import Config
 
 
 class Cache(object):
-
-    @staticmethod
-    def mkdir(path: str):
-        pathParts = path.split('/')
-        pathDirParts = pathParts[0:len(pathParts) - 1]
-        pathDir = ""
-        for x in pathDirParts:
-            pathDir += f"/{x}"
-        pathDir = pathDir[1:len(pathDir)]
-        if pathDir == '':
-            return
-        Cache.mkdir(pathDir)
-        if not os.path.exists(pathDir):
-            os.mkdir(pathDir)
 
     @staticmethod
     def _url_to_file_path(url):
@@ -42,7 +29,7 @@ class Cache(object):
         path = path.replace('=', '_')
         path = path.replace('&', '_')
         path = f"{Cache._cache_directory()}/{path}.json"
-        Cache.mkdir(path)
+        Util.mkdir(path)
         return path
 
     @staticmethod
@@ -76,4 +63,4 @@ class Cache(object):
             for l in file.readlines():
                 content += f"{l}\n"
             file.close()
-        return content
+        return content.strip()

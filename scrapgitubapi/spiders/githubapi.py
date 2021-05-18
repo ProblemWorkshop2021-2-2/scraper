@@ -3,8 +3,8 @@ from typing import List
 
 import scrapy
 
+from scrapgitubapi.data.datagithubapi import DataGithubApi
 from scrapgitubapi.util import Config
-from scrapgitubapi.util.datagithubapi import DataGithubApi
 
 
 class GithubapiSpider(scrapy.Spider):
