@@ -5,8 +5,10 @@
 
 from scrapy import signals
 # useful for handling different item types with a single interface
+from scrapy.exceptions import IgnoreRequest
 from scrapy.http import TextResponse
 
+from scrapgitubapi.data.datanotfoundurl import DataNotFoundUrl
 from scrapgitubapi.util import Config
 from scrapgitubapi.util.cache import Cache
 
@@ -93,8 +95,14 @@ class ScrapGithubSpiderDownloaderMiddleware:
 
     def process_response(self, request, response, spider):
         # Called with the response returned from the downloader.
-        if int(response.status) == 200:
+        print(f"process_response: url: {response.url}")
+        status_code = int(response.status)
+        if status_code == 200:
             Cache.save_to_cache(response.url, response.text)
+        elif status_code == 404:
+            dataNotFoundUrl = DataNotFoundUrl()
+            dataNotFoundUrl.add_not_found_url(response.url)
+            raise IgnoreRequest()
         # Must either;
         # - return a Response object
         # - return a Request object
@@ -102,6 +110,8 @@ class ScrapGithubSpiderDownloaderMiddleware:
         return response
 
     def process_exception(self, request, exception, spider):
+
+        print("process_exception")
         # Called when a download handler or a process_request()
         # (from other downloader middleware) raises an exception.
 
@@ -109,7 +119,7 @@ class ScrapGithubSpiderDownloaderMiddleware:
         # - return None: continue processing this exception
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
-        pass
+        return None
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)

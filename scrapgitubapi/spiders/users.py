@@ -3,8 +3,10 @@ from typing import List
 
 import scrapy
 
+from scrapgitubapi.data.datanotfoundurl import DataNotFoundUrl
 from scrapgitubapi.data.datauser import DataUser
 from scrapgitubapi.table.TableUsers import TableUsers
+from scrapgitubapi.util.cache import Cache
 
 
 class UsersSpider(scrapy.Spider):
@@ -30,15 +32,23 @@ class UsersSpider(scrapy.Spider):
         nu = self.next_user
         if nu is None:
             return None
-        return f"https://api.github.com/users/{nu}"
+        url = f"https://api.github.com/users/{nu}"
+        not_found_urls = DataNotFoundUrl().not_found_url
+        # print(f"not_found_urls: {not_found_urls}, url: {url}")
+        if url in not_found_urls:
+            # print("Skip: " + url)
+            return self.next_url
+        return url
 
     def start_requests(self):
-        yield scrapy.Request(url=self.next_url, callback=self.parse)
+        nu = self.next_url
+        print(nu)
+        yield scrapy.Request(url=nu, callback=self.parse)
 
     def parse(self, response):
         text = response.text
+        status = response.status
         try:
-
             x = json.loads(text)
             id = x['id']
             login = x['login']
@@ -50,8 +60,9 @@ class UsersSpider(scrapy.Spider):
             self.table_users.write(id, login, site_admin, type, name, email, hireable)
 
             nu = self.next_url
-            # while Cache.is_cached(nu):
-            #    nu = self.next_url
+            print(nu)
+            while Cache.is_cached(nu):
+                nu = self.next_url
             if not nu is None:
                 yield scrapy.Request(url=nu, callback=self.parse)
             return None
