@@ -50,8 +50,10 @@ class UsersSpider(scrapy.Spider):
             self.table_users.write(id, login, site_admin, type, name, email, hireable)
 
             nu = self.next_url
+            # while Cache.is_cached(nu):
+            #    nu = self.next_url
             if not nu is None:
-                yield scrapy.Request(url=self.next_url, callback=self.parse)
+                yield scrapy.Request(url=nu, callback=self.parse)
             return None
         except:
             print(text)

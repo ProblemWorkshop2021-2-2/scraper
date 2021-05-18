@@ -73,7 +73,7 @@ class ScrapGithubSpiderDownloaderMiddleware:
     def process_request(self, request, spider):
         headers = request.headers
         x = f"token {Config.github_token()}"
-        print(x)
+        request.headers[b'Authorization'] = bytes(x, 'utf-8')
         # headers[b'Authorization'] = bytes(x, 'utf-8')
         # print(headers)
         if Cache.is_cached(request.url):
