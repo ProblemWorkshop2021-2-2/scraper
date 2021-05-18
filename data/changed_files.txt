@@ -1,0 +1,2482 @@
+./.bazelrc,Abhishek Kulkarni
+./.bazelrc,Advait Jain
+./.bazelrc,Alexander Grund
+./.bazelrc,Artem Belevich
+./.bazelrc,Bhavani Subramanian
+./.bazelrc,cfRod
+./.bazelrc,Chenkai Kuang
+./.bazelrc,Deven Desai
+./.bazelrc,Dong Lin
+./.bazelrc,Eugene Zhulenev
+./.bazelrc,Frank Chen
+./.bazelrc,Geoffrey Martin-Noble
+./.bazelrc,George Karpenkov
+./.bazelrc,Jacques Pienaar
+./.bazelrc,Jared Duke
+./.bazelrc,Johan Nordström
+./.bazelrc,Niranjan Hasabnis
+./.bazelrc,Randy Dodgen
+./.bazelrc,Stephan Herhut
+./.bazelrc,Terry Heo
+./.bazelrc,Tomasz Strejczek
+./.bazelrc,Yong Tang
+./.bazelversion,Christian Sigg
+./.bazelversion,Gunhan Gulsoy
+./.bazelversion,Jakob Buchgraber
+./.github/bot_config.yml,Mihai Maruseac
+./.github/bot_config.yml,Sanjoy Das
+./.github/bot_config.yml,Stephan Herhut
+./.github/ISSUE_TEMPLATE/00-bug-issue.md,bhack
+./.github/ISSUE_TEMPLATE/00-bug-issue.md,Patrick Hemmer
+./.github/ISSUE_TEMPLATE/00-bug-issue.md,Vishnuvardhan Janapati
+./.github/ISSUE_TEMPLATE/10-build-installation-issue.md,Andrew Selle
+./.github/ISSUE_TEMPLATE/10-build-installation-issue.md,Vishnuvardhan Janapati
+./.github/ISSUE_TEMPLATE/20-documentation-issue.md,Andrew Selle
+./.github/ISSUE_TEMPLATE/20-documentation-issue.md,Augustina Ragwitz
+./.github/ISSUE_TEMPLATE/20-documentation-issue.md,Yash Katariya
+./.github/ISSUE_TEMPLATE/30-feature-request.md,Andrew Selle
+./.github/ISSUE_TEMPLATE/30-feature-request.md,A. Unique TensorFlower
+./.github/ISSUE_TEMPLATE/30-feature-request.md,Mihai Maruseac
+./.github/ISSUE_TEMPLATE/30-feature-request.md,TensorFlower Gardener
+./.github/ISSUE_TEMPLATE/30-feature-request.md,Vishnuvardhan Janapati
+./.github/ISSUE_TEMPLATE/40-tflite-op-request.md,Andrew Selle
+./.github/ISSUE_TEMPLATE/40-tflite-op-request.md,A. Unique TensorFlower
+./.github/ISSUE_TEMPLATE/40-tflite-op-request.md,Vishnuvardhan Janapati
+./.github/ISSUE_TEMPLATE/50-other-issues.md,Andrew Selle
+./.github/ISSUE_TEMPLATE/50-other-issues.md,Vishnuvardhan Janapati
+./.github/ISSUE_TEMPLATE/60-tflite-converter-issue.md,Ashwin Murthy
+./.github/ISSUE_TEMPLATE/60-tflite-converter-issue.md,A. Unique TensorFlower
+./.github/ISSUE_TEMPLATE/60-tflite-converter-issue.md,Karim Nosir
+./.github/ISSUE_TEMPLATE/60-tflite-converter-issue.md,Meghna Natraj
+./.github/ISSUE_TEMPLATE/60-tflite-converter-issue.md,TensorFlower Gardener
+./.github/ISSUE_TEMPLATE/70-tflite-micro-issue.md,Advait Jain
+./.github/ISSUE_TEMPLATE/80-performance-issue.md,A. Unique TensorFlower
+./.github/ISSUE_TEMPLATE/80-performance-issue.md,Patrick Hemmer
+./.github/ISSUE_TEMPLATE/80-performance-issue.md,Vishnuvardhan Janapati
+./.github/workflows/update-nightly.yml,Adam Hillier
+./.github/workflows/update-nightly.yml,Austin Anderson
+./.github/workflows/update-nightly.yml,TensorFlower Gardener
+./.gitignore,asdf2014
+./.gitignore,Austin Anderson
+./.gitignore,Benjamin Gaillard
+./.gitignore,Christian Grail
+./.gitignore,Gunhan Gulsoy
+./.gitignore,hannesa2
+./.gitignore,Juho Ha
+./.gitignore,Justine Tunney
+./.gitignore,Manjunath Kudlur
+./.gitignore,Martin Wicke
+./.gitignore,Pete Warden
+./.gitignore,raymondxyang
+./.gitignore,Robin Richtsfeld
+./.gitignore,Stefan Dyulgerov
+./.gitignore,Tang, Wenyi
+./.gitignore,TensorFlower Gardener
+./.gitignore,Vijay Vasudevan
+./.gitignore,Yifei Feng
+./.gitignore,YoungSeok Yoon
+./arm_compiler.BUILD,Adam Hillier
+./arm_compiler.BUILD,Pete Warden
+./arm_compiler.BUILD,Vijay Vasudevan
+./AUTHORS,Manjunath Kudlur
+./AUTHORS,Robin Richtsfeld
+./AUTHORS,Yuan (Terry) Tang
+./BUILD,Christian Sigg
+./CODEOWNERS,Advait Jain
+./CODEOWNERS,Allen Lavoie
+./CODEOWNERS,Benoit Steiner
+./CODEOWNERS,Frank Chen
+./CODEOWNERS,Guangda Lai
+./CODEOWNERS,Ian Langmore
+./CODEOWNERS,Jason Zaman
+./CODEOWNERS,Jonathan Hseu
+./CODEOWNERS,Kibeom Kim
+./CODEOWNERS,Neal Wu
+./CODEOWNERS,Peng Yu
+./CODEOWNERS,Vincent Vanhoucke
+./CODEOWNERS,Yifei Feng
+./CODEOWNERS,Yuan Tang
+./CODE_OF_CONDUCT.md,Abdul Baseer Khan
+./CODE_OF_CONDUCT.md,Brendan Finan
+./CODE_OF_CONDUCT.md,Marcela Morales Quispe
+./CODE_OF_CONDUCT.md,Martin Wicke
+./CODE_OF_CONDUCT.md,Mihai Maruseac
+./CODE_OF_CONDUCT.md,Ronald Eddy Jr
+./CODE_OF_CONDUCT.md,Vijay Vasudevan
+./configure,Andrew Selle
+./configure,Asim Shankar
+./configure,Dandelion Mané
+./configure,Dan Ringwalt
+./configure,flyingcat
+./configure,Geoffrey Irving
+./configure,Michael Case
+./configure,Peter Hawkins
+./configure,Rohan Jain
+./configure,Yun Peng
+./configure.cmd,Myung-Hyun Kim
+./configure.cmd,Saleem Abdulrasool
+./configure.py,Abhishek Kulkarni
+./configure.py,Ahti Kitsik
+./configure.py,Alexander Grund
+./configure.py,Allen Lavoie
+./configure.py,Ankur Taly
+./configure.py,Anton Dmitriev
+./configure.py,avijit-nervana
+./configure.py,Ayush Dubey
+./configure.py,cfRod
+./configure.py,Christian Goll
+./configure.py,Frank Chen
+./configure.py,Gaurav Jain
+./configure.py,George Karpenkov
+./configure.py,gracehoney
+./configure.py,hedgehog91
+./configure.py,hellcom
+./configure.py,Jakob Buchgraber
+./configure.py,jayfurmanek
+./configure.py,Jeroen Bédorf
+./configure.py,Jonathan DEKHTIAR
+./configure.py,Jonathan Hseu
+./configure.py,Jon Triebenbach
+./configure.py,Loo Rong Jie
+./configure.py,Lukas Geiger
+./configure.py,Maciej
+./configure.py,Mark Daoust
+./configure.py,Mark Heffernan
+./configure.py,marload
+./configure.py,Martin Wicke
+./configure.py,Mingxing Tan
+./configure.py,Niall Moran
+./configure.py,Patrick Nguyen
+./configure.py,Penporn Koanantakool
+./configure.py,R S Nikhil Krishna
+./configure.py,Sergei Lebedev
+./configure.py,Shashi Shekhar
+./configure.py,Toby Boyd
+./configure.py,Todd Wang
+./configure.py,Vijay Vasudevan
+./configure.py,Wen-Heng (Jack) Chung
+./configure.py,Yun Peng
+./configure.py,zhengxq
+./CONTRIBUTING.md,Aniket Kumar Singh
+./CONTRIBUTING.md,Austin Anderson
+./CONTRIBUTING.md,Ayush Agrawal
+./CONTRIBUTING.md,Bastian Eichenberger
+./CONTRIBUTING.md,Bharat Raghunathan
+./CONTRIBUTING.md,Brad Wannow
+./CONTRIBUTING.md,Chris Hoyean Song
+./CONTRIBUTING.md,dmaclach
+./CONTRIBUTING.md,Gunhan Gulsoy
+./CONTRIBUTING.md,Kankroc
+./CONTRIBUTING.md,Mahmoud Aslan
+./CONTRIBUTING.md,Manjunath Kudlur
+./CONTRIBUTING.md,Mark Daoust
+./CONTRIBUTING.md,Martin Wicke
+./CONTRIBUTING.md,Miguel Morin
+./CONTRIBUTING.md,Mihai Maruseac
+./CONTRIBUTING.md,Ronald Eddy Jr
+./CONTRIBUTING.md,Sergii Khomenko
+./CONTRIBUTING.md,tucan
+./ISSUES.md,Christian Sigg
+./ISSUES.md,Deepak B
+./ISSUES.md,Marcin Owsiany
+./ISSUES.md,Mihai Maruseac
+./ISSUES.md,Phoenix Meadowlark
+./ISSUES.md,William Chargin
+./ISSUE_TEMPLATE.md,Abdul Baseer Khan
+./ISSUE_TEMPLATE.md,Alan Yee
+./ISSUE_TEMPLATE.md,Dan Mané
+./ISSUE_TEMPLATE.md,Dhruv
+./ISSUE_TEMPLATE.md,Eugene Brevdo
+./ISSUE_TEMPLATE.md,Illia Polosukhin
+./ISSUE_TEMPLATE.md,Marcela Morales Quispe
+./ISSUE_TEMPLATE.md,Mark Daoust
+./ISSUE_TEMPLATE.md,Neal Wu
+./ISSUE_TEMPLATE.md,Patrick Nguyen
+./ISSUE_TEMPLATE.md,Rohan Jain
+./ISSUE_TEMPLATE.md,serv-inc
+./ISSUE_TEMPLATE.md,Shanqing Cai
+./ISSUE_TEMPLATE.md,Shashi Shekhar
+./ISSUE_TEMPLATE.md,TensorFlower Gardener
+./ISSUE_TEMPLATE.md,Todd Wang
+./ISSUE_TEMPLATE.md,Yifei Feng
+./LICENSE,Fisher Coder
+./LICENSE,Manjunath Kudlur
+./LICENSE,Miguel Piedrafita
+./LICENSE,Rohit Gupta
+./LICENSE,Russell Power
+./LICENSE,TensorFlower Gardener
+./README.md,aaronhma
+./README.md,Aaron Ma
+./README.md,Aditya Kane
+./README.md,Alex
+./README.md,Andrew Banchich
+./README.md,bzhao
+./README.md,Dandelion Mané
+./README.md,Dan Mané
+./README.md,Dan Ringwalt
+./README.md,David
+./README.md,Devansh Singh
+./README.md,Deven Desai
+./README.md,Edd Wilder-James
+./README.md,Edward Forgacs
+./README.md,Eugene Brevdo
+./README.md,Ewout ter Hoeven
+./README.md,Feiyang Chen
+./README.md,gbaned
+./README.md,Illia Polosukhin
+./README.md,Jan Prach
+./README.md,Jeff Poznanovic
+./README.md,Josh Gordon
+./README.md,Maderator
+./README.md,Marcin Juszkiewicz
+./README.md,Mihai Maruseac
+./README.md,Raghuraman Krishnamoorthi
+./README.md,Rohan Jain
+./README.md,Sandip Giri
+./README.md,Santosh Kumar
+./README.md,Shunya Ueta
+./README.md,Sourabh Bajaj
+./README.md,Stephan Hoyer
+./README.md,Steve Lang
+./README.md,Subin
+./README.md,Tarandeep Singh
+./README.md,ted chang
+./README.md,Tyorden
+./README.md,Vijay Tadikamalla
+./README.md,William Irons
+./README.md,Xiaoqiang Zheng
+./README.md,Yasir Modak
+./README.md,Yong Tang
+./README.md,Yuan Tang
+./RELEASE.md,Abdul Baseer Khan
+./RELEASE.md,Allen Lavoie
+./RELEASE.md,Anjum Sayed
+./RELEASE.md,Ankur Taly
+./RELEASE.md,Chao Mei
+./RELEASE.md,Chenkai Kuang
+./RELEASE.md,ctiijima
+./RELEASE.md,Dandelion Mané
+./RELEASE.md,Dan Ringwalt
+./RELEASE.md,Dero Gharibian
+./RELEASE.md,Edward Loper
+./RELEASE.md,Etienne Pot
+./RELEASE.md,Eugene Zhulenev
+./RELEASE.md,Feng Liu
+./RELEASE.md,Gaurav Jain
+./RELEASE.md,Illia Polosukhin
+./RELEASE.md,Jacques Pienaar
+./RELEASE.md,Jian Li
+./RELEASE.md,Jonathan DEKHTIAR
+./RELEASE.md,Josip Djolonga
+./RELEASE.md,Juho Ha
+./RELEASE.md,Jun Xu
+./RELEASE.md,Justin Lebar
+./RELEASE.md,Ken Franko
+./RELEASE.md,Misha Brukman
+./RELEASE.md,Nathan Luehr
+./RELEASE.md,Nicholas Nadeau, P.Eng., AVS
+./RELEASE.md,Nick Felt
+./RELEASE.md,Nikhil Thorat
+./RELEASE.md,Nutti
+./RELEASE.md,Patrick Nguyen
+./RELEASE.md,Philip Sun
+./RELEASE.md,Rajkumar Samuel
+./RELEASE.md,Richard Uhler
+./RELEASE.md,Rohan Jain
+./RELEASE.md,Roman Dzhabarov
+./RELEASE.md,Ruoxin Sang
+./RELEASE.md,Sanjoy Das
+./RELEASE.md,Saurabh Saxena
+./RELEASE.md,Shlomi Regev
+./RELEASE.md,Siju
+./RELEASE.md,Srinivas Vasudevan
+./RELEASE.md,Stephan Lee
+./RELEASE.md,Taehee Jeong
+./RELEASE.md,TensorFlow Release Automation
+./RELEASE.md,Thai Nguyen
+./RELEASE.md,Tian Lin
+./RELEASE.md,T.J. Alumbaugh
+./RELEASE.md,Tyorden
+./RELEASE.md,Wei Ho
+./RELEASE.md,Yang Chen
+./RELEASE.md,Yanhua Sun
+./RELEASE.md,Yanhui Liang
+./RELEASE.md,Yong Tang
+./RELEASE.md,YoungSeok Yoon
+./RELEASE.md,Zhenyu Tan
+./SECURITY.md,A. Unique TensorFlower
+./SECURITY.md,Karmel Allison
+./SECURITY.md,Mark Daoust
+./SECURITY.md,Martin Wicke
+./SECURITY.md,Michael Case
+./SECURITY.md,Mihai Maruseac
+./SECURITY.md,seo-inyoung
+./SECURITY.md,Shanqing Cai
+./SECURITY.md,Yifei Feng
+./tensorflow/.clang-format,Jonathan Hseu
+./tensorflow/api_template.__init__.py,Andrew Selle
+./tensorflow/api_template.__init__.py,A. Unique TensorFlower
+./tensorflow/api_template.__init__.py,Katherine Wu
+./tensorflow/api_template.__init__.py,Lukas Geiger
+./tensorflow/api_template.__init__.py,Mihai Maruseac
+./tensorflow/api_template.__init__.py,Milan Straka
+./tensorflow/api_template.__init__.py,Nick Felt
+./tensorflow/api_template.__init__.py,TensorFlower Gardener
+./tensorflow/api_template.__init__.py,Yanhua Sun
+./tensorflow/api_template.__init__.py,Zhoulong Jiang
+./tensorflow/api_template_v1.__init__.py,Andrew Selle
+./tensorflow/api_template_v1.__init__.py,Billy Lamberta
+./tensorflow/api_template_v1.__init__.py,fo40225
+./tensorflow/api_template_v1.__init__.py,James Ring
+./tensorflow/api_template_v1.__init__.py,Lukas Geiger
+./tensorflow/api_template_v1.__init__.py,Mark Daoust
+./tensorflow/api_template_v1.__init__.py,Martin Wicke
+./tensorflow/api_template_v1.__init__.py,Mihai Maruseac
+./tensorflow/api_template_v1.__init__.py,TensorFlower Gardener
+./tensorflow/api_template_v1.__init__.py,Yifei Feng
+./tensorflow/api_template_v1.__init__.py,Zhoulong Jiang
+./tensorflow/BUILD,Abhishek Kulkarni
+./tensorflow/BUILD,Adrian Kuegel
+./tensorflow/BUILD,Alexander Gorban
+./tensorflow/BUILD,Amit Patankar
+./tensorflow/BUILD,Andrew Audibert
+./tensorflow/BUILD,Anton Dmitriev
+./tensorflow/BUILD,Austin Anderson
+./tensorflow/BUILD,Ayush Dubey
+./tensorflow/BUILD,Brennan Saeta
+./tensorflow/BUILD,Chao Xie
+./tensorflow/BUILD,Chenliang Xu
+./tensorflow/BUILD,David G. Andersen
+./tensorflow/BUILD,David Rees
+./tensorflow/BUILD,David Soergel
+./tensorflow/BUILD,Eugene Zhulenev
+./tensorflow/BUILD,George Karpenkov
+./tensorflow/BUILD,Gleb Popov
+./tensorflow/BUILD,Haoyu Zhang
+./tensorflow/BUILD,Hongkun Yu
+./tensorflow/BUILD,Ian Langmore
+./tensorflow/BUILD,Igor Saprykin
+./tensorflow/BUILD,Jacques Pienaar
+./tensorflow/BUILD,Jeremy Lau
+./tensorflow/BUILD,jgehw
+./tensorflow/BUILD,Kay Zhu
+./tensorflow/BUILD,Koan-Sin Tan
+./tensorflow/BUILD,Loo Rong Jie
+./tensorflow/BUILD,Lucy Fox
+./tensorflow/BUILD,Mark Heffernan
+./tensorflow/BUILD,Matt Conley
+./tensorflow/BUILD,Michael Delorimier
+./tensorflow/BUILD,Neal Wu
+./tensorflow/BUILD,Nikhil Thorat
+./tensorflow/BUILD,Noah Fiedel
+./tensorflow/BUILD,Oceania2018
+./tensorflow/BUILD,Parker Schuh
+./tensorflow/BUILD,Peter Ma
+./tensorflow/BUILD,Petros Mol
+./tensorflow/BUILD,Randy Dodgen
+./tensorflow/BUILD,Revan Sopher
+./tensorflow/BUILD,Richard Wei
+./tensorflow/BUILD,Rick Chao
+./tensorflow/BUILD,Robin Nabel
+./tensorflow/BUILD,Roy Frostig
+./tensorflow/BUILD,ruanjiandong
+./tensorflow/BUILD,Scott Wegner
+./tensorflow/BUILD,Scott Zhu
+./tensorflow/BUILD,Shining Sun
+./tensorflow/BUILD,Sourabh Bajaj
+./tensorflow/BUILD,Sung Jin Hwang
+./tensorflow/BUILD,Terry Heo
+./tensorflow/BUILD,Thomas Köppe
+./tensorflow/BUILD,Tim Shen
+./tensorflow/BUILD,Vincent Vanhoucke
+./tensorflow/BUILD,Võ Văn Nghĩa
+./tensorflow/BUILD,wcn
+./tensorflow/BUILD,Wei Ho
+./tensorflow/BUILD,Xiaoqiang Zheng
+./tensorflow/BUILD,Yangzihao Wang
+./tensorflow/BUILD,Yu-Cheng Ling
+./tensorflow/BUILD,Zachary Garrett
+./tensorflow/BUILD,Zhangqiang
+./tensorflow/BUILD,Zhuo Peng
+./tensorflow/BUILD,Zhuoran Liu
+./tensorflow/BUILD,Zongheng Yang
+./tensorflow/c/env.cc,A. Unique TensorFlower
+./tensorflow/c/env.cc,Võ Văn Nghĩa
+./tensorflow/c/testdata/tf_record,Mingsheng Hong
+./tensorflow/c/BUILD,ag.ramesh
+./tensorflow/c/BUILD,Anton Dmitriev
+./tensorflow/c/BUILD,Benjamin Kramer
+./tensorflow/c/BUILD,chengchingwen
+./tensorflow/c/BUILD,Daniel Ellis
+./tensorflow/c/BUILD,Dan Zheng
+./tensorflow/c/BUILD,Derek Murray
+./tensorflow/c/BUILD,Dero Gharibian
+./tensorflow/c/BUILD,Geoffrey Irving
+./tensorflow/c/BUILD,George Karpenkov
+./tensorflow/c/BUILD,Jeremy Lau
+./tensorflow/c/BUILD,Jonathan Hseu
+./tensorflow/c/BUILD,Jun Xu
+./tensorflow/c/BUILD,Justin Lebar
+./tensorflow/c/BUILD,Martin Wicke
+./tensorflow/c/BUILD,Mehdi Amini
+./tensorflow/c/BUILD,Michael Delorimier
+./tensorflow/c/BUILD,Olivia Nordquist
+./tensorflow/c/BUILD,Patrick Nguyen
+./tensorflow/c/BUILD,Ran Chen
+./tensorflow/c/BUILD,Reed Wanderman-Milne
+./tensorflow/c/BUILD,Richard Wei
+./tensorflow/c/BUILD,Rick Chao
+./tensorflow/c/BUILD,Russell Power
+./tensorflow/c/BUILD,Sanjoy Das
+./tensorflow/c/BUILD,Wenhao Jia
+./tensorflow/c/BUILD,Yanhua Sun
+./tensorflow/c/BUILD,Yifei Feng
+./tensorflow/c/BUILD,Zongheng Yang
+./tensorflow/c/checkpoint_reader.cc,Gaurav Jain
+./tensorflow/c/checkpoint_reader.cc,Gunhan Gulsoy
+./tensorflow/c/checkpoint_reader.cc,Peter Hawkins
+./tensorflow/c/checkpoint_reader.h,Gaurav Jain
+./tensorflow/c/checkpoint_reader.h,Gunhan Gulsoy
+./tensorflow/c/conversion_macros.h,Allen Lavoie
+./tensorflow/c/conversion_macros.h,Gaurav Jain
+./tensorflow/c/c_api.cc,Akshay Agrawal
+./tensorflow/c/c_api.cc,Akshay Modi
+./tensorflow/c/c_api.cc,Allen Lavoie
+./tensorflow/c/c_api.cc,Brennan Saeta
+./tensorflow/c/c_api.cc,Christian Sigg
+./tensorflow/c/c_api.cc,Dandelion Mané
+./tensorflow/c/c_api.cc,dmitrievanthony
+./tensorflow/c/c_api.cc,Jiandong Ruan
+./tensorflow/c/c_api.cc,Karl Lessard
+./tensorflow/c/c_api.cc,Michael Case
+./tensorflow/c/c_api.cc,Oceania2018
+./tensorflow/c/c_api.cc,Sheng, Yang
+./tensorflow/c/c_api.cc,Suharsh Sivakumar
+./tensorflow/c/c_api.cc,Tong Shen
+./tensorflow/c/c_api.cc,Xiao Yu
+./tensorflow/c/c_api.cc,Yanhua Sun
+./tensorflow/c/c_api.cc,Yong Tang
+./tensorflow/c/c_api.h,Anna R
+./tensorflow/c/c_api.h,Brennan Saeta
+./tensorflow/c/c_api.h,Dandelion Mané
+./tensorflow/c/c_api.h,Derek Murray
+./tensorflow/c/c_api.h,Dero Gharibian
+./tensorflow/c/c_api.h,Dmitry Volodin
+./tensorflow/c/c_api.h,Eugene Brevdo
+./tensorflow/c/c_api.h,Gunhan Gulsoy
+./tensorflow/c/c_api.h,Patrick Nguyen
+./tensorflow/c/c_api.h,Peter Hawkins
+./tensorflow/c/c_api.h,Suharsh Sivakumar
+./tensorflow/c/c_api.h,Tong Shen
+./tensorflow/c/c_api.h,Vijay Vasudevan
+./tensorflow/c/c_api.h,Xiao Yu
+./tensorflow/c/c_api.h,Yifei Feng
+./tensorflow/c/c_api.h,Yong Tang
+./tensorflow/c/c_api_experimental.cc,Alexey Romanov
+./tensorflow/c/c_api_experimental.cc,Asim Shankar
+./tensorflow/c/c_api_experimental.cc,Chuanhao Zhuge
+./tensorflow/c/c_api_experimental.cc,Eugene Brevdo
+./tensorflow/c/c_api_experimental.cc,George Karpenkov
+./tensorflow/c/c_api_experimental.cc,Gunhan Gulsoy
+./tensorflow/c/c_api_experimental.cc,James Ring
+./tensorflow/c/c_api_experimental.cc,Jiri Simsa
+./tensorflow/c/c_api_experimental.cc,Peter Hawkins
+./tensorflow/c/c_api_experimental.cc,Sergei Lebedev
+./tensorflow/c/c_api_experimental.cc,Tres Popp
+./tensorflow/c/c_api_experimental.cc,Yifei Feng
+./tensorflow/c/c_api_experimental.h,Allen Lavoie
+./tensorflow/c/c_api_experimental.h,Dmitry Volodin
+./tensorflow/c/c_api_experimental.h,George Karpenkov
+./tensorflow/c/c_api_experimental.h,James Ring
+./tensorflow/c/c_api_experimental.h,Peter Hawkins
+./tensorflow/c/c_api_experimental.h,Saurabh Saxena
+./tensorflow/c/c_api_experimental.h,Tres Popp
+./tensorflow/c/c_api_experimental.h,Yifei Feng
+./tensorflow/c/c_api_experimental_test.cc,Akshay Modi
+./tensorflow/c/c_api_experimental_test.cc,Alexandre Passos
+./tensorflow/c/c_api_experimental_test.cc,Allen Lavoie
+./tensorflow/c/c_api_experimental_test.cc,Peter Hawkins
+./tensorflow/c/c_api_experimental_test.cc,Zhoulong Jiang
+./tensorflow/c/c_api_function.cc,Akshay Modi
+./tensorflow/c/c_api_function.cc,Alexandre Passos
+./tensorflow/c/c_api_function.cc,Andy Ly
+./tensorflow/c/c_api_function.cc,Eugene Brevdo
+./tensorflow/c/c_api_function.cc,Eugene Zhulenev
+./tensorflow/c/c_api_function.cc,frreiss
+./tensorflow/c/c_api_function.cc,Gunhan Gulsoy
+./tensorflow/c/c_api_function.cc,Mingsheng Hong
+./tensorflow/c/c_api_function.cc,Skye Wanderman-Milne
+./tensorflow/c/c_api_function.cc,Smit Hinsu
+./tensorflow/c/c_api_function.cc,TensorFlower Gardener
+./tensorflow/c/c_api_function.cc,Xiao Yu
+./tensorflow/c/c_api_function_test.cc,Akshay Modi
+./tensorflow/c/c_api_function_test.cc,A. Unique TensorFlower
+./tensorflow/c/c_api_function_test.cc,Gaurav Jain
+./tensorflow/c/c_api_function_test.cc,George Karpenkov
+./tensorflow/c/c_api_function_test.cc,James Keeling
+./tensorflow/c/c_api_function_test.cc,Olivia Nordquist
+./tensorflow/c/c_api_function_test.cc,Patrick Nguyen
+./tensorflow/c/c_api_function_test.cc,Skye Wanderman-Milne
+./tensorflow/c/c_api_internal.h,Akshay Agrawal
+./tensorflow/c/c_api_internal.h,Brennan Saeta
+./tensorflow/c/c_api_internal.h,Derek Murray
+./tensorflow/c/c_api_internal.h,Eugene Brevdo
+./tensorflow/c/c_api_internal.h,Geoffrey Irving
+./tensorflow/c/c_api_internal.h,Mingsheng Hong
+./tensorflow/c/c_api_internal.h,Sheng, Yang
+./tensorflow/c/c_api_internal.h,TensorFlower Gardener
+./tensorflow/c/c_api_macros.h,Brian Zhao
+./tensorflow/c/c_api_macros.h,TensorFlower Gardener
+./tensorflow/c/c_api_test.cc,Alexandre Passos
+./tensorflow/c/c_api_test.cc,Brian Atkinson
+./tensorflow/c/c_api_test.cc,Brian Zhao
+./tensorflow/c/c_api_test.cc,Geoffrey Irving
+./tensorflow/c/c_api_test.cc,Igor Ganichev
+./tensorflow/c/c_api_test.cc,James Ring
+./tensorflow/c/c_api_test.cc,Kiril Gorovoy
+./tensorflow/c/c_api_test.cc,Oceania2018
+./tensorflow/c/c_api_test.cc,Olivia Nordquist
+./tensorflow/c/c_api_test.cc,Patrick Nguyen
+./tensorflow/c/c_api_test.cc,Shanqing Cai
+./tensorflow/c/c_api_test.cc,Suharsh Sivakumar
+./tensorflow/c/c_api_test.cc,Vijay Vasudevan
+./tensorflow/c/c_api_test.cc,Vincent Vanhoucke
+./tensorflow/c/c_api_test.cc,Yifei Feng
+./tensorflow/c/c_test.c,Gunhan Gulsoy
+./tensorflow/c/c_test_util.cc,Asim Shankar
+./tensorflow/c/c_test_util.cc,Gunhan Gulsoy
+./tensorflow/c/c_test_util.h,Asim Shankar
+./tensorflow/c/c_test_util.h,Sanjoy Das
+./tensorflow/c/eager/c_api_experimental_test.cc,Akshay Modi
+./tensorflow/c/eager/c_api_experimental_test.cc,Alexandre Passos
+./tensorflow/c/eager/c_api_experimental_test.cc,Allen Lavoie
+./tensorflow/c/eager/c_api_experimental_test.cc,Amit Patankar
+./tensorflow/c/eager/c_api_experimental_test.cc,Derek Murray
+./tensorflow/c/eager/c_api_experimental_test.cc,George Karpenkov
+./tensorflow/c/eager/c_api_experimental_test.cc,Gunhan Gulsoy
+./tensorflow/c/eager/c_api_experimental_test.cc,Michelle Casbon
+./tensorflow/c/eager/c_api_experimental_test.cc,Russell Power
+./tensorflow/c/eager/c_api_experimental_test.cc,Saurabh Saxena
+./tensorflow/c/eager/c_api_experimental_test.cc,Sungmann Cho
+./tensorflow/c/eager/c_api_experimental_test.cc,TensorFlower Gardener
+./tensorflow/c/eager/dlpack.cc,Christian Sigg
+./tensorflow/c/eager/dlpack.cc,Mihai Maruseac
+./tensorflow/c/eager/dlpack.cc,Yujing Zhang
+./tensorflow/c/eager/abstract_context.h,Allen Lavoie
+./tensorflow/c/eager/abstract_context.h,Brian Zhao
+./tensorflow/c/eager/abstract_operation.h,Allen Lavoie
+./tensorflow/c/eager/abstract_operation.h,Brian Zhao
+./tensorflow/c/eager/abstract_op_attrs.h,Xiao Yu
+./tensorflow/c/eager/abstract_tensor_handle.cc,Allen Lavoie
+./tensorflow/c/eager/abstract_tensor_handle.h,Brian Zhao
+./tensorflow/c/eager/BUILD,Asim Shankar
+./tensorflow/c/eager/BUILD,Ayush Dubey
+./tensorflow/c/eager/BUILD,Edward Loper
+./tensorflow/c/eager/BUILD,Feng Liu
+./tensorflow/c/eager/BUILD,James Ring
+./tensorflow/c/eager/BUILD,Jing Dong
+./tensorflow/c/eager/BUILD,Jinjing Zhou
+./tensorflow/c/eager/BUILD,Jonathan Hseu
+./tensorflow/c/eager/BUILD,Jun Xu
+./tensorflow/c/eager/BUILD,Lasse Espeholt
+./tensorflow/c/eager/BUILD,Mark Heffernan
+./tensorflow/c/eager/BUILD,Qiao Zhang
+./tensorflow/c/eager/BUILD,Skye Wanderman-Milne
+./tensorflow/c/eager/BUILD,Tim Shen
+./tensorflow/c/eager/BUILD,Wenhao Jia
+./tensorflow/c/eager/custom_device_test.cc,Alexandre Passos
+./tensorflow/c/eager/custom_device_test.cc,Cesar Crusius
+./tensorflow/c/eager/custom_device_test.cc,Gaurav Jain
+./tensorflow/c/eager/custom_device_test.cc,Mihai Maruseac
+./tensorflow/c/eager/custom_device_testutil.cc,A. Unique TensorFlower
+./tensorflow/c/eager/custom_device_testutil.cc,Mihai Maruseac
+./tensorflow/c/eager/custom_device_testutil.h,Mihai Maruseac
+./tensorflow/c/eager/c_api.cc,Alexey Romanov
+./tensorflow/c/eager/c_api.cc,Ben
+./tensorflow/c/eager/c_api.cc,bstriner
+./tensorflow/c/eager/c_api.cc,Jacques Pienaar
+./tensorflow/c/eager/c_api.cc,Jianwei Xie
+./tensorflow/c/eager/c_api.cc,Jing Dong
+./tensorflow/c/eager/c_api.cc,Jiri Simsa
+./tensorflow/c/eager/c_api.cc,karl@kubx.ca
+./tensorflow/c/eager/c_api.cc,Kazuaki Ishizaki
+./tensorflow/c/eager/c_api.cc,Mark Heffernan
+./tensorflow/c/eager/c_api.cc,Mihai Maruseac
+./tensorflow/c/eager/c_api.cc,Qiao Zhang
+./tensorflow/c/eager/c_api.cc,Renjie Liu
+./tensorflow/c/eager/c_api.cc,Skye Wanderman-Milne
+./tensorflow/c/eager/c_api.cc,Wenhao Jia
+./tensorflow/c/eager/c_api.cc,Yuefeng Zhou
+./tensorflow/c/eager/c_api.h,Ben
+./tensorflow/c/eager/c_api.h,Brian Zhao
+./tensorflow/c/eager/c_api.h,bstriner
+./tensorflow/c/eager/c_api.h,Dan Zheng
+./tensorflow/c/eager/c_api.h,Eugene Brevdo
+./tensorflow/c/eager/c_api.h,George Karpenkov
+./tensorflow/c/eager/c_api.h,Gunhan Gulsoy
+./tensorflow/c/eager/c_api.h,James Keeling
+./tensorflow/c/eager/c_api.h,James Ring
+./tensorflow/c/eager/c_api.h,karl@kubx.ca
+./tensorflow/c/eager/c_api.h,Kazuaki Ishizaki
+./tensorflow/c/eager/c_api.h,Mark Heffernan
+./tensorflow/c/eager/c_api.h,Skye Wanderman-Milne
+./tensorflow/c/eager/c_api.h,Yifei Feng
+./tensorflow/c/eager/c_api_cluster_test.cc,Bramandia Ramadhana
+./tensorflow/c/eager/c_api_debug.cc,Akshay Modi
+./tensorflow/c/eager/c_api_debug.cc,Allen Lavoie
+./tensorflow/c/eager/c_api_debug.cc,A. Unique TensorFlower
+./tensorflow/c/eager/c_api_debug.cc,Brian Zhao
+./tensorflow/c/eager/c_api_debug.cc,George Karpenkov
+./tensorflow/c/eager/c_api_debug.cc,Igor Ganichev
+./tensorflow/c/eager/c_api_debug.cc,James Ring
+./tensorflow/c/eager/c_api_debug.cc,Mark Heffernan
+./tensorflow/c/eager/c_api_debug_test.cc,Gaurav Jain
+./tensorflow/c/eager/c_api_debug_test.cc,Igor Ganichev
+./tensorflow/c/eager/c_api_debug_test.cc,karl@kubx.ca
+./tensorflow/c/eager/c_api_distributed_test.cc,Andy Ly
+./tensorflow/c/eager/c_api_distributed_test.cc,Yujing Zhang
+./tensorflow/c/eager/c_api_experimental.cc,Amit Patankar
+./tensorflow/c/eager/c_api_experimental.cc,Gunhan Gulsoy
+./tensorflow/c/eager/c_api_experimental.cc,James Ring
+./tensorflow/c/eager/c_api_experimental.cc,Jiri Simsa
+./tensorflow/c/eager/c_api_experimental.cc,Michelle Casbon
+./tensorflow/c/eager/c_api_experimental.cc,Mingsheng Hong
+./tensorflow/c/eager/c_api_experimental.cc,Oceania2018
+./tensorflow/c/eager/c_api_experimental.cc,Saurabh Saxena
+./tensorflow/c/eager/c_api_experimental.h,Alexandre Passos
+./tensorflow/c/eager/c_api_experimental.h,Amit Patankar
+./tensorflow/c/eager/c_api_experimental.h,Dmitry Volodin
+./tensorflow/c/eager/c_api_experimental.h,Jiri Simsa
+./tensorflow/c/eager/c_api_experimental.h,Maher Jendoubi
+./tensorflow/c/eager/c_api_experimental.h,Michelle Casbon
+./tensorflow/c/eager/c_api_experimental.h,Mihai Maruseac
+./tensorflow/c/eager/c_api_experimental.h,Mingsheng Hong
+./tensorflow/c/eager/c_api_experimental.h,Yuefeng Zhou
+./tensorflow/c/eager/c_api_internal.h,Amit Patankar
+./tensorflow/c/eager/c_api_internal.h,Brian Zhao
+./tensorflow/c/eager/c_api_internal.h,Chuanhao Zhuge
+./tensorflow/c/eager/c_api_internal.h,Derek Murray
+./tensorflow/c/eager/c_api_internal.h,James Ring
+./tensorflow/c/eager/c_api_internal.h,karl@kubx.ca
+./tensorflow/c/eager/c_api_internal.h,Karl Lessard
+./tensorflow/c/eager/c_api_internal.h,Saurabh Saxena
+./tensorflow/c/eager/c_api_internal.h,Sergei Lebedev
+./tensorflow/c/eager/c_api_internal.h,TensorFlower Gardener
+./tensorflow/c/eager/c_api_multi_client_test.cc,Haoyu Zhang
+./tensorflow/c/eager/c_api_remote_test.cc,Brian Atkinson
+./tensorflow/c/eager/c_api_remote_test.cc,Mihai Maruseac
+./tensorflow/c/eager/c_api_remote_test_util.h,Dmitry Volodin
+./tensorflow/c/eager/c_api_test.cc,Dmitry Volodin
+./tensorflow/c/eager/c_api_test.cc,George Karpenkov
+./tensorflow/c/eager/c_api_test.cc,Gunhan Gulsoy
+./tensorflow/c/eager/c_api_test.cc,karl@kubx.ca
+./tensorflow/c/eager/c_api_test.cc,Mark Heffernan
+./tensorflow/c/eager/c_api_test.cc,Renjie Liu
+./tensorflow/c/eager/c_api_test.cc,Yujing Zhang
+./tensorflow/c/eager/c_api_test.cc,Zhenyu Tan
+./tensorflow/c/eager/c_api_test_util.cc,Akshay Modi
+./tensorflow/c/eager/c_api_test_util.cc,Brian Zhao
+./tensorflow/c/eager/c_api_test_util.cc,karl@kubx.ca
+./tensorflow/c/eager/c_api_test_util.cc,Mingsheng Hong
+./tensorflow/c/eager/c_api_test_util.cc,Yujing Zhang
+./tensorflow/c/eager/c_api_test_util.h,Akshay Modi
+./tensorflow/c/eager/c_api_test_util.h,Brian Zhao
+./tensorflow/c/eager/c_api_test_util.h,Haoyu Zhang
+./tensorflow/c/eager/c_api_test_util.h,karl@kubx.ca
+./tensorflow/c/eager/c_api_test_util.h,Võ Văn Nghĩa
+./tensorflow/c/eager/c_api_test_util.h,Yujing Zhang
+./tensorflow/c/eager/c_api_unified_experimental.cc,Gunhan Gulsoy
+./tensorflow/c/eager/c_api_unified_experimental_eager.cc,Saurabh Saxena
+./tensorflow/c/eager/c_api_unified_experimental_graph.cc,A. Unique TensorFlower
+./tensorflow/c/eager/c_api_unified_experimental_test.cc,Gaurav Jain
+./tensorflow/c/eager/c_api_unified_experimental_test.cc,Gunhan Gulsoy
+./tensorflow/c/eager/c_api_unified_experimental_test.cc,TensorFlower Gardener
+./tensorflow/c/eager/dlpack.h,TensorFlower Gardener
+./tensorflow/c/eager/gradients.cc,amturati
+./tensorflow/c/eager/gradients.cc,Hollow Man
+./tensorflow/c/eager/gradients_internal.h,Saurabh Saxena
+./tensorflow/c/eager/gradients_test.cc,Rohan Jain
+./tensorflow/c/eager/gradients_test.cc,TensorFlower Gardener
+./tensorflow/c/eager/gradient_checker.cc,Saurabh Saxena
+./tensorflow/c/eager/gradient_checker_test.cc,Nathan Luehr
+./tensorflow/c/eager/gradient_checker_test.cc,Reed
+./tensorflow/c/eager/gradient_checker_test.cc,TensorFlower Gardener
+./tensorflow/c/eager/graph_function.cc,A. Unique TensorFlower
+./tensorflow/c/eager/graph_function.h,A. Unique TensorFlower
+./tensorflow/c/eager/immediate_execution_context.h,Brian Zhao
+./tensorflow/c/eager/immediate_execution_context.h,Daniel Ellis
+./tensorflow/c/eager/immediate_execution_context.h,Dero Gharibian
+./tensorflow/c/eager/immediate_execution_context.h,Haoyu Zhang
+./tensorflow/c/eager/immediate_execution_context.h,Jiri Simsa
+./tensorflow/c/eager/immediate_execution_context.h,Mingsheng Hong
+./tensorflow/c/eager/immediate_execution_operation.h,A. Unique TensorFlower
+./tensorflow/c/eager/immediate_execution_operation.h,Brian Zhao
+./tensorflow/c/eager/immediate_execution_tensor_handle.cc,Allen Lavoie
+./tensorflow/c/eager/immediate_execution_tensor_handle.h,Allen Lavoie
+./tensorflow/c/eager/immediate_execution_tensor_handle.h,Brian Zhao
+./tensorflow/c/eager/immediate_execution_tensor_handle.h,Michelle Casbon
+./tensorflow/c/eager/parallel_device/BUILD,A. Unique TensorFlower
+./tensorflow/c/eager/parallel_device/BUILD,Wenhao Jia
+./tensorflow/c/eager/parallel_device/parallel_device_lib.cc,Haitang Hu
+./tensorflow/c/eager/parallel_device/parallel_device_lib.cc,Russell Power
+./tensorflow/c/eager/parallel_device/parallel_device_lib.cc,Yujing Zhang
+./tensorflow/c/eager/parallel_device/parallel_device_lib.h,Russell Power
+./tensorflow/c/eager/parallel_device/parallel_device_test.cc,A. Unique TensorFlower
+./tensorflow/c/eager/parallel_device/parallel_device_test.cc,Mihai Maruseac
+./tensorflow/c/eager/parallel_device/parallel_device_testlib.cc,Haitang Hu
+./tensorflow/c/eager/tape.h,Asim Shankar
+./tensorflow/c/eager/tape.h,Brian Zhao
+./tensorflow/c/eager/tape.h,Kazuaki Ishizaki
+./tensorflow/c/eager/tape.h,Sergei Lebedev
+./tensorflow/c/eager/tape.h,Taré Gaskin
+./tensorflow/c/eager/tape.h,TensorFlower Gardener
+./tensorflow/c/eager/tfe_cancellation_manager_internal.h,Allen Lavoie
+./tensorflow/c/eager/tfe_cancellation_manager_internal.h,Brian Zhao
+./tensorflow/c/eager/tfe_context_internal.h,Brian Zhao
+./tensorflow/c/eager/tfe_context_internal.h,Gaurav Jain
+./tensorflow/c/eager/tfe_context_internal.h,Saurabh Saxena
+./tensorflow/c/eager/tfe_executor_internal.h,Brian Zhao
+./tensorflow/c/eager/tfe_monitoring_internal.h,Brian Zhao
+./tensorflow/c/eager/tfe_op_attrs_internal.h,Brian Zhao
+./tensorflow/c/eager/tfe_op_attrs_internal.h,Gaurav Jain
+./tensorflow/c/eager/tfe_op_attrs_internal.h,Xiao Yu
+./tensorflow/c/eager/tfe_op_internal.h,Brian Zhao
+./tensorflow/c/eager/tfe_op_internal.h,Gaurav Jain
+./tensorflow/c/eager/tfe_op_internal.h,Saurabh Saxena
+./tensorflow/c/eager/tfe_tensorhandle_internal.h,Brian Zhao
+./tensorflow/c/eager/tfe_tensorhandle_internal.h,Gaurav Jain
+./tensorflow/c/eager/tfe_tensorhandle_internal.h,Saurabh Saxena
+./tensorflow/c/eager/tfe_tensor_debug_info_internal.h,Brian Zhao
+./tensorflow/c/eager/tracing_utils.h,Saurabh Saxena
+./tensorflow/c/eager/unified_api_test.cc,Saurabh Saxena
+./tensorflow/c/eager/unified_api_testutil.h,Saurabh Saxena
+./tensorflow/c/env.h,Mihai Maruseac
+./tensorflow/c/env.h,Võ Văn Nghĩa
+./tensorflow/c/experimental/filesystem/BUILD,Russell Power
+./tensorflow/c/experimental/filesystem/BUILD,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/BUILD,Wenhao Jia
+./tensorflow/c/experimental/filesystem/filesystem_interface.h,Kazuaki Ishizaki
+./tensorflow/c/experimental/filesystem/modular_filesystem.cc,A. Unique TensorFlower
+./tensorflow/c/experimental/filesystem/modular_filesystem.cc,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/modular_filesystem.cc,Võ Văn Nghĩa
+./tensorflow/c/experimental/filesystem/modular_filesystem.h,Kazuaki Ishizaki
+./tensorflow/c/experimental/filesystem/modular_filesystem_registration.h,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/modular_filesystem_test.cc,A. Unique TensorFlower
+./tensorflow/c/experimental/filesystem/modular_filesystem_test.cc,comet
+./tensorflow/c/experimental/filesystem/modular_filesystem_test.cc,Kazuaki Ishizaki
+./tensorflow/c/experimental/filesystem/modular_filesystem_test.cc,Yong Tang
+./tensorflow/c/experimental/filesystem/plugins/gcs/BUILD,Russell Power
+./tensorflow/c/experimental/filesystem/plugins/gcs/BUILD,Wenhao Jia
+./tensorflow/c/experimental/filesystem/plugins/gcs/expiring_lru_cache.h,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/gcs/expiring_lru_cache.h,Vo Van Nghia
+./tensorflow/c/experimental/filesystem/plugins/gcs/expiring_lru_cache_test.cc,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/gcs/expiring_lru_cache_test.cc,Vo Van Nghia
+./tensorflow/c/experimental/filesystem/plugins/gcs/gcs_filesystem.cc,Chris Kennelly
+./tensorflow/c/experimental/filesystem/plugins/gcs/gcs_helper.cc,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/gcs/gcs_helper.h,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/gcs/ram_file_block_cache.h,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/gcs/ram_file_block_cache_test.cc,Mihai Maruseac
+./tensorflow/c/experimental/filesystem/plugins/gcs/ram_file_block_cache_test.cc,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/hadoop/BUILD,Russell Power
+./tensorflow/c/experimental/filesystem/plugins/hadoop/BUILD,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/hadoop/BUILD,Võ Văn Nghĩa
+./tensorflow/c/experimental/filesystem/plugins/hadoop/BUILD,Wenhao Jia
+./tensorflow/c/experimental/filesystem/plugins/hadoop/hadoop_filesystem.cc,Chris Kennelly
+./tensorflow/c/experimental/filesystem/plugins/hadoop/hadoop_filesystem.cc,Võ Văn Nghĩa
+./tensorflow/c/experimental/filesystem/plugins/hadoop/hadoop_filesystem.h,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/hadoop/hadoop_filesystem.h,Võ Văn Nghĩa
+./tensorflow/c/experimental/filesystem/plugins/hadoop/hadoop_filesystem.h,yuanbopeng
+./tensorflow/c/experimental/filesystem/plugins/hadoop/hadoop_filesystem_test.cc,yuanbopeng
+./tensorflow/c/experimental/filesystem/plugins/posix/BUILD,Russell Power
+./tensorflow/c/experimental/filesystem/plugins/posix/BUILD,Wenhao Jia
+./tensorflow/c/experimental/filesystem/plugins/posix/copy_file.h,Mihai Maruseac
+./tensorflow/c/experimental/filesystem/plugins/posix/copy_file_linux.cc,Mihai Maruseac
+./tensorflow/c/experimental/filesystem/plugins/posix/copy_file_portable.cc,Mihai Maruseac
+./tensorflow/c/experimental/filesystem/plugins/posix/posix_filesystem.cc,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/posix/posix_filesystem.h,Mihai Maruseac
+./tensorflow/c/experimental/filesystem/plugins/posix/posix_filesystem.h,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/posix/posix_filesystem_helper.cc,Kazuaki Ishizaki
+./tensorflow/c/experimental/filesystem/plugins/posix/posix_filesystem_helper.cc,Mihai Maruseac
+./tensorflow/c/experimental/filesystem/plugins/posix/posix_filesystem_helper.h,Mihai Maruseac
+./tensorflow/c/experimental/filesystem/plugins/posix/posix_filesystem_static.cc,Mihai Maruseac
+./tensorflow/c/experimental/filesystem/plugins/posix/posix_filesystem_static.cc,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/s3/aws_crypto.cc,TensorFlower Gardener
+./tensorflow/c/experimental/filesystem/plugins/s3/aws_crypto.cc,Vo Van Nghia
+./tensorflow/c/experimental/filesystem/plugins/s3/aws_logging.cc,Vo Van Nghia
+./tensorflow/c/experimental/filesystem/plugins/s3/aws_logging.h,Vo Van Nghia
+./tensorflow/c/experimental/filesystem/plugins/windows/BUILD,Mihai Maruseac
+./tensorflow/c/experimental/filesystem/plugins/windows/BUILD,Russell Power
+./tensorflow/c/experimental/filesystem/plugins/windows/BUILD,Wenhao Jia
+./tensorflow/c/experimental/gradients/BUILD,Russell Power
+./tensorflow/c/experimental/gradients/BUILD,Wenhao Jia
+./tensorflow/c/experimental/gradients/custom_gradient_test.cc,Saurabh Saxena
+./tensorflow/c/experimental/gradients/math_grad.cc,Rohan Jain
+./tensorflow/c/experimental/gradients/math_grad.cc,Tim Shen
+./tensorflow/c/experimental/gradients/math_grad.h,Rohan Jain
+./tensorflow/c/experimental/gradients/nn_grad.h,TensorFlower Gardener
+./tensorflow/c/experimental/gradients/nn_grad.h,Võ Văn Nghĩa
+./tensorflow/c/experimental/gradients/nn_grad_test.cc,Saurabh Saxena
+./tensorflow/c/experimental/gradients/not_differentiable.cc,Saurabh Saxena
+./tensorflow/c/experimental/gradients/not_differentiable.h,Saurabh Saxena
+./tensorflow/c/experimental/gradients/tape/BUILD,A. Unique TensorFlower
+./tensorflow/c/experimental/gradients/tape/BUILD,Russell Power
+./tensorflow/c/experimental/gradients/tape/tape_context.cc,Saurabh Saxena
+./tensorflow/c/experimental/gradients/tape/tape_context.h,Saurabh Saxena
+./tensorflow/c/experimental/gradients/tape/tape_operation.cc,Allen Lavoie
+./tensorflow/c/experimental/gradients/tape/tape_operation.h,Saurabh Saxena
+./tensorflow/c/experimental/grappler/BUILD,Russell Power
+./tensorflow/c/experimental/grappler/BUILD,Sheng, Yang
+./tensorflow/c/experimental/grappler/BUILD,TensorFlower Gardener
+./tensorflow/c/experimental/grappler/grappler.cc,Penporn Koanantakool
+./tensorflow/c/experimental/grappler/grappler.cc,ShengYang1
+./tensorflow/c/experimental/grappler/grappler.cc,TensorFlower Gardener
+./tensorflow/c/experimental/grappler/grappler.h,Penporn Koanantakool
+./tensorflow/c/experimental/grappler/grappler.h,ShengYang1
+./tensorflow/c/experimental/grappler/grappler_internal.h,TensorFlower Gardener
+./tensorflow/c/experimental/grappler/grappler_test.cc,ShengYang1
+./tensorflow/c/experimental/grappler/grappler_test.cc,TensorFlower Gardener
+./tensorflow/c/experimental/ops/array_ops.cc,Võ Văn Nghĩa
+./tensorflow/c/experimental/ops/array_ops.h,Võ Văn Nghĩa
+./tensorflow/c/experimental/ops/BUILD,Jun Xu
+./tensorflow/c/experimental/ops/BUILD,Russell Power
+./tensorflow/c/experimental/ops/BUILD,Wenhao Jia
+./tensorflow/c/experimental/ops/math_ops.cc,Rohan Jain
+./tensorflow/c/experimental/ops/math_ops.cc,TensorFlower Gardener
+./tensorflow/c/experimental/ops/math_ops.h,Rohan Jain
+./tensorflow/c/experimental/ops/nn_ops.cc,Võ Văn Nghĩa
+./tensorflow/c/experimental/ops/nn_ops.h,Võ Văn Nghĩa
+./tensorflow/c/experimental/op_handler/BUILD,Allen Lavoie
+./tensorflow/c/experimental/op_handler/BUILD,Russell Power
+./tensorflow/c/experimental/op_handler/internal.cc,Allen Lavoie
+./tensorflow/c/experimental/op_handler/internal.h,Allen Lavoie
+./tensorflow/c/experimental/op_handler/internal_test.cc,Allen Lavoie
+./tensorflow/c/experimental/op_handler/wrapper_operation.cc,Allen Lavoie
+./tensorflow/c/experimental/op_handler/wrapper_operation.h,Allen Lavoie
+./tensorflow/c/experimental/saved_model/core/BUILD,Cesar Crusius
+./tensorflow/c/experimental/saved_model/core/BUILD,Daniel Ellis
+./tensorflow/c/experimental/saved_model/core/BUILD,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/BUILD,Russell Power
+./tensorflow/c/experimental/saved_model/core/BUILD,Saurabh Saxena
+./tensorflow/c/experimental/saved_model/core/BUILD,Wenhao Jia
+./tensorflow/c/experimental/saved_model/core/concrete_function.h,Daniel Ellis
+./tensorflow/c/experimental/saved_model/core/concrete_function.h,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/concrete_function.h,Saurabh Saxena
+./tensorflow/c/experimental/saved_model/core/constant_loading_test.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/function_metadata.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/ops/BUILD,Russell Power
+./tensorflow/c/experimental/saved_model/core/ops/BUILD,Wenhao Jia
+./tensorflow/c/experimental/saved_model/core/ops/restore_ops.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/ops/restore_ops.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/ops/restore_ops_test.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/ops/variable_ops.cc,Cesar Crusius
+./tensorflow/c/experimental/saved_model/core/ops/variable_ops.h,Cesar Crusius
+./tensorflow/c/experimental/saved_model/core/ops/variable_ops.h,Saurabh Saxena
+./tensorflow/c/experimental/saved_model/core/ops/variable_ops_test.cc,Cesar Crusius
+./tensorflow/c/experimental/saved_model/core/revived_types/asset.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/asset.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/BUILD,Daniel Ellis
+./tensorflow/c/experimental/saved_model/core/revived_types/BUILD,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/revived_types/BUILD,Russell Power
+./tensorflow/c/experimental/saved_model/core/revived_types/BUILD,Wenhao Jia
+./tensorflow/c/experimental/saved_model/core/revived_types/constant.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/constant.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/partially_revived_objects.cc,Cesar Crusius
+./tensorflow/c/experimental/saved_model/core/revived_types/restored_resource.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/restored_resource.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/restored_resource_revival_state.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/revived_objects.h,Cesar Crusius
+./tensorflow/c/experimental/saved_model/core/revived_types/tensorhandle_convertible.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/tf_concrete_function.cc,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/revived_types/tf_concrete_function.h,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/revived_types/tf_concrete_function_revival_state.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/tf_signature_def_function_revival_state.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/variable.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/revived_types/variable.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/saved_model_api.h,Cesar Crusius
+./tensorflow/c/experimental/saved_model/core/saved_model_api.h,Daniel Ellis
+./tensorflow/c/experimental/saved_model/core/saved_model_utils.cc,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/saved_model_utils.h,Cesar Crusius
+./tensorflow/c/experimental/saved_model/core/saved_model_utils.h,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/saved_variable_loading_test.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/signature_def_function.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/signature_def_function_metadata.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/signature_flattening_test.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/tensor_spec.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/tensor_spec.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/core/test_utils.cc,A. Unique TensorFlower
+./tensorflow/c/experimental/saved_model/core/test_utils.cc,Gaurav Jain
+./tensorflow/c/experimental/saved_model/core/test_utils.cc,George Karpenkov
+./tensorflow/c/experimental/saved_model/core/test_utils.cc,Yujing Zhang
+./tensorflow/c/experimental/saved_model/core/tf_concrete_function_loading_test.cc,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/tf_concrete_function_test_protos.cc,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/tf_concrete_function_test_protos.h,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/core/tf_saved_model_api.cc,Daniel Ellis
+./tensorflow/c/experimental/saved_model/core/tf_saved_model_api.h,Daniel Ellis
+./tensorflow/c/experimental/saved_model/internal/BUILD,Cesar Crusius
+./tensorflow/c/experimental/saved_model/internal/BUILD,Daniel Ellis
+./tensorflow/c/experimental/saved_model/internal/BUILD,Gaurav Jain
+./tensorflow/c/experimental/saved_model/internal/BUILD,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/internal/BUILD,Russell Power
+./tensorflow/c/experimental/saved_model/internal/BUILD,Saurabh Saxena
+./tensorflow/c/experimental/saved_model/internal/BUILD,Wenhao Jia
+./tensorflow/c/experimental/saved_model/internal/concrete_function.cc,Gaurav Jain
+./tensorflow/c/experimental/saved_model/internal/concrete_function.cc,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/internal/concrete_function_type.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/concrete_function_type.h,Gaurav Jain
+./tensorflow/c/experimental/saved_model/internal/function_metadata.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/function_metadata_type.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/function_metadata_type.h,Gaurav Jain
+./tensorflow/c/experimental/saved_model/internal/saved_model_api.cc,Cesar Crusius
+./tensorflow/c/experimental/saved_model/internal/saved_model_api.cc,Gaurav Jain
+./tensorflow/c/experimental/saved_model/internal/signature_def_function.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/signature_def_function_metadata_type.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/signature_def_function_type.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/signature_def_param.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/signature_def_param_list.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/signature_def_param_list_type.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/signature_def_param_type.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/tensor_spec.cc,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/tensor_spec_type.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/internal/testdata/BUILD,Russell Power
+./tensorflow/c/experimental/saved_model/internal/testdata/BUILD,Wenhao Jia
+./tensorflow/c/experimental/saved_model/internal/testdata/BUILD,Yanhua Sun
+./tensorflow/c/experimental/saved_model/internal/testdata/gen_saved_models.py,Yanhua Sun
+./tensorflow/c/experimental/saved_model/internal/testdata/SimpleWhileLoop/saved_model.pb,Cesar Crusius
+./tensorflow/c/experimental/saved_model/internal/testdata/SimpleWhileLoop/variables/variables.data-00000-of-00001,Cesar Crusius
+./tensorflow/c/experimental/saved_model/internal/testdata/SimpleWhileLoop/variables/variables.index,Cesar Crusius
+./tensorflow/c/experimental/saved_model/internal/testdata/UninitializedVariable/variables/variables.data-00000-of-00001,Cesar Crusius
+./tensorflow/c/experimental/saved_model/internal/testdata/UninitializedVariable/variables/variables.index,Cesar Crusius
+./tensorflow/c/experimental/saved_model/public/BUILD,Russell Power
+./tensorflow/c/experimental/saved_model/public/BUILD,Wenhao Jia
+./tensorflow/c/experimental/saved_model/public/concrete_function.h,Mihai Maruseac
+./tensorflow/c/experimental/saved_model/public/function_metadata.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/public/README.md,Cesar Crusius
+./tensorflow/c/experimental/saved_model/public/saved_model_api.h,Cesar Crusius
+./tensorflow/c/experimental/saved_model/public/signature_def_function.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/public/signature_def_param.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/public/signature_def_param_list.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/public/tensor_spec.h,Brian Zhao
+./tensorflow/c/experimental/saved_model/README.md,Brian Zhao
+./tensorflow/c/experimental/stream_executor/BUILD,Mihai Maruseac
+./tensorflow/c/experimental/stream_executor/BUILD,Russell Power
+./tensorflow/c/experimental/stream_executor/BUILD,Wenhao Jia
+./tensorflow/c/experimental/stream_executor/BUILD,Zhoulong Jiang
+./tensorflow/c/experimental/stream_executor/stream_executor.cc,annarev
+./tensorflow/c/experimental/stream_executor/stream_executor.cc,A. Unique TensorFlower
+./tensorflow/c/experimental/stream_executor/stream_executor.cc,Tim Shen
+./tensorflow/c/experimental/stream_executor/stream_executor.h,annarev
+./tensorflow/c/experimental/stream_executor/stream_executor.h,Penporn Koanantakool
+./tensorflow/c/experimental/stream_executor/stream_executor.h,TensorFlower Gardener
+./tensorflow/c/experimental/stream_executor/stream_executor.h,Yi Situ
+./tensorflow/c/experimental/stream_executor/stream_executor.h,Zhoulong Jiang
+./tensorflow/c/experimental/stream_executor/stream_executor_internal.h,A. Unique TensorFlower
+./tensorflow/c/experimental/stream_executor/stream_executor_internal.h,Kulin Seth
+./tensorflow/c/experimental/stream_executor/stream_executor_internal.h,TensorFlower Gardener
+./tensorflow/c/experimental/stream_executor/stream_executor_test.cc,A. Unique TensorFlower
+./tensorflow/c/experimental/stream_executor/stream_executor_test.cc,Mihai Maruseac
+./tensorflow/c/experimental/stream_executor/stream_executor_test.cc,TensorFlower Gardener
+./tensorflow/c/experimental/stream_executor/stream_executor_test.cc,Yi Situ
+./tensorflow/c/experimental/stream_executor/stream_executor_test_util.cc,Mihai Maruseac
+./tensorflow/c/experimental/stream_executor/stream_executor_test_util.h,Mihai Maruseac
+./tensorflow/c/experimental/stream_executor/test/BUILD,Mihai Maruseac
+./tensorflow/c/experimental/stream_executor/test/BUILD,Russell Power
+./tensorflow/c/experimental/stream_executor/test/BUILD,TensorFlower Gardener
+./tensorflow/c/experimental/stream_executor/test/test_pluggable_device.cc,Mihai Maruseac
+./tensorflow/c/experimental/stream_executor/test/test_pluggable_device.cc,TensorFlower Gardener
+./tensorflow/c/exported_symbols.lds,Anthony Platanios
+./tensorflow/c/exported_symbols.lds,Rohan Jain
+./tensorflow/c/generate-pc.sh,Androbin
+./tensorflow/c/generate-pc.sh,A. Unique TensorFlower
+./tensorflow/c/generate-pc.sh,Rasmus Larsen
+./tensorflow/c/kernels/bitcast_op.cc,Deven Desai
+./tensorflow/c/kernels/bitcast_op.cc,Randy Dodgen
+./tensorflow/c/kernels/bitcast_op.cc,Scott Zhu
+./tensorflow/c/kernels/bitcast_op_test.cc,Derek Murray
+./tensorflow/c/kernels/bitcast_op_test.cc,Gunhan Gulsoy
+./tensorflow/c/kernels/bitcast_op_test.cc,Sergei Lebedev
+./tensorflow/c/kernels/bitcast_op_test.cc,Yifei Feng
+./tensorflow/c/kernels/BUILD,Gunhan Gulsoy
+./tensorflow/c/kernels/BUILD,Jaesung Chung
+./tensorflow/c/kernels/BUILD,Jared Duke
+./tensorflow/c/kernels/BUILD,Russell Power
+./tensorflow/c/kernels/BUILD,Wenhao Jia
+./tensorflow/c/kernels/BUILD,Yifei Feng
+./tensorflow/c/kernels/histogram_summary_op.cc,A. Unique TensorFlower
+./tensorflow/c/kernels/histogram_summary_op.cc,Bruce Fontaine
+./tensorflow/c/kernels/histogram_summary_op.cc,Randy Dodgen
+./tensorflow/c/kernels/histogram_summary_op.cc,TensorFlower Gardener
+./tensorflow/c/kernels/merge_summary_op.cc,Randy Dodgen
+./tensorflow/c/kernels/merge_summary_op.cc,TensorFlower Gardener
+./tensorflow/c/kernels/ops/bitcast.cc,Gaurav Jain
+./tensorflow/c/kernels/ops/bitcast.cc,Gunhan Gulsoy
+./tensorflow/c/kernels/ops/bitcast.cc,Randy Dodgen
+./tensorflow/c/kernels/ops/bitcast.cc,Scott Zhu
+./tensorflow/c/kernels/ops/bitcast.cc,Yifei Feng
+./tensorflow/c/kernels/ops/histogram_summary.cc,Randy Dodgen
+./tensorflow/c/kernels/ops/histogram_summary.cc,TensorFlower Gardener
+./tensorflow/c/kernels/ops/merge_summary.cc,Randy Dodgen
+./tensorflow/c/kernels/ops/merge_summary.cc,TensorFlower Gardener
+./tensorflow/c/kernels/ops/summary.cc,Randy Dodgen
+./tensorflow/c/kernels/ops/summary.cc,TensorFlower Gardener
+./tensorflow/c/kernels/summary_op.cc,A. Unique TensorFlower
+./tensorflow/c/kernels/summary_op.cc,Randy Dodgen
+./tensorflow/c/kernels/summary_op.cc,TensorFlower Gardener
+./tensorflow/c/kernels/summary_op_benchmark_test.cc,A. Unique TensorFlower
+./tensorflow/c/kernels/summary_op_benchmark_test.cc,TensorFlower Gardener
+./tensorflow/c/kernels/summary_op_test.cc,Dmitry Volodin
+./tensorflow/c/kernels/summary_op_test.cc,TensorFlower Gardener
+./tensorflow/c/kernels/tensor_shape_utils.cc,TensorFlower Gardener
+./tensorflow/c/kernels/tensor_shape_utils.h,TensorFlower Gardener
+./tensorflow/c/kernels/tensor_shape_utils_test.cc,TensorFlower Gardener
+./tensorflow/c/kernels.cc,A. Unique TensorFlower
+./tensorflow/c/kernels.cc,Gaurav Jain
+./tensorflow/c/kernels.cc,Quintin
+./tensorflow/c/kernels.h,A. Unique TensorFlower
+./tensorflow/c/kernels.h,Benjamin Kramer
+./tensorflow/c/kernels_test.cc,A. Unique TensorFlower
+./tensorflow/c/kernels_test.cc,Brian Zhao
+./tensorflow/c/kernels_test.cc,Derek Murray
+./tensorflow/c/kernels_test.cc,Deven Desai
+./tensorflow/c/kernels_test.cc,Mihai Maruseac
+./tensorflow/c/ops.cc,Daniel Nguyen
+./tensorflow/c/ops.cc,TensorFlower Gardener
+./tensorflow/c/ops.h,Daniel Nguyen
+./tensorflow/c/ops.h,TensorFlower Gardener
+./tensorflow/c/ops_test.cc,Kazuaki Ishizaki
+./tensorflow/c/ops_test.cc,Sergei Lebedev
+./tensorflow/c/ops_test.cc,TensorFlower Gardener
+./tensorflow/c/python_api.cc,Allen Lavoie
+./tensorflow/c/python_api.cc,Asim Shankar
+./tensorflow/c/python_api.cc,Igor Ganichev
+./tensorflow/c/python_api.cc,James Ring
+./tensorflow/c/python_api.cc,Oceania2018
+./tensorflow/c/python_api.cc,Saurabh Saxena
+./tensorflow/c/python_api.cc,TensorFlower Gardener
+./tensorflow/c/python_api.h,Sanjoy Das
+./tensorflow/c/python_api.h,Saurabh Saxena
+./tensorflow/c/README.md,Asim Shankar
+./tensorflow/c/tensor_interface.h,Allen Lavoie
+./tensorflow/c/tensor_interface.h,Brian Zhao
+./tensorflow/c/tensor_interface.h,Gaurav Jain
+./tensorflow/c/test_op.cc,A. Unique TensorFlower
+./tensorflow/c/test_op1.cc,Anna R
+./tensorflow/c/tf_attrtype.h,James Ring
+./tensorflow/c/tf_datatype.cc,James Ring
+./tensorflow/c/tf_datatype.h,James Ring
+./tensorflow/c/tf_file_statistics.h,Mihai Maruseac
+./tensorflow/c/tf_shape.cc,Brian Zhao
+./tensorflow/c/tf_shape.h,Brian Zhao
+./tensorflow/c/tf_shape_internal.h,Brian Zhao
+./tensorflow/c/tf_status.cc,Anna R
+./tensorflow/c/tf_status.cc,Gunhan Gulsoy
+./tensorflow/c/tf_status.cc,James Ring
+./tensorflow/c/tf_status.cc,Mihai Maruseac
+./tensorflow/c/tf_status.h,James Ring
+./tensorflow/c/tf_status.h,Mihai Maruseac
+./tensorflow/c/tf_status_helper.cc,Anna R
+./tensorflow/c/tf_status_helper.h,Anna R
+./tensorflow/c/tf_status_helper.h,Saurabh Saxena
+./tensorflow/c/tf_status_helper_test.cc,A. Unique TensorFlower
+./tensorflow/c/tf_status_helper_test.cc,Gunhan Gulsoy
+./tensorflow/c/tf_status_helper_test.cc,James Ring
+./tensorflow/c/tf_status_internal.h,Anna R
+./tensorflow/c/tf_status_internal.h,Gunhan Gulsoy
+./tensorflow/c/tf_tensor.cc,Alexandre Passos
+./tensorflow/c/tf_tensor.cc,Allen Lavoie
+./tensorflow/c/tf_tensor.cc,A. Unique TensorFlower
+./tensorflow/c/tf_tensor.cc,Brian Zhao
+./tensorflow/c/tf_tensor.cc,Ce Zheng
+./tensorflow/c/tf_tensor.cc,Gunhan Gulsoy
+./tensorflow/c/tf_tensor.cc,Kazuaki Ishizaki
+./tensorflow/c/tf_tensor.h,Anna R
+./tensorflow/c/tf_tensor.h,Dero Gharibian
+./tensorflow/c/tf_tensor.h,James Ring
+./tensorflow/c/tf_tensor.h,Oceania2018
+./tensorflow/c/tf_tensor_internal.h,Alexandre Passos
+./tensorflow/c/tf_tensor_internal.h,Allen Lavoie
+./tensorflow/c/tf_tensor_internal.h,A. Unique TensorFlower
+./tensorflow/c/tf_tstring.cc,wxinix
+./tensorflow/c/tf_tstring.h,Dero Gharibian
+./tensorflow/c/tf_tstring.h,TensorFlower Gardener
+./tensorflow/c/version_script.lds,Anthony Platanios
+./tensorflow/c/version_script.lds,Rohan Jain
+./tensorflow/c/while_loop_test.cc,Gunhan Gulsoy
+./tensorflow/c/while_loop_test.cc,Igor Ganichev
+./tensorflow/cc/BUILD,Allen Lavoie
+./tensorflow/cc/BUILD,Amit Patankar
+./tensorflow/cc/BUILD,Asim Shankar
+./tensorflow/cc/BUILD,Benjamin Kramer
+./tensorflow/cc/BUILD,Benoit Steiner
+./tensorflow/cc/BUILD,Brian Zhao
+./tensorflow/cc/BUILD,Derek Murray
+./tensorflow/cc/BUILD,Frank Chen
+./tensorflow/cc/BUILD,Gaurav Jain
+./tensorflow/cc/BUILD,Geoffrey Irving
+./tensorflow/cc/BUILD,Jack Rae
+./tensorflow/cc/BUILD,Jason Zaman
+./tensorflow/cc/BUILD,Jonathan Hseu
+./tensorflow/cc/BUILD,Katherine Tian
+./tensorflow/cc/BUILD,KB Sriram
+./tensorflow/cc/BUILD,Loo Rong Jie
+./tensorflow/cc/BUILD,Martin Wicke
+./tensorflow/cc/BUILD,Michael Case
+./tensorflow/cc/BUILD,Olivia Nordquist
+./tensorflow/cc/BUILD,Patrick Nguyen
+./tensorflow/cc/BUILD,Pete Warden
+./tensorflow/cc/BUILD,Rachel Lim
+./tensorflow/cc/BUILD,Sanjoy Das
+./tensorflow/cc/BUILD,Siyavash Najafzade
+./tensorflow/cc/BUILD,Wenhao Jia
+./tensorflow/cc/BUILD,Yifei Feng
+./tensorflow/cc/BUILD,Zachary Garrett
+./tensorflow/cc/client/client_session.cc,Manjunath Kudlur
+./tensorflow/cc/client/client_session.cc,Peter Hawkins
+./tensorflow/cc/client/client_session.cc,Pete Warden
+./tensorflow/cc/client/client_session.cc,Skye Wanderman-Milne
+./tensorflow/cc/client/client_session.h,Manjunath Kudlur
+./tensorflow/cc/client/client_session.h,Rickard
+./tensorflow/cc/client/client_session_test.cc,Manjunath Kudlur
+./tensorflow/cc/client/client_session_test.cc,Vijay Vasudevan
+./tensorflow/cc/experimental/base/public/BUILD,Russell Power
+./tensorflow/cc/experimental/base/public/BUILD,Wenhao Jia
+./tensorflow/cc/experimental/base/public/tensor.h,Dmitry Volodin
+./tensorflow/cc/experimental/base/public/tensorhandle.h,Brian Zhao
+./tensorflow/cc/experimental/base/tests/BUILD,Russell Power
+./tensorflow/cc/experimental/base/tests/BUILD,Wenhao Jia
+./tensorflow/cc/experimental/base/tests/tensorhandle_test.cc,Brian Zhao
+./tensorflow/cc/experimental/base/tests/tensor_types_test_util.h,Brian Zhao
+./tensorflow/cc/experimental/libexport/BUILD,Cesar Crusius
+./tensorflow/cc/experimental/libexport/BUILD,Monica Song
+./tensorflow/cc/experimental/libexport/constants.cc,Cesar Crusius
+./tensorflow/cc/experimental/libexport/constants.h,Cesar Crusius
+./tensorflow/cc/experimental/libexport/metrics.cc,Monica Song
+./tensorflow/cc/experimental/libexport/metrics.h,Monica Song
+./tensorflow/cc/experimental/libexport/metrics_test.cc,Monica Song
+./tensorflow/cc/experimental/libexport/save.cc,Cesar Crusius
+./tensorflow/cc/experimental/libexport/save.h,Cesar Crusius
+./tensorflow/cc/experimental/libexport/save_test.cc,Cesar Crusius
+./tensorflow/cc/framework/cc_ops_test.cc,Asim Shankar
+./tensorflow/cc/framework/cc_ops_test.cc,Dero Gharibian
+./tensorflow/cc/framework/cc_ops_test.cc,Peter Hawkins
+./tensorflow/cc/framework/cc_op_gen.cc,Brian Patton
+./tensorflow/cc/framework/cc_op_gen.cc,Brian Zhao
+./tensorflow/cc/framework/cc_op_gen.cc,Chris Kennelly
+./tensorflow/cc/framework/cc_op_gen.cc,Gaurav Jain
+./tensorflow/cc/framework/cc_op_gen.cc,Gunhan Gulsoy
+./tensorflow/cc/framework/cc_op_gen.cc,Ilya Biryukov
+./tensorflow/cc/framework/cc_op_gen.cc,Nick Kreeger
+./tensorflow/cc/framework/cc_op_gen.cc,Nick Lewycky
+./tensorflow/cc/framework/cc_op_gen.cc,Samuel Marks
+./tensorflow/cc/framework/cc_op_gen.cc,Sanjoy Das
+./tensorflow/cc/framework/cc_op_gen.cc,Suharsh Sivakumar
+./tensorflow/cc/framework/cc_op_gen.h,A. Unique TensorFlower
+./tensorflow/cc/framework/cc_op_gen.h,Manjunath Kudlur
+./tensorflow/cc/framework/cc_op_gen.h,Sanjoy Das
+./tensorflow/cc/framework/cc_op_gen.h,Skye Wanderman-Milne
+./tensorflow/cc/framework/cc_op_gen_main.cc,A. Unique TensorFlower
+./tensorflow/cc/framework/cc_op_gen_main.cc,Manjunath Kudlur
+./tensorflow/cc/framework/cc_op_gen_test.cc,A. Unique TensorFlower
+./tensorflow/cc/framework/cc_op_gen_test.cc,Gaurav Jain
+./tensorflow/cc/framework/gradients.cc,Derek Murray
+./tensorflow/cc/framework/gradients.cc,Gaurav Singh
+./tensorflow/cc/framework/gradients.cc,Jonathan Hseu
+./tensorflow/cc/framework/gradients.cc,Kazuaki Ishizaki
+./tensorflow/cc/framework/gradients.cc,sunchenggen
+./tensorflow/cc/framework/gradients.cc,Taré Gaskin
+./tensorflow/cc/framework/gradients.h,Sanjoy Das
+./tensorflow/cc/framework/gradients.h,Skye Wanderman-Milne
+./tensorflow/cc/framework/gradients.h,Suharsh Sivakumar
+./tensorflow/cc/framework/gradients_test.cc,Geoffrey Irving
+./tensorflow/cc/framework/gradients_test.cc,Shanqing Cai
+./tensorflow/cc/framework/gradients_test.cc,sunchenggen
+./tensorflow/cc/framework/gradient_checker.cc,KB Sriram
+./tensorflow/cc/framework/gradient_checker.cc,TensorFlower Gardener
+./tensorflow/cc/framework/gradient_checker.h,Sanjoy Das
+./tensorflow/cc/framework/gradient_checker.h,Skye Wanderman-Milne
+./tensorflow/cc/framework/gradient_checker.h,Suharsh Sivakumar
+./tensorflow/cc/framework/gradient_checker_test.cc,Skye Wanderman-Milne
+./tensorflow/cc/framework/grad_op_registry.cc,Suharsh Sivakumar
+./tensorflow/cc/framework/grad_op_registry.h,Sanjoy Das
+./tensorflow/cc/framework/grad_op_registry.h,Skye Wanderman-Milne
+./tensorflow/cc/framework/ops.cc,Dero Gharibian
+./tensorflow/cc/framework/ops.cc,Manjunath Kudlur
+./tensorflow/cc/framework/ops.cc,Suharsh Sivakumar
+./tensorflow/cc/framework/ops.h,Dero Gharibian
+./tensorflow/cc/framework/ops.h,Sangjung Woo
+./tensorflow/cc/framework/ops.h,Sanjoy Das
+./tensorflow/cc/framework/ops.h,Suharsh Sivakumar
+./tensorflow/cc/framework/ops.h,Vijay Vasudevan
+./tensorflow/cc/framework/scope.cc,Brian Zhao
+./tensorflow/cc/framework/scope.cc,Gaurav Jain
+./tensorflow/cc/framework/scope.cc,Jonathan Hseu
+./tensorflow/cc/framework/scope.cc,Manjunath Kudlur
+./tensorflow/cc/framework/scope.cc,Suharsh Sivakumar
+./tensorflow/cc/framework/scope.h,Brian Zhao
+./tensorflow/cc/framework/scope.h,Derek Murray
+./tensorflow/cc/framework/scope.h,Max Galkin
+./tensorflow/cc/framework/scope.h,Suharsh Sivakumar
+./tensorflow/cc/framework/scope_internal.h,Asim Shankar
+./tensorflow/cc/framework/scope_internal.h,Suharsh Sivakumar
+./tensorflow/cc/framework/scope_test.cc,Asim Shankar
+./tensorflow/cc/framework/scope_test.cc,Manjunath Kudlur
+./tensorflow/cc/framework/testutil.cc,Courtial Florian
+./tensorflow/cc/framework/testutil.cc,Yifei Feng
+./tensorflow/cc/framework/testutil.h,Sanjoy Das
+./tensorflow/cc/framework/testutil.h,Skye Wanderman-Milne
+./tensorflow/cc/framework/test_op.cc,Manjunath Kudlur
+./tensorflow/cc/framework/test_op.cc,Skye Wanderman-Milne
+./tensorflow/cc/framework/while_gradients.cc,Benoit Steiner
+./tensorflow/cc/framework/while_gradients.cc,Taré Gaskin
+./tensorflow/cc/framework/while_gradients.h,Sanjoy Das
+./tensorflow/cc/framework/while_gradients.h,Skye Wanderman-Milne
+./tensorflow/cc/framework/while_gradients_test.cc,Skye Wanderman-Milne
+./tensorflow/cc/gradients/array_grad.cc,Eugene Brevdo
+./tensorflow/cc/gradients/array_grad.cc,Jack Rae
+./tensorflow/cc/gradients/array_grad.cc,Pankaj Kanwar
+./tensorflow/cc/gradients/array_grad.cc,RJ Ryan
+./tensorflow/cc/gradients/array_grad_test.cc,Eugene Brevdo
+./tensorflow/cc/gradients/data_flow_grad.cc,A. Unique TensorFlower
+./tensorflow/cc/gradients/functional_grad.cc,Ryan Nett
+./tensorflow/cc/gradients/functional_grad.cc,TensorFlower Gardener
+./tensorflow/cc/gradients/functional_grad_test.cc,TensorFlower Gardener
+./tensorflow/cc/gradients/grad_testutil.h,Sanjoy Das
+./tensorflow/cc/gradients/grad_testutil.h,Skye Wanderman-Milne
+./tensorflow/cc/gradients/image_grad.cc,a6802739
+./tensorflow/cc/gradients/image_grad.cc,KB Sriram
+./tensorflow/cc/gradients/image_grad.cc,TensorFlower Gardener
+./tensorflow/cc/gradients/image_grad_test.cc,a6802739
+./tensorflow/cc/gradients/image_grad_test.cc,KB Sriram
+./tensorflow/cc/gradients/manip_grad.cc,Siyavash Najafzade
+./tensorflow/cc/gradients/manip_grad_test.cc,Siyavash Najafzade
+./tensorflow/cc/gradients/math_grad.cc,Andrew Harp
+./tensorflow/cc/gradients/math_grad.cc,Artem Belevich
+./tensorflow/cc/gradients/math_grad.cc,Benoit Steiner
+./tensorflow/cc/gradients/math_grad.cc,Courtial Florian
+./tensorflow/cc/gradients/math_grad.cc,Florian Courtial
+./tensorflow/cc/gradients/math_grad.cc,Martin Wicke
+./tensorflow/cc/gradients/math_grad.cc,Raghuraman Krishnamoorthi
+./tensorflow/cc/gradients/math_grad.cc,RJ Ryan
+./tensorflow/cc/gradients/math_grad.cc,Shanqing Cai
+./tensorflow/cc/gradients/math_grad.cc,Srinivas Vasudevan
+./tensorflow/cc/gradients/math_grad_test.cc,Andrew Harp
+./tensorflow/cc/gradients/math_grad_test.cc,Benoit Steiner
+./tensorflow/cc/gradients/math_grad_test.cc,Florian Courtial
+./tensorflow/cc/gradients/math_grad_test.cc,Jonathan Hseu
+./tensorflow/cc/gradients/math_grad_test.cc,Martin Wicke
+./tensorflow/cc/gradients/math_grad_test.cc,Peter Hawkins
+./tensorflow/cc/gradients/math_grad_test.cc,Raghuraman Krishnamoorthi
+./tensorflow/cc/gradients/math_grad_test.cc,Shanqing Cai
+./tensorflow/cc/gradients/math_grad_test.cc,Srinivas Vasudevan
+./tensorflow/cc/gradients/math_grad_test.cc,Yong Tang
+./tensorflow/cc/gradients/nn_grad.cc,Asim Shankar
+./tensorflow/cc/gradients/nn_grad.cc,Dmitry Volodin
+./tensorflow/cc/gradients/nn_grad.cc,Gary Deer
+./tensorflow/cc/gradients/nn_grad.cc,Jonathan Hseu
+./tensorflow/cc/gradients/nn_grad.cc,Kazuaki Ishizaki
+./tensorflow/cc/gradients/nn_grad.cc,Martin Wicke
+./tensorflow/cc/gradients/nn_grad.cc,Patrick Nguyen
+./tensorflow/cc/gradients/nn_grad.cc,Pradeep Banavara
+./tensorflow/cc/gradients/nn_grad.cc,Suharsh Sivakumar
+./tensorflow/cc/gradients/nn_grad.cc,TensorFlower Gardener
+./tensorflow/cc/gradients/nn_grad.cc,Vijay Vasudevan
+./tensorflow/cc/gradients/nn_grad_test.cc,Andrew Harp
+./tensorflow/cc/gradients/nn_grad_test.cc,Deven Desai
+./tensorflow/cc/gradients/nn_grad_test.cc,Eugene Kuznetsov
+./tensorflow/cc/gradients/nn_grad_test.cc,Gunhan Gulsoy
+./tensorflow/cc/gradients/nn_grad_test.cc,Jonathan Hseu
+./tensorflow/cc/gradients/nn_grad_test.cc,Martin Wicke
+./tensorflow/cc/gradients/nn_grad_test.cc,Patrick Nguyen
+./tensorflow/cc/gradients/nn_grad_test.cc,Pradeep Banavara
+./tensorflow/cc/gradients/nn_grad_test.cc,Shanqing Cai
+./tensorflow/cc/gradients/nn_grad_test.cc,TensorFlower Gardener
+./tensorflow/cc/gradients/nn_grad_test.cc,Vijay Vasudevan
+./tensorflow/cc/gradients/README.md,Suharsh Sivakumar
+./tensorflow/cc/gradients/resource_variable_grad_test.cc,TensorFlower Gardener
+./tensorflow/cc/ops/const_op.cc,Eugene Brevdo
+./tensorflow/cc/ops/const_op.cc,Martin Wicke
+./tensorflow/cc/ops/const_op.cc,Skye Wanderman-Milne
+./tensorflow/cc/ops/const_op.cc,Vijay Vasudevan
+./tensorflow/cc/ops/const_op.h,Eugene Brevdo
+./tensorflow/cc/ops/const_op.h,Geoffrey Irving
+./tensorflow/cc/ops/const_op.h,Josh Levenberg
+./tensorflow/cc/ops/const_op.h,Martin Wicke
+./tensorflow/cc/ops/const_op.h,Sanjoy Das
+./tensorflow/cc/ops/const_op.h,Vijay Vasudevan
+./tensorflow/cc/ops/const_op_test.cc,Dero Gharibian
+./tensorflow/cc/ops/const_op_test.cc,Eugene Brevdo
+./tensorflow/cc/ops/standard_ops.h,Olivia Nordquist
+./tensorflow/cc/ops/standard_ops.h,Sanjoy Das
+./tensorflow/cc/ops/standard_ops.h,Yuefeng Zhou
+./tensorflow/cc/ops/while_loop.cc,Edward H
+./tensorflow/cc/ops/while_loop.h,Sanjoy Das
+./tensorflow/cc/ops/while_loop.h,TensorFlower Gardener
+./tensorflow/cc/ops/while_loop_test.cc,Olivia Nordquist
+./tensorflow/cc/saved_model/BUILD,Christian Sigg
+./tensorflow/cc/saved_model/BUILD,Derek Murray
+./tensorflow/cc/saved_model/BUILD,Eugene Brevdo
+./tensorflow/cc/saved_model/BUILD,Jared Duke
+./tensorflow/cc/saved_model/BUILD,Katherine Wu
+./tensorflow/cc/saved_model/BUILD,Kuangyuan Chen
+./tensorflow/cc/saved_model/BUILD,Martin Wicke
+./tensorflow/cc/saved_model/BUILD,Russell Power
+./tensorflow/cc/saved_model/BUILD,Sean Silva
+./tensorflow/cc/saved_model/BUILD,Stella Laurenzo
+./tensorflow/cc/saved_model/BUILD,Wenhao Jia
+./tensorflow/cc/saved_model/bundle_v2.cc,Cesar Crusius
+./tensorflow/cc/saved_model/bundle_v2.cc,Stella Laurenzo
+./tensorflow/cc/saved_model/bundle_v2.h,Stella Laurenzo
+./tensorflow/cc/saved_model/bundle_v2_test.cc,Stella Laurenzo
+./tensorflow/cc/saved_model/constants.h,A. Unique TensorFlower
+./tensorflow/cc/saved_model/constants.h,Katherine Wu
+./tensorflow/cc/saved_model/constants.h,Sanjoy Das
+./tensorflow/cc/saved_model/constants.h,Skye Wanderman-Milne
+./tensorflow/cc/saved_model/constants.h,Stella Laurenzo
+./tensorflow/cc/saved_model/experimental/public/BUILD,Russell Power
+./tensorflow/cc/saved_model/experimental/public/BUILD,Wenhao Jia
+./tensorflow/cc/saved_model/experimental/public/saved_model_api.h,Cesar Crusius
+./tensorflow/cc/saved_model/experimental/public/saved_model_api.h,Dmitry Volodin
+./tensorflow/cc/saved_model/experimental/public/signature_def_function.h,Brian Zhao
+./tensorflow/cc/saved_model/experimental/public/signature_def_function_metadata.h,Brian Zhao
+./tensorflow/cc/saved_model/experimental/tests/BUILD,Russell Power
+./tensorflow/cc/saved_model/loader.cc,Christopher Olston
+./tensorflow/cc/saved_model/loader.cc,Dero Gharibian
+./tensorflow/cc/saved_model/loader.cc,Gaurav Jain
+./tensorflow/cc/saved_model/loader.cc,Katherine Wu
+./tensorflow/cc/saved_model/loader.cc,Kiril Gorovoy
+./tensorflow/cc/saved_model/loader.cc,Kuangyuan Chen
+./tensorflow/cc/saved_model/loader.cc,Sean Silva
+./tensorflow/cc/saved_model/loader.h,Derek Murray
+./tensorflow/cc/saved_model/loader.h,Peter Hawkins
+./tensorflow/cc/saved_model/loader.h,Sanjoy Das
+./tensorflow/cc/saved_model/loader.h,Sean Silva
+./tensorflow/cc/saved_model/loader.h,Skye Wanderman-Milne
+./tensorflow/cc/saved_model/loader_util.cc,Kuangyuan Chen
+./tensorflow/cc/saved_model/loader_util.h,Kuangyuan Chen
+./tensorflow/cc/saved_model/python/BUILD,Brian Atkinson
+./tensorflow/cc/saved_model/python/BUILD,Gunhan Gulsoy
+./tensorflow/cc/saved_model/python/BUILD,Martin Wicke
+./tensorflow/cc/saved_model/python/BUILD,Russell Power
+./tensorflow/cc/saved_model/python/loader.clif,A. Unique TensorFlower
+./tensorflow/cc/saved_model/reader.cc,Derek Murray
+./tensorflow/cc/saved_model/reader.cc,Gaurav Jain
+./tensorflow/cc/saved_model/reader.cc,rposts
+./tensorflow/cc/saved_model/reader.cc,TensorFlower Gardener
+./tensorflow/cc/saved_model/reader_test.cc,Brian Atkinson
+./tensorflow/cc/saved_model/reader_test.cc,Gaurav Jain
+./tensorflow/cc/saved_model/README.md,Sukriti Ramesh
+./tensorflow/cc/saved_model/saved_model_bundle_test.cc,A. Unique TensorFlower
+./tensorflow/cc/saved_model/saved_model_bundle_test.cc,Derek Murray
+./tensorflow/cc/saved_model/saved_model_bundle_test.cc,Sean Silva
+./tensorflow/cc/saved_model/signature_constants.h,Kiril Gorovoy
+./tensorflow/cc/saved_model/signature_constants.h,Sanjoy Das
+./tensorflow/cc/saved_model/signature_constants.h,Skye Wanderman-Milne
+./tensorflow/cc/saved_model/signature_constants.h,Sukriti Ramesh
+./tensorflow/cc/saved_model/tag_constants.h,A. Unique TensorFlower
+./tensorflow/cc/saved_model/tag_constants.h,Sanjoy Das
+./tensorflow/cc/saved_model/tag_constants.h,Skye Wanderman-Milne
+./tensorflow/cc/saved_model/testdata/AssetModule/assets/test_asset.txt,Brian Zhao
+./tensorflow/cc/saved_model/testdata/AssetModule/saved_model.pb,Brian Zhao
+./tensorflow/cc/saved_model/testdata/AssetModule/variables/variables.data-00000-of-00001,Brian Zhao
+./tensorflow/cc/saved_model/testdata/AssetModule/variables/variables.index,Brian Zhao
+./tensorflow/cc/saved_model/testdata/CyclicModule/debug/saved_model_debug_info.pb,Stella Laurenzo
+./tensorflow/cc/saved_model/testdata/CyclicModule/saved_model.pb,Stella Laurenzo
+./tensorflow/cc/saved_model/testdata/CyclicModule/variables/variables.data-00000-of-00001,Stella Laurenzo
+./tensorflow/cc/saved_model/testdata/CyclicModule/variables/variables.index,Stella Laurenzo
+./tensorflow/cc/saved_model/testdata/fuzz_generated/bad_node_attr/assets/empty,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/bad_node_attr/saved_model.pb,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/bad_node_attr/variables/variables.data-00000-of-00001,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/bad_node_attr/variables/variables.index,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/const_with_no_value/assets/empty,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/const_with_no_value/saved_model.pb,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/const_with_no_value/variables/variables.data-00000-of-00001,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/const_with_no_value/variables/variables.index,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/negative_shape/assets/empty,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/negative_shape/saved_model.pb,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/negative_shape/variables/variables.data-00000-of-00001,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/fuzz_generated/negative_shape/variables/variables.index,Mihai Maruseac
+./tensorflow/cc/saved_model/testdata/generate_saved_models.py,Stella Laurenzo
+./tensorflow/cc/saved_model/testdata/half_plus_two/00000123/assets/foo.txt,Li Lao
+./tensorflow/cc/saved_model/testdata/half_plus_two/00000123/saved_model.pb,David Soergel
+./tensorflow/cc/saved_model/testdata/half_plus_two/00000123/saved_model.pb,Li Lao
+./tensorflow/cc/saved_model/testdata/half_plus_two/00000123/saved_model.pb,Sukriti Ramesh
+./tensorflow/cc/saved_model/testdata/half_plus_two/00000123/variables/variables.data-00000-of-00001,Li Lao
+./tensorflow/cc/saved_model/testdata/half_plus_two/00000123/variables/variables.index,Li Lao
+./tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123/assets/foo.txt,Sukriti Ramesh
+./tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123/saved_model.pb,David Soergel
+./tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123/saved_model.pb,Sukriti Ramesh
+./tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123/variables/variables.data-00000-of-00001,Sukriti Ramesh
+./tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123/variables/variables.index,Sukriti Ramesh
+./tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/assets/foo.txt,Li Lao
+./tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/saved_model.pbtxt,David Soergel
+./tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/saved_model.pbtxt,Li Lao
+./tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/saved_model.pbtxt,Sukriti Ramesh
+./tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/variables/variables.data-00000-of-00001,Li Lao
+./tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/variables/variables.index,Li Lao
+./tensorflow/cc/saved_model/testdata/half_plus_two_v2/00000123/assets/foo.txt,Katherine Wu
+./tensorflow/cc/saved_model/testdata/half_plus_two_v2/00000123/saved_model.pb,Katherine Wu
+./tensorflow/cc/saved_model/testdata/half_plus_two_v2/00000123/variables/variables.data-00000-of-00001,Katherine Wu
+./tensorflow/cc/saved_model/testdata/half_plus_two_v2/00000123/variables/variables.index,Katherine Wu
+./tensorflow/cc/saved_model/testdata/StaticHashTableModule/assets/static_hashtable_asset.txt,Brian Zhao
+./tensorflow/cc/saved_model/testdata/StaticHashTableModule/saved_model.pb,Brian Zhao
+./tensorflow/cc/saved_model/testdata/StaticHashTableModule/variables/variables.data-00000-of-00001,Brian Zhao
+./tensorflow/cc/saved_model/testdata/StaticHashTableModule/variables/variables.index,Brian Zhao
+./tensorflow/cc/saved_model/testdata/static_hashtable_asset.txt,Brian Zhao
+./tensorflow/cc/saved_model/testdata/test_asset.txt,Brian Zhao
+./tensorflow/cc/saved_model/testdata/VarsAndArithmeticObjectGraph/debug/saved_model_debug_info.pb,Stella Laurenzo
+./tensorflow/cc/saved_model/testdata/VarsAndArithmeticObjectGraph/saved_model.pb,Stella Laurenzo
+./tensorflow/cc/saved_model/testdata/VarsAndArithmeticObjectGraph/variables/variables.data-00000-of-00001,Stella Laurenzo
+./tensorflow/cc/saved_model/testdata/VarsAndArithmeticObjectGraph/variables/variables.index,Stella Laurenzo
+./tensorflow/cc/saved_model/testdata/x_plus_y_v2_debuginfo/debug/saved_model_debug_info.pb,Sean Silva
+./tensorflow/cc/saved_model/testdata/x_plus_y_v2_debuginfo/saved_model.pb,Sean Silva
+./tensorflow/cc/saved_model/testdata/x_plus_y_v2_debuginfo/variables/variables.data-00000-of-00001,Sean Silva
+./tensorflow/cc/saved_model/testdata/x_plus_y_v2_debuginfo/variables/variables.index,Sean Silva
+./tensorflow/cc/tools/BUILD,Gunhan Gulsoy
+./tensorflow/cc/tools/BUILD,Martin Wicke
+./tensorflow/cc/tools/BUILD,Russell Power
+./tensorflow/cc/tools/BUILD,Wenhao Jia
+./tensorflow/cc/tools/freeze_saved_model.cc,Edward Loper
+./tensorflow/cc/tools/freeze_saved_model.cc,Shahzad Lone
+./tensorflow/cc/tools/freeze_saved_model.cc,TensorFlower Gardener
+./tensorflow/cc/tools/freeze_saved_model.h,Sanjoy Das
+./tensorflow/cc/tools/freeze_saved_model.h,Suharsh Sivakumar
+./tensorflow/cc/tools/freeze_saved_model_test.cc,Dmitry Volodin
+./tensorflow/cc/tools/freeze_saved_model_test.cc,Edward Loper
+./tensorflow/cc/tools/freeze_saved_model_test.cc,Michael Case
+./tensorflow/cc/training/coordinator.cc,A. Unique TensorFlower
+./tensorflow/cc/training/coordinator.cc,Peter Hawkins
+./tensorflow/cc/training/coordinator.h,Andrew Harp
+./tensorflow/cc/training/coordinator.h,A. Unique TensorFlower
+./tensorflow/cc/training/coordinator.h,Gunhan Gulsoy
+./tensorflow/cc/training/coordinator.h,Sanjoy Das
+./tensorflow/cc/training/coordinator.h,Skye Wanderman-Milne
+./tensorflow/cc/training/coordinator_test.cc,Benoit Steiner
+./tensorflow/cc/training/coordinator_test.cc,Gunhan Gulsoy
+./tensorflow/cc/training/coordinator_test.cc,Peter Hawkins
+./tensorflow/cc/training/queue_runner.cc,Asim Shankar
+./tensorflow/cc/training/queue_runner.cc,Peter Hawkins
+./tensorflow/cc/training/queue_runner.cc,Suharsh Sivakumar
+./tensorflow/cc/training/queue_runner.h,Asim Shankar
+./tensorflow/cc/training/queue_runner.h,A. Unique TensorFlower
+./tensorflow/cc/training/queue_runner.h,Gunhan Gulsoy
+./tensorflow/cc/training/queue_runner.h,Sanjoy Das
+./tensorflow/cc/training/queue_runner.h,Skye Wanderman-Milne
+./tensorflow/cc/training/queue_runner_test.cc,Asim Shankar
+./tensorflow/cc/training/queue_runner_test.cc,Gunhan Gulsoy
+./tensorflow/cc/training/queue_runner_test.cc,Peter Hawkins
+./tensorflow/compat_template.__init__.py,A. Unique TensorFlower
+./tensorflow/compat_template.__init__.py,Nick Felt
+./tensorflow/compat_template.__init__.py,Yifei Feng
+./tensorflow/compat_template_v1.__init__.py,A. Unique TensorFlower
+./tensorflow/compat_template_v1.__init__.py,Yifei Feng
+./tensorflow/compiler/aot/aot_only_var_handle_op.cc,Benjamin Kramer
+./tensorflow/compiler/aot/aot_only_var_handle_op.cc,Eugene Brevdo
+./tensorflow/compiler/aot/aot_only_var_handle_op.h,Eugene Brevdo
+./tensorflow/compiler/aot/benchmark.cc,Peter Hawkins
+./tensorflow/compiler/aot/benchmark.h,A. Unique TensorFlower
+./tensorflow/compiler/aot/benchmark.h,Peter Hawkins
+./tensorflow/compiler/aot/benchmark_main.template,Peter Hawkins
+./tensorflow/compiler/aot/benchmark_test.cc,Peter Hawkins
+./tensorflow/compiler/aot/BUILD,Allen Lavoie
+./tensorflow/compiler/aot/BUILD,Chen Chen
+./tensorflow/compiler/aot/BUILD,Derek Murray
+./tensorflow/compiler/aot/BUILD,Geoffrey Martin-Noble
+./tensorflow/compiler/aot/BUILD,Jacques Pienaar
+./tensorflow/compiler/aot/BUILD,Mark Heffernan
+./tensorflow/compiler/aot/BUILD,Martin Wicke
+./tensorflow/compiler/aot/BUILD,Mehdi Amini
+./tensorflow/compiler/aot/BUILD,Michael Case
+./tensorflow/compiler/aot/BUILD,Peter Hawkins
+./tensorflow/compiler/aot/BUILD,Russell Power
+./tensorflow/compiler/aot/BUILD,TensorFlower Gardener
+./tensorflow/compiler/aot/BUILD,Tim Shen
+./tensorflow/compiler/aot/codegen.cc,Bixia Zheng
+./tensorflow/compiler/aot/codegen.cc,Jongmin Baek
+./tensorflow/compiler/aot/codegen.cc,Peter Hawkins
+./tensorflow/compiler/aot/codegen.cc,Taré Gaskin
+./tensorflow/compiler/aot/codegen.cc,TensorFlower Gardener
+./tensorflow/compiler/aot/codegen.cc,Tim Shen
+./tensorflow/compiler/aot/codegen.cc,Yunxing Dai
+./tensorflow/compiler/aot/codegen.h,Benjamin Kramer
+./tensorflow/compiler/aot/codegen.h,Mark Heffernan
+./tensorflow/compiler/aot/codegen.h,Peter Hawkins
+./tensorflow/compiler/aot/codegen_test.cc,Chen Chen
+./tensorflow/compiler/aot/codegen_test.cc,Gunhan Gulsoy
+./tensorflow/compiler/aot/codegen_test.cc,Justin Lebar
+./tensorflow/compiler/aot/codegen_test.cc,Mark Daoust
+./tensorflow/compiler/aot/codegen_test.cc,Mark Heffernan
+./tensorflow/compiler/aot/codegen_test.cc,Peter Hawkins
+./tensorflow/compiler/aot/codegen_test_h.golden,Cong Liu
+./tensorflow/compiler/aot/codegen_test_h.golden,Mark Heffernan
+./tensorflow/compiler/aot/codegen_test_h.golden,Mark Ryan
+./tensorflow/compiler/aot/codegen_test_h.golden,Peter Hawkins
+./tensorflow/compiler/aot/codegen_test_o.golden,Cong Liu
+./tensorflow/compiler/aot/codegen_test_o.golden,Mark Heffernan
+./tensorflow/compiler/aot/codegen_test_o.golden,Sanjoy Das
+./tensorflow/compiler/aot/compile.cc,George Karpenkov
+./tensorflow/compiler/aot/compile.cc,Skye Wanderman-Milne
+./tensorflow/compiler/aot/compile.h,Mark Heffernan
+./tensorflow/compiler/aot/compile.h,Peter Hawkins
+./tensorflow/compiler/aot/compile.h,Skye Wanderman-Milne
+./tensorflow/compiler/aot/embedded_protocol_buffers.cc,Chen Chen
+./tensorflow/compiler/aot/embedded_protocol_buffers.cc,Tim Shen
+./tensorflow/compiler/aot/embedded_protocol_buffers.h,Benjamin Kramer
+./tensorflow/compiler/aot/embedded_protocol_buffers.h,ManHyuk
+./tensorflow/compiler/aot/flags.cc,A. Unique TensorFlower
+./tensorflow/compiler/aot/flags.cc,Justin Lebar
+./tensorflow/compiler/aot/flags.cc,Peter Hawkins
+./tensorflow/compiler/aot/flags.cc,Sanjoy Das
+./tensorflow/compiler/aot/flags.h,A. Unique TensorFlower
+./tensorflow/compiler/aot/flags.h,Justin Lebar
+./tensorflow/compiler/aot/flags.h,Peter Hawkins
+./tensorflow/compiler/aot/flags.h,Sanjoy Das
+./tensorflow/compiler/aot/quantize.h,Feng Liu
+./tensorflow/compiler/aot/test.cc,Martijn Vels
+./tensorflow/compiler/aot/test.cc,Peter Hawkins
+./tensorflow/compiler/aot/tests/BUILD,Allen Lavoie
+./tensorflow/compiler/aot/tests/BUILD,Brian Atkinson
+./tensorflow/compiler/aot/tests/BUILD,Gunhan Gulsoy
+./tensorflow/compiler/aot/tests/BUILD,Hye Soo Yang
+./tensorflow/compiler/aot/tests/BUILD,Jacques Pienaar
+./tensorflow/compiler/aot/tests/BUILD,Jiri Simsa
+./tensorflow/compiler/aot/tests/BUILD,Mark Heffernan
+./tensorflow/compiler/aot/tests/BUILD,Martin Wicke
+./tensorflow/compiler/aot/tests/BUILD,Michael Case
+./tensorflow/compiler/aot/tests/BUILD,Mihai Maruseac
+./tensorflow/compiler/aot/tests/BUILD,Peter Hawkins
+./tensorflow/compiler/aot/tests/BUILD,Russell Power
+./tensorflow/compiler/aot/tests/BUILD,Skye Wanderman-Milne
+./tensorflow/compiler/aot/tests/BUILD,Wenhao Jia
+./tensorflow/compiler/aot/tests/BUILD,Yanhua Sun
+./tensorflow/compiler/aot/tests/make_test_graphs.py,Alexandre Passos
+./tensorflow/compiler/aot/tests/make_test_graphs.py,Dayananda-V
+./tensorflow/compiler/aot/tests/make_test_graphs.py,Hye Soo Yang
+./tensorflow/compiler/aot/tests/make_test_graphs.py,Jacques Pienaar
+./tensorflow/compiler/aot/tests/make_test_graphs.py,Peter Hawkins
+./tensorflow/compiler/aot/tests/make_test_graphs.py,Skye Wanderman-Milne
+./tensorflow/compiler/aot/tests/make_test_graphs.py,Vijay Vasudevan
+./tensorflow/compiler/aot/tests/make_test_graphs.py,Yanhua Sun
+./tensorflow/compiler/aot/tests/test_error_message.lit.pbtxt,A. Unique TensorFlower
+./tensorflow/compiler/aot/tests/test_error_message.lit.pbtxt,Bixia Zheng
+./tensorflow/compiler/aot/tests/test_error_message.lit.pbtxt.config.pbtxt,Bixia Zheng
+./tensorflow/compiler/aot/tests/test_error_message.lit.pbtxt.debug.pbtxt,Bixia Zheng
+./tensorflow/compiler/aot/tests/test_error_message.lit.pbtxt.debug.pbtxt,Jing Pu
+./tensorflow/compiler/aot/tests/test_error_message.lit.pbtxt.fake_py.debug,Bixia Zheng
+./tensorflow/compiler/aot/tests/test_graph_tfadd.config.pbtxt,drpngx
+./tensorflow/compiler/aot/tests/test_graph_tfadd.config.pbtxt,Peter Hawkins
+./tensorflow/compiler/aot/tests/test_graph_tfadd_with_ckpt.config.pbtxt,drpngx
+./tensorflow/compiler/aot/tests/test_graph_tfadd_with_ckpt.config.pbtxt,Peter Hawkins
+./tensorflow/compiler/aot/tests/test_graph_tfassert_eq.config.pbtxt,A. Unique TensorFlower
+./tensorflow/compiler/aot/tests/test_graph_tfcond.config.pbtxt,Jacques Pienaar
+./tensorflow/compiler/aot/tests/test_graph_tffunction.config.pbtxt,drpngx
+./tensorflow/compiler/aot/tests/test_graph_tffunction.config.pbtxt,Skye Wanderman-Milne
+./tensorflow/compiler/aot/tests/test_graph_tfgather.config.pbtxt,drpngx
+./tensorflow/compiler/aot/tests/test_graph_tfgather.config.pbtxt,Peter Hawkins
+./tensorflow/compiler/aot/tests/test_graph_tfmatmul.config.pbtxt,drpngx
+./tensorflow/compiler/aot/tests/test_graph_tfmatmul.config.pbtxt,Peter Hawkins
+./tensorflow/compiler/aot/tests/test_graph_tfmatmulandadd.config.pbtxt,drpngx
+./tensorflow/compiler/aot/tests/test_graph_tfmatmulandadd.config.pbtxt,Peter Hawkins
+./tensorflow/compiler/aot/tests/test_graph_tfsplits.config.pbtxt,A. Unique TensorFlower
+./tensorflow/compiler/aot/tests/test_graph_tfsplits.config.pbtxt,drpngx
+./tensorflow/compiler/aot/tests/test_graph_tftop_k.config.pbtxt,A. Unique TensorFlower
+./tensorflow/compiler/aot/tests/test_graph_tfvariable.config.pbtxt,Benjamin Kramer
+./tensorflow/compiler/aot/tests/tfcompile_test.cc,Jacques Pienaar
+./tensorflow/compiler/aot/tests/tfcompile_test.cc,Skye Wanderman-Milne
+./tensorflow/compiler/aot/test_graph_tfadd.config.pbtxt,A. Unique TensorFlower
+./tensorflow/compiler/aot/test_graph_tfadd.config.pbtxt,drpngx
+./tensorflow/compiler/aot/test_graph_tfadd.config.pbtxt,Peter Hawkins
+./tensorflow/compiler/aot/test_graph_tfadd.pbtxt,A. Unique TensorFlower
+./tensorflow/compiler/aot/test_graph_tfadd.pbtxt,Peter Hawkins
+./tensorflow/compiler/aot/test_graph_tfunknownop.config.pbtxt,drpngx
+./tensorflow/compiler/aot/test_graph_tfunknownop.config.pbtxt,Yifei Feng
+./tensorflow/compiler/aot/test_graph_tfunknownop2.config.pbtxt,drpngx
+./tensorflow/compiler/aot/test_graph_tfunknownop3.config.pbtxt,drpngx
+./tensorflow/compiler/aot/tfcompile.bzl,Alexander Grund
+./tensorflow/compiler/aot/tfcompile.bzl,Allen Lavoie
+./tensorflow/compiler/aot/tfcompile.bzl,Benjamin Kramer
+./tensorflow/compiler/aot/tfcompile.bzl,Christian Sigg
+./tensorflow/compiler/aot/tfcompile.bzl,Eugene Brevdo
+./tensorflow/compiler/aot/tfcompile.bzl,George Karpenkov
+./tensorflow/compiler/aot/tfcompile.bzl,Gunhan Gulsoy
+./tensorflow/compiler/aot/tfcompile.bzl,Jonathan Hseu
+./tensorflow/compiler/aot/tfcompile.bzl,Peter Hawkins
+./tensorflow/compiler/aot/tfcompile.bzl,Shanqing Cai
+./tensorflow/compiler/aot/tfcompile.bzl,Sidong-Wei
+./tensorflow/compiler/aot/tfcompile.bzl,Tres Popp
+./tensorflow/compiler/aot/tfcompile.bzl,Yun Peng
+./tensorflow/compiler/aot/tfcompile_main.cc,Asim Shankar
+./tensorflow/compiler/aot/tfcompile_main.cc,Bixia Zheng
+./tensorflow/compiler/aot/tfcompile_main.cc,Denis Khalikov
+./tensorflow/compiler/aot/tfcompile_main.cc,Peter Hawkins
+./tensorflow/compiler/aot/tfcompile_main.cc,Skye Wanderman-Milne
+./tensorflow/compiler/aot/tfcompile_main.cc,Tres Popp
+./tensorflow/compiler/jit/BUILD,Allen Lavoie
+./tensorflow/compiler/jit/BUILD,Andy Ly
+./tensorflow/compiler/jit/BUILD,Ashwin Murthy
+./tensorflow/compiler/jit/BUILD,Benoit Steiner
+./tensorflow/compiler/jit/BUILD,Eugene Brevdo
+./tensorflow/compiler/jit/BUILD,Feng Liu
+./tensorflow/compiler/jit/BUILD,Geoffrey Irving
+./tensorflow/compiler/jit/BUILD,Henry Tan
+./tensorflow/compiler/jit/BUILD,Jacques Pienaar
+./tensorflow/compiler/jit/BUILD,Jeffrey A. Dean
+./tensorflow/compiler/jit/BUILD,Jeremy Lau
+./tensorflow/compiler/jit/BUILD,Jiri Simsa
+./tensorflow/compiler/jit/BUILD,Juhyun Lee
+./tensorflow/compiler/jit/BUILD,Manjunath Kudlur
+./tensorflow/compiler/jit/BUILD,Martin Wicke
+./tensorflow/compiler/jit/BUILD,Mehdi Amini
+./tensorflow/compiler/jit/BUILD,Michael Kuperstein
+./tensorflow/compiler/jit/BUILD,Rohan Jain
+./tensorflow/compiler/jit/BUILD,Ruoxin Sang
+./tensorflow/compiler/jit/BUILD,Scott Zhu
+./tensorflow/compiler/jit/BUILD,Stephan Herhut
+./tensorflow/compiler/jit/BUILD,Thomas Joerg
+./tensorflow/compiler/jit/BUILD,Todd Wang
+./tensorflow/compiler/jit/BUILD,Wenhao Jia
+./tensorflow/compiler/jit/BUILD,Wen-Heng (Jack) Chung
+./tensorflow/compiler/jit/BUILD,Xiao Yu
+./tensorflow/compiler/jit/BUILD,Zhuoran Liu
+./tensorflow/compiler/jit/build_xla_ops_pass.cc,Bas Aarts
+./tensorflow/compiler/jit/build_xla_ops_pass.cc,Derek Murray
+./tensorflow/compiler/jit/build_xla_ops_pass.cc,Peter Hawkins
+./tensorflow/compiler/jit/build_xla_ops_pass.cc,Sungmann Cho
+./tensorflow/compiler/jit/build_xla_ops_pass.cc,Taré Gaskin
+./tensorflow/compiler/jit/build_xla_ops_pass.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/build_xla_ops_pass.cc,tg-at-google
+./tensorflow/compiler/jit/build_xla_ops_pass.h,George Karpenkov
+./tensorflow/compiler/jit/build_xla_ops_pass_test.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/build_xla_ops_pass_test.cc,Jiri Simsa
+./tensorflow/compiler/jit/build_xla_ops_pass_test.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/clone_constants_for_better_clustering.h,Sanjoy Das
+./tensorflow/compiler/jit/cluster_scoping_pass.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/cluster_scoping_pass.h,TensorFlower Gardener
+./tensorflow/compiler/jit/cluster_scoping_pass_test.cc,George Karpenkov
+./tensorflow/compiler/jit/cluster_scoping_pass_test.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/compilability_check_util.cc,Benjamin Kramer
+./tensorflow/compiler/jit/compilability_check_util.cc,David Majnemer
+./tensorflow/compiler/jit/compilability_check_util.cc,Derek Murray
+./tensorflow/compiler/jit/compilability_check_util.cc,Henry Tan
+./tensorflow/compiler/jit/compilability_check_util.cc,Kazuaki Ishizaki
+./tensorflow/compiler/jit/compilability_check_util.cc,Mihai Maruseac
+./tensorflow/compiler/jit/compilability_check_util.cc,Saurabh Saxena
+./tensorflow/compiler/jit/compilability_check_util.cc,Trent Lo
+./tensorflow/compiler/jit/compilability_check_util.cc,Yanhua Sun
+./tensorflow/compiler/jit/compilability_check_util.cc,Yujing Zhang
+./tensorflow/compiler/jit/compilability_check_util.h,Benjamin Kramer
+./tensorflow/compiler/jit/compilability_check_util.h,Derek Murray
+./tensorflow/compiler/jit/compilability_check_util.h,Henry Tan
+./tensorflow/compiler/jit/compilability_check_util.h,Taré Gaskin
+./tensorflow/compiler/jit/compilability_check_util.h,TensorFlower Gardener
+./tensorflow/compiler/jit/compilability_check_util.h,Trent Lo
+./tensorflow/compiler/jit/compilability_check_util.h,Yujing Zhang
+./tensorflow/compiler/jit/compilability_check_util_test.cc,Derek Murray
+./tensorflow/compiler/jit/compilability_check_util_test.cc,Eugene Brevdo
+./tensorflow/compiler/jit/compilability_check_util_test.cc,Yujing Zhang
+./tensorflow/compiler/jit/deadness_analysis.cc,Anna R
+./tensorflow/compiler/jit/deadness_analysis.cc,Guangda Lai
+./tensorflow/compiler/jit/deadness_analysis.cc,Justin Lebar
+./tensorflow/compiler/jit/deadness_analysis.cc,Kazuaki Ishizaki
+./tensorflow/compiler/jit/deadness_analysis.cc,Tim Shen
+./tensorflow/compiler/jit/deadness_analysis_internal.h,Benjamin Kramer
+./tensorflow/compiler/jit/deadness_analysis_internal.h,Tim Shen
+./tensorflow/compiler/jit/deadness_analysis_test.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/deadness_analysis_test.cc,Brian Patton
+./tensorflow/compiler/jit/deadness_analysis_test.cc,Guangda Lai
+./tensorflow/compiler/jit/deadness_analysis_test.cc,Justin Lebar
+./tensorflow/compiler/jit/defs.cc,Eugene Brevdo
+./tensorflow/compiler/jit/defs.cc,Peter Hawkins
+./tensorflow/compiler/jit/defs.h,Eugene Brevdo
+./tensorflow/compiler/jit/defs.h,Peter Hawkins
+./tensorflow/compiler/jit/device_util.cc,Eugene Zhulenev
+./tensorflow/compiler/jit/device_util.cc,George Karpenkov
+./tensorflow/compiler/jit/device_util.cc,Taré Gaskin
+./tensorflow/compiler/jit/device_util.h,Christian Sigg
+./tensorflow/compiler/jit/device_util.h,George Karpenkov
+./tensorflow/compiler/jit/device_util.h,Taré Gaskin
+./tensorflow/compiler/jit/device_util.h,TensorFlower Gardener
+./tensorflow/compiler/jit/device_util_test.cc,Eugene Zhulenev
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Anna R
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Jianwei Xie
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Justin Lebar
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Russell Power
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Sanjoy Das
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Taré Gaskin
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,tg-at-google
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Vinu Rajashekhar
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Yanan Cao
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Yifei Feng
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.cc,Youlong Cheng
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.h,Kazuaki Ishizaki
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.h,Tong Shen
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass.h,Yanan Cao
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Akshay Agrawal
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Anna R
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Benjamin Kramer
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Eugene Brevdo
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Jonathan Hseu
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Justin Lebar
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Russell Power
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Smit Hinsu
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Tim Shen
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Vinu Rajashekhar
+./tensorflow/compiler/jit/encapsulate_subgraphs_pass_test.cc,Yanan Cao
+./tensorflow/compiler/jit/encapsulate_util.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/encapsulate_util.cc,Taré Gaskin
+./tensorflow/compiler/jit/encapsulate_util.cc,Yanan Cao
+./tensorflow/compiler/jit/encapsulate_util.h,A. Unique TensorFlower
+./tensorflow/compiler/jit/encapsulate_util.h,Justin Lebar
+./tensorflow/compiler/jit/encapsulate_util.h,Kazuaki Ishizaki
+./tensorflow/compiler/jit/encapsulate_util.h,Yanan Cao
+./tensorflow/compiler/jit/encapsulate_util_test.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,Anna R
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,Benjamin Kramer
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,Derek Murray
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,George Karpenkov
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,Grzegorz George Pawelczak
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,Grzegorz Pawelczak
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,Sanjoy Das
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,Taré Gaskin
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.cc,Tong Shen
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass_test.cc,Derek Murray
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass_test.cc,George Karpenkov
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass_test.cc,Sanjoy Das
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass_test.cc,Tong Shen
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass_test.cc,Yanan Cao
+./tensorflow/compiler/jit/extract_outside_compilation_pass.cc,Eugene Zhulenev
+./tensorflow/compiler/jit/extract_outside_compilation_pass.cc,George Karpenkov
+./tensorflow/compiler/jit/extract_outside_compilation_pass.cc,Russell Power
+./tensorflow/compiler/jit/extract_outside_compilation_pass.cc,Saurabh Saxena
+./tensorflow/compiler/jit/extract_outside_compilation_pass.cc,Taré Gaskin
+./tensorflow/compiler/jit/extract_outside_compilation_pass.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/extract_outside_compilation_pass.cc,Yanhua Sun
+./tensorflow/compiler/jit/extract_outside_compilation_pass_test.cc,Derek Murray
+./tensorflow/compiler/jit/extract_outside_compilation_pass_test.cc,Eugene Brevdo
+./tensorflow/compiler/jit/extract_outside_compilation_pass_test.cc,Eugene Zhulenev
+./tensorflow/compiler/jit/extract_outside_compilation_pass_test.cc,Kazuaki Ishizaki
+./tensorflow/compiler/jit/extract_outside_compilation_pass_test.cc,Russell Power
+./tensorflow/compiler/jit/extract_outside_compilation_pass_test.cc,Yanan Cao
+./tensorflow/compiler/jit/flags.cc,Dmitry Volodin
+./tensorflow/compiler/jit/flags.cc,Ken Franko
+./tensorflow/compiler/jit/flags.cc,Lucy Fox
+./tensorflow/compiler/jit/flags.cc,Roman Dzhabarov
+./tensorflow/compiler/jit/flags.cc,Smit Hinsu
+./tensorflow/compiler/jit/flags.cc,Yanan Cao
+./tensorflow/compiler/jit/flags.cc,Yuanzhong Xu
+./tensorflow/compiler/jit/flags.h,Ken Franko
+./tensorflow/compiler/jit/flags.h,Smit Hinsu
+./tensorflow/compiler/jit/flags.h,Xinan Jiang
+./tensorflow/compiler/jit/force_xla_constants_on_host_pass.h,George Karpenkov
+./tensorflow/compiler/jit/force_xla_constants_on_host_pass_test.cc,Derek Murray
+./tensorflow/compiler/jit/force_xla_constants_on_host_pass_test.cc,George Karpenkov
+./tensorflow/compiler/jit/get_compiler_ir.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/get_compiler_ir.h,A. Unique TensorFlower
+./tensorflow/compiler/jit/increase_dynamism_for_auto_jit_pass.cc,George Karpenkov
+./tensorflow/compiler/jit/increase_dynamism_for_auto_jit_pass.cc,Taré Gaskin
+./tensorflow/compiler/jit/increase_dynamism_for_auto_jit_pass.h,Sanjoy Das
+./tensorflow/compiler/jit/introduce_floating_point_jitter_pass.cc,Sanjoy Das
+./tensorflow/compiler/jit/introduce_floating_point_jitter_pass.h,Sanjoy Das
+./tensorflow/compiler/jit/introduce_floating_point_jitter_pass_internal.h,Sanjoy Das
+./tensorflow/compiler/jit/introduce_floating_point_jitter_pass_test.cc,Sanjoy Das
+./tensorflow/compiler/jit/jit_compilation_pass_registration.cc,George Karpenkov
+./tensorflow/compiler/jit/jit_compilation_pass_registration.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/jit_compilation_pass_registration.cc,JiangXIAO
+./tensorflow/compiler/jit/jit_compilation_pass_registration.cc,Peter Hawkins
+./tensorflow/compiler/jit/jit_compilation_pass_registration.cc,Trent Lo
+./tensorflow/compiler/jit/kernels/BUILD,Benjamin Kramer
+./tensorflow/compiler/jit/kernels/BUILD,Eli Bendersky
+./tensorflow/compiler/jit/kernels/BUILD,Frank Chen
+./tensorflow/compiler/jit/kernels/BUILD,Igor Ganichev
+./tensorflow/compiler/jit/kernels/BUILD,Kay Zhu
+./tensorflow/compiler/jit/kernels/BUILD,Martin Wicke
+./tensorflow/compiler/jit/kernels/BUILD,Michael Banfield
+./tensorflow/compiler/jit/kernels/BUILD,Russell Power
+./tensorflow/compiler/jit/kernels/BUILD,Wenhao Jia
+./tensorflow/compiler/jit/kernels/xla_ops.cc,Benjamin Kramer
+./tensorflow/compiler/jit/kernels/xla_ops.cc,Dero Gharibian
+./tensorflow/compiler/jit/kernels/xla_ops.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/kernels/xla_ops.cc,Michael Banfield
+./tensorflow/compiler/jit/kernels/xla_ops.cc,Reed Wanderman-Milne
+./tensorflow/compiler/jit/kernels/xla_ops.cc,Richard Uhler
+./tensorflow/compiler/jit/kernels/xla_ops.cc,Russell Power
+./tensorflow/compiler/jit/kernels/xla_ops.h,A. Unique TensorFlower
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Igor Ganichev
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Karmel Allison
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Kazuaki Ishizaki
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Lukas Geiger
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Mingsheng Hong
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Reed Wanderman-Milne
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Ruoxin Sang
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Scott Zhu
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Thomas Joerg
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Tong Shen
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Tres Popp
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Tzu-Wei Sung
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,wyzhao
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Yong Tang
+./tensorflow/compiler/jit/mark_for_compilation_pass.cc,Yuanzhong Xu
+./tensorflow/compiler/jit/mark_for_compilation_pass.h,Karmel Allison
+./tensorflow/compiler/jit/mark_for_compilation_pass.h,Peter Hawkins
+./tensorflow/compiler/jit/mark_for_compilation_pass.h,TensorFlower Gardener
+./tensorflow/compiler/jit/mark_for_compilation_pass.h,Tong Shen
+./tensorflow/compiler/jit/mark_for_compilation_pass_test.cc,Asim Shankar
+./tensorflow/compiler/jit/mark_for_compilation_pass_test.cc,Eugene Brevdo
+./tensorflow/compiler/jit/mark_for_compilation_pass_test.cc,Frederic Bastien
+./tensorflow/compiler/jit/mark_for_compilation_pass_test.cc,Manjunath Kudlur
+./tensorflow/compiler/jit/mark_for_compilation_pass_test.cc,Reed Wanderman-Milne
+./tensorflow/compiler/jit/mark_for_compilation_pass_test_helper.cc,Trent Lo
+./tensorflow/compiler/jit/mark_for_compilation_pass_test_helper.h,A. Unique TensorFlower
+./tensorflow/compiler/jit/mark_for_compilation_pass_test_helper.h,Trent Lo
+./tensorflow/compiler/jit/node_matchers.cc,Anna R
+./tensorflow/compiler/jit/node_matchers.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/node_matchers.h,Kazuaki Ishizaki
+./tensorflow/compiler/jit/node_matchers_test.cc,Kazuaki Ishizaki
+./tensorflow/compiler/jit/partially_decluster_pass.cc,Anna R
+./tensorflow/compiler/jit/partially_decluster_pass.cc,Eugene Brevdo
+./tensorflow/compiler/jit/partially_decluster_pass.cc,Peter Hawkins
+./tensorflow/compiler/jit/partially_decluster_pass.cc,Siju
+./tensorflow/compiler/jit/partially_decluster_pass.cc,Tim Shen
+./tensorflow/compiler/jit/partially_decluster_pass.cc,Yunxing Dai
+./tensorflow/compiler/jit/partially_decluster_pass_test.cc,Jiri Simsa
+./tensorflow/compiler/jit/partially_decluster_pass_test.cc,Justin Lebar
+./tensorflow/compiler/jit/rearrange_function_argument_pass_test.cc,Andy Ly
+./tensorflow/compiler/jit/rearrange_function_argument_pass_test.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/report_clustering_info_pass.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/report_clustering_info_pass.h,Gunhan Gulsoy
+./tensorflow/compiler/jit/resource_operation_safety_analysis.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/resource_operation_safety_analysis.h,A. Unique TensorFlower
+./tensorflow/compiler/jit/resource_operation_safety_analysis.h,George Karpenkov
+./tensorflow/compiler/jit/resource_operation_safety_analysis_test.cc,Derek Murray
+./tensorflow/compiler/jit/resource_operation_safety_analysis_test.cc,Justin Lebar
+./tensorflow/compiler/jit/shape_inference.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/shape_inference.cc,George Karpenkov
+./tensorflow/compiler/jit/shape_inference.cc,Taré Gaskin
+./tensorflow/compiler/jit/shape_inference.h,George Karpenkov
+./tensorflow/compiler/jit/shape_inference.h,Tong Shen
+./tensorflow/compiler/jit/shape_inference_helpers.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/shape_inference_helpers.h,A. Unique TensorFlower
+./tensorflow/compiler/jit/test_util.cc,Gaurav Jain
+./tensorflow/compiler/jit/test_util.cc,Tong Shen
+./tensorflow/compiler/jit/test_util.h,George Karpenkov
+./tensorflow/compiler/jit/test_util.h,Tong Shen
+./tensorflow/compiler/jit/xla_activity.proto,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_activity.proto,Gunhan Gulsoy
+./tensorflow/compiler/jit/xla_activity_listener.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/xla_activity_listener.h,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_activity_listener.h,Gunhan Gulsoy
+./tensorflow/compiler/jit/xla_activity_listener_test.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_activity_listener_test.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/xla_activity_logging_listener.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_cluster_util.cc,Benjamin Kramer
+./tensorflow/compiler/jit/xla_cluster_util.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/xla_cluster_util.cc,Taré Gaskin
+./tensorflow/compiler/jit/xla_cluster_util.cc,Yunxing Dai
+./tensorflow/compiler/jit/xla_cluster_util.h,Benjamin Kramer
+./tensorflow/compiler/jit/xla_cluster_util.h,Gunhan Gulsoy
+./tensorflow/compiler/jit/xla_cluster_util.h,Yunxing Dai
+./tensorflow/compiler/jit/xla_cluster_util_test.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_cluster_util_test.cc,Derek Murray
+./tensorflow/compiler/jit/xla_cluster_util_test.cc,Eugene Brevdo
+./tensorflow/compiler/jit/xla_cluster_util_test.cc,Justin Lebar
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Anjali Sridhar
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Benjamin Kramer
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Derek Murray
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Jacques Pienaar
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Jeffrey A. Dean
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Justin Lebar
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Ken Franko
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Michael Gester
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Richard Uhler
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Taré Gaskin
+./tensorflow/compiler/jit/xla_compilation_cache.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Thomas Joerg
+./tensorflow/compiler/jit/xla_compilation_cache.cc,Wenhao Jia
+./tensorflow/compiler/jit/xla_compilation_cache.h,Benjamin Kramer
+./tensorflow/compiler/jit/xla_compilation_cache.h,George Karpenkov
+./tensorflow/compiler/jit/xla_compilation_cache.h,Jeffrey A. Dean
+./tensorflow/compiler/jit/xla_compilation_cache.h,Rasmus Munk Larsen
+./tensorflow/compiler/jit/xla_compilation_cache.h,wyzhao
+./tensorflow/compiler/jit/xla_compilation_cache_test.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_compilation_cache_test.cc,Jeffrey A. Dean
+./tensorflow/compiler/jit/xla_compilation_cache_test.cc,Peter Hawkins
+./tensorflow/compiler/jit/xla_compile_on_demand_op.cc,Derek Murray
+./tensorflow/compiler/jit/xla_compile_on_demand_op.cc,Gaurav Jain
+./tensorflow/compiler/jit/xla_compile_on_demand_op.cc,Justin Lebar
+./tensorflow/compiler/jit/xla_compile_on_demand_op.cc,Smit Hinsu
+./tensorflow/compiler/jit/xla_compile_on_demand_op.cc,Thomas Joerg
+./tensorflow/compiler/jit/xla_compile_on_demand_op.cc,Yanan Cao
+./tensorflow/compiler/jit/xla_compile_on_demand_op.cc,Yunxing Dai
+./tensorflow/compiler/jit/xla_compile_on_demand_op.h,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_compile_on_demand_op.h,Peter Hawkins
+./tensorflow/compiler/jit/xla_compile_on_demand_op.h,Sanjoy Das
+./tensorflow/compiler/jit/xla_compile_on_demand_op.h,Yanan Cao
+./tensorflow/compiler/jit/xla_device.cc,Benjamin Kramer
+./tensorflow/compiler/jit/xla_device.cc,Davide Libenzi
+./tensorflow/compiler/jit/xla_device.cc,Geoffrey Irving
+./tensorflow/compiler/jit/xla_device.cc,Jianwei Xie
+./tensorflow/compiler/jit/xla_device.cc,Patrick J. LoPresti
+./tensorflow/compiler/jit/xla_device.cc,Sami Kama
+./tensorflow/compiler/jit/xla_device.cc,Sanjoy Das
+./tensorflow/compiler/jit/xla_device.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/xla_device.cc,Tim Shen
+./tensorflow/compiler/jit/xla_device.cc,Todd Wang
+./tensorflow/compiler/jit/xla_device.cc,wyzhao
+./tensorflow/compiler/jit/xla_device.cc,Xiao Yu
+./tensorflow/compiler/jit/xla_device.cc,Youlong Cheng
+./tensorflow/compiler/jit/xla_device.h,Derek Murray
+./tensorflow/compiler/jit/xla_device.h,Jianwei Xie
+./tensorflow/compiler/jit/xla_device.h,Justin Lebar
+./tensorflow/compiler/jit/xla_device.h,Patrick J. LoPresti
+./tensorflow/compiler/jit/xla_device.h,Sanjoy Das
+./tensorflow/compiler/jit/xla_device.h,Tim Shen
+./tensorflow/compiler/jit/xla_device.h,Yunxing Dai
+./tensorflow/compiler/jit/xla_device_context.cc,Alexandre Passos
+./tensorflow/compiler/jit/xla_device_context.cc,Anjali Sridhar
+./tensorflow/compiler/jit/xla_device_context.cc,Benjamin Kramer
+./tensorflow/compiler/jit/xla_device_context.cc,Berkin Ilbeyi
+./tensorflow/compiler/jit/xla_device_context.cc,Derek Murray
+./tensorflow/compiler/jit/xla_device_context.cc,Eugene Kuznetsov
+./tensorflow/compiler/jit/xla_device_context.cc,George Karpenkov
+./tensorflow/compiler/jit/xla_device_context.cc,Grzegorz Pawelczak
+./tensorflow/compiler/jit/xla_device_context.cc,Gunhan Gulsoy
+./tensorflow/compiler/jit/xla_device_context.cc,Igor Ganichev
+./tensorflow/compiler/jit/xla_device_context.cc,Jonathan Hseu
+./tensorflow/compiler/jit/xla_device_context.cc,Justin Lebar
+./tensorflow/compiler/jit/xla_device_context.cc,Kay Zhu
+./tensorflow/compiler/jit/xla_device_context.cc,Kazuaki Ishizaki
+./tensorflow/compiler/jit/xla_device_context.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/xla_device_context.cc,Youlong Cheng
+./tensorflow/compiler/jit/xla_device_context.cc,Zhuoran Liu
+./tensorflow/compiler/jit/xla_device_context.h,Alexandre Passos
+./tensorflow/compiler/jit/xla_device_context.h,Anjali Sridhar
+./tensorflow/compiler/jit/xla_device_context.h,Benjamin Kramer
+./tensorflow/compiler/jit/xla_device_context.h,Eugene Kuznetsov
+./tensorflow/compiler/jit/xla_device_context.h,Gaurav Jain
+./tensorflow/compiler/jit/xla_device_context.h,Justin Lebar
+./tensorflow/compiler/jit/xla_device_context.h,TensorFlower Gardener
+./tensorflow/compiler/jit/xla_device_context.h,Youlong Cheng
+./tensorflow/compiler/jit/xla_device_ops.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_device_ops.cc,Gaurav Jain
+./tensorflow/compiler/jit/xla_device_ops.h,Dero Gharibian
+./tensorflow/compiler/jit/xla_device_ops.h,Gaurav Jain
+./tensorflow/compiler/jit/xla_device_ops.h,Jiri Simsa
+./tensorflow/compiler/jit/xla_device_ops.h,Shivani Agrawal
+./tensorflow/compiler/jit/xla_device_ops.h,Xiao Yu
+./tensorflow/compiler/jit/xla_gpu_device.cc,Bixia Zheng
+./tensorflow/compiler/jit/xla_gpu_device.cc,Deven Desai
+./tensorflow/compiler/jit/xla_gpu_device.cc,Gaurav Jain
+./tensorflow/compiler/jit/xla_gpu_device.cc,Jacques Pienaar
+./tensorflow/compiler/jit/xla_gpu_device.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/xla_gpu_device.cc,Tim Shen
+./tensorflow/compiler/jit/xla_gpu_device.cc,Todd Wang
+./tensorflow/compiler/jit/xla_gpu_device.cc,Yanan Cao
+./tensorflow/compiler/jit/xla_kernel_creator.cc,Gaurav Jain
+./tensorflow/compiler/jit/xla_kernel_creator.cc,Michael Gester
+./tensorflow/compiler/jit/xla_kernel_creator.cc,Roman Dzhabarov
+./tensorflow/compiler/jit/xla_kernel_creator.cc,Tong Shen
+./tensorflow/compiler/jit/xla_kernel_creator.h,Gaurav Jain
+./tensorflow/compiler/jit/xla_kernel_creator_test.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_kernel_creator_test.cc,Derek Murray
+./tensorflow/compiler/jit/xla_kernel_creator_test.cc,Eugene Brevdo
+./tensorflow/compiler/jit/xla_kernel_creator_test.cc,Gaurav Jain
+./tensorflow/compiler/jit/xla_launch_util.cc,Brian Patton
+./tensorflow/compiler/jit/xla_launch_util.cc,Derek Murray
+./tensorflow/compiler/jit/xla_launch_util.cc,Gaurav Jain
+./tensorflow/compiler/jit/xla_launch_util.cc,Jacques Pienaar
+./tensorflow/compiler/jit/xla_launch_util.cc,Kazuaki Ishizaki
+./tensorflow/compiler/jit/xla_launch_util.cc,Mark Heffernan
+./tensorflow/compiler/jit/xla_launch_util.cc,Ruoxin Sang
+./tensorflow/compiler/jit/xla_launch_util.cc,Taré Gaskin
+./tensorflow/compiler/jit/xla_launch_util.cc,Tres Popp
+./tensorflow/compiler/jit/xla_launch_util.h,Gunhan Gulsoy
+./tensorflow/compiler/jit/xla_launch_util.h,Skye Wanderman-Milne
+./tensorflow/compiler/jit/xla_launch_util.h,Stephan Herhut
+./tensorflow/compiler/jit/xla_ops_on_regular_devices.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_ops_on_regular_devices.cc,David Majnemer
+./tensorflow/compiler/jit/xla_platform_info.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_platform_info.cc,TensorFlower Gardener
+./tensorflow/compiler/jit/xla_platform_info.h,A. Unique TensorFlower
+./tensorflow/compiler/jit/xla_platform_info.h,Bas Aarts
+./tensorflow/compiler/jit/xla_platform_info.h,TensorFlower Gardener
+./tensorflow/compiler/jit/xla_tensor.cc,Yunxing Dai
+./tensorflow/compiler/jit/xla_tensor.h,Benjamin Kramer
+./tensorflow/compiler/jit/xla_tensor.h,Igor Ganichev
+./tensorflow/compiler/jit/xla_tensor.h,Yunxing Dai
+./tensorflow/compiler/jit/xla_tpu_device.cc,Frank Chen
+./tensorflow/compiler/jit/xla_tpu_device.cc,George Karpenkov
+./tensorflow/compiler/jit/xla_tpu_device.h,Frank Chen
+./tensorflow/compiler/jit/encapsulate_xla_computations_pass.h,Yanan Cao
+./tensorflow/compiler/jit/increase_dynamism_for_auto_jit_pass_test.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/ops/BUILD,Martin Wicke
+./tensorflow/compiler/jit/ops/BUILD,Peter Hawkins
+./tensorflow/compiler/jit/ops/BUILD,Russell Power
+./tensorflow/compiler/jit/ops/BUILD,Sanjoy Das
+./tensorflow/compiler/jit/ops/BUILD,Wenhao Jia
+./tensorflow/compiler/jit/ops/xla_ops.cc,Kazuaki Ishizaki
+./tensorflow/compiler/jit/ops/xla_ops.cc,Yanan Cao
+./tensorflow/compiler/jit/ops/xla_ops_grad.py,Yanan Cao
+./tensorflow/compiler/jit/tests/auto_clustering_test.cc,Haoyu Zhang
+./tensorflow/compiler/jit/tests/auto_clustering_test.cc,Sanjoy Das
+./tensorflow/compiler/jit/tests/auto_clustering_test_helper.cc,A. Unique TensorFlower
+./tensorflow/compiler/jit/tests/auto_clustering_test_helper.cc,Derek Murray
+./tensorflow/compiler/jit/tests/auto_clustering_test_helper.cc,Dero Gharibian
+./tensorflow/compiler/jit/tests/auto_clustering_test_helper.cc,George Karpenkov
+./tensorflow/compiler/jit/tests/auto_clustering_test_helper.cc,Sanjoy Das
+./tensorflow/compiler/jit/tests/auto_clustering_test_helper.h,Derek Murray
+./tensorflow/compiler/jit/tests/auto_clustering_test_helper.h,Sanjoy Das
+./tensorflow/compiler/jit/tests/BUILD,A. Unique TensorFlower
+./tensorflow/compiler/jit/tests/BUILD,Derek Murray
+./tensorflow/compiler/jit/tests/BUILD,Russell Power
+./tensorflow/compiler/jit/tests/BUILD,Sanjoy Das
+./tensorflow/compiler/jit/tests/BUILD,TensorFlower Gardener
+./tensorflow/compiler/jit/tests/BUILD,Trent Lo
+./tensorflow/compiler/jit/tests/BUILD,Wenhao Jia
+./tensorflow/compiler/jit/tests/keras_imagenet_main.pbtxt,Sanjoy Das
+./tensorflow/compiler/jit/tests/keras_imagenet_main_graph_mode.pbtxt,Sanjoy Das
+./tensorflow/compiler/jit/tests/opens2s_gnmt_mixed_precision.golden_summary,Sanjoy Das
+./tensorflow/compiler/jit/tests/opens2s_gnmt_mixed_precision.pbtxt.gz,Trent Lo
+./tensorflow/compiler/jit/xla_cpu_device.cc,Bixia Zheng
+./tensorflow/compiler/jit/xla_cpu_device.cc,Gaurav Jain
+./tensorflow/compiler/jit/xla_cpu_device.cc,Yanan Cao
+./tensorflow/compiler/mlir/BUILD,Christian Sigg
+./tensorflow/compiler/mlir/BUILD,Dimitris Vardoulakis
+./tensorflow/compiler/mlir/BUILD,Eugene Zhulenev
+./tensorflow/compiler/mlir/BUILD,Karim Nosir
+./tensorflow/compiler/mlir/BUILD,Koan-Sin Tan
+./tensorflow/compiler/mlir/BUILD,Mahesh Ravishankar
+./tensorflow/compiler/mlir/BUILD,Marissa Ikonomidis
+./tensorflow/compiler/mlir/BUILD,Robert Suderman
+./tensorflow/compiler/mlir/BUILD,Russell Power
+./tensorflow/compiler/mlir/BUILD,Scott Todd
+./tensorflow/compiler/mlir/BUILD,Sean Silva
+./tensorflow/compiler/mlir/BUILD,Stephan Herhut
+./tensorflow/compiler/mlir/BUILD,TensorFlower Gardener
+./tensorflow/compiler/mlir/BUILD,Wenhao Jia
+./tensorflow/compiler/mlir/BUILD,Yujing Zhang
+./tensorflow/compiler/mlir/g3doc/dialects.md,Mark Daoust
+./tensorflow/compiler/mlir/g3doc/images/mlir-infra.svg,Mark Daoust
+./tensorflow/compiler/mlir/g3doc/README.md,Mark Daoust
+./tensorflow/compiler/mlir/g3doc/xla_gpu_codegen.md,Stephan Herhut
+./tensorflow/compiler/mlir/g3doc/xla_gpu_codegen.md,Tim Shen
+./tensorflow/compiler/mlir/g3doc/_index.yaml,A. Unique TensorFlower
+./tensorflow/compiler/mlir/g3doc/_index.yaml,Mark Daoust
+./tensorflow/compiler/mlir/g3doc/_index.yaml,Saduf2019
+./tensorflow/compiler/mlir/glob_lit_test.bzl,Adrian Kuegel
+./tensorflow/compiler/mlir/glob_lit_test.bzl,Andy Ly
+./tensorflow/compiler/mlir/glob_lit_test.bzl,Brett Koonce
+./tensorflow/compiler/mlir/glob_lit_test.bzl,Deven Desai
+./tensorflow/compiler/mlir/glob_lit_test.bzl,jerryyin
+./tensorflow/compiler/mlir/glob_lit_test.bzl,Lucy Fox
+./tensorflow/compiler/mlir/glob_lit_test.bzl,Mehdi Amini
+./tensorflow/compiler/mlir/glob_lit_test.bzl,Sean Silva
+./tensorflow/compiler/mlir/hlo/.bazelrc,Phoenix Meadowlark
+./tensorflow/compiler/mlir/hlo/.gitignore,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/.gitignore,Phoenix Meadowlark
+./tensorflow/compiler/mlir/hlo/BUILD,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/BUILD,Alex Zinenko
+./tensorflow/compiler/mlir/hlo/BUILD,Ehsan Toosi
+./tensorflow/compiler/mlir/hlo/BUILD,Itai Zukerman
+./tensorflow/compiler/mlir/hlo/BUILD,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/BUILD,Julian Gross
+./tensorflow/compiler/mlir/hlo/BUILD,River Riddle
+./tensorflow/compiler/mlir/hlo/BUILD,Russell Power
+./tensorflow/compiler/mlir/hlo/BUILD,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/BUILD,TensorFlower Gardener
+./tensorflow/compiler/mlir/hlo/BUILD,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/BUILD,Uday Bondhugula
+./tensorflow/compiler/mlir/hlo/BUILD,Wenhao Jia
+./tensorflow/compiler/mlir/hlo/build_tools/build_mlir.sh,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/build_tools/llvm_version.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/CMakeLists.txt,Ben Vanik
+./tensorflow/compiler/mlir/hlo/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/chlo_ops.h,River Riddle
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/chlo_ops.h,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/chlo_ops.td,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/chlo_ops.td,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/chlo_ops.td,Alex Zinenko
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/chlo_ops.td,Chao Xie
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/chlo_ops.td,Lucy Fox
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/chlo_ops.td,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/chlo_ops.td,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/CMakeLists.txt,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops.h,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops.h,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops.td,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops.td,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops.td,Alex Zinenko
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops.td,Hanhan Wang
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops.td,Itai Zukerman
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops.td,Richard Uhler
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops.td,Uday Bondhugula
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base.td,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base.td,Itai Zukerman
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base.td,Kazuaki Ishizaki
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base.td,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base.td,TensorFlower Gardener
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base.td,Tim Shen
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base_enums.h,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base_enums.td,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base_structs.h,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base_structs.h,River Riddle
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base_structs.td,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_ops_base_structs.td,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/hlo_utils.td,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/infer_fusibility_op_interface.h,River Riddle
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/infer_fusibility_op_interface.td,Kazuaki Ishizaki
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/infer_fusibility_op_interface.td,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/infer_fusibility_op_interface.td,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_dialect.td,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops.h,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops.h,River Riddle
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops.td,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops.td,Itai Zukerman
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops_base.td,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops_enums.td,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops_structs.h,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops_structs.h,River Riddle
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops_structs.td,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_gpu_ops_structs.td,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.h,Ehsan Toosi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.h,Julian Gross
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.h,River Riddle
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.h,Tim Shen
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Alex Zinenko
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Ehsan Toosi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Itai Zukerman
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Julian Gross
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Pavel Krajcevski
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,TensorFlower Gardener
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops.td,Uday Bondhugula
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops_base.td,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops_structs.h,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/IR/lhlo_ops_structs.td,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/lmhlo_passes.td,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/lmhlo_passes.td,Ehsan Toosi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/lmhlo_passes.td,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_chlo_to_hlo_op.h,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_chlo_to_hlo_op.h,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_chlo_to_hlo_op.h,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_chlo_to_hlo_op.h,Tres Popp
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_hlo_to_lhlo_op.h,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_hlo_to_lhlo_op.h,Ahmed S. Taei
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_hlo_to_lhlo_op.h,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_hlo_to_lhlo_op.h,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_hlo_to_lhlo_op.h,Tres Popp
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_lmhlo_to_scalar_op.h,Ahmed S. Taei
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_lmhlo_to_scalar_op.h,Chao Xie
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_lmhlo_to_scalar_op.h,Hanhan Wang
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/map_lmhlo_to_scalar_op.h,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/mhlo_passes.td,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/mhlo_passes.td,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/PassDetail.h,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/passes.h,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/passes.h,Ehsan Toosi
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/passes.h,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/passes.h,Sean Silva
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/passes.h,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/register_passes.h,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/register_passes.h,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/rewriters.h,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/Dialect/mhlo/transforms/rewriters.h,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/utils/broadcast_utils.h,River Riddle
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/utils/convert_op_folder.h,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/utils/convert_op_folder.h,River Riddle
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/utils/hlo_utils.h,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/utils/hlo_utils.h,Hanhan Wang
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/utils/hlo_utils.h,Richard Uhler
+./tensorflow/compiler/mlir/hlo/include/mlir-hlo/utils/hlo_utils.h,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/chlo_canonicalize.td,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/chlo_ops.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/chlo_ops.cc,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/chlo_ops.cc,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/chlo_ops.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/chlo_ops.cc,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/CMakeLists.txt,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_ops.cc,Dmitry Volodin
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_ops.cc,Hanhan Wang
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_ops.cc,Marius Brehler
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_ops.cc,Phoenix Meadowlark
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_ops.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_ops_base_enums.cc,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_ops_base_structs.cc,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_ops_base_structs.cc,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_patterns.td,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_patterns.td,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_patterns.td,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_patterns.td,Roman Dzhabarov
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_patterns.td,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/hlo_patterns.td,Tres Popp
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/init.cc,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_gpu_ops.cc,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_gpu_ops.cc,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_gpu_ops.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_gpu_ops_enums.cc,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_gpu_ops_structs.cc,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_ops.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_ops.cc,Julian Gross
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_ops.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_ops.cc,TensorFlower Gardener
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_ops.cc,Uday Bondhugula
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_ops_structs.cc,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/lhlo_ops_structs.cc,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/mhlo_canonicalize.td,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/IR/mhlo_canonicalize.td,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_parallel_loops.cc,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_parallel_loops.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_parallel_loops.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_parallel_loops.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_parallel_loops.cc,Tres Popp
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo.cc,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo.cc,Ben Vanik
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo.cc,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo_pass.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo_pass.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo_pass.cc,Tres Popp
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo_patterns.td,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo_patterns.td,Chao Xie
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/chlo_legalize_to_hlo_patterns.td,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/CMakeLists.txt,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/CMakeLists.txt,Christian Sigg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/CMakeLists.txt,Ehsan Toosi
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/CMakeLists.txt,Hanhan Wang
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/CMakeLists.txt,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/CMakeLists.txt,Marius Brehler
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/hlo_legalize_to_lhlo.cc,Ehsan Toosi
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/hlo_legalize_to_lhlo.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/hlo_legalize_to_lhlo.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_control_flow.cc,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_control_flow.cc,Christian Sigg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_control_flow.cc,Lucy Fox
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_gather_to_torch_index_select.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_gather_to_torch_index_select.cc,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_gather_to_torch_index_select.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_gather_to_torch_index_select.cc,Robert Suderman
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_gather_to_torch_index_select.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_gather_to_torch_index_select.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Ahmed S. Taei
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Ben Vanik
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Chao Xie
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Eugene Burmako
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Lei Zhang
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Mahesh Ravishankar
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Marius Brehler
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc,Uday Bondhugula
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_standard.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_standard.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_standard.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_standard.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_standard_patterns.td,Robert Suderman
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_trigonometric_to_approximation.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_trigonometric_to_approximation.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_trigonometric_to_approximation.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_trigonometric_to_approximation.cc,Tres Popp
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_fuse_linalg.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_fuse_linalg.cc,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_fuse_linalg.cc,Nicolas Vasilache
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_fuse_linalg.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_fuse_linalg.cc,Tres Popp
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_affine.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_affine.cc,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_affine.cc,Prashant Kumar
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_affine.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_affine.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_affine.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_gpu.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_gpu.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lhlo_legalize_to_gpu.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_complex.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_complex.cc,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_complex.cc,Lucy Fox
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_complex.cc,Robert Suderman
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_complex.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_complex.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_complex_patterns.td,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_general_dot.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_general_dot.cc,Ahmed S. Taei
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_general_dot.cc,Lucy Fox
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_general_dot.cc,Mahesh Ravishankar
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_general_dot.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/lower_general_dot.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/materialize_broadcasts_pass.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/materialize_broadcasts_pass.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/mhlo_control_flow_to_scf.cc,Christian Sigg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/mhlo_control_flow_to_scf.cc,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/mhlo_control_flow_to_scf.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/mhlo_fusion.cc,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/mhlo_fusion.cc,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/move_up_dynamic_broadcasts_for_fusion.cc,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/move_up_dynamic_broadcasts_for_fusion.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/optimize_mhlo.cc,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/optimize_mhlo.cc,Robert Suderman
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/optimize_mhlo_pass.cc,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/optimize_mhlo_pass.cc,Lucy Fox
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/optimize_mhlo_pass.cc,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/optimize_mhlo_pass.cc,Robert Suderman
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/optimize_mhlo_pass.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/optimize_mhlo_pass.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/test_infer_shaped_type_pass.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/test_infer_shaped_type_pass.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/transform_unranked_hlo.cc,Chao Xie
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/transform_unranked_hlo.cc,Christian Sigg
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/transform_unranked_hlo.cc,Lucy Fox
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/transform_unranked_hlo.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/unfuse_batch_norm.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/unfuse_batch_norm.cc,Tres Popp
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/unfuse_batch_norm_pass.cc,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/unfuse_batch_norm_pass.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/utils/broadcast_utils.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/utils/broadcast_utils.cc,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/lib/utils/broadcast_utils.cc,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/lib/utils/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/lib/utils/convert_op_folder.cc,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/lib/utils/convert_op_folder.cc,River Riddle
+./tensorflow/compiler/mlir/hlo/lib/utils/convert_op_folder.cc,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/lib/utils/hlo_utils.cc,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/lib/utils/hlo_utils.cc,Prakalp Srivastava
+./tensorflow/compiler/mlir/hlo/lib/utils/hlo_utils.cc,Richard Uhler
+./tensorflow/compiler/mlir/hlo/README.md,Kazuaki Ishizaki
+./tensorflow/compiler/mlir/hlo/README.md,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/tests/legalize-control-flow.mlir,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tests/legalize-control-flow.mlir,Geoffrey Martin-Noble
+./tensorflow/compiler/mlir/hlo/tests/BUILD,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tests/BUILD,Wenhao Jia
+./tensorflow/compiler/mlir/hlo/tests/canonicalize.mlir,Andy Ly
+./tensorflow/compiler/mlir/hlo/tests/canonicalize.mlir,Hanhan Wang
+./tensorflow/compiler/mlir/hlo/tests/canonicalize.mlir,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/tests/canonicalize.mlir,Phoenix Meadowlark
+./tensorflow/compiler/mlir/hlo/tests/canonicalize.mlir,Thomas Joerg
+./tensorflow/compiler/mlir/hlo/tests/chlo_legalize_to_hlo_broadcasts.mlir,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/tests/chlo_legalize_to_mhlo.mlir,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/tests/chlo_ops.mlir,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/tests/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/tests/convert.mlir,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/tests/convert.mlir,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-gather-to-torch-index-select.mlir,Robert Suderman
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-lhlo-unranked.mlir,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-lhlo-unranked.mlir,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-lhlo-unranked.mlir,Sean Silva
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-lhlo.mlir,Ehsan Toosi
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-lhlo.mlir,Eugene Burmako
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-lhlo.mlir,Sean Silva
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-linalg.mlir,Ahmed S. Taei
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-linalg.mlir,Lei Zhang
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-linalg.mlir,Mahesh Ravishankar
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-linalg.mlir,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/tests/hlo-legalize-to-linalg.mlir,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/tests/legalize-to-std.mlir,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tests/legalize-to-std.mlir,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/tests/legalize-trigonometric-to-approximation.mlir,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/tests/legalize-trigonometric-to-approximation.mlir,Tres Popp
+./tensorflow/compiler/mlir/hlo/tests/legalize_to_scf.mlir,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tests/legalize_to_scf.mlir,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/tests/lhlo-fuse-linalg.mlir,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/tests/lhlo-fuse-linalg.mlir,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/tests/lhlo-fuse-linalg.mlir,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/tests/lhlo-fuse-linalg.mlir,Stella Laurenzo
+./tensorflow/compiler/mlir/hlo/tests/lhlo-fuse-linalg.mlir,Tres Popp
+./tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-select-and-scatter.mlir,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-affine.mlir,Prashant Kumar
+./tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-linalg.mlir,Ahmed S. Taei
+./tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-linalg.mlir,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-linalg.mlir,Eugene Burmako
+./tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-linalg.mlir,Lei Zhang
+./tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-linalg.mlir,Tres Popp
+./tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-linalg.mlir,Uday Bondhugula
+./tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-parallel-loops.mlir,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/tests/lhlo_gpu_ops.mlir,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tests/lhlo_ops.mlir,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/tests/lhlo_ops.mlir,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/tests/lhlo_ops.mlir,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tests/lit.cfg.py,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/tests/lit.site.cfg.py.in,Geoffrey Martin-Noble
+./tensorflow/compiler/mlir/hlo/tests/lit.site.cfg.py.in,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/tests/lower-complex.mlir,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/tests/lower-complex.mlir,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tests/mhlo-fusion.mlir,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/tests/mhlo_infer_shape_type_methods.mlir,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/tests/mhlo_infer_shape_type_methods.mlir,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/tests/mhlo_infer_shape_type_methods.mlir,Tres Popp
+./tensorflow/compiler/mlir/hlo/tests/move_up_dynamic_broadcasts_for_fusion.mlir,Alexander Belyaev
+./tensorflow/compiler/mlir/hlo/tests/ops.mlir,Prakalp Srivastava
+./tensorflow/compiler/mlir/hlo/tests/ops.mlir,Robert Suderman
+./tensorflow/compiler/mlir/hlo/tests/ops.mlir,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/tests/ops.mlir,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/tests/ops.mlir,TensorFlower Gardener
+./tensorflow/compiler/mlir/hlo/tests/ops.mlir,Tim Shen
+./tensorflow/compiler/mlir/hlo/tests/optimize-hlo.mlir,Robert Suderman
+./tensorflow/compiler/mlir/hlo/tests/reduce.mlir,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tests/sink-constants-to-control-flow.mlir,Smit Hinsu
+./tensorflow/compiler/mlir/hlo/tests/unfuse_batch_norm.mlir,Benjamin Kramer
+./tensorflow/compiler/mlir/hlo/tests/unfuse_batch_norm.mlir,Stephan Herhut
+./tensorflow/compiler/mlir/hlo/tests/unfuse_batch_norm.mlir,Tres Popp
+./tensorflow/compiler/mlir/hlo/tests/unfuse_batch_norm.mlir,Uday Bondhugula
+./tensorflow/compiler/mlir/hlo/tools/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/tools/mlir-hlo-opt/CMakeLists.txt,Marius Brehler
+./tensorflow/compiler/mlir/hlo/tools/mlir-hlo-opt/CMakeLists.txt,Mehdi Amini
+./tensorflow/compiler/mlir/hlo/tools/mlir-hlo-opt/mlir-hlo-opt.cpp,Adrian Kuegel
+./tensorflow/compiler/mlir/hlo/tools/mlir-hlo-opt/mlir-hlo-opt.cpp,A. Unique TensorFlower
+./tensorflow/compiler/mlir/hlo/tools/mlir-hlo-opt/mlir-hlo-opt.cpp,Jacques Pienaar
+./tensorflow/compiler/mlir/hlo/tools/mlir-hlo-opt/mlir-hlo-opt.cpp,Rahul Joshi
+./tensorflow/compiler/mlir/hlo/WORKSPACE,Phoenix Meadowlark
+./tensorflow/compiler/mlir/init_mlir.cc,Mehdi Amini
+./tensorflow/compiler/mlir/lite/BUILD,Akshay Modi
+./tensorflow/compiler/mlir/lite/BUILD,Alex Zinenko
+./tensorflow/compiler/mlir/lite/BUILD,Brian Atkinson
+./tensorflow/compiler/mlir/lite/BUILD,Brian Zhao
+./tensorflow/compiler/mlir/lite/BUILD,Jared Duke
+./tensorflow/compiler/mlir/lite/BUILD,Jing Pu
+./tensorflow/compiler/mlir/lite/BUILD,Mihai Maruseac
+./tensorflow/compiler/mlir/lite/BUILD,Nick Kreeger
+./tensorflow/compiler/mlir/lite/BUILD,River Riddle
+./tensorflow/compiler/mlir/lite/BUILD,Russell Power
+./tensorflow/compiler/mlir/lite/BUILD,Sachin Joglekar
+./tensorflow/compiler/mlir/lite/BUILD,Sean Silva
+./tensorflow/compiler/mlir/lite/BUILD,Stella Laurenzo
+./tensorflow/compiler/mlir/lite/BUILD,Thomas Joerg
+./tensorflow/compiler/mlir/lite/BUILD,Wenhao Jia
+./tensorflow/compiler/mlir/lite/BUILD,Yu-Cheng Ling
+./tensorflow/compiler/mlir/lite/common/tfl_pass_config.h,A. Unique TensorFlower
+./tensorflow/compiler/mlir/lite/common/tfl_pass_config.h,Karmel Allison
+./tensorflow/compiler/mlir/lite/common/tfl_pass_config.h,Renjie Liu
+./tensorflow/compiler/mlir/lite/converter_gen.cc,Christian Sigg
+./tensorflow/compiler/mlir/lite/converter_gen.cc,Dmitry Volodin
+./tensorflow/compiler/mlir/lite/converter_gen.cc,Jacques Pienaar
+./tensorflow/compiler/mlir/lite/converter_gen.cc,Suharsh Sivakumar
+./tensorflow/compiler/mlir/lite/converter_gen.cc,TensorFlower Gardener
+./tensorflow/compiler/mlir/lite/emit_error_reporter.cc,Jacques Pienaar
+./tensorflow/compiler/mlir/lite/emit_error_reporter.h,A. Unique TensorFlower
+./tensorflow/compiler/mlir/lite/emit_error_reporter.h,Christian Sigg
+./tensorflow/compiler/mlir/lite/emit_error_reporter.h,River Riddle
+./tensorflow/compiler/mlir/lite/flatbuffer_export.cc,Jae H. Yoo
+./tensorflow/compiler/mlir/lite/flatbuffer_export.cc,Karmel Allison
+./tensorflow/compiler/mlir/lite/flatbuffer_export.cc,Nick Kreeger
+./tensorflow/compiler/mlir/lite/flatbuffer_export.cc,Renjie Liu
+./tensorflow/compiler/mlir/lite/flatbuffer_export.cc,Shlomi Regev
+./tensorflow/compiler/mlir/lite/flatbuffer_export.cc,Suharsh Sivakumar
+./tensorflow/compiler/mlir/lite/flatbuffer_export.cc,Taré Gaskin
+./tensorflow/compiler/mlir/lite/flatbuffer_export.cc,Thai Nguyen
+./tensorflow/compiler/mlir/lite/flatbuffer_export.h,Christian Sigg
+./tensorflow/compiler/mlir/lite/flatbuffer_export.h,River Riddle
+./tensorflow/compiler/mlir/lite/flatbuffer_export.h,Thai Nguyen
+./tensorflow/compiler/mlir/lite/flatbuffer_export_flags.h,Christian Sigg
