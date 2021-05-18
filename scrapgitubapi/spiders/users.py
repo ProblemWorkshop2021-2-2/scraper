@@ -6,7 +6,6 @@ import scrapy
 from scrapgitubapi.data.datanotfoundurl import DataNotFoundUrl
 from scrapgitubapi.data.datauser import DataUser
 from scrapgitubapi.table.TableUsers import TableUsers
-from scrapgitubapi.util.cache import Cache
 
 
 class UsersSpider(scrapy.Spider):
@@ -59,8 +58,8 @@ class UsersSpider(scrapy.Spider):
             self.table_users.write(id, login, site_admin, type, name, email, hireable)
 
             nu = self.next_url
-            while Cache.is_cached(nu):
-                nu = self.next_url
+            # while Cache.is_cached(nu):
+            #    nu = self.next_url
             if not nu is None:
                 yield scrapy.Request(url=nu, callback=self.parse)
             return None
