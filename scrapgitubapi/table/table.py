@@ -5,17 +5,23 @@ from scrapgitubapi.util import Config, Util
 
 class Table:
 
-    def __init__(self, file):
+    def __init__(self, file, _delimiter=','):
         self.filePath = f"{Config.working_directory()}/data/{file}.csv"
         Util.mkdir(self.filePath)
         self.file = open(self.filePath, 'w')
+        self.delimiter = _delimiter
         self._write_list_as_line(self.get_columns())
-        self.delimiter = ","
+
+    def setDelimiter(self, _delimiter: str):
+        self.delimiter = _delimiter
+
+    def getDelimiter(self) -> str:
+        return self.delimiter
 
     def _joint_list(self, list: List[str]) -> str:
         joined = ""
         for x in list:
-            joined += f"{self.delimiter}{x}"
+            joined += f"{self.getDelimiter()}{x}"
         joined = joined[1:len(joined)]
         return joined
 

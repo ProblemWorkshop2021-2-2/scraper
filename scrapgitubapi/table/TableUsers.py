@@ -6,7 +6,8 @@ from scrapgitubapi.table.table import Table
 class TableUsers(Table):
 
     def __init__(self):
-        super().__init__("users")
+        super().__init__("users", _delimiter="$")
+        self.setDelimiter("$")
 
     def get_columns(self) -> List[str]:
         return ['id', 'login', 'site_admin', 'type', 'name', 'email', 'hireable']

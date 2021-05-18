@@ -22613,3 +22613,627 @@
 ./tensorflow/core/kernels/data/shuffle_dataset_op_test.cc,Gaurav Jain
 ./tensorflow/core/kernels/data/shuffle_dataset_op_test.cc,Rohan Jain
 ./tensorflow/core/kernels/data/shuffle_dataset_op_test.cc,TensorFlower Gardener
+./tensorflow/core/kernels/data/skip_dataset_op.cc,Andrew Audibert
+./tensorflow/core/kernels/data/skip_dataset_op.cc,Brennan Saeta
+./tensorflow/core/kernels/data/skip_dataset_op.cc,TensorFlower Gardener
+./tensorflow/core/kernels/data/skip_dataset_op.h,Fei Hu
+./tensorflow/core/kernels/data/skip_dataset_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/data/skip_dataset_op_test.cc,Gaurav Jain
+./tensorflow/core/kernels/data/skip_dataset_op_test.cc,TensorFlower Gardener
+./tensorflow/core/kernels/data/sparse_tensor_slice_dataset_op.cc,Andrew Audibert
+./tensorflow/core/kernels/data/sparse_tensor_slice_dataset_op.cc,Brennan Saeta
+./tensorflow/core/kernels/data/sparse_tensor_slice_dataset_op.cc,Fei Hu
+./tensorflow/core/kernels/data/sparse_tensor_slice_dataset_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/data/sparse_tensor_slice_dataset_op_test.cc,Brian Atkinson
+./tensorflow/core/kernels/data/sparse_tensor_slice_dataset_op_test.cc,Dero Gharibian
+./tensorflow/core/kernels/data/sparse_tensor_slice_dataset_op_test.cc,Gaurav Jain
+./tensorflow/core/kernels/data/sparse_tensor_slice_dataset_op_test.cc,Rohan Jain
+./tensorflow/core/kernels/data/sparse_tensor_slice_dataset_op_test.cc,Shivani Agrawal
+./tensorflow/core/kernels/data/take_dataset_op.h,Andrew Audibert
+./tensorflow/core/kernels/data/take_dataset_op.h,Rachel Lim
+./tensorflow/core/kernels/data/take_dataset_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/data/take_dataset_op_test.cc,TensorFlower Gardener
+./tensorflow/core/kernels/data/tensor_dataset_op.cc,Andrew Audibert
+./tensorflow/core/kernels/data/tensor_dataset_op.cc,Brennan Saeta
+./tensorflow/core/kernels/data/tensor_dataset_op.h,Fei Hu
+./tensorflow/core/kernels/data/tensor_dataset_op_test.cc,Andrew Audibert
+./tensorflow/core/kernels/data/tensor_dataset_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/data/tensor_dataset_op_test.cc,Brian Atkinson
+./tensorflow/core/kernels/data/tensor_dataset_op_test.cc,Dero Gharibian
+./tensorflow/core/kernels/data/tensor_dataset_op_test.cc,Gaurav Jain
+./tensorflow/core/kernels/data/tensor_dataset_op_test.cc,Rachel Lim
+./tensorflow/core/kernels/data/tensor_dataset_op_test.cc,Rohan Jain
+./tensorflow/core/kernels/data/tensor_dataset_op_test.cc,TensorFlower Gardener
+./tensorflow/core/kernels/data/tensor_slice_dataset_op.cc,TensorFlower Gardener
+./tensorflow/core/kernels/data/tensor_slice_dataset_op.h,Fei Hu
+./tensorflow/core/kernels/data/tensor_slice_dataset_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/data/tensor_slice_dataset_op_test.cc,Brian Atkinson
+./tensorflow/core/kernels/data/tensor_slice_dataset_op_test.cc,Bryan Cutler
+./tensorflow/core/kernels/data/tensor_slice_dataset_op_test.cc,Dero Gharibian
+./tensorflow/core/kernels/data/tensor_slice_dataset_op_test.cc,Rachel Lim
+./tensorflow/core/kernels/data/tensor_slice_dataset_op_test.cc,Rohan Jain
+./tensorflow/core/kernels/data/tensor_slice_dataset_op_test.cc,Shivani Agrawal
+./tensorflow/core/kernels/data/text_line_dataset_op.cc,Andrew Audibert
+./tensorflow/core/kernels/data/text_line_dataset_op.cc,Fei Hu
+./tensorflow/core/kernels/data/text_line_dataset_op.cc,Jiho Choi
+./tensorflow/core/kernels/data/text_line_dataset_op.h,Fei Hu
+./tensorflow/core/kernels/data/text_line_dataset_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/data/text_line_dataset_op_test.cc,Brian Atkinson
+./tensorflow/core/kernels/data/tf_record_dataset_op.cc,Allen Wang
+./tensorflow/core/kernels/data/tf_record_dataset_op.cc,Andrew Audibert
+./tensorflow/core/kernels/data/tf_record_dataset_op.cc,Fei Hu
+./tensorflow/core/kernels/data/tf_record_dataset_op.cc,Jiho Choi
+./tensorflow/core/kernels/data/tf_record_dataset_op.h,Fei Hu
+./tensorflow/core/kernels/data/tf_record_dataset_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/data/tf_record_dataset_op_test.cc,Dero Gharibian
+./tensorflow/core/kernels/data/tf_record_dataset_op_test.cc,Michael Kuchnik
+./tensorflow/core/kernels/data/tf_record_dataset_op_test.cc,TensorFlower Gardener
+./tensorflow/core/kernels/data/tf_record_dataset_op_test.cc,zilinzhu
+./tensorflow/core/kernels/data/unbounded_thread_pool.cc,Derek Murray
+./tensorflow/core/kernels/data/unbounded_thread_pool.cc,Gunhan Gulsoy
+./tensorflow/core/kernels/data/unbounded_thread_pool.h,Derek Murray
+./tensorflow/core/kernels/data/unbounded_thread_pool.h,Gunhan Gulsoy
+./tensorflow/core/kernels/data/unbounded_thread_pool.h,TensorFlower Gardener
+./tensorflow/core/kernels/data/unbounded_thread_pool_test.cc,Derek Murray
+./tensorflow/core/kernels/data/window_dataset.cc,Andrew Audibert
+./tensorflow/core/kernels/data/window_dataset.cc,Brennan Saeta
+./tensorflow/core/kernels/data/window_dataset.cc,Shivani Agrawal
+./tensorflow/core/kernels/data/window_dataset.h,Sanjoy Das
+./tensorflow/core/kernels/data/window_dataset_op.cc,Dero Gharibian
+./tensorflow/core/kernels/data/window_dataset_op.cc,Pariksheet
+./tensorflow/core/kernels/data/window_dataset_op.cc,Rohan Jain
+./tensorflow/core/kernels/data/window_dataset_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/data/window_dataset_op_test.cc,Brian Atkinson
+./tensorflow/core/kernels/data/window_dataset_op_test.cc,Gaurav Jain
+./tensorflow/core/kernels/data/window_dataset_op_test.cc,Rohan Jain
+./tensorflow/core/kernels/data/zip_dataset_op.cc,Andrew Audibert
+./tensorflow/core/kernels/data/zip_dataset_op.cc,Brennan Saeta
+./tensorflow/core/kernels/data/zip_dataset_op.cc,TensorFlower Gardener
+./tensorflow/core/kernels/data/zip_dataset_op.h,Fei Hu
+./tensorflow/core/kernels/data/zip_dataset_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/data/zip_dataset_op_test.cc,Rachel Lim
+./tensorflow/core/kernels/data_format_ops.cc,Deven Desai
+./tensorflow/core/kernels/data_format_ops.cc,Jingyue Wu
+./tensorflow/core/kernels/data_format_ops.h,Kaixi Hou
+./tensorflow/core/kernels/data_format_ops.h,TensorFlower Gardener
+./tensorflow/core/kernels/data_format_ops_gpu.cu.cc,Deven Desai
+./tensorflow/core/kernels/debug_ops.cc,Andrew Harp
+./tensorflow/core/kernels/debug_ops.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/debug_ops.cc,Benoit Steiner
+./tensorflow/core/kernels/debug_ops.cc,Deven Desai
+./tensorflow/core/kernels/debug_ops.cc,Luke Iwanski
+./tensorflow/core/kernels/debug_ops.cc,Maciek Chociej
+./tensorflow/core/kernels/debug_ops.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/debug_ops.cc,Sanjoy Das
+./tensorflow/core/kernels/debug_ops.h,Akshay Modi
+./tensorflow/core/kernels/debug_ops.h,Artem Belevich
+./tensorflow/core/kernels/debug_ops.h,Asim Shankar
+./tensorflow/core/kernels/debug_ops.h,Derek Murray
+./tensorflow/core/kernels/debug_ops.h,Deven Desai
+./tensorflow/core/kernels/debug_ops.h,Justin Lebar
+./tensorflow/core/kernels/debug_ops.h,Kazuaki Ishizaki
+./tensorflow/core/kernels/debug_ops.h,Patrick Nguyen
+./tensorflow/core/kernels/debug_ops.h,Rasmus Munk Larsen
+./tensorflow/core/kernels/debug_ops.h,Sanjoy Das
+./tensorflow/core/kernels/debug_ops.h,Xiaoqiang Zheng
+./tensorflow/core/kernels/debug_ops_gpu.cu.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/debug_ops_test.cc,Brian Atkinson
+./tensorflow/core/kernels/debug_ops_test.cc,Dero Gharibian
+./tensorflow/core/kernels/debug_ops_test.cc,Jonathan Hseu
+./tensorflow/core/kernels/debug_ops_test.cc,Peter Hawkins
+./tensorflow/core/kernels/decode_compressed_op.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/decode_compressed_op.cc,Derek Murray
+./tensorflow/core/kernels/decode_csv_op.cc,Andrew Harp
+./tensorflow/core/kernels/decode_csv_op.cc,David G. Andersen
+./tensorflow/core/kernels/decode_csv_op.cc,Derek Murray
+./tensorflow/core/kernels/decode_csv_op.cc,Dero Gharibian
+./tensorflow/core/kernels/decode_csv_op.cc,Eugene Brevdo
+./tensorflow/core/kernels/decode_csv_op.cc,Frank Chen
+./tensorflow/core/kernels/decode_csv_op.cc,Jianmin Chen
+./tensorflow/core/kernels/decode_csv_op.cc,Vijay Vasudevan
+./tensorflow/core/kernels/decode_padded_raw_op.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/decode_padded_raw_op.cc,Dero Gharibian
+./tensorflow/core/kernels/decode_padded_raw_op.cc,Mihai Maruseac
+./tensorflow/core/kernels/decode_proto_op.cc,Zhuo Peng
+./tensorflow/core/kernels/decode_raw_op.cc,Derek Murray
+./tensorflow/core/kernels/decode_raw_op.cc,Dero Gharibian
+./tensorflow/core/kernels/decode_raw_op.cc,Eugene Brevdo
+./tensorflow/core/kernels/decode_raw_op.cc,Geoffrey Irving
+./tensorflow/core/kernels/decode_raw_op.cc,Hoeseong Kim
+./tensorflow/core/kernels/decode_raw_op.cc,Jonathan Hseu
+./tensorflow/core/kernels/decode_raw_op.cc,namrata-ibm
+./tensorflow/core/kernels/decode_raw_op.cc,TensorFlower Gardener
+./tensorflow/core/kernels/decode_raw_op.cc,Vijay Vasudevan
+./tensorflow/core/kernels/decode_raw_op.cc,Yuefeng Zhou
+./tensorflow/core/kernels/decode_wav_op.cc,Derek Murray
+./tensorflow/core/kernels/decode_wav_op.cc,Dero Gharibian
+./tensorflow/core/kernels/decode_wav_op.cc,Pete Warden
+./tensorflow/core/kernels/decode_wav_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/decode_wav_op_test.cc,Dero Gharibian
+./tensorflow/core/kernels/decode_wav_op_test.cc,Frank Chen
+./tensorflow/core/kernels/decode_wav_op_test.cc,Pete Warden
+./tensorflow/core/kernels/deep_conv2d.cc,Gaurav Jain
+./tensorflow/core/kernels/deep_conv2d.cc,Jonathan Hseu
+./tensorflow/core/kernels/deep_conv2d.cc,Pedro Monreal
+./tensorflow/core/kernels/deep_conv2d.cc,TensorFlower Gardener
+./tensorflow/core/kernels/deep_conv2d_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/dense_update_functor.cc,Dero Gharibian
+./tensorflow/core/kernels/dense_update_functor.cc,Deven Desai
+./tensorflow/core/kernels/dense_update_functor.h,Sanjoy Das
+./tensorflow/core/kernels/dense_update_functor.h,Vijay Vasudevan
+./tensorflow/core/kernels/dense_update_functor_gpu.cu.cc,Alexandre Passos
+./tensorflow/core/kernels/dense_update_functor_gpu.cu.cc,Brian Patton
+./tensorflow/core/kernels/dense_update_functor_gpu.cu.cc,Deven Desai
+./tensorflow/core/kernels/dense_update_functor_gpu.cu.cc,Mihai Maruseac
+./tensorflow/core/kernels/dense_update_functor_gpu.cu.cc,Robin Richtsfeld
+./tensorflow/core/kernels/dense_update_functor_gpu.cu.cc,TensorFlower Gardener
+./tensorflow/core/kernels/dense_update_functor_gpu.cu.cc,Tomasz Strejczek
+./tensorflow/core/kernels/dense_update_ops.cc,Ben Lee
+./tensorflow/core/kernels/dense_update_ops.cc,Benoit Steiner
+./tensorflow/core/kernels/dense_update_ops.cc,Deven Desai
+./tensorflow/core/kernels/dense_update_ops.cc,Jonathan Hseu
+./tensorflow/core/kernels/dense_update_ops.cc,Kazuaki Ishizaki
+./tensorflow/core/kernels/dense_update_ops.cc,Sanjoy Das
+./tensorflow/core/kernels/dense_update_ops.cc,Vijay Vasudevan
+./tensorflow/core/kernels/depthtospace_op.cc,Deven Desai
+./tensorflow/core/kernels/depthtospace_op.cc,Dong Lin
+./tensorflow/core/kernels/depthtospace_op.cc,Suharsh Sivakumar
+./tensorflow/core/kernels/depthtospace_op.cc,TensorFlower Gardener
+./tensorflow/core/kernels/depthtospace_op.cc,Yong Tang
+./tensorflow/core/kernels/depthtospace_op_gpu.cu.cc,Deven Desai
+./tensorflow/core/kernels/depthtospace_op_gpu.cu.cc,Frank Chen
+./tensorflow/core/kernels/depthtospace_op_gpu.cu.cc,Mihai Maruseac
+./tensorflow/core/kernels/depthtospace_op_gpu.cu.cc,TensorFlower Gardener
+./tensorflow/core/kernels/depthtospace_op_gpu.cu.cc,Tomasz Strejczek
+./tensorflow/core/kernels/depthwise_conv_grad_op.cc,Anna R
+./tensorflow/core/kernels/depthwise_conv_grad_op.cc,Dero Gharibian
+./tensorflow/core/kernels/depthwise_conv_grad_op.cc,jerryyin
+./tensorflow/core/kernels/depthwise_conv_grad_op.cc,Vijay Vasudevan
+./tensorflow/core/kernels/depthwise_conv_op.cc,Andrew Harp
+./tensorflow/core/kernels/depthwise_conv_op.cc,Anna R
+./tensorflow/core/kernels/depthwise_conv_op.cc,Brian Patton
+./tensorflow/core/kernels/depthwise_conv_op.cc,Dero Gharibian
+./tensorflow/core/kernels/depthwise_conv_op.cc,jerryyin
+./tensorflow/core/kernels/depthwise_conv_op.cc,Josh Levenberg
+./tensorflow/core/kernels/depthwise_conv_op.cc,Kazuaki Ishizaki
+./tensorflow/core/kernels/depthwise_conv_op.cc,Manjunath Kudlur
+./tensorflow/core/kernels/depthwise_conv_op.cc,Shanqing Cai
+./tensorflow/core/kernels/depthwise_conv_op.cc,Yangzihao Wang
+./tensorflow/core/kernels/depthwise_conv_op.h,Ilya Tokar
+./tensorflow/core/kernels/depthwise_conv_op.h,jerryyin
+./tensorflow/core/kernels/depthwise_conv_op.h,Kazuaki Ishizaki
+./tensorflow/core/kernels/depthwise_conv_op.h,Sanjoy Das
+./tensorflow/core/kernels/depthwise_conv_ops_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/depthwise_conv_ops_test.cc,Brian Atkinson
+./tensorflow/core/kernels/depthwise_conv_ops_test.cc,Deven Desai
+./tensorflow/core/kernels/depthwise_conv_op_gpu.h,Deven Desai
+./tensorflow/core/kernels/depthwise_conv_op_gpu.h,Meteorix
+./tensorflow/core/kernels/depthwise_conv_op_gpu.h,Reed Wanderman-Milne
+./tensorflow/core/kernels/depthwise_conv_op_gpu.h,ThisIsIsaac
+./tensorflow/core/kernels/depthwise_conv_op_gpu_double.cu.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/depthwise_conv_op_gpu_double.cu.cc,jerryyin
+./tensorflow/core/kernels/depthwise_conv_op_gpu_float.cu.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/depthwise_conv_op_gpu_float.cu.cc,jerryyin
+./tensorflow/core/kernels/dequantize_op.cc,Anna R
+./tensorflow/core/kernels/dequantize_op.cc,leslie-fang-intel
+./tensorflow/core/kernels/dequantize_op.cc,Mihai Maruseac
+./tensorflow/core/kernels/dequantize_op.cc,Zhuoran Liu
+./tensorflow/core/kernels/dequantize_op_test.cc,Anna R
+./tensorflow/core/kernels/dequantize_op_test.cc,Gunhan Gulsoy
+./tensorflow/core/kernels/dequantize_op_test.cc,Zhuoran Liu
+./tensorflow/core/kernels/deserialize_sparse_string_op.cc,Ben Barsdell
+./tensorflow/core/kernels/deserialize_sparse_variant_op.cc,Derek Murray
+./tensorflow/core/kernels/diag_op.cc,Akshay Modi
+./tensorflow/core/kernels/diag_op.cc,Benoit Steiner
+./tensorflow/core/kernels/diag_op.cc,Derek Murray
+./tensorflow/core/kernels/diag_op.cc,Eugene Brevdo
+./tensorflow/core/kernels/diag_op.cc,Gaurav Jain
+./tensorflow/core/kernels/diag_op.cc,jerryyin
+./tensorflow/core/kernels/diag_op.cc,Josh Levenberg
+./tensorflow/core/kernels/diag_op.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/diag_op.h,Jinze Bai
+./tensorflow/core/kernels/diag_op.h,Rasmus Munk Larsen
+./tensorflow/core/kernels/diag_op_gpu.cu.cc,Akshay Modi
+./tensorflow/core/kernels/diag_op_gpu.cu.cc,Benoit Steiner
+./tensorflow/core/kernels/diag_op_gpu.cu.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/diag_op_gpu.cu.cc,TensorFlower Gardener
+./tensorflow/core/kernels/diag_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/diag_op_test.cc,Jinze Bai
+./tensorflow/core/kernels/diag_op_test.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/dilation_ops.cc,Anna R
+./tensorflow/core/kernels/dilation_ops.cc,Deven Desai
+./tensorflow/core/kernels/dilation_ops.cc,Mihai Maruseac
+./tensorflow/core/kernels/dilation_ops.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/dilation_ops.h,A. Unique TensorFlower
+./tensorflow/core/kernels/dilation_ops_gpu.cu.cc,Deven Desai
+./tensorflow/core/kernels/dilation_ops_gpu.cu.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/dilation_ops_gpu.cu.cc,ThisIsIsaac
+./tensorflow/core/kernels/dynamic_partition_op.cc,Geoffrey Irving
+./tensorflow/core/kernels/dynamic_partition_op.cc,Olivia Nordquist
+./tensorflow/core/kernels/dynamic_partition_op.cc,Pedro Monreal
+./tensorflow/core/kernels/dynamic_partition_op.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/dynamic_partition_op.cc,Vijay Vasudevan
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,Ben Barsdell
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,Derek Murray
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,ekuznetsov139
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,Eugene Kuznetsov
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,Gaurav Jain
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,Justin Lebar
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,Mihai Maruseac
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,Sanjoy Das
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,Shanqing Cai
+./tensorflow/core/kernels/dynamic_partition_op_gpu.cu.cc,ThisIsIsaac
+./tensorflow/core/kernels/dynamic_partition_op_test.cc,Gaurav Jain
+./tensorflow/core/kernels/dynamic_partition_op_test.cc,Martin Wicke
+./tensorflow/core/kernels/dynamic_partition_op_test.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/dynamic_stitch_op.cc,Allen Lavoie
+./tensorflow/core/kernels/dynamic_stitch_op.cc,David G. Andersen
+./tensorflow/core/kernels/dynamic_stitch_op.cc,Gaurav Jain
+./tensorflow/core/kernels/dynamic_stitch_op.cc,Geoffrey Irving
+./tensorflow/core/kernels/dynamic_stitch_op.cc,Josh Levenberg
+./tensorflow/core/kernels/dynamic_stitch_op.cc,Kazuaki Ishizaki
+./tensorflow/core/kernels/dynamic_stitch_op.cc,Sanjoy Das
+./tensorflow/core/kernels/dynamic_stitch_op.cc,TensorFlower Gardener
+./tensorflow/core/kernels/dynamic_stitch_op.cc,Wen-Heng (Jack) Chung
+./tensorflow/core/kernels/dynamic_stitch_op_test.cc,Gaurav Jain
+./tensorflow/core/kernels/dynamic_stitch_op_test.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/edit_distance_op.cc,David G. Andersen
+./tensorflow/core/kernels/edit_distance_op.cc,Eugene Brevdo
+./tensorflow/core/kernels/edit_distance_op.cc,Mihai Maruseac
+./tensorflow/core/kernels/eigen_activations.h,Benoit Steiner
+./tensorflow/core/kernels/eigen_activations.h,Rasmus Munk Larsen
+./tensorflow/core/kernels/eigen_activations.h,Sanjoy Das
+./tensorflow/core/kernels/eigen_activations_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/eigen_activations_test.cc,Benoit Steiner
+./tensorflow/core/kernels/eigen_activations_test.cc,Eugene Zhulenev
+./tensorflow/core/kernels/eigen_activations_test.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/eigen_attention.h,A. Unique TensorFlower
+./tensorflow/core/kernels/eigen_attention.h,Benoit Steiner
+./tensorflow/core/kernels/eigen_attention.h,Jonathan Hseu
+./tensorflow/core/kernels/eigen_attention.h,Rasmus Munk Larsen
+./tensorflow/core/kernels/eigen_attention.h,Sanjoy Das
+./tensorflow/core/kernels/eigen_attention.h,Shanqing Cai
+./tensorflow/core/kernels/eigen_attention.h,TensorFlower Gardener
+./tensorflow/core/kernels/eigen_attention_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/eigen_attention_test.cc,Benoit Steiner
+./tensorflow/core/kernels/eigen_attention_test.cc,Eugene Zhulenev
+./tensorflow/core/kernels/eigen_attention_test.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/eigen_backward_cuboid_convolutions.h,Benoit Steiner
+./tensorflow/core/kernels/eigen_backward_cuboid_convolutions.h,Sanjoy Das
+./tensorflow/core/kernels/eigen_backward_cuboid_convolutions_test.cc,Brian Atkinson
+./tensorflow/core/kernels/eigen_backward_spatial_convolutions.h,Adam Richter
+./tensorflow/core/kernels/eigen_backward_spatial_convolutions.h,Rasmus Munk Larsen
+./tensorflow/core/kernels/eigen_backward_spatial_convolutions.h,Sanjoy Das
+./tensorflow/core/kernels/eigen_backward_spatial_convolutions_test.cc,Benoit Steiner
+./tensorflow/core/kernels/eigen_backward_spatial_convolutions_test.cc,Brian Atkinson
+./tensorflow/core/kernels/eigen_backward_spatial_convolutions_test.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/eigen_benchmark.h,A. Unique TensorFlower
+./tensorflow/core/kernels/eigen_contraction_kernel.cc,Eugene Zhulenev
+./tensorflow/core/kernels/eigen_contraction_kernel.cc,George Karpenkov
+./tensorflow/core/kernels/eigen_contraction_kernel.cc,jerryyin
+./tensorflow/core/kernels/eigen_contraction_kernel.cc,TensorFlower Gardener
+./tensorflow/core/kernels/eigen_contraction_kernel.h,jerryyin
+./tensorflow/core/kernels/eigen_contraction_kernel.h,Kazuaki Ishizaki
+./tensorflow/core/kernels/eigen_contraction_kernel.h,Mark Ryan
+./tensorflow/core/kernels/eigen_contraction_kernel.h,TensorFlower Gardener
+./tensorflow/core/kernels/eigen_cuboid_convolution.h,Anuj Rawat
+./tensorflow/core/kernels/eigen_cuboid_convolution.h,Kazuaki Ishizaki
+./tensorflow/core/kernels/eigen_cuboid_convolution.h,Maxiwell S. Garcia
+./tensorflow/core/kernels/eigen_cuboid_convolution.h,Sanjoy Das
+./tensorflow/core/kernels/eigen_cuboid_convolution.h,TensorFlower Gardener
+./tensorflow/core/kernels/eigen_mkldnn_contraction_kernel_test.cc,Penporn Koanantakool
+./tensorflow/core/kernels/eigen_pooling.h,Brian Patton
+./tensorflow/core/kernels/eigen_pooling.h,Dandelion Mané
+./tensorflow/core/kernels/eigen_pooling.h,Deven Desai
+./tensorflow/core/kernels/eigen_pooling.h,Martin Wicke
+./tensorflow/core/kernels/eigen_pooling.h,Sanjoy Das
+./tensorflow/core/kernels/eigen_pooling.h,TensorFlower Gardener
+./tensorflow/core/kernels/eigen_pooling_test.cc,Benoit Steiner
+./tensorflow/core/kernels/eigen_pooling_test.cc,Eugene Zhulenev
+./tensorflow/core/kernels/eigen_pooling_test.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/eigen_spatial_convolutions-inl.h,A. Unique TensorFlower
+./tensorflow/core/kernels/eigen_spatial_convolutions-inl.h,Kazuaki Ishizaki
+./tensorflow/core/kernels/eigen_spatial_convolutions-inl.h,Maxiwell S. Garcia
+./tensorflow/core/kernels/eigen_spatial_convolutions-inl.h,Reed Wanderman-Milne
+./tensorflow/core/kernels/eigen_spatial_convolutions-inl.h,TensorFlower Gardener
+./tensorflow/core/kernels/eigen_spatial_convolutions.h,Albin Joy
+./tensorflow/core/kernels/eigen_spatial_convolutions.h,Brian Patton
+./tensorflow/core/kernels/eigen_spatial_convolutions.h,Penporn Koanantakool
+./tensorflow/core/kernels/eigen_spatial_convolutions.h,Peter Hawkins
+./tensorflow/core/kernels/eigen_spatial_convolutions.h,Sanjoy Das
+./tensorflow/core/kernels/eigen_spatial_convolutions_test.cc,Benoit Steiner
+./tensorflow/core/kernels/eigen_spatial_convolutions_test.cc,Illia Polosukhin
+./tensorflow/core/kernels/eigen_spatial_convolutions_test.cc,Mahmoud Abuzaina
+./tensorflow/core/kernels/eigen_spatial_convolutions_test.cc,Mark Ryan
+./tensorflow/core/kernels/eigen_spatial_convolutions_test.cc,Siju Samuel
+./tensorflow/core/kernels/eigen_spatial_convolutions_test.cc,TensorFlower Gardener
+./tensorflow/core/kernels/encode_proto_op.cc,Eugene Brevdo
+./tensorflow/core/kernels/encode_proto_op.cc,Pariksheet Pinjari
+./tensorflow/core/kernels/encode_wav_op.cc,Dero Gharibian
+./tensorflow/core/kernels/encode_wav_op.cc,Pete Warden
+./tensorflow/core/kernels/encode_wav_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/encode_wav_op_test.cc,Pete Warden
+./tensorflow/core/kernels/encode_wav_op_test.cc,Skye Wanderman-Milne
+./tensorflow/core/kernels/example_parsing_ops.cc,Brian Zhao
+./tensorflow/core/kernels/example_parsing_ops.cc,Geoffrey Irving
+./tensorflow/core/kernels/example_parsing_ops.cc,George Karpenkov
+./tensorflow/core/kernels/example_parsing_ops.cc,Josh Levenberg
+./tensorflow/core/kernels/example_parsing_ops.cc,Patrik Sundberg
+./tensorflow/core/kernels/example_parsing_ops.cc,Peter Hawkins
+./tensorflow/core/kernels/example_parsing_ops.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/example_parsing_ops.cc,Vijay Vasudevan
+./tensorflow/core/kernels/example_parsing_ops_test.cc,Changming Sun
+./tensorflow/core/kernels/example_parsing_ops_test.cc,Gaurav Jain
+./tensorflow/core/kernels/example_parsing_ops_test.cc,George Karpenkov
+./tensorflow/core/kernels/fact_op.cc,Andrew Harp
+./tensorflow/core/kernels/fact_op.cc,Dero Gharibian
+./tensorflow/core/kernels/fact_op.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/fake_quant_ops.cc,Artem Mavrin
+./tensorflow/core/kernels/fake_quant_ops.cc,Jeffrey Poznanovic
+./tensorflow/core/kernels/fake_quant_ops.cc,Raghuraman Krishnamoorthi
+./tensorflow/core/kernels/fake_quant_ops.cc,Suharsh Sivakumar
+./tensorflow/core/kernels/fake_quant_ops_functor.h,Pete Warden
+./tensorflow/core/kernels/fake_quant_ops_functor.h,Raghuraman Krishnamoorthi
+./tensorflow/core/kernels/fake_quant_ops_functor.h,Sanjoy Das
+./tensorflow/core/kernels/fake_quant_ops_test.cc,Brian Atkinson
+./tensorflow/core/kernels/fake_quant_ops_test.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/fft_ops.cc,Ben Barsdell
+./tensorflow/core/kernels/fft_ops.cc,Deven Desai
+./tensorflow/core/kernels/fft_ops.cc,George Karpenkov
+./tensorflow/core/kernels/fft_ops.cc,Jonathan Hseu
+./tensorflow/core/kernels/fft_ops.cc,Justin Lebar
+./tensorflow/core/kernels/fft_ops.cc,Sanjoy Das
+./tensorflow/core/kernels/fft_ops.cc,TensorFlower Gardener
+./tensorflow/core/kernels/fft_ops.cc,Tim Shen
+./tensorflow/core/kernels/fft_ops.cc,Yangzihao Wang
+./tensorflow/core/kernels/fifo_queue.cc,David G. Andersen
+./tensorflow/core/kernels/fifo_queue.cc,Geoffrey Irving
+./tensorflow/core/kernels/fifo_queue.cc,Jiri Simsa
+./tensorflow/core/kernels/fifo_queue.cc,Martin Wicke
+./tensorflow/core/kernels/fifo_queue.h,David G. Andersen
+./tensorflow/core/kernels/fifo_queue.h,Gaurav Jain
+./tensorflow/core/kernels/fifo_queue.h,Peter Hawkins
+./tensorflow/core/kernels/fifo_queue.h,Vijay Vasudevan
+./tensorflow/core/kernels/fifo_queue_op.cc,Allen Lavoie
+./tensorflow/core/kernels/fifo_queue_op.cc,Eugene Brevdo
+./tensorflow/core/kernels/fifo_queue_op.cc,Peter Hawkins
+./tensorflow/core/kernels/fill_functor.cc,Andrew Harp
+./tensorflow/core/kernels/fill_functor.cc,Dero Gharibian
+./tensorflow/core/kernels/fill_functor.cc,Jonathan Hseu
+./tensorflow/core/kernels/fill_functor.cc,Patrick Nguyen
+./tensorflow/core/kernels/fill_functor.cc,Raghuraman Krishnamoorthi
+./tensorflow/core/kernels/fill_functor.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/fill_functor.cc,Saurabh Saxena
+./tensorflow/core/kernels/fill_functor.cc,Suharsh Sivakumar
+./tensorflow/core/kernels/fill_functor.cu.cc,Brian Patton
+./tensorflow/core/kernels/fill_functor.cu.cc,Eugene Zhulenev
+./tensorflow/core/kernels/fill_functor.cu.cc,Raghuraman Krishnamoorthi
+./tensorflow/core/kernels/fill_functor.cu.cc,Revan Sopher
+./tensorflow/core/kernels/fill_functor.h,Dero Gharibian
+./tensorflow/core/kernels/fill_functor.h,Sanjoy Das
+./tensorflow/core/kernels/fill_functor.h,Suharsh Sivakumar
+./tensorflow/core/kernels/fill_functor.h,Vijay Vasudevan
+./tensorflow/core/kernels/fingerprint_op.cc,Rohan Jain
+./tensorflow/core/kernels/fingerprint_op.cc,Sung Jin Hwang
+./tensorflow/core/kernels/fingerprint_op_test.cc,Brian Atkinson
+./tensorflow/core/kernels/fingerprint_op_test.cc,Gaurav Jain
+./tensorflow/core/kernels/fingerprint_op_test.cc,Rohan Jain
+./tensorflow/core/kernels/fingerprint_op_test.cc,Sung Jin Hwang
+./tensorflow/core/kernels/fixed_length_record_reader_op.cc,Benoit Steiner
+./tensorflow/core/kernels/fixed_length_record_reader_op.cc,Dero Gharibian
+./tensorflow/core/kernels/fixed_length_record_reader_op.cc,Jonathan Hseu
+./tensorflow/core/kernels/fixed_length_record_reader_op.cc,Josh Levenberg
+./tensorflow/core/kernels/fixed_length_record_reader_op.cc,Martin Wicke
+./tensorflow/core/kernels/fractional_avg_pool_op.cc,Asim Shankar
+./tensorflow/core/kernels/fractional_avg_pool_op.cc,Laura Pak
+./tensorflow/core/kernels/fractional_avg_pool_op.cc,Mihai Maruseac
+./tensorflow/core/kernels/fractional_avg_pool_op.cc,Pedro Monreal
+./tensorflow/core/kernels/fractional_avg_pool_op.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/fractional_max_pool_op.cc,Mihai Maruseac
+./tensorflow/core/kernels/fractional_pool_common.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/fractional_pool_common.h,elilienstein
+./tensorflow/core/kernels/function_ops.cc,Akshay Modi
+./tensorflow/core/kernels/function_ops.cc,Andrew Harp
+./tensorflow/core/kernels/function_ops.cc,Asim Shankar
+./tensorflow/core/kernels/function_ops.cc,Ayush Dubey
+./tensorflow/core/kernels/function_ops.cc,Frank Chen
+./tensorflow/core/kernels/function_ops.cc,James Qin
+./tensorflow/core/kernels/function_ops.cc,Jiri Simsa
+./tensorflow/core/kernels/function_ops.cc,Jose Baiocchi
+./tensorflow/core/kernels/function_ops.cc,Skye Wanderman-Milne
+./tensorflow/core/kernels/function_ops.cc,Xiao Yu
+./tensorflow/core/kernels/function_ops.h,Derek Murray
+./tensorflow/core/kernels/function_ops.h,Jose Baiocchi
+./tensorflow/core/kernels/fused_batch_norm_ex_op_test.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/fused_batch_norm_ex_op_test.cc,Brian Atkinson
+./tensorflow/core/kernels/fused_batch_norm_ex_op_test.cc,George Karpenkov
+./tensorflow/core/kernels/fused_batch_norm_ex_op_test.cc,Gunhan Gulsoy
+./tensorflow/core/kernels/fused_batch_norm_ex_op_test.cc,Kaixi Hou
+./tensorflow/core/kernels/fused_batch_norm_ex_op_test.cc,TensorFlower Gardener
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Amit Patankar
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Andy Ly
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Benoit Steiner
+./tensorflow/core/kernels/fused_batch_norm_op.cc,fo40225
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Guangda Lai
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Jonathan Hseu
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Mihai Maruseac
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Pedro Monreal
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Raghuraman Krishnamoorthi
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Sanjoy Das
+./tensorflow/core/kernels/fused_batch_norm_op.cc,Yuefeng Zhou
+./tensorflow/core/kernels/fused_batch_norm_op.cu.cc,Dero Gharibian
+./tensorflow/core/kernels/fused_batch_norm_op.cu.cc,Deven Desai
+./tensorflow/core/kernels/fused_batch_norm_op.cu.cc,Patrick Nguyen
+./tensorflow/core/kernels/fused_batch_norm_op.cu.cc,Rasmus Munk Larsen
+./tensorflow/core/kernels/fused_batch_norm_op.cu.cc,Reed Wanderman-Milne
+./tensorflow/core/kernels/fused_batch_norm_op.cu.cc,Shanqing Cai
+./tensorflow/core/kernels/fused_batch_norm_op.cu.cc,Yao Zhang
+./tensorflow/core/kernels/fused_batch_norm_op.cu.cc,Yuxin Wu
+./tensorflow/core/kernels/fused_batch_norm_op.h,Deven Desai
+./tensorflow/core/kernels/fused_batch_norm_op.h,Martin Wicke
+./tensorflow/core/kernels/fused_batch_norm_op.h,Reed Wanderman-Milne
+./tensorflow/core/kernels/fused_batch_norm_op.h,Shanqing Cai
+./tensorflow/core/kernels/fused_batch_norm_op.h,Yao Zhang
+./tensorflow/core/kernels/fused_batch_norm_op.h,Yuxin Wu
+./tensorflow/core/kernels/fused_batch_norm_op_test.cc,Jonathan Hseu
+./tensorflow/core/kernels/fused_batch_norm_op_test.cc,NORTHAMERICAvistepan
+./tensorflow/core/kernels/fused_eigen_output_kernels.cc,A. Unique TensorFlower
+./tensorflow/core/kernels/fused_eigen_output_kernels.cc,Eugene Zhulenev
+./tensorflow/core/kernels/fused_eigen_output_kernels.cc,retonym
+./tensorflow/core/kernels/fused_eigen_output_kernels.cc,yunfeima
+./tensorflow/core/kernels/fused_eigen_output_kernels.h,A. Unique TensorFlower
+./tensorflow/core/kernels/fused_eigen_output_kernels.h,retonym
+./tensorflow/core/kernels/fused_eigen_output_kernels.h,yunfeima
+./tensorflow/core/kernels/fuzzing/BUILD,Frank Chen
+./tensorflow/core/kernels/fuzzing/BUILD,Martin Wicke
+./tensorflow/core/kernels/fuzzing/BUILD,Russell Power
+./tensorflow/core/kernels/fuzzing/BUILD,Wenhao Jia
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/012e3ad384a4a1165f8498b5c94ba0d32a73e187,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/055d77f7810048caa28323f6eb552a53d156040b,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/131e251bfb82c681cb075d32b99f18fceaca115d,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/1399ab0bd9f2c91d270cb43251bdc5729bef3526,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/16a6ce88f66d2e9686c8354cad8ba915cf0c11de,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/185097ed0588195164619ea930ddd8274a5f32ad,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/27711a87e06a50c81571c27c3aa403a6ad5dc55c,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/298c3787ad1722b22569cbc405c464d2,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/2b95ba6d8141ce0d29ff279770903922,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/321fb3d758b86e37fc340ae2b09b8ed9fa73a4cb,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/331a98b4e4c87840efea69223766ebd0e1736542,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/352d73f841223ecb630b5836585d2ba7b0f9d883,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/3ef5cc982c0b45f69a26fd0f7d376415fdebabd1,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/401c7de8e122018a0e17f57c93db7ee49ab0e906,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/52fee71bb8c9c79068e1fe580677ad739a2d0415,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/57b11507813d5727b7789354d888eda83d5f3d86,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/57dff0fa53ee0ef24a43cca6ab0523bfdc1f720d,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/5c42d3df0dc400a7a4175b8d4eec6cc8ee2437b2,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/5cca20637ae75fddad9370ee930837baef8aeb43,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/5d34bc9cef0c844b9c5ebe948145c4ca11b5ca09,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/5e162fe883bd12fb1c4131d4e0c979a12bd15eac,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/5e83f8faab9c1a51a33d5e29edbb9dcec23c6092,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/61b29dc2fcef7b6fbe3e0cc88769a7ef,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/6361eca190157ece389665ee523ccc3aefcd957f,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/656f38ef6dcd58c6a909d61db11f777def69c394,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/66e0d2cafd592bf9d61ad900fade8ee530d5f3d7,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/6b5b42cb105a2c4c5fd6034e9885cbe457f1b50c,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/722ed0197cb92ecbf9745edb38275e7a9aaf322f,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/77bdd2efdf328366cbbf3c5688768dc0a88d02b1,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/7841bfa002c05c61d5a5d9241f214cc17a336166,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/7899e22fc83f6be28e9130c4a1c91a48,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/7dddccaebd16ae0c26daeffc42df50f529891119,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/8157442eee4bbfdd9716e264b11085d61a9955b7,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/81ff28ed63d5435ddc4c8771dd5d40aa658cbbe0,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/820c8c0d33c18f6c4d9edd314e91289186931ad0,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/849e9d7cee1c52105242327086997296e452b981,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/86bc3d5dbb9313137502080e58551edd2e649c70,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/87d94d88fe29d277c76e1a52042b02c092d5ae14,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/8c4646f3357945c4e19a59ff79fffe3c874dbf16,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/90632bc6dee4eb836f3d7db1d16446a9c8510080,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/94d06016aa949e8e7203217e4cc6625ded7f4244,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/9875819b9e5783e7489c29a81cc9d4279209956a,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/9c1cc734114b29aac6c51782d5c17e9dbe1faca2,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/9d2961871eeb201ef8a6f5503d8a8b62,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/9f39e11cdd88344a4894b678e5a04a810880064d,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/a350588a6dabe4376a066aed44ef8786d8e752e7,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/a6101a79919d444e1fc50aefab5837c39e3f4a19,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/a9c8793f8fb063bec839ee1280406fe5396545e5,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/b90b6830917919e94186d312f06481bd,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/b98fd4cb1d7031240414301c19b03097c0035c6b,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/ba976fcdb4daf092ef17ce43bf2b78d9d8bc2aeb,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/bc112b571eafee0f5a031f3c9cce6244216d128d,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/c42b981c28a1715c375050f6fcf53f1d,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/c6049874b33eadb016fccf0c5fa66e556ae069b9,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/c8697bf2369f6ab85f501376c4d93bb8a56974a3,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/c8daf283e0aef2fd7b630c0430e05dc28f24ecf6,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/cacff56e1af4b8fde912822da06b10fb8c545a19,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/ce4dcc22b1d595c49a25121c0b580104,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/d0cd71dbf039fd64cf42eff30da92a71a919226a,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/d5ce626ac3264bed6af5580e341a89406857cbb9,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/d7eb9c5a0f9803df4c00390793b8ab57bd7c9484,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/dc1efccdeec17e151a1ec8228c09ab61c3040b33,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/dcea22c66c60088165a2f1772036473f,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/de539ae7442fa05dafcfe1a021f0186ef74a2b0e,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/e2306b1d6b88d0ccc4e2c3a9edb07462a5a32215,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/e2778da0240fdd15ef5844905d81c4e05f34a8bd,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/e6642e9266875f9d908942e534bf898103a2c794,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/ec6cdb929c08d8daf2bd7fc185fbf4d787b45120,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/ed8636357f79439b6a03eb14469b686cc401a1c9,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/ee313e9acecb5c688ce8c9bb10e70e136fbb9c6d,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/ef689af320e7d9e22231109faae2e8149cb86e1c,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/fda6b9a9f6ffdf4765c00465619c7ceb3f7db2e4,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/ffe829bb0adac20d9c0756f68a22d1255e4fdb54,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/3a84f409d4c117edfdebc508cd23e8fc,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/65150515ab3b11d657519b22bb887d74e94b2d7f,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/84ddb92c63e0fad7018f6069daf8779ce11501e2,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/ad4e9d2234e8599bdf12607c6b8cab4edae82c4e,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_bmp/d77ada02e9bc8c24b2711eca6a8f52ae356bfc21,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_csv/283a87da22c3e0e7cdf53a6828f629254fe53ebb,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_csv/44acc2aba022cada4f6f6745232b6d76749e54a9,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_csv/61317d2434a1af0da4e8ae7cdbd213b23572f9a5,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_csv/7331d2616685f209d090e1ccb83e97a779a96f75,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_csv/a6ef373bd6b4fa6eb22ef1bd2fe48b932c94a688,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_csv/eaf97dfae78a3f435c7f376be52e5c7be203571d,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/013a29ea098a178f8a36741c9fd91144,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/0875575fb76d630ccb19c5da8aab66b2,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/7e7f58fc443a11a0a2c5d9b643b7e99b,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/849a23936269a261c0370b5e9abe2416,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/85282c1696d98b9843ce3e8bd1cd899f,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/90388b9c8093d8adedad0644b618da87,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/9fa2f86ea6d3ade36e961247c3026f8d,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/c4f18ca60a84e9869a28faf6f65dc758,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/d456ee029700adef5d28438593010223,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_json_example/e9f0ff6ee8d691ae69d2ecb4710030a2,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/010dc3d4b05288fcc40de2721052b3dc699f1cb3,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/0555cd5e9d99629819cc985285f80da0f00be1e9,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/0a0352aa168803ff65455792d9f6ee555c3e7c3f,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/0ed54162df93ef8d00f993ce6b59ba422903d381,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/1547b448171c700613c3946d730de496c9b9863f,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/17859046cbe4ac598a645173d679ce2a52c6afba,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/1b0384bc2d5ac42b7425ac51c374f60c,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/1df76c07817fbc3653a26f34d97658e9973627c2,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/1f0717f8856d7782e3ab7992d3a72d783a018443,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/23b911e4ce936def88bc9a46b8b433c0e83fba2a,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/25592201c3edff0578dbdac6b0e4f2be109ce151,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/266fd8495e0b8eb64387c1a62264185e061fee73,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/2a0bdc4d9cc5ea5bb21dd256d6ac96075376a94f,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/2e5d25add6adc68e0457b358c7a34abf3d41c938,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/2e6c5b6a766dd5e9bd41eacfd0a36572bd2f7544,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/2e9c935cf82f6ca640e9a9abc3c30a578ad46176,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/2fcf1ed4477f7eaee028f5b3f9edeb5f1a737826,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/3480713774f590908ca5dba16d121cdfb8fba62b,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/38bd2bd767d0c4ddd531b3893080b952,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/39289afcec60d98802b333e0fbb1da4d7aed4ce5,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/3adc488e21d4aca7bed9422f0241a42d0f93e7d9,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/3cbf274da522483dc991fad9df43a22ac4fb3173,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/3d840cdff7f5ad16fe8bcb985ed4946c03459432,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/3f1e6753c1fca958e859189857449746592158ea,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/4023a373e977be58413e55350380310c5dd1fd6a,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/40caba69dce1cfc48e0e43184d2bfbc6daa4399a,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/41438a3c1c77c64a2f0840a2427f8834,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/41841e9561d8135945c1c1e55ab9e9a1e933653b,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/41d40f2d66fa43e34537385594ee9911e65deadf,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/421bd39810b50309a71adb2dadc3b19f01a52312,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/446c305b2c0665736f94fb2b62dbdef445eff0cf,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/449cee952bb645f6f4241a6665d3c6028c073c7a,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/45520b07609978c5aa3516d803527438b93fbadb,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/4da74a34bcede234b0415f77fbd87d70bf9a777e,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/51db5d31d2c5300d34831d9f23bcdd0aff9a998b,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/5cde2a9167798cb77f10abbfb2640a5c357f99fc,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/27f178cf415b4ff8671131ddf1d042dafac2fb3e,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/3fa4075993cb0f9bfa8eea785174a2038a69aa1b,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/5e352fc10ac476cfbe1d755f092e069820223249,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/83e1a31785285338b0ddb3334b0ed098e63dedde,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/a738609112d3a6772c50a71e2c3504ebc515b709,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/d3bc3f158a63f1d50b474addd3f7b3d17f23e8e9,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/63661677dd1306cec4b5a565190e65adf2446e52,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/65887ed3db382aab1d9485c500f4401318d303b9,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/67b5181f8f0644597e9bde539e8f083b5cacd0e7,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/74c9dcf7afee2a6cb1ab3a2c0de744d1b03c1466,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/792181ca19e6ded261434e588bb7fc2a4816d4ce,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/79f0e2a475487f8fa69e68c1cc947c5851bda741,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/7e5fcdfeb557ce379ed96925c68505eaac0112db,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/7eec7530acf34b3a96fa9189783453999f7b6838,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/80114bf9781bffc9db411413d83541d8deaaf7c1,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/80425fb92bb86627e854892f23823fa804e5fdc3,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/821cdd6eeb919a8dd7f35289abbd583828dd4945,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/8a4c8100dedd0fb5f2a8b468c678f7ad8269deeb,Mihai Maruseac
+./tensorflow/core/kernels/fuzzing/corpus/decode_png/8ae8268c24dc866c1edb3826b93a1c75dbf74ff4,Mihai Maruseac
