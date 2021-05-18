@@ -5,6 +5,7 @@ def main():
     spiders = [
         "githubapi",
         "contributors",
+        'subscribers',
         "users"
     ]
     for spider in spiders:

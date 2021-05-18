@@ -13,3 +13,5 @@ git -C ./tensorflow/ log --pretty=format:'%ce' --abbrev-commit | uniq -u | grep 
 cat ./author_names.txt >tmp_user_names.txt
 cat ./commiter_names.txt >>tmp_user_names.txt
 cat ./tmp_user_names.txt | uniq -u >user_names.txt
+
+git -C ./tensorflow/ ls-files | wc -l >./../files_in_repo.txt
