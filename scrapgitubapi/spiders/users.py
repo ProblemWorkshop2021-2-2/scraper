@@ -42,7 +42,6 @@ class UsersSpider(scrapy.Spider):
 
     def start_requests(self):
         nu = self.next_url
-        print(nu)
         yield scrapy.Request(url=nu, callback=self.parse)
 
     def parse(self, response):
@@ -60,7 +59,6 @@ class UsersSpider(scrapy.Spider):
             self.table_users.write(id, login, site_admin, type, name, email, hireable)
 
             nu = self.next_url
-            print(nu)
             while Cache.is_cached(nu):
                 nu = self.next_url
             if not nu is None:

@@ -76,8 +76,6 @@ class ScrapGithubSpiderDownloaderMiddleware:
         headers = request.headers
         x = f"token {Config.github_token()}"
         request.headers[b'Authorization'] = bytes(x, 'utf-8')
-        # headers[b'Authorization'] = bytes(x, 'utf-8')
-        # print(headers)
         if Cache.is_cached(request.url):
             text = Cache.load_cache(request.url)
             response = TextResponse(request.url, encoding="utf-8", status=200, body=text)
@@ -95,7 +93,6 @@ class ScrapGithubSpiderDownloaderMiddleware:
 
     def process_response(self, request, response, spider):
         # Called with the response returned from the downloader.
-        print(f"process_response: url: {response.url}")
         status_code = int(response.status)
         if status_code == 200:
             Cache.save_to_cache(response.url, response.text)
@@ -111,7 +108,6 @@ class ScrapGithubSpiderDownloaderMiddleware:
 
     def process_exception(self, request, exception, spider):
 
-        print("process_exception")
         # Called when a download handler or a process_request()
         # (from other downloader middleware) raises an exception.
 

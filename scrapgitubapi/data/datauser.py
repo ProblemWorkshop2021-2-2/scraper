@@ -33,10 +33,10 @@ class DataUser(Data):
     @property
     def user_login_list(self) -> List[str]:
         list = self.get_key_default('user_login_list', [])
-        list_from_git_log = self._load_git_log_users()
-        for login in list_from_git_log:
-            if not login in list:
-                list.append(login)
+        # list_from_git_log = self._load_git_log_users()
+        # for login in list_from_git_log:
+        #    if not login in list:
+        #        list.append(login)
         return list
 
     def clear_user_login_list(self):
