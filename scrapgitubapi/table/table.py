@@ -10,11 +10,12 @@ class Table:
         Util.mkdir(self.filePath)
         self.file = open(self.filePath, 'w')
         self._write_list_as_line(self.get_columns())
+        self.delimiter = ","
 
     def _joint_list(self, list: List[str]) -> str:
         joined = ""
         for x in list:
-            joined += f",{x}"
+            joined += f"{self.delimiter}{x}"
         joined = joined[1:len(joined)]
         return joined
 
