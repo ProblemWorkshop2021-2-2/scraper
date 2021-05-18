@@ -39,7 +39,7 @@ class Data:
             json_file.writelines("")
             json_file.close()
 
-    def get_key(self, key: str) -> str:
+    def get_key(self, key: str):
         self.data_load()
         try:
             return self._data[key]
@@ -47,7 +47,6 @@ class Data:
             print(f"Key not defined: {key}")
             raise RuntimeError(f"Key not defined: {key}")
 
-    def set_key(self, key: str, value: str):
-        self.data_load()
+    def set_key(self, key: str, value):
         self._data[key] = value
         self.data_save()
