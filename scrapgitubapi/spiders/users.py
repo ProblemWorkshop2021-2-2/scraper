@@ -46,8 +46,7 @@ class UsersSpider(scrapy.Spider):
     def parse(self, response):
         text = response.text
         status = response.status
-        try:
-            x = json.loads(text)
+        try:            x = json.loads(text)
             id = x['id']
             login = x['login']
             site_admin = x['site_admin']

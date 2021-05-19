@@ -2,6 +2,20 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/arduino" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/arduino/commandline_scraped_data_from_git_log/Arduino" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/audacity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/audacity/commandline_scraped_data_from_git_log/audacity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/capistrano" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/capistrano/commandline_scraped_data_from_git_log/capistrano" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/commandline_scraped_data_from_git_log/tensorflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ganttproject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ganttproject (copy 1)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ganttproject/commandline_scraped_data_from_git_log/ganttproject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ganttproject/commandline_scraped_data_from_git_log/tensorflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nginx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nginx/commandline_scraped_data_from_git_log/nginx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/template (copy 1)" vcs="Git" />
   </component>
 </project>

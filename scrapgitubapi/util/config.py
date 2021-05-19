@@ -50,4 +50,4 @@ class Config:
     @staticmethod
     @_load_config_decorator
     def github_token() -> str:
-        return "TODO"
+        return "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"
