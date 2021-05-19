@@ -1,0 +1,14 @@
+/venv/
+/cache/
+.idea
+.scrapy
+/commandline_scraped_data_from_git_log
+/scrapgitubapi
+__init__.py
+githubapi.json
+README.md
+requirements.txt
+run.py
+scraped.json
+scraperconfig.json
+scrapy.cfg
