@@ -12,7 +12,7 @@ class GithubapiSpider(scrapy.Spider):
     allowed_domains = ['api.github.com']
 
     urls_to_crawl: List[str] = [
-        'https://api.github.com/repos/tensorflow/tensorflow'
+        'https://api.github.com/repos/bardsoftware/ganttproject'
     ]
 
     def start_requests(self):

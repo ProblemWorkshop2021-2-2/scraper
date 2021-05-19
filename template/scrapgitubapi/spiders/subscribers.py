@@ -25,7 +25,7 @@ class ContributorsSpider(scrapy.Spider):
 
     @property
     def next_url(self) -> str:
-        base_url = f"https://api.github.com/repos/tensorflow/tensorflow/subscribers"
+        base_url = f"https://api.github.com/repos/bardsoftware/ganttproject/subscribers"
         return f"{base_url}?page={self.next_page}"
 
     def start_requests(self):
