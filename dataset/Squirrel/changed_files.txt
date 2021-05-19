@@ -1,0 +1,1028 @@
+./.gitattributes,Matt Campbell
+./.gitattributes,Paul Betts
+./.github/ISSUE_TEMPLATE/bug_report.md,Brendan Forster
+./.gitignore,Geert van Horrik
+./.gitignore,George Hahn
+./.gitignore,LennartAJansson
+./.gitignore,UDVmhg
+./.gitmodules,David Wilson
+./COPYING,Paul Betts
+./docs/artwork/Squirrel-Logo-Square.png,Sergey Tihon
+./docs/artwork/Squirrel-Logo.png,Ken Bailey
+./docs/artwork/Squirrel-Logo.svg,Ken Bailey
+./docs/contributing/branching-strategy.md,Rob Mensching
+./docs/contributing/building-squirrel.md,Damien Guard
+./docs/contributing/building-squirrel.md,Ken Bailey
+./docs/contributing/contributing.md,Ken Bailey
+./docs/contributing/contributing.md,Rob Mensching
+./docs/contributing/vs-solution-overview.md,etmarcov
+./docs/contributing/vs-solution-overview.md,Ken Bailey
+./docs/faq.md,Chris Benard
+./docs/faq.md,Øyvind Eide
+./docs/faq.md,Paul Betts
+./docs/faq.md,Rob Bos
+./docs/getting-started/0-overview.md,Humberto Chula
+./docs/getting-started/0-overview.md,Ken Bailey
+./docs/getting-started/1-integrating.md,Brendan Forster
+./docs/getting-started/1-integrating.md,Kristian Jaeger
+./docs/getting-started/1-integrating.md,Paul Betts
+./docs/getting-started/2-packaging.md,jeuxjeux20
+./docs/getting-started/2-packaging.md,kysel
+./docs/getting-started/2-packaging.md,Mads Tjørnelund Toustrup
+./docs/getting-started/3-distributing.md,Ken Bailey
+./docs/getting-started/4-installing.md,Ken Bailey
+./docs/getting-started/example/MyApp.zip,Ken Bailey
+./docs/getting-started/images/1-MyApp-Solution.png,Ken Bailey
+./docs/getting-started/images/1-MyApp.png,Ken Bailey
+./docs/getting-started/images/1.1-post-package-install.png,Ken Bailey
+./docs/getting-started/images/1.2-nuget-package-explorer.png,Ken Bailey
+./docs/getting-started/images/1.2-releases-directory.png,Ken Bailey
+./docs/getting-started/images/1.3-local-app-data-dir.png,Ken Bailey
+./docs/getting-started/images/1.5-local-app-data-dir.png,Ken Bailey
+./docs/getting-started/images/1.5-MyApp.png,Ken Bailey
+./docs/getting-started/images/1.5-releases-directory.png,Ken Bailey
+./docs/goals.md,Ken Bailey
+./docs/using/amazon-s3.md,Ken Bailey
+./docs/using/application-signing.md,Damien Guard
+./docs/using/application-signing.md,Geoffrey Huntley
+./docs/using/application-signing.md,Ken Bailey
+./docs/using/application-signing.md,Tyler Gordon
+./docs/using/custom-squirrel-events-non-cs.md,Ken Bailey
+./docs/using/custom-squirrel-events.md,Ken Bailey
+./docs/using/custom-squirrel-events.md,Paul Betts
+./docs/using/debugging-installs.md,Ken Bailey
+./docs/using/debugging-updates.md,Paul Betts
+./docs/using/delta-packages.md,Ken Bailey
+./docs/using/github.md,Brendan Forster
+./docs/using/github.md,Paul Betts
+./docs/using/github.md,Razzeee
+./docs/using/github.md,wolkesson
+./docs/using/images/debugging-update-dir.png,Ken Bailey
+./docs/using/images/naming-releases.png,Ken Bailey
+./docs/using/images/uninstall-app.png,Ken Bailey
+./docs/using/install-process.md,Daniel Plaisted
+./docs/using/install-process.md,Il Harper
+./docs/using/install-process.md,Jake Ginnivan
+./docs/using/loading-gif.md,Ken Bailey
+./docs/using/machine-wide-installs.md,Ken Bailey
+./docs/using/microsoft-iis.md,Ken Bailey
+./docs/using/naming.md,Ken Bailey
+./docs/using/nuget-package-metadata.md,UDVmhg
+./docs/using/packaging-tools.md,Sergey Tihon
+./docs/using/squirrel-command-line.md,Jan Hannemann
+./docs/using/squirrel-command-line.md,Ken Bailey
+./docs/using/teamcity.md,Ken Bailey
+./docs/using/update-manager.md,CDAGaming
+./docs/using/update-manager.md,Ken Bailey
+./docs/using/update-process.md,Finn Ellis
+./docs/using/visual-studio-packaging.md,Luke Skinner
+./docs/using/visual-studio-packaging.md,Pat Hermens
+./docs/using/x-doc-template.md,Ken Bailey
+./package-electron-winstaller.ps1,Dennis Ameling
+./README.md,Brendan Forster
+./README.md,Hunter
+./README.md,Jake Ginnivan
+./README.md,Rob Mensching
+./Squirrel.sln,Geert van Horrik
+./Squirrel.sln,Jonathan Haines
+./Squirrel.sln,Rob Mensching
+./src/Directory.Build.props,Rob Mensching
+./src/Setup/compat.manifest,Matt Campbell
+./src/Setup/flags1.bin,Neil Sorensen
+./src/Setup/FxHelper.cpp,Jim Yoder
+./src/Setup/FxHelper.cpp,Luke Skinner
+./src/Setup/FxHelper.cpp,Matthieu Penant
+./src/Setup/FxHelper.cpp,Nick Hodge
+./src/Setup/FxHelper.cpp,Peter Rekdal Sunde
+./src/Setup/FxHelper.h,Jim Yoder
+./src/Setup/FxHelper.h,JohnThomson
+./src/Setup/FxHelper.h,Luke Skinner
+./src/Setup/FxHelper.h,Matt Campbell
+./src/Setup/FxHelper.h,Matthieu Penant
+./src/Setup/FxHelper.h,Neil Sorensen
+./src/Setup/FxHelper.h,Peter Rekdal Sunde
+./src/Setup/FxHelper.h,Will Dean
+./src/Setup/MachineInstaller.cpp,allanrsmith
+./src/Setup/MachineInstaller.h,Rob Mensching
+./src/Setup/resource.h,Matthieu Penant
+./src/Setup/resource.h,Rob Mensching
+./src/Setup/Setup.h,Paul Betts
+./src/Setup/Setup.ico,Paul Betts
+./src/Setup/Setup.rc,Jim Yoder
+./src/Setup/Setup.rc,Luke Skinner
+./src/Setup/Setup.rc,Matt Campbell
+./src/Setup/Setup.rc,Matthieu Penant
+./src/Setup/Setup.rc,Peter Rekdal Sunde
+./src/Setup/Setup.vcxproj,Anaïs Betts
+./src/Setup/Setup.vcxproj,Jan Hannemann
+./src/Setup/Setup.vcxproj,JohnThomson
+./src/Setup/Setup.vcxproj,Neil Sorensen
+./src/Setup/Setup.vcxproj,Rob Mensching
+./src/Setup/Setup.vcxproj.filters,Neil Sorensen
+./src/Setup/small.ico,Paul Betts
+./src/Setup/stdafx.cpp,Paul Betts
+./src/Setup/stdafx.h,Matt Campbell
+./src/Setup/targetver.h,Paul Betts
+./src/Setup/unzip.cpp,Paul Betts
+./src/Setup/unzip.h,Paul Betts
+./src/Setup/update.zip,Paul Betts
+./src/Setup/UpdateRunner.cpp,JohnThomson
+./src/Setup/UpdateRunner.cpp,Lennart Jansson
+./src/Setup/UpdateRunner.cpp,Rob Mensching
+./src/Setup/UpdateRunner.cpp,Steve Hoelzer
+./src/Setup/UpdateRunner.h,LennartAJansson
+./src/Setup/winmain.cpp,Matt Campbell
+./src/Setup/winmain.cpp,Neil Sorensen
+./src/Setup/wtl90/atlapp.h,Paul Betts
+./src/Setup/wtl90/atlcrack.h,Paul Betts
+./src/Setup/wtl90/atlctrls.h,Paul Betts
+./src/Setup/wtl90/atlctrlw.h,Paul Betts
+./src/Setup/wtl90/atlctrlx.h,Paul Betts
+./src/Setup/wtl90/atlddx.h,Paul Betts
+./src/Setup/wtl90/atldlgs.h,Paul Betts
+./src/Setup/wtl90/atldwm.h,Paul Betts
+./src/Setup/wtl90/atlfind.h,Paul Betts
+./src/Setup/wtl90/atlframe.h,Paul Betts
+./src/Setup/wtl90/atlgdi.h,Paul Betts
+./src/Setup/wtl90/atlmisc.h,Paul Betts
+./src/Setup/wtl90/atlprint.h,Paul Betts
+./src/Setup/wtl90/atlres.h,Paul Betts
+./src/Setup/wtl90/atlresce.h,Paul Betts
+./src/Setup/wtl90/atlribbon.h,Paul Betts
+./src/Setup/wtl90/atlscrl.h,Paul Betts
+./src/Setup/wtl90/atlsplit.h,Paul Betts
+./src/Setup/wtl90/atltheme.h,Paul Betts
+./src/Setup/wtl90/atluser.h,Paul Betts
+./src/Setup/wtl90/atlwince.h,Paul Betts
+./src/Setup/wtl90/atlwinx.h,Paul Betts
+./src/Squirrel/ApplyReleasesProgress.cs,Geert van Horrik
+./src/Squirrel/BinaryPatchUtility.cs,Kevin Bost
+./src/Squirrel/BinaryPatchUtility.cs,Steve Hoelzer
+./src/Squirrel/ContentType.cs,Kevin Jose Martin
+./src/Squirrel/DeltaPackage.cs,Christopher - Marcel Böddecker
+./src/Squirrel/DeltaPackage.cs,Geert van Horrik
+./src/Squirrel/DeltaPackage.cs,Kevin Bost
+./src/Squirrel/DeltaPackage.cs,Nick Hodge
+./src/Squirrel/DeltaPackage.cs,Ran-Intendu
+./src/Squirrel/FileDownloader.cs,ionoy
+./src/Squirrel/FileDownloader.cs,Nick Hodge
+./src/Squirrel/FileDownloader.cs,Patrick Linehan
+./src/Squirrel/FileDownloader.cs,willdean
+./src/Squirrel/IUpdateManager.cs,Charlie Hess
+./src/Squirrel/IUpdateManager.cs,Dennis Daume
+./src/Squirrel/IUpdateManager.cs,Jan Hannemann
+./src/Squirrel/IUpdateManager.cs,Max
+./src/Squirrel/IUpdateManager.cs,Nick Hodge
+./src/Squirrel/IUpdateManager.cs,Patrick Roza
+./src/Squirrel/IUpdateManager.cs,Steve Hoelzer
+./src/Squirrel/MarkdownSharp.cs,Paul Betts
+./src/Squirrel/Properties/AssemblyInfo.cs,Geert van Horrik
+./src/Squirrel/Properties/AssemblyInfo.cs,Rob Mensching
+./src/Squirrel/ReleaseEntry.cs,Jonathan Haines
+./src/Squirrel/ReleaseEntry.cs,Max
+./src/Squirrel/ReleaseEntry.cs,Nick Hodge
+./src/Squirrel/ReleaseEntry.cs,Peter Rekdal Sunde
+./src/Squirrel/ReleaseEntry.cs,Roberto Huertas
+./src/Squirrel/ReleaseEntry.cs,Tom Hughes
+./src/Squirrel/ReleaseEntry.cs,Will Dean
+./src/Squirrel/ReleaseExtensions.cs,Rune
+./src/Squirrel/ReleasePackage.cs,Christian Rondeau
+./src/Squirrel/ReleasePackage.cs,Damien Guard
+./src/Squirrel/ReleasePackage.cs,Duan Yao
+./src/Squirrel/ReleasePackage.cs,Geert van Horrik
+./src/Squirrel/ReleasePackage.cs,Jan-Pieter Zoutewelle
+./src/Squirrel/ReleasePackage.cs,Kevin Jose Martin
+./src/Squirrel/ReleasePackage.cs,Max
+./src/Squirrel/ReleasePackage.cs,Nick Hodge
+./src/Squirrel/ReleasePackage.cs,Ran-Intendu
+./src/Squirrel/ShellFile.cs,Felix Rieseberg
+./src/Squirrel/ShellFile.cs,Will Dean
+./src/Squirrel/SimpleJson/SimpleJson.cs,Paul Betts
+./src/Squirrel/SimpleSplat/AssemblyFinder.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/Logging.cs,Ani Betts
+./src/Squirrel/SimpleSplat/Logging.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/MemoizingMRUCache.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/ModeDetector.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/PlatformModeDetector.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/ServiceLocation.cs,Ani Betts
+./src/Squirrel/SimpleSplat/ServiceLocation.cs,Nick Hodge
+./src/Squirrel/Squirrel.csproj,Adam Weiss
+./src/Squirrel/Squirrel.csproj,Anaïs Betts
+./src/Squirrel/Squirrel.csproj,Dennis Ameling
+./src/Squirrel/Squirrel.csproj,Geert van Horrik
+./src/Squirrel/Squirrel.csproj,JohnThomson
+./src/Squirrel/Squirrel.csproj,Max
+./src/Squirrel/Squirrel.csproj,Nick Hodge
+./src/Squirrel/Squirrel.csproj,Ricardo Polo
+./src/Squirrel/Squirrel.csproj,Rob Mensching
+./src/Squirrel/SquirrelAwareApp.cs,CodeFunta
+./src/Squirrel/SquirrelAwareApp.cs,Nick Hodge
+./src/Squirrel/SquirrelAwareExecutableDetector.cs,Johan Lindqvist
+./src/Squirrel/SquirrelAwareExecutableDetector.cs,Steve Hoelzer
+./src/Squirrel/TrayHelper.cs,iouri-s
+./src/Squirrel/TrayHelper.cs,Nick Hodge
+./src/Squirrel/UpdateInfo.cs,Ilya Lopatkin
+./src/Squirrel/UpdateInfo.cs,Nick Hodge
+./src/Squirrel/UpdateInfo.cs,nullif
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Alexander Beresnev
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Charlie Hess
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Darren Reid
+./src/Squirrel/UpdateManager.ApplyReleases.cs,develar
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Felix Rieseberg
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Gregoire Pailler
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Jan Hannemann
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Johannes Egger
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Kevin Bost
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Max
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Nick Hodge
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Ole Gunnar Borstad
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Patrick Roza
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Ran-Intendu
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Ryan Johnston
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Samuel Attard
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Tobias Walter
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,Christian Rondeau
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,Jan Hannemann
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,Max
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,Nick Hodge
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,nullif
+./src/Squirrel/UpdateManager.cs,Anaïs Betts
+./src/Squirrel/UpdateManager.cs,Geert van Horrik
+./src/Squirrel/UpdateManager.cs,Jan Hannemann
+./src/Squirrel/UpdateManager.cs,Jeremia Mörling
+./src/Squirrel/UpdateManager.cs,Max
+./src/Squirrel/UpdateManager.cs,Nick Hodge
+./src/Squirrel/UpdateManager.cs,Patrick Roza
+./src/Squirrel/UpdateManager.cs,Theofanis Tokas
+./src/Squirrel/UpdateManager.cs,Will Dean
+./src/Squirrel/UpdateManager.DownloadReleases.cs,Max
+./src/Squirrel/UpdateManager.DownloadReleases.cs,Nick Hodge
+./src/Squirrel/UpdateManager.DownloadReleases.cs,Tom Hughes
+./src/Squirrel/UpdateManager.Factory.cs,Jonathan Haines
+./src/Squirrel/UpdateManager.Factory.cs,Nick Hodge
+./src/Squirrel/UpdateManager.Factory.cs,Paul Betts
+./src/Squirrel/UpdateManager.Factory.cs,Shannon Skinner
+./src/Squirrel/UpdateManager.InstallHelpers.cs,develar
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Kristian Hellang
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Kvasov Roman
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Matt Campbell
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Nick Hodge
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Patrick Roza
+./src/Squirrel/Utility.cs,Ani Betts
+./src/Squirrel/Utility.cs,Christian Rondeau
+./src/Squirrel/Utility.cs,Justin Van Patten
+./src/Squirrel/Utility.cs,Max
+./src/Squirrel/Utility.cs,Nick Hodge
+./src/Squirrel/Utility.cs,Rob Mensching
+./src/Squirrel/Utility.cs,Steve Hoelzer
+./src/Squirrel/Utility.cs,Theofanis Tokas
+./src/Squirrel.nuspec,Anaïs Betts
+./src/Squirrel.nuspec,Bennor McCarthy
+./src/Squirrel.nuspec,Dennis Daume
+./src/Squirrel.nuspec,Dominik Mydlil
+./src/Squirrel.nuspec,Jonathan Haines
+./src/Squirrel.nuspec,Nick Hodge
+./src/Squirrel.nuspec,Sergey Tihon
+./src/Squirrel.nuspec,Todd Aspeotis
+./src/Squirrel.nuspec,yunfan
+./src/squirrel.windows.props,Dominik Mydlil
+./src/StubExecutable/LICENSE.md,Paul Betts
+./src/StubExecutable/Resource.h,Paul Betts
+./src/StubExecutable/semver200.h,Paul Betts
+./src/StubExecutable/Semver200_comparator.cpp,Paul Betts
+./src/StubExecutable/Semver200_parser.cpp,Paul Betts
+./src/StubExecutable/small.ico,Paul Betts
+./src/StubExecutable/stdafx.cpp,Paul Betts
+./src/StubExecutable/stdafx.h,Paul Betts
+./src/StubExecutable/StubExecutable.cpp,Peter Rekdal Sunde
+./src/StubExecutable/StubExecutable.cpp,Rob Mensching
+./src/StubExecutable/StubExecutable.h,Paul Betts
+./src/StubExecutable/StubExecutable.ico,Paul Betts
+./src/StubExecutable/StubExecutable.rc,Paul Betts
+./src/StubExecutable/StubExecutable.vcxproj,Anaïs Betts
+./src/StubExecutable/StubExecutable.vcxproj,Rob Mensching
+./src/StubExecutable/StubExecutable.vcxproj.filters,Anaïs Betts
+./src/StubExecutable/StubExecutable.vcxproj.filters,Paul Betts
+./src/StubExecutable/targetver.h,Paul Betts
+./src/StubExecutable/version.h,Paul Betts
+./src/StubExecutable/version.inl,Paul Betts
+./src/SyncReleases/App.config,Paul Betts
+./src/SyncReleases/Mono.Options/Options.cs,Paul Betts
+./src/SyncReleases/Program.cs,Ani Betts
+./src/SyncReleases/Program.cs,Daniel Pereira
+./src/SyncReleases/Program.cs,Nick Hodge
+./src/SyncReleases/SyncImplementations.cs,Adam Weiss
+./src/SyncReleases/SyncImplementations.cs,Brendan Forster
+./src/SyncReleases/SyncImplementations.cs,ej049491
+./src/SyncReleases/SyncImplementations.cs,Jonathan Haines
+./src/SyncReleases/SyncImplementations.cs,Matt Butters
+./src/SyncReleases/SyncImplementations.cs,Max
+./src/SyncReleases/SyncReleases.csproj,Adam Weiss
+./src/SyncReleases/SyncReleases.csproj,Anaïs Betts
+./src/SyncReleases/SyncReleases.csproj,Ani Betts
+./src/SyncReleases/SyncReleases.csproj,Dave Erwin
+./src/SyncReleases/SyncReleases.csproj,Nick Hodge
+./src/SyncReleases/SyncReleases.csproj,Ricardo Polo
+./src/SyncReleases/SyncReleases.csproj,Rob Mensching
+./src/Update/AnimatedGifWindow.cs,Balázs Szántó
+./src/Update/AnimatedGifWindow.cs,Damien Guard
+./src/Update/AnimatedGifWindow.cs,Rob Mensching
+./src/Update/App.config,Paul Betts
+./src/Update/AuthenticodeTools.cs,Paul Betts
+./src/Update/Mono.Options/Options.cs,Paul Betts
+./src/Update/packages.config,Adam Weiss
+./src/Update/packages.config,Jonathan Haines
+./src/Update/packages.config,Ricardo Polo
+./src/Update/Program.cs,Amos Wenger
+./src/Update/Program.cs,Anaïs Betts
+./src/Update/Program.cs,Ani Betts
+./src/Update/Program.cs,Balázs Szántó
+./src/Update/Program.cs,Cameron MacFarland
+./src/Update/Program.cs,David Tschida
+./src/Update/Program.cs,Johannes Egger
+./src/Update/Program.cs,Jonathan Haines
+./src/Update/Program.cs,Matt Campbell
+./src/Update/Program.cs,naishx
+./src/Update/Program.cs,Nick Hodge
+./src/Update/Program.cs,Samuel Attard
+./src/Update/Program.cs,skaryshev
+./src/Update/Program.cs,Tobias Walter
+./src/Update/Program.cs,UDVmhg
+./src/Update/rcedit.exe,Paul Betts
+./src/Update/rcedit.exe,Tim Cooper
+./src/Update/signtool.exe,Paul Betts
+./src/Update/StartupOption.cs,David Tschida
+./src/Update/StartupOption.cs,Jan Hannemann
+./src/Update/Update-Mono.csproj,Anaïs Betts
+./src/Update/Update-Mono.csproj,Ani Betts
+./src/Update/Update-Mono.csproj,Jan Hannemann
+./src/Update/Update-Mono.csproj,Nick Hodge
+./src/Update/Update-Mono.csproj,Rob Mensching
+./src/Update/Update.com,Paul Betts
+./src/Update/Update.csproj,Adam Weiss
+./src/Update/Update.csproj,Anaïs Betts
+./src/Update/Update.csproj,Ani Betts
+./src/Update/Update.csproj,Dave Erwin
+./src/Update/Update.csproj,Dennis Ameling
+./src/Update/Update.csproj,Geert van Horrik
+./src/Update/Update.csproj,hs-hub-world
+./src/Update/Update.csproj,Jan Hannemann
+./src/Update/Update.csproj,Nick Hodge
+./src/Update/Update.csproj,Ricardo Polo
+./src/WriteZipToSetup/stdafx.cpp,Paul Betts
+./src/WriteZipToSetup/WriteZipToSetup.vcxproj,Anaïs Betts
+./src/WriteZipToSetup/WriteZipToSetup.vcxproj,Rob Mensching
+./src/WriteZipToSetup/WriteZipToSetup.vcxproj.filters,Nick Hodge
+./src/WriteZipToSetup/WriteZipToSetup.vcxproj.filters,Paul Betts
+./test/ApplyReleasesTests.cs,Dennis Daume
+./test/ApplyReleasesTests.cs,Geert van Horrik
+./test/ApplyReleasesTests.cs,Nick Hodge
+./test/ApplyReleasesTests.cs,Patrick Roza
+./test/ApplyReleasesTests.cs,Rob Mensching
+./test/ApplyReleasesTests.cs,Will Dean
+./test/CheckForUpdateTests.cs,Rob Mensching
+./test/ContentTypeTests.cs,Rob Mensching
+./test/DeltaPackageTests.cs,Nick Hodge
+./test/DeltaPackageTests.cs,Rob Mensching
+./test/DownloadReleasesTests.cs,Nick Hodge
+./test/DownloadReleasesTests.cs,Rob Mensching
+./test/fixtures/atom.exe,Paul Betts
+./test/fixtures/Caliburn.Micro.1.4.1.nupkg,Paul Betts
+./test/fixtures/Caliburn.Micro.1.5.2.nupkg,Paul Betts
+./test/fixtures/CaliburnMicroDemo.1.0.0.nupkg,Paul Betts
+./test/fixtures/content-types/basic-merged.xml,Paul Betts
+./test/fixtures/content-types/basic.xml,Paul Betts
+./test/fixtures/content-types/complex-merged.xml,Paul Betts
+./test/fixtures/content-types/complex.xml,Paul Betts
+./test/fixtures/NotSquirrelAwareApp.exe,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/BreakingChanges.txt,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/Castle.Core.3.2.0.nupkg,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/Changes.txt,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net35/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net35/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net40-client/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net40-client/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net45/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net45/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/sl4/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/sl4/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/sl5/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/sl5/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/License.txt,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/readme.txt,Paul Betts
+./test/fixtures/packages/Microsoft.Web.Xdt.2.1.1/lib/net40/Microsoft.Web.XmlTransform.dll,Paul Betts
+./test/fixtures/packages/Microsoft.Web.Xdt.2.1.1/Microsoft.Web.Xdt.2.1.1.nupkg,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net20/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net20/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net35/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net35/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net40/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net40/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net45/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net45/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/netcore45/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/netcore45/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/Newtonsoft.Json.6.0.3.nupkg,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/tools/install.ps1,Paul Betts
+./test/fixtures/packages/NuGet.Core.2.8.2/lib/net40-Client/NuGet.Core.dll,Paul Betts
+./test/fixtures/packages/NuGet.Core.2.8.2/NuGet.Core.2.8.2.nupkg,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/MonoAndroid/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/MonoAndroid/Refit.dll.mdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/MonoMac/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/MonoMac/Refit.dll.mdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Net45/Refit-Portable.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Net45/Refit-Portable.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Net45/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Net45/Refit.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Portable-Net45+WinRT45+WP8/Refit-Portable.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Portable-Net45+WinRT45+WP8/Refit-Portable.dll.config,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Portable-Net45+WinRT45+WP8/Refit-Portable.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/SL5/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/SL5/Refit.dll.config,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/SL5/Refit.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit-Portable.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit-Portable.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit.dll.config,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/refit.1.3.0.nupkg,Paul Betts
+./test/fixtures/packages/repositories.config,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/monoandroid/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/monoandroid/Splat.dll.mdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/MonoMac/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/MonoMac/Splat.dll.mdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/monotouch/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/monotouch/Splat.dll.mdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Net45/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Net45/Splat.pdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/NetCore45/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/NetCore45/Splat.pdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/NetCore45/Splat.pri,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Portable-net45+win+wpa81+wp80/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Portable-Win81+Wpa81/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Portable-Win81+Wpa81/Splat.pri,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/wp8/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/wp8/Splat.pdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/Splat.1.4.0.nupkg,Paul Betts
+./test/fixtures/packages/xunit.2.0.0-beta-build2700/xunit.2.0.0-beta-build2700.nupkg,Paul Betts
+./test/fixtures/packages/xunit.abstractions.2.0.0-beta-build2700/lib/net35/xunit.abstractions.dll,Paul Betts
+./test/fixtures/packages/xunit.abstractions.2.0.0-beta-build2700/lib/net35/xunit.abstractions.xml,Paul Betts
+./test/fixtures/ProjectDependsOnJsonDotNet.1.0.nupkg,Paul Betts
+./test/fixtures/ProjectWithContent.1.0.0.0-beta-full.nupkg,Paul Betts
+./test/fixtures/ProjectWithContent.1.0.0.0-beta.nupkg,Paul Betts
+./test/fixtures/RELEASES-OnePointOh,Paul Betts
+./test/fixtures/RELEASES-OnePointOne,Paul Betts
+./test/fixtures/Setup.exe,Paul Betts
+./test/fixtures/SpecialCharacters-0.1.0-full.nupkg,Ran-Intendu
+./test/fixtures/Squirrel.Core.1.0.0.0.nupkg,Paul Betts
+./test/fixtures/Squirrel.Core.1.1.0.0.nupkg,Paul Betts
+./test/fixtures/Squirrel.Core.1.1.0.0.nuspec,Paul Betts
+./test/fixtures/Squirrel.Core.1.2.0.0-full.nupkg,Paul Betts
+./test/fixtures/Squirrel.Core.1.3.0.0-full.nupkg,Paul Betts
+./test/fixtures/Squirrel.Core.NoDependencies.1.0.0.0.nupkg,Paul Betts
+./test/fixtures/Squirrel.Tests.0.1.0-pre.nupkg,Paul Betts
+./test/fixtures/Squirrel.Tests.0.2.0-pre.nupkg,Paul Betts
+./test/fixtures/SquirrelAwareApp.exe,Paul Betts
+./test/fixtures/SquirrelInstalledApp.nuspec,Nick Hodge
+./test/fixtures/SquirrelInstalledApp.nuspec,Paul Betts
+./test/fixtures/ThisShouldBeANet45Project.1.0.nupkg,Paul Betts
+./test/Properties/AssemblyInfo.cs,Geert van Horrik
+./test/Properties/AssemblyInfo.cs,Rob Mensching
+./test/ReleaseEntryTests.cs,Max
+./test/ReleaseEntryTests.cs,Roberto Huertas
+./test/ReleaseEntryTests.cs,Tom Hughes
+./test/ReleasePackageTests.cs,Nick Hodge
+./test/Squirrel.Tests.csproj,Adam Weiss
+./test/Squirrel.Tests.csproj,Geert van Horrik
+./test/Squirrel.Tests.csproj,Jonathan Haines
+./test/Squirrel.Tests.csproj,Ricardo Polo
+./test/Squirrel.Tests.csproj,Rob Mensching
+./test/SquirrelAwareExecutableDetectorTests.cs,Rob Mensching
+./test/TestHelpers/AssertExtensions.cs,Paul Betts
+./test/TestHelpers/ExposedClass.cs,Paul Betts
+./test/TestHelpers/ExposedObject.cs,Paul Betts
+./test/TestHelpers/ExposedObjectHelper.cs,Paul Betts
+./test/TestHelpers/IntegrationTestHelper.cs,Nick Hodge
+./test/UpdateManagerTests.cs,Max
+./test/UpdateManagerTests.cs,Ran-Intendu
+./test/UpdateManagerTests.cs,Rob Mensching
+./test/UpdateManagerTests.cs,Will Dean
+./test/UtilityTests.cs,Nick Hodge
+./.gitattributes,Matt Campbell
+./.gitattributes,Paul Betts
+./.github/ISSUE_TEMPLATE/bug_report.md,Brendan Forster
+./.gitignore,Geert van Horrik
+./.gitignore,George Hahn
+./.gitignore,LennartAJansson
+./.gitignore,UDVmhg
+./.gitmodules,David Wilson
+./COPYING,Paul Betts
+./docs/artwork/Squirrel-Logo-Square.png,Sergey Tihon
+./docs/artwork/Squirrel-Logo.png,Ken Bailey
+./docs/artwork/Squirrel-Logo.svg,Ken Bailey
+./docs/contributing/branching-strategy.md,Rob Mensching
+./docs/contributing/building-squirrel.md,Damien Guard
+./docs/contributing/building-squirrel.md,Ken Bailey
+./docs/contributing/contributing.md,Ken Bailey
+./docs/contributing/contributing.md,Rob Mensching
+./docs/contributing/vs-solution-overview.md,etmarcov
+./docs/contributing/vs-solution-overview.md,Ken Bailey
+./docs/faq.md,Chris Benard
+./docs/faq.md,Øyvind Eide
+./docs/faq.md,Paul Betts
+./docs/faq.md,Rob Bos
+./docs/getting-started/0-overview.md,Humberto Chula
+./docs/getting-started/0-overview.md,Ken Bailey
+./docs/getting-started/1-integrating.md,Brendan Forster
+./docs/getting-started/1-integrating.md,Kristian Jaeger
+./docs/getting-started/1-integrating.md,Paul Betts
+./docs/getting-started/2-packaging.md,jeuxjeux20
+./docs/getting-started/2-packaging.md,kysel
+./docs/getting-started/2-packaging.md,Mads Tjørnelund Toustrup
+./docs/getting-started/3-distributing.md,Ken Bailey
+./docs/getting-started/4-installing.md,Ken Bailey
+./docs/getting-started/example/MyApp.zip,Ken Bailey
+./docs/getting-started/images/1-MyApp-Solution.png,Ken Bailey
+./docs/getting-started/images/1-MyApp.png,Ken Bailey
+./docs/getting-started/images/1.1-post-package-install.png,Ken Bailey
+./docs/getting-started/images/1.2-nuget-package-explorer.png,Ken Bailey
+./docs/getting-started/images/1.2-releases-directory.png,Ken Bailey
+./docs/getting-started/images/1.3-local-app-data-dir.png,Ken Bailey
+./docs/getting-started/images/1.5-local-app-data-dir.png,Ken Bailey
+./docs/getting-started/images/1.5-MyApp.png,Ken Bailey
+./docs/getting-started/images/1.5-releases-directory.png,Ken Bailey
+./docs/goals.md,Ken Bailey
+./docs/using/amazon-s3.md,Ken Bailey
+./docs/using/application-signing.md,Damien Guard
+./docs/using/application-signing.md,Geoffrey Huntley
+./docs/using/application-signing.md,Ken Bailey
+./docs/using/application-signing.md,Tyler Gordon
+./docs/using/custom-squirrel-events-non-cs.md,Ken Bailey
+./docs/using/custom-squirrel-events.md,Ken Bailey
+./docs/using/custom-squirrel-events.md,Paul Betts
+./docs/using/debugging-installs.md,Ken Bailey
+./docs/using/debugging-updates.md,Paul Betts
+./docs/using/delta-packages.md,Ken Bailey
+./docs/using/github.md,Brendan Forster
+./docs/using/github.md,Paul Betts
+./docs/using/github.md,Razzeee
+./docs/using/github.md,wolkesson
+./docs/using/images/debugging-update-dir.png,Ken Bailey
+./docs/using/images/naming-releases.png,Ken Bailey
+./docs/using/images/uninstall-app.png,Ken Bailey
+./docs/using/install-process.md,Daniel Plaisted
+./docs/using/install-process.md,Il Harper
+./docs/using/install-process.md,Jake Ginnivan
+./docs/using/loading-gif.md,Ken Bailey
+./docs/using/machine-wide-installs.md,Ken Bailey
+./docs/using/microsoft-iis.md,Ken Bailey
+./docs/using/naming.md,Ken Bailey
+./docs/using/nuget-package-metadata.md,UDVmhg
+./docs/using/packaging-tools.md,Sergey Tihon
+./docs/using/squirrel-command-line.md,Jan Hannemann
+./docs/using/squirrel-command-line.md,Ken Bailey
+./docs/using/teamcity.md,Ken Bailey
+./docs/using/update-manager.md,CDAGaming
+./docs/using/update-manager.md,Ken Bailey
+./docs/using/update-process.md,Finn Ellis
+./docs/using/visual-studio-packaging.md,Luke Skinner
+./docs/using/visual-studio-packaging.md,Pat Hermens
+./docs/using/x-doc-template.md,Ken Bailey
+./package-electron-winstaller.ps1,Dennis Ameling
+./README.md,Brendan Forster
+./README.md,Hunter
+./README.md,Jake Ginnivan
+./README.md,Rob Mensching
+./Squirrel.sln,Geert van Horrik
+./Squirrel.sln,Jonathan Haines
+./Squirrel.sln,Rob Mensching
+./src/Directory.Build.props,Rob Mensching
+./src/Setup/compat.manifest,Matt Campbell
+./src/Setup/flags1.bin,Neil Sorensen
+./src/Setup/FxHelper.cpp,Jim Yoder
+./src/Setup/FxHelper.cpp,Luke Skinner
+./src/Setup/FxHelper.cpp,Matthieu Penant
+./src/Setup/FxHelper.cpp,Nick Hodge
+./src/Setup/FxHelper.cpp,Peter Rekdal Sunde
+./src/Setup/FxHelper.h,Jim Yoder
+./src/Setup/FxHelper.h,JohnThomson
+./src/Setup/FxHelper.h,Luke Skinner
+./src/Setup/FxHelper.h,Matt Campbell
+./src/Setup/FxHelper.h,Matthieu Penant
+./src/Setup/FxHelper.h,Neil Sorensen
+./src/Setup/FxHelper.h,Peter Rekdal Sunde
+./src/Setup/FxHelper.h,Will Dean
+./src/Setup/MachineInstaller.cpp,allanrsmith
+./src/Setup/MachineInstaller.h,Rob Mensching
+./src/Setup/resource.h,Matthieu Penant
+./src/Setup/resource.h,Rob Mensching
+./src/Setup/Setup.h,Paul Betts
+./src/Setup/Setup.ico,Paul Betts
+./src/Setup/Setup.rc,Jim Yoder
+./src/Setup/Setup.rc,Luke Skinner
+./src/Setup/Setup.rc,Matt Campbell
+./src/Setup/Setup.rc,Matthieu Penant
+./src/Setup/Setup.rc,Peter Rekdal Sunde
+./src/Setup/Setup.vcxproj,Anaïs Betts
+./src/Setup/Setup.vcxproj,Jan Hannemann
+./src/Setup/Setup.vcxproj,JohnThomson
+./src/Setup/Setup.vcxproj,Neil Sorensen
+./src/Setup/Setup.vcxproj,Rob Mensching
+./src/Setup/Setup.vcxproj.filters,Neil Sorensen
+./src/Setup/small.ico,Paul Betts
+./src/Setup/stdafx.cpp,Paul Betts
+./src/Setup/stdafx.h,Matt Campbell
+./src/Setup/targetver.h,Paul Betts
+./src/Setup/unzip.cpp,Paul Betts
+./src/Setup/unzip.h,Paul Betts
+./src/Setup/update.zip,Paul Betts
+./src/Setup/UpdateRunner.cpp,JohnThomson
+./src/Setup/UpdateRunner.cpp,Lennart Jansson
+./src/Setup/UpdateRunner.cpp,Rob Mensching
+./src/Setup/UpdateRunner.cpp,Steve Hoelzer
+./src/Setup/UpdateRunner.h,LennartAJansson
+./src/Setup/winmain.cpp,Matt Campbell
+./src/Setup/winmain.cpp,Neil Sorensen
+./src/Setup/wtl90/atlapp.h,Paul Betts
+./src/Setup/wtl90/atlcrack.h,Paul Betts
+./src/Setup/wtl90/atlctrls.h,Paul Betts
+./src/Setup/wtl90/atlctrlw.h,Paul Betts
+./src/Setup/wtl90/atlctrlx.h,Paul Betts
+./src/Setup/wtl90/atlddx.h,Paul Betts
+./src/Setup/wtl90/atldlgs.h,Paul Betts
+./src/Setup/wtl90/atldwm.h,Paul Betts
+./src/Setup/wtl90/atlfind.h,Paul Betts
+./src/Setup/wtl90/atlframe.h,Paul Betts
+./src/Setup/wtl90/atlgdi.h,Paul Betts
+./src/Setup/wtl90/atlmisc.h,Paul Betts
+./src/Setup/wtl90/atlprint.h,Paul Betts
+./src/Setup/wtl90/atlres.h,Paul Betts
+./src/Setup/wtl90/atlresce.h,Paul Betts
+./src/Setup/wtl90/atlribbon.h,Paul Betts
+./src/Setup/wtl90/atlscrl.h,Paul Betts
+./src/Setup/wtl90/atlsplit.h,Paul Betts
+./src/Setup/wtl90/atltheme.h,Paul Betts
+./src/Setup/wtl90/atluser.h,Paul Betts
+./src/Setup/wtl90/atlwince.h,Paul Betts
+./src/Setup/wtl90/atlwinx.h,Paul Betts
+./src/Squirrel/ApplyReleasesProgress.cs,Geert van Horrik
+./src/Squirrel/BinaryPatchUtility.cs,Kevin Bost
+./src/Squirrel/BinaryPatchUtility.cs,Steve Hoelzer
+./src/Squirrel/ContentType.cs,Kevin Jose Martin
+./src/Squirrel/DeltaPackage.cs,Christopher - Marcel Böddecker
+./src/Squirrel/DeltaPackage.cs,Geert van Horrik
+./src/Squirrel/DeltaPackage.cs,Kevin Bost
+./src/Squirrel/DeltaPackage.cs,Nick Hodge
+./src/Squirrel/DeltaPackage.cs,Ran-Intendu
+./src/Squirrel/FileDownloader.cs,ionoy
+./src/Squirrel/FileDownloader.cs,Nick Hodge
+./src/Squirrel/FileDownloader.cs,Patrick Linehan
+./src/Squirrel/FileDownloader.cs,willdean
+./src/Squirrel/IUpdateManager.cs,Charlie Hess
+./src/Squirrel/IUpdateManager.cs,Dennis Daume
+./src/Squirrel/IUpdateManager.cs,Jan Hannemann
+./src/Squirrel/IUpdateManager.cs,Max
+./src/Squirrel/IUpdateManager.cs,Nick Hodge
+./src/Squirrel/IUpdateManager.cs,Patrick Roza
+./src/Squirrel/IUpdateManager.cs,Steve Hoelzer
+./src/Squirrel/MarkdownSharp.cs,Paul Betts
+./src/Squirrel/Properties/AssemblyInfo.cs,Geert van Horrik
+./src/Squirrel/Properties/AssemblyInfo.cs,Rob Mensching
+./src/Squirrel/ReleaseEntry.cs,Jonathan Haines
+./src/Squirrel/ReleaseEntry.cs,Max
+./src/Squirrel/ReleaseEntry.cs,Nick Hodge
+./src/Squirrel/ReleaseEntry.cs,Peter Rekdal Sunde
+./src/Squirrel/ReleaseEntry.cs,Roberto Huertas
+./src/Squirrel/ReleaseEntry.cs,Tom Hughes
+./src/Squirrel/ReleaseEntry.cs,Will Dean
+./src/Squirrel/ReleaseExtensions.cs,Rune
+./src/Squirrel/ReleasePackage.cs,Christian Rondeau
+./src/Squirrel/ReleasePackage.cs,Damien Guard
+./src/Squirrel/ReleasePackage.cs,Duan Yao
+./src/Squirrel/ReleasePackage.cs,Geert van Horrik
+./src/Squirrel/ReleasePackage.cs,Jan-Pieter Zoutewelle
+./src/Squirrel/ReleasePackage.cs,Kevin Jose Martin
+./src/Squirrel/ReleasePackage.cs,Max
+./src/Squirrel/ReleasePackage.cs,Nick Hodge
+./src/Squirrel/ReleasePackage.cs,Ran-Intendu
+./src/Squirrel/ShellFile.cs,Felix Rieseberg
+./src/Squirrel/ShellFile.cs,Will Dean
+./src/Squirrel/SimpleJson/SimpleJson.cs,Paul Betts
+./src/Squirrel/SimpleSplat/AssemblyFinder.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/Logging.cs,Ani Betts
+./src/Squirrel/SimpleSplat/Logging.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/MemoizingMRUCache.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/ModeDetector.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/PlatformModeDetector.cs,Nick Hodge
+./src/Squirrel/SimpleSplat/ServiceLocation.cs,Ani Betts
+./src/Squirrel/SimpleSplat/ServiceLocation.cs,Nick Hodge
+./src/Squirrel/Squirrel.csproj,Adam Weiss
+./src/Squirrel/Squirrel.csproj,Anaïs Betts
+./src/Squirrel/Squirrel.csproj,Dennis Ameling
+./src/Squirrel/Squirrel.csproj,Geert van Horrik
+./src/Squirrel/Squirrel.csproj,JohnThomson
+./src/Squirrel/Squirrel.csproj,Max
+./src/Squirrel/Squirrel.csproj,Nick Hodge
+./src/Squirrel/Squirrel.csproj,Ricardo Polo
+./src/Squirrel/Squirrel.csproj,Rob Mensching
+./src/Squirrel/SquirrelAwareApp.cs,CodeFunta
+./src/Squirrel/SquirrelAwareApp.cs,Nick Hodge
+./src/Squirrel/SquirrelAwareExecutableDetector.cs,Johan Lindqvist
+./src/Squirrel/SquirrelAwareExecutableDetector.cs,Steve Hoelzer
+./src/Squirrel/TrayHelper.cs,iouri-s
+./src/Squirrel/TrayHelper.cs,Nick Hodge
+./src/Squirrel/UpdateInfo.cs,Ilya Lopatkin
+./src/Squirrel/UpdateInfo.cs,Nick Hodge
+./src/Squirrel/UpdateInfo.cs,nullif
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Alexander Beresnev
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Charlie Hess
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Darren Reid
+./src/Squirrel/UpdateManager.ApplyReleases.cs,develar
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Felix Rieseberg
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Gregoire Pailler
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Jan Hannemann
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Johannes Egger
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Kevin Bost
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Max
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Nick Hodge
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Ole Gunnar Borstad
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Patrick Roza
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Ran-Intendu
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Ryan Johnston
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Samuel Attard
+./src/Squirrel/UpdateManager.ApplyReleases.cs,Tobias Walter
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,Christian Rondeau
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,Jan Hannemann
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,Max
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,Nick Hodge
+./src/Squirrel/UpdateManager.CheckForUpdates.cs,nullif
+./src/Squirrel/UpdateManager.cs,Anaïs Betts
+./src/Squirrel/UpdateManager.cs,Geert van Horrik
+./src/Squirrel/UpdateManager.cs,Jan Hannemann
+./src/Squirrel/UpdateManager.cs,Jeremia Mörling
+./src/Squirrel/UpdateManager.cs,Max
+./src/Squirrel/UpdateManager.cs,Nick Hodge
+./src/Squirrel/UpdateManager.cs,Patrick Roza
+./src/Squirrel/UpdateManager.cs,Theofanis Tokas
+./src/Squirrel/UpdateManager.cs,Will Dean
+./src/Squirrel/UpdateManager.DownloadReleases.cs,Max
+./src/Squirrel/UpdateManager.DownloadReleases.cs,Nick Hodge
+./src/Squirrel/UpdateManager.DownloadReleases.cs,Tom Hughes
+./src/Squirrel/UpdateManager.Factory.cs,Jonathan Haines
+./src/Squirrel/UpdateManager.Factory.cs,Nick Hodge
+./src/Squirrel/UpdateManager.Factory.cs,Paul Betts
+./src/Squirrel/UpdateManager.Factory.cs,Shannon Skinner
+./src/Squirrel/UpdateManager.InstallHelpers.cs,develar
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Kristian Hellang
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Kvasov Roman
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Matt Campbell
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Nick Hodge
+./src/Squirrel/UpdateManager.InstallHelpers.cs,Patrick Roza
+./src/Squirrel/Utility.cs,Ani Betts
+./src/Squirrel/Utility.cs,Christian Rondeau
+./src/Squirrel/Utility.cs,Justin Van Patten
+./src/Squirrel/Utility.cs,Max
+./src/Squirrel/Utility.cs,Nick Hodge
+./src/Squirrel/Utility.cs,Rob Mensching
+./src/Squirrel/Utility.cs,Steve Hoelzer
+./src/Squirrel/Utility.cs,Theofanis Tokas
+./src/Squirrel.nuspec,Anaïs Betts
+./src/Squirrel.nuspec,Bennor McCarthy
+./src/Squirrel.nuspec,Dennis Daume
+./src/Squirrel.nuspec,Dominik Mydlil
+./src/Squirrel.nuspec,Jonathan Haines
+./src/Squirrel.nuspec,Nick Hodge
+./src/Squirrel.nuspec,Sergey Tihon
+./src/Squirrel.nuspec,Todd Aspeotis
+./src/Squirrel.nuspec,yunfan
+./src/squirrel.windows.props,Dominik Mydlil
+./src/StubExecutable/LICENSE.md,Paul Betts
+./src/StubExecutable/Resource.h,Paul Betts
+./src/StubExecutable/semver200.h,Paul Betts
+./src/StubExecutable/Semver200_comparator.cpp,Paul Betts
+./src/StubExecutable/Semver200_parser.cpp,Paul Betts
+./src/StubExecutable/small.ico,Paul Betts
+./src/StubExecutable/stdafx.cpp,Paul Betts
+./src/StubExecutable/stdafx.h,Paul Betts
+./src/StubExecutable/StubExecutable.cpp,Peter Rekdal Sunde
+./src/StubExecutable/StubExecutable.cpp,Rob Mensching
+./src/StubExecutable/StubExecutable.h,Paul Betts
+./src/StubExecutable/StubExecutable.ico,Paul Betts
+./src/StubExecutable/StubExecutable.rc,Paul Betts
+./src/StubExecutable/StubExecutable.vcxproj,Anaïs Betts
+./src/StubExecutable/StubExecutable.vcxproj,Rob Mensching
+./src/StubExecutable/StubExecutable.vcxproj.filters,Anaïs Betts
+./src/StubExecutable/StubExecutable.vcxproj.filters,Paul Betts
+./src/StubExecutable/targetver.h,Paul Betts
+./src/StubExecutable/version.h,Paul Betts
+./src/StubExecutable/version.inl,Paul Betts
+./src/SyncReleases/App.config,Paul Betts
+./src/SyncReleases/Mono.Options/Options.cs,Paul Betts
+./src/SyncReleases/Program.cs,Ani Betts
+./src/SyncReleases/Program.cs,Daniel Pereira
+./src/SyncReleases/Program.cs,Nick Hodge
+./src/SyncReleases/SyncImplementations.cs,Adam Weiss
+./src/SyncReleases/SyncImplementations.cs,Brendan Forster
+./src/SyncReleases/SyncImplementations.cs,ej049491
+./src/SyncReleases/SyncImplementations.cs,Jonathan Haines
+./src/SyncReleases/SyncImplementations.cs,Matt Butters
+./src/SyncReleases/SyncImplementations.cs,Max
+./src/SyncReleases/SyncReleases.csproj,Adam Weiss
+./src/SyncReleases/SyncReleases.csproj,Anaïs Betts
+./src/SyncReleases/SyncReleases.csproj,Ani Betts
+./src/SyncReleases/SyncReleases.csproj,Dave Erwin
+./src/SyncReleases/SyncReleases.csproj,Nick Hodge
+./src/SyncReleases/SyncReleases.csproj,Ricardo Polo
+./src/SyncReleases/SyncReleases.csproj,Rob Mensching
+./src/Update/AnimatedGifWindow.cs,Balázs Szántó
+./src/Update/AnimatedGifWindow.cs,Damien Guard
+./src/Update/AnimatedGifWindow.cs,Rob Mensching
+./src/Update/App.config,Paul Betts
+./src/Update/AuthenticodeTools.cs,Paul Betts
+./src/Update/Mono.Options/Options.cs,Paul Betts
+./src/Update/packages.config,Adam Weiss
+./src/Update/packages.config,Jonathan Haines
+./src/Update/packages.config,Ricardo Polo
+./src/Update/Program.cs,Amos Wenger
+./src/Update/Program.cs,Anaïs Betts
+./src/Update/Program.cs,Ani Betts
+./src/Update/Program.cs,Balázs Szántó
+./src/Update/Program.cs,Cameron MacFarland
+./src/Update/Program.cs,David Tschida
+./src/Update/Program.cs,Johannes Egger
+./src/Update/Program.cs,Jonathan Haines
+./src/Update/Program.cs,Matt Campbell
+./src/Update/Program.cs,naishx
+./src/Update/Program.cs,Nick Hodge
+./src/Update/Program.cs,Samuel Attard
+./src/Update/Program.cs,skaryshev
+./src/Update/Program.cs,Tobias Walter
+./src/Update/Program.cs,UDVmhg
+./src/Update/rcedit.exe,Paul Betts
+./src/Update/rcedit.exe,Tim Cooper
+./src/Update/signtool.exe,Paul Betts
+./src/Update/StartupOption.cs,David Tschida
+./src/Update/StartupOption.cs,Jan Hannemann
+./src/Update/Update-Mono.csproj,Anaïs Betts
+./src/Update/Update-Mono.csproj,Ani Betts
+./src/Update/Update-Mono.csproj,Jan Hannemann
+./src/Update/Update-Mono.csproj,Nick Hodge
+./src/Update/Update-Mono.csproj,Rob Mensching
+./src/Update/Update.com,Paul Betts
+./src/Update/Update.csproj,Adam Weiss
+./src/Update/Update.csproj,Anaïs Betts
+./src/Update/Update.csproj,Ani Betts
+./src/Update/Update.csproj,Dave Erwin
+./src/Update/Update.csproj,Dennis Ameling
+./src/Update/Update.csproj,Geert van Horrik
+./src/Update/Update.csproj,hs-hub-world
+./src/Update/Update.csproj,Jan Hannemann
+./src/Update/Update.csproj,Nick Hodge
+./src/Update/Update.csproj,Ricardo Polo
+./src/WriteZipToSetup/stdafx.cpp,Paul Betts
+./src/WriteZipToSetup/WriteZipToSetup.vcxproj,Anaïs Betts
+./src/WriteZipToSetup/WriteZipToSetup.vcxproj,Rob Mensching
+./src/WriteZipToSetup/WriteZipToSetup.vcxproj.filters,Nick Hodge
+./src/WriteZipToSetup/WriteZipToSetup.vcxproj.filters,Paul Betts
+./test/ApplyReleasesTests.cs,Dennis Daume
+./test/ApplyReleasesTests.cs,Geert van Horrik
+./test/ApplyReleasesTests.cs,Nick Hodge
+./test/ApplyReleasesTests.cs,Patrick Roza
+./test/ApplyReleasesTests.cs,Rob Mensching
+./test/ApplyReleasesTests.cs,Will Dean
+./test/CheckForUpdateTests.cs,Rob Mensching
+./test/ContentTypeTests.cs,Rob Mensching
+./test/DeltaPackageTests.cs,Nick Hodge
+./test/DeltaPackageTests.cs,Rob Mensching
+./test/DownloadReleasesTests.cs,Nick Hodge
+./test/DownloadReleasesTests.cs,Rob Mensching
+./test/fixtures/atom.exe,Paul Betts
+./test/fixtures/Caliburn.Micro.1.4.1.nupkg,Paul Betts
+./test/fixtures/Caliburn.Micro.1.5.2.nupkg,Paul Betts
+./test/fixtures/CaliburnMicroDemo.1.0.0.nupkg,Paul Betts
+./test/fixtures/content-types/basic-merged.xml,Paul Betts
+./test/fixtures/content-types/basic.xml,Paul Betts
+./test/fixtures/content-types/complex-merged.xml,Paul Betts
+./test/fixtures/content-types/complex.xml,Paul Betts
+./test/fixtures/NotSquirrelAwareApp.exe,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/BreakingChanges.txt,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/Castle.Core.3.2.0.nupkg,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/Changes.txt,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net35/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net35/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net40-client/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net40-client/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net45/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/net45/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/sl4/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/sl4/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/sl5/Castle.Core.dll,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/lib/sl5/Castle.Core.xml,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/License.txt,Paul Betts
+./test/fixtures/packages/Castle.Core.3.2.0/readme.txt,Paul Betts
+./test/fixtures/packages/Microsoft.Web.Xdt.2.1.1/lib/net40/Microsoft.Web.XmlTransform.dll,Paul Betts
+./test/fixtures/packages/Microsoft.Web.Xdt.2.1.1/Microsoft.Web.Xdt.2.1.1.nupkg,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net20/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net20/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net35/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net35/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net40/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net40/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net45/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/net45/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/netcore45/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/netcore45/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/Newtonsoft.Json.6.0.3.nupkg,Paul Betts
+./test/fixtures/packages/Newtonsoft.Json.6.0.3/tools/install.ps1,Paul Betts
+./test/fixtures/packages/NuGet.Core.2.8.2/lib/net40-Client/NuGet.Core.dll,Paul Betts
+./test/fixtures/packages/NuGet.Core.2.8.2/NuGet.Core.2.8.2.nupkg,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/MonoAndroid/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/MonoAndroid/Refit.dll.mdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/MonoMac/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/MonoMac/Refit.dll.mdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Net45/Refit-Portable.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Net45/Refit-Portable.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Net45/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Net45/Refit.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Portable-Net45+WinRT45+WP8/Refit-Portable.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Portable-Net45+WinRT45+WP8/Refit-Portable.dll.config,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/Portable-Net45+WinRT45+WP8/Refit-Portable.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/SL5/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/SL5/Refit.dll.config,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/SL5/Refit.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit-Portable.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit-Portable.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit.dll,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit.dll.config,Paul Betts
+./test/fixtures/packages/refit.1.3.0/lib/WP8/Refit.pdb,Paul Betts
+./test/fixtures/packages/refit.1.3.0/refit.1.3.0.nupkg,Paul Betts
+./test/fixtures/packages/repositories.config,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/monoandroid/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/monoandroid/Splat.dll.mdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/MonoMac/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/MonoMac/Splat.dll.mdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/monotouch/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/monotouch/Splat.dll.mdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Net45/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Net45/Splat.pdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/NetCore45/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/NetCore45/Splat.pdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/NetCore45/Splat.pri,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Portable-net45+win+wpa81+wp80/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Portable-Win81+Wpa81/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/Portable-Win81+Wpa81/Splat.pri,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/wp8/Splat.dll,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/lib/wp8/Splat.pdb,Paul Betts
+./test/fixtures/packages/Splat.1.4.0/Splat.1.4.0.nupkg,Paul Betts
+./test/fixtures/packages/xunit.2.0.0-beta-build2700/xunit.2.0.0-beta-build2700.nupkg,Paul Betts
+./test/fixtures/packages/xunit.abstractions.2.0.0-beta-build2700/lib/net35/xunit.abstractions.dll,Paul Betts
+./test/fixtures/packages/xunit.abstractions.2.0.0-beta-build2700/lib/net35/xunit.abstractions.xml,Paul Betts
+./test/fixtures/ProjectDependsOnJsonDotNet.1.0.nupkg,Paul Betts
+./test/fixtures/ProjectWithContent.1.0.0.0-beta-full.nupkg,Paul Betts
+./test/fixtures/ProjectWithContent.1.0.0.0-beta.nupkg,Paul Betts
+./test/fixtures/RELEASES-OnePointOh,Paul Betts
+./test/fixtures/RELEASES-OnePointOne,Paul Betts
+./test/fixtures/Setup.exe,Paul Betts
+./test/fixtures/SpecialCharacters-0.1.0-full.nupkg,Ran-Intendu
+./test/fixtures/Squirrel.Core.1.0.0.0.nupkg,Paul Betts
+./test/fixtures/Squirrel.Core.1.1.0.0.nupkg,Paul Betts
+./test/fixtures/Squirrel.Core.1.1.0.0.nuspec,Paul Betts
+./test/fixtures/Squirrel.Core.1.2.0.0-full.nupkg,Paul Betts
+./test/fixtures/Squirrel.Core.1.3.0.0-full.nupkg,Paul Betts
+./test/fixtures/Squirrel.Core.NoDependencies.1.0.0.0.nupkg,Paul Betts
+./test/fixtures/Squirrel.Tests.0.1.0-pre.nupkg,Paul Betts
+./test/fixtures/Squirrel.Tests.0.2.0-pre.nupkg,Paul Betts
+./test/fixtures/SquirrelAwareApp.exe,Paul Betts
+./test/fixtures/SquirrelInstalledApp.nuspec,Nick Hodge
+./test/fixtures/SquirrelInstalledApp.nuspec,Paul Betts
+./test/fixtures/ThisShouldBeANet45Project.1.0.nupkg,Paul Betts
+./test/Properties/AssemblyInfo.cs,Geert van Horrik
+./test/Properties/AssemblyInfo.cs,Rob Mensching
+./test/ReleaseEntryTests.cs,Max
+./test/ReleaseEntryTests.cs,Roberto Huertas
+./test/ReleaseEntryTests.cs,Tom Hughes
+./test/ReleasePackageTests.cs,Nick Hodge
+./test/Squirrel.Tests.csproj,Adam Weiss
+./test/Squirrel.Tests.csproj,Geert van Horrik
+./test/Squirrel.Tests.csproj,Jonathan Haines
+./test/Squirrel.Tests.csproj,Ricardo Polo
+./test/Squirrel.Tests.csproj,Rob Mensching
+./test/SquirrelAwareExecutableDetectorTests.cs,Rob Mensching
+./test/TestHelpers/AssertExtensions.cs,Paul Betts
+./test/TestHelpers/ExposedClass.cs,Paul Betts
+./test/TestHelpers/ExposedObject.cs,Paul Betts
+./test/TestHelpers/ExposedObjectHelper.cs,Paul Betts
+./test/TestHelpers/IntegrationTestHelper.cs,Nick Hodge
+./test/UpdateManagerTests.cs,Max
+./test/UpdateManagerTests.cs,Ran-Intendu
+./test/UpdateManagerTests.cs,Rob Mensching
+./test/UpdateManagerTests.cs,Will Dean
+./test/UtilityTests.cs,Nick Hodge
