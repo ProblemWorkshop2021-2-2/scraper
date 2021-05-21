@@ -1,53 +1,65 @@
-import json
 import os
 
-
-def _load_config_decorator(function):
-    def wrapper(*args, **kwargs):
-        Config.config_load()
-        return function(*args)
-
-    return wrapper
+from dotenv import load_dotenv
 
 
 class Config:
-    _config_loaded: bool = False
-    _config = {
-        "github_token": ""
-    }
+    GITHUB_TOKEN = "GITHUB_TOKEN"
+    REPOSITORY_OWNER = "REPOSITORY_OWNER"
+    REPOSITORY_NAME = "REPOSITORY_NAME"
+    TEMP_DIR = "TEMP_DIR"
+    CACHE_DIR = "CACHE_DIR"
+    DATA_DIR = "DATA_DIR"
+
+    _config_loaded = False
 
     @staticmethod
     def _config_file_path() -> str:
-        return Config.working_directory() + "/scraperconfig.json"
+        return Config.working_directory() + "/.env"
 
     @staticmethod
     def config_load() -> None:
-        if Config._config_loaded:
-            return
-        if os.path.exists(Config._config_file_path()) and os.path.isfile(Config._config_file_path()):
-            with open(Config._config_file_path(), 'r') as json_file:
-                json_lines = json_file.readlines()
-                json_file.close()
-                json_string = ""
-                if not json_string == "":
-                    for json_line in json_lines:
-                        json_string += f"{json_line}\n"
-                    json_object = json.loads(json_string)
-
-                    Config._config = json_object
-                    Config._config_loaded = True
-        else:
-            with open(Config._config_file_path(), 'w') as json_file:
-                json_config = json.dumps(Config._config, ensure_ascii=False, sort_keys=True)
-                json_file.write(json_config)
-                json_file.writelines("")
-                json_file.close()
+        load_dotenv(Config._config_file_path())
 
     @staticmethod
     def working_directory() -> str:
         return os.getcwd()
 
+    def _get_key(key: str, default):
+        if not Config._config_loaded:
+            Config.config_load()
+            Config._config_loaded = True
+        return os.environ.get(key, default)
+
     @staticmethod
-    @_load_config_decorator
     def github_token() -> str:
-        return "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"
+        x = Config._get_key(Config.GITHUB_TOKEN, None)
+        if x is None:
+            raise RuntimeError("You need to setup GITHUB_TOKEN in .env file or enviroment variables")
+        return x
+
+    @staticmethod
+    def repository_owner() -> str:
+        x = Config._get_key(Config.REPOSITORY_OWNER, None)
+        if x is None:
+            raise RuntimeError("You need to setup REPOSITORY_OWNER in .env file or enviroment variables")
+        return x
+
+    @staticmethod
+    def repository_name() -> str:
+        x = Config._get_key(Config.REPOSITORY_NAME, None)
+        if x is None:
+            raise RuntimeError("You need to setup REPOSITORY_NAME in .env file or enviroment variables")
+        return x
+
+    @staticmethod
+    def temp_dir() -> str:
+        return Config._get_key(Config.TEMP_DIR, 'temp')
+
+    @staticmethod
+    def cache_dir() -> str:
+        return Config._get_key(Config.CACHE_DIR, 'cache')
+
+    @staticmethod
+    def data_dir() -> str:
+        return Config._get_key(Config.DATA_DIR, 'data')

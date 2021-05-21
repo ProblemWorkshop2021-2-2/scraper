@@ -6,7 +6,7 @@ from scrapgitubapi.util import Config, Util
 class Table:
 
     def __init__(self, file, _delimiter=','):
-        self.filePath = f"{Config.working_directory()}/data/{file}.csv"
+        self.filePath = f"{Config.working_directory()}/{Config.data_dir()}/{Config.repository_owner()}_{Config.repository_name()}/{file}.csv"
         Util.mkdir(self.filePath)
         self.file = open(self.filePath, 'w')
         self.delimiter = _delimiter

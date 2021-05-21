@@ -34,7 +34,7 @@ class Cache(object):
 
     @staticmethod
     def _cache_directory():
-        path = Config.working_directory() + "/cache"
+        path = f"{Config.working_directory()}/{Config.cache_dir()}"
         if not os.path.exists(path):
             os.mkdir(path)
         return path

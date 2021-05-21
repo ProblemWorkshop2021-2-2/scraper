@@ -12,7 +12,7 @@ class GithubapiSpider(scrapy.Spider):
     allowed_domains = ['api.github.com']
 
     urls_to_crawl: List[str] = [
-        'https://api.github.com/repos/tensorflow/tensorflow'
+        f"https://api.github.com/repos/{Config.repository_owner()}/{Config.repository_name()}"
     ]
 
     def start_requests(self):
@@ -26,4 +26,5 @@ class GithubapiSpider(scrapy.Spider):
         obj = json.loads(text)
         data = DataGithubApi()
         data.contributors_url = obj['contributors_url']
+        data.subscribers_url = obj['subscribers_url']
         return {}

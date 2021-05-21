@@ -25,8 +25,10 @@ class ContributorsSpider(scrapy.Spider):
 
     @property
     def next_url(self) -> str:
-        base_url = f"https://api.github.com/repos/tensorflow/tensorflow/subscribers"
-        return f"{base_url}?page={self.next_page}"
+        # base_url = f"https://api.github.com/repos/tensorflow/tensorflow/subscribers"
+        url = f"{self.data_github_api.subscribers_url}?page={self.next_page}"
+        print(url)
+        return url
 
     def start_requests(self):
         yield scrapy.Request(url=self.next_url, callback=self.parse)

@@ -7,7 +7,7 @@ from scrapgitubapi.util import Config, Util
 class Data:
 
     def __init__(self, file):
-        self.filePath = f"{Config.working_directory()}/data/{file}.json"
+        self.filePath = f"{Config.working_directory()}/{Config.temp_dir()}/{Config.repository_owner()}_{Config.repository_name()}/{file}.json"
         self._data = {}
         Util.mkdir(self.filePath)
 
