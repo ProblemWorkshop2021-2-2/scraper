@@ -10,7 +10,9 @@ class Config:
     TEMP_DIR = "TEMP_DIR"
     CACHE_DIR = "CACHE_DIR"
     DATA_DIR = "DATA_DIR"
+    REPO_DIR = "REPO_DIR"
 
+    _config = {}
     _config_loaded = False
 
     @staticmethod
@@ -26,6 +28,8 @@ class Config:
         return os.getcwd()
 
     def _get_key(key: str, default):
+        if key in Config._config:
+            return Config._config[key]
         if not Config._config_loaded:
             Config.config_load()
             Config._config_loaded = True
@@ -46,6 +50,14 @@ class Config:
         return x
 
     @staticmethod
+    def set_repository_owner(value):
+        Config._config[Config.REPOSITORY_OWNER] = value
+
+    @staticmethod
+    def set_repository_name(value):
+        Config._config[Config.REPOSITORY_NAME] = value
+
+    @staticmethod
     def repository_name() -> str:
         x = Config._get_key(Config.REPOSITORY_NAME, None)
         if x is None:
@@ -63,3 +75,7 @@ class Config:
     @staticmethod
     def data_dir() -> str:
         return Config._get_key(Config.DATA_DIR, 'data')
+
+    @staticmethod
+    def repo_dir() -> str:
+        return Config._get_key(Config.REPO_DIR, 'repo')
