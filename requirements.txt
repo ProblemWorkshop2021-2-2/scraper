@@ -1,3 +1,4 @@
 scrapy
 python-dotenv
 environ
+progressbar2

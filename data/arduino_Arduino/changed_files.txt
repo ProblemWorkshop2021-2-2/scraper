@@ -1,1038 +1,1040 @@
-./.classpath,David A. Mellis
-./.classpath,Martino Facchin
-./.classpath,Mattia Bertorello
-./.classpath,Pieter12345
-./.classpath,Thomas L. Kjeldsen
-./.github/ISSUE_TEMPLATE.md,Matthijs Kooijman
-./.github/PULL_REQUEST_TEMPLATE.md,Matthijs Kooijman
-./.github/workflows/ant.yml,Cristian Maglie
-./.github/workflows/ant.yml,Matthijs Kooijman
-./.gitignore,Christopher Andrews
-./.gitignore,per1234
-./.gitignore,s17t.net
-./.gitignore,tigoe
-./.gitignore,Tom Igoe
-./.gitignore,Zachary Eveland
-./.project,Cristian Maglie
-./.project,David A. Mellis
-./.project,Thibaut VIARD
-./.settings/org.eclipse.jdt.core.prefs,David A. Mellis
-./.settings/org.eclipse.jdt.core.prefs,Zach Eveland
-./.settings/org.eclipse.jdt.ui.prefs,Cristian Maglie
-./.settings/org.eclipse.jdt.ui.prefs,David A. Mellis
-./.settings/org.eclipse.jdt.ui.prefs,Zach Eveland
-./app/.classpath,David A. Mellis
-./app/.classpath,Matthijs Kooijman
-./app/.classpath,Mattia Bertorello
-./app/.classpath,ricardo.jl.rufino
-./app/.classpath,Thomas L. Kjeldsen
-./app/.classpath_macosx,David A. Mellis
-./app/.editorconfig,Federico Fissore
-./app/.project,David A. Mellis
-./app/.settings/org.eclipse.jdt.core.prefs,David A. Mellis
-./app/.settings/org.eclipse.jdt.ui.prefs,Cristian Maglie
-./app/.settings/org.eclipse.jdt.ui.prefs,David A. Mellis
-./app/build.xml,Mattia Bertorello
-./app/build.xml,Shigeru KANEMOTO
-./app/build.xml,Thomas L. Kjeldsen
-./app/lib/apple.jar,David A. Mellis
-./app/lib/apple.LICENSE.BSD-like.txt,Federico Fissore
-./app/lib/batik-1.8.jar,Cristian Maglie
-./app/lib/batik-anim-1.8.jar,Cristian Maglie
-./app/lib/batik-awt-util-1.8.jar,Cristian Maglie
-./app/lib/batik-bridge-1.8.jar,Cristian Maglie
-./app/lib/batik-codec-1.8.jar,Cristian Maglie
-./app/lib/batik-css-1.8.jar,Cristian Maglie
-./app/lib/batik-dom-1.8.jar,Cristian Maglie
-./app/lib/batik-ext-1.8.jar,Cristian Maglie
-./app/lib/batik-gvt-1.8.jar,Cristian Maglie
-./app/lib/batik-parser-1.8.jar,Cristian Maglie
-./app/lib/batik-rasterizer-1.8.jar,Cristian Maglie
-./app/lib/batik-script-1.8.jar,Cristian Maglie
-./app/lib/batik-squiggle-1.8.jar,Cristian Maglie
-./app/lib/batik-svgpp-1.8.jar,Cristian Maglie
-./app/lib/batik-transcoder-1.8.jar,Cristian Maglie
-./app/lib/batik-util-1.8.jar,Cristian Maglie
-./app/lib/batik-xml-1.8.jar,Cristian Maglie
-./app/lib/batik.LICENSE.ASL-2.0.txt,Cristian Maglie
-./app/lib/bcpg-jdk15on-152.jar,Federico Fissore
-./app/lib/bcprov-jdk15on-152.jar,Federico Fissore
-./app/lib/commons-codec-1.7.jar,Federico Fissore
-./app/lib/commons-codec.LICENSE.ASL-2.0.txt,Federico Fissore
-./app/lib/commons-compress-1.8.jar,Cristian Maglie
-./app/lib/commons-compress.LICENSE.ASL-2.0.txt,Federico Fissore
-./app/lib/commons-exec-1.1.jar,Federico Fissore
-./app/lib/commons-exec.LICENSE.ASL-2.0.txt,Federico Fissore
-./app/lib/commons-httpclient-3.1.jar,Federico Fissore
-./app/lib/commons-io-2.6.jar,Mattia Bertorello
-./app/lib/commons-lang3-3.8.1.jar,Pieter12345
-./app/lib/commons-lang3.LICENSE.ASL-2.0.txt,Federico Fissore
-./app/lib/commons-logging-1.0.4.jar,Federico Fissore
-./app/lib/commons-logging.LICENSE.ASL-2.0.txt,Federico Fissore
-./app/lib/commons-net-3.3.jar,Federico Fissore
-./app/lib/commons-net.LICENSE.ASL-2.0.txt,Federico Fissore
-./app/lib/jackson-annotations-2.9.5.jar,Martino Facchin
-./app/lib/jackson-core-2.9.5.jar,Martino Facchin
-./app/lib/jackson-databind-2.9.5.jar,Martino Facchin
-./app/lib/java-semver-0.8.0.jar,Federico Fissore
-./app/lib/java-semver.LICENSE.MIT.txt,Federico Fissore
-./app/lib/jmdns-3.5.5.jar,Martino Facchin
-./app/lib/jmdns.LICENSE.ASL-2.0-LGPL-2.1.txt,Federico Fissore
-./app/lib/jmdns.LICENSE.ASL-2.0-LGPL-2.1.txt,Martino Facchin
-./app/lib/jsch-0.1.50.jar,Federico Fissore
-./app/lib/jssc-2.8.0-arduino4.jar,Martino Facchin
-./app/lib/jssc.LICENSE.GPL.txt,Federico Fissore
-./app/lib/jssc.LICENSE.LGPL.txt,Federico Fissore
-./app/lib/jtouchbar-1.0.0.jar,Cristian Maglie
-./app/lib/jtouchbar-1.0.0.jar,Sandeep Mistry
-./app/lib/jtouchbar.LICENSE.MIT.txt,Sandeep Mistry
-./app/lib/log4j-api-2.12.0.jar,Mattia Bertorello
-./app/lib/log4j-core-2.12.0.jar,Mattia Bertorello
-./app/lib/README.xml-apis-1.3.04.txt,Cristian Maglie
-./app/lib/README.xml-apis-ext-1.3.04.txt,Cristian Maglie
-./app/lib/rsyntaxtextarea-3.0.3-SNAPSHOT.jar,Martino Facchin
-./app/lib/RSyntaxTextArea.License.txt,Martino Facchin
-./app/lib/slf4j-api-1.7.22.jar,Martino Facchin
-./app/lib/slf4j-simple-1.7.22.jar,Martino Facchin
-./app/lib/xml-apis-1.3.04.jar,Cristian Maglie
-./app/lib/xml-apis-ext-1.3.04.jar,Cristian Maglie
-./app/lib/xmlgraphics-commons-2.0.jar,Cristian Maglie
-./app/lib/batik-svg-dom-1.8.jar,Cristian Maglie
-./app/lib/commons-httpclient.LICENSE.ASL-2.0.txt,Federico Fissore
-./app/lib/jsch.LICENSE.BSD.txt,Federico Fissore
-./app/src/cc/arduino/ConsoleOutputStream.java,Martino Facchin
-./app/src/cc/arduino/contributions/ContributionsSelfCheck.java,Joe Wegner
-./app/src/cc/arduino/contributions/libraries/LibraryOfSameTypeComparator.java,Martino Facchin
-./app/src/cc/arduino/contributions/libraries/ui/ContributedLibraryTableCellEditor.java,Martino Facchin
-./app/src/cc/arduino/contributions/libraries/ui/ContributedLibraryTableCellEditor.java,Matthijs Kooijman
-./app/src/cc/arduino/contributions/libraries/ui/ContributedLibraryTableCellJPanel.java,Fabián Inostroza
-./app/src/cc/arduino/contributions/libraries/ui/ContributedLibraryTableCellRenderer.java,Matthijs Kooijman
-./app/src/cc/arduino/contributions/packages/filters/CategoryPredicate.java,Cristian Maglie
-./app/src/cc/arduino/contributions/packages/filters/UpdatablePlatformPredicate.java,Cristian Maglie
-./app/src/cc/arduino/contributions/packages/ui/ContributedPlatformTableCellEditor.java,Martino Facchin
-./app/src/cc/arduino/contributions/packages/ui/ContributedPlatformTableCellJPanel.java,Martino Facchin
-./app/src/cc/arduino/contributions/packages/ui/ContributionIndexTableModel.java,Martino Facchin
-./app/src/cc/arduino/contributions/packages/ui/DropdownCoreOfCategoryItem.java,Cristian Maglie
-./app/src/cc/arduino/contributions/packages/ui/DropdownUpdatableCoresItem.java,Cristian Maglie
-./app/src/cc/arduino/contributions/ui/FilteredAbstractTableModel.java,Cristian Maglie
-./app/src/cc/arduino/contributions/ui/FilterJTextField.java,Adrian Hughes
-./app/src/cc/arduino/contributions/ui/FilterJTextField.java,Cristian Maglie
-./app/src/cc/arduino/contributions/ui/FilterJTextField.java,Pieter12345
-./app/src/cc/arduino/contributions/ui/InstallerJDialog.java,Joe Wegner
-./app/src/cc/arduino/contributions/ui/InstallerJDialog.java,Matthijs Kooijman
-./app/src/cc/arduino/contributions/ui/InstallerJDialog.java,Pieter12345
-./app/src/cc/arduino/contributions/ui/InstallerTableCell.java,Cristian Maglie
-./app/src/cc/arduino/contributions/ui/InstallerTableCell.java,Martino Facchin
-./app/src/cc/arduino/contributions/ui/ProgressJProgressBar.java,Joe Wegner
-./app/src/cc/arduino/packages/formatter/AStyle.java,ricardo.jl.rufino
-./app/src/cc/arduino/packages/MonitorFactory.java,Claudio Indellicati
-./app/src/cc/arduino/packages/MonitorFactory.java,Cristian Maglie
-./app/src/cc/arduino/packages/MonitorFactory.java,Federico Fissore
-./app/src/cc/arduino/packages/MonitorFactory.java,Pieter12345
-./app/src/cc/arduino/packages/MonitorFactory.java,Sandeep Mistry
-./app/src/cc/arduino/view/Event.java,Cristian Maglie
-./app/src/cc/arduino/view/EventListener.java,Federico Fissore
-./app/src/cc/arduino/view/GoToLineNumber.form,Federico Fissore
-./app/src/cc/arduino/view/GoToLineNumber.java,Federico Fissore
-./app/src/cc/arduino/view/GoToLineNumber.java,Matthijs Kooijman
-./app/src/cc/arduino/view/JMenuUtils.java,Federico Fissore
-./app/src/cc/arduino/view/NotificationPopup.java,Martino Facchin
-./app/src/cc/arduino/view/preferences/Preferences.form,Cristian Maglie
-./app/src/cc/arduino/view/preferences/Preferences.java,Corey Knapp
-./app/src/cc/arduino/view/preferences/Preferences.java,Georges A
-./app/src/cc/arduino/view/preferences/Preferences.java,Mumfrey
-./app/src/processing/app/AbstractMonitor.java,Avishay Orpaz
-./app/src/processing/app/AbstractMonitor.java,Chris--A
-./app/src/processing/app/AbstractMonitor.java,Dan Stutts
-./app/src/processing/app/AbstractTextMonitor.java,Matthijs Kooijman
-./app/src/processing/app/AbstractTextMonitor.java,Michael michael.sytko
-./app/src/processing/app/AbstractTextMonitor.java,nitram509
-./app/src/processing/app/Base.java,Chris--A
-./app/src/processing/app/Base.java,David Cuartielles
-./app/src/processing/app/Base.java,Flavio Monteiro
-./app/src/processing/app/Base.java,Kristian Sloth Lauszus
-./app/src/processing/app/Base.java,Michael G
-./app/src/processing/app/Base.java,ReAlUA
-./app/src/processing/app/Base.java,ricardo.jl.rufino
-./app/src/processing/app/Base.java,Thomas
-./app/src/processing/app/Base.java,Yohsuke FURUTA
-./app/src/processing/app/Editor.java,Arturo Vargas
-./app/src/processing/app/Editor.java,Avishay Orpaz
-./app/src/processing/app/Editor.java,David Mellis
-./app/src/processing/app/Editor.java,Geronimo Bareiro
-./app/src/processing/app/Editor.java,Hasso Tepper
-./app/src/processing/app/Editor.java,Henning Pohl
-./app/src/processing/app/Editor.java,Jose Juan Juarez Monsivais
-./app/src/processing/app/Editor.java,maged
-./app/src/processing/app/Editor.java,Michael G
-./app/src/processing/app/Editor.java,Paul Stoffregen
-./app/src/processing/app/Editor.java,ricklon
-./app/src/processing/app/Editor.java,Sandeep Mistry
-./app/src/processing/app/Editor.java,tomneutens
-./app/src/processing/app/Editor.java,Zach Eveland
-./app/src/processing/app/EditorConsole.java,Shigeru KANEMOTO
-./app/src/processing/app/EditorHeader.java,Claudio Indellicati
-./app/src/processing/app/EditorHeader.java,ricardo.jl.rufino
-./app/src/processing/app/EditorHeader.java,Ricardo JL Rufino
-./app/src/processing/app/EditorLineStatus.java,Hasso Tepper
-./app/src/processing/app/EditorLineStatus.java,maged
-./app/src/processing/app/EditorLineStatus.java,Martino Facchin
-./app/src/processing/app/EditorLineStatus.java,ricardo.jl.rufino
-./app/src/processing/app/EditorStatus.java,David A. Mellis
-./app/src/processing/app/EditorStatus.java,Hasso Tepper
-./app/src/processing/app/EditorStatus.java,PaulStoffregen
-./app/src/processing/app/EditorStatus.java,tomneutens
-./app/src/processing/app/EditorTab.java,bob
-./app/src/processing/app/EditorTab.java,Maged Ahmed Rifaat
-./app/src/processing/app/EditorTab.java,Mumfrey
-./app/src/processing/app/EditorToolbar.java,Nicola Elia
-./app/src/processing/app/EditorToolbar.java,Shigeru KANEMOTO
-./app/src/processing/app/helpers/CircularBuffer.java,Federico Fissore
-./app/src/processing/app/helpers/CircularBuffer.java,Henning Pohl
-./app/src/processing/app/helpers/ConsoleLogger.java,ricardo.jl.rufino
-./app/src/processing/app/helpers/DocumentTextChangeListener.java,Cristian Maglie
-./app/src/processing/app/helpers/DocumentTextChangeListener.java,Matthijs Kooijman
-./app/src/processing/app/helpers/Keys.java,Flavio Monteiro
-./app/src/processing/app/helpers/LogFormatter.java,ricardo.jl.rufino
-./app/src/processing/app/helpers/SimpleAction.java,Matthijs Kooijman
-./app/src/processing/app/helpers/Ticks.java,Federico Fissore
-./app/src/processing/app/helpers/Ticks.java,Henning Pohl
-./app/src/processing/app/javax/swing/filechooser/FileNameExtensionFilter.java,Federico Fissore
-./app/src/processing/app/macosx/ThinkDifferent.java,Claudio Indellicati
-./app/src/processing/app/macosx/ThinkDifferent.java,Cristian Maglie
-./app/src/processing/app/macosx/ThinkDifferent.java,Martino Facchin
-./app/src/processing/app/NetworkMonitor.java,Henning Pohl
-./app/src/processing/app/NetworkMonitor.java,Martino Facchin
-./app/src/processing/app/NetworkMonitor.java,Pieter12345
-./app/src/processing/app/NewBoardListener.java,Cristian Maglie
-./app/src/processing/app/NewBoardListener.java,Martino Facchin
-./app/src/processing/app/Preferences.java,Cayci
-./app/src/processing/app/Preferences.java,dcuartielles
-./app/src/processing/app/Preferences.java,Fulvio Ieva
-./app/src/processing/app/Preferences.java,ricklon
-./app/src/processing/app/Preferences.java,Rune Fauske
-./app/src/processing/app/PresentMode.java,Cristian Maglie
-./app/src/processing/app/PresentMode.java,Federico Fissore
-./app/src/processing/app/Resources.java,Shigeru KANEMOTO
-./app/src/processing/app/RunnerListener.java,Federico Fissore
-./app/src/processing/app/SerialMonitor.java,Henning Pohl
-./app/src/processing/app/SerialMonitor.java,Matthijs Kooijman
-./app/src/processing/app/SerialMonitor.java,Michael michael.sytko
-./app/src/processing/app/SerialMonitor.java,Shigeru KANEMOTO
-./app/src/processing/app/SerialPlotter.java,Kelvin Ly
-./app/src/processing/app/SerialPlotter.java,Matthijs Kooijman
-./app/src/processing/app/SerialPlotter.java,QuocViet Le
-./app/src/processing/app/SerialPlotter.java,Sandeep Mistry
-./app/src/processing/app/SerialPlotter.java,Wilhelm
-./app/src/processing/app/SketchController.java,Jose Juan Juarez Monsivais
-./app/src/processing/app/SketchController.java,PaulStoffregen
-./app/src/processing/app/SketchController.java,per1234
-./app/src/processing/app/SketchController.java,Petri Laarne
-./app/src/processing/app/SketchController.java,tomneutens
-./app/src/processing/app/syntax/MyConfigurableCaret.java,Federico Fissore
-./app/src/processing/app/syntax/PdeKeywords.java,agdl
-./app/src/processing/app/syntax/PdeKeywords.java,Brett Hagman
-./app/src/processing/app/syntax/PdeKeywords.java,PaulStoffregen
-./app/src/processing/app/syntax/PdeKeywords.java,ricardo.jl.rufino
-./app/src/processing/app/syntax/SketchTextArea.java,Cristian Maglie
-./app/src/processing/app/syntax/SketchTextArea.java,PaulStoffregen
-./app/src/processing/app/syntax/SketchTextAreaDefaultInputMap.java,Jay Carlson
-./app/src/processing/app/syntax/SketchTextAreaDefaultInputMap.java,Matthijs Kooijman
-./app/src/processing/app/syntax/SketchTextAreaEditorKit.java,David A. Mellis
-./app/src/processing/app/syntax/SketchTokenMaker.java,ricardo.jl.rufino
-./app/src/processing/app/syntax/Token.java,Cristian Maglie
-./app/src/processing/app/syntax/Token.java,David A. Mellis
-./app/src/processing/app/syntax/Token.java,Federico Fissore
-./app/src/processing/app/TextAreaFIFO.java,Federico Fissore
-./app/src/processing/app/Theme.java,Claudio Indellicati
-./app/src/processing/app/Theme.java,Henning Pohl
-./app/src/processing/app/Theme.java,Martino Facchin
-./app/src/processing/app/Theme.java,ricardo.jl.rufino
-./app/src/processing/app/Theme.java,Shigeru KANEMOTO
-./app/src/processing/app/tools/Archiver.java,Matthijs Kooijman
-./app/src/processing/app/tools/Archiver.java,Shigeru KANEMOTO
-./app/src/processing/app/tools/DiscourseFormat.java,Cristian Maglie
-./app/src/processing/app/tools/DiscourseFormat.java,Matthijs Kooijman
-./app/src/processing/app/tools/DiscourseFormat.java,PaulStoffregen
-./app/src/processing/app/tools/DiscourseFormat.java,ricardo.jl.rufino
-./app/src/processing/app/tools/FixEncoding.java,David A. Mellis
-./app/src/processing/app/tools/FixEncoding.java,Shigeru KANEMOTO
-./app/src/processing/app/tools/Tool.java,David A. Mellis
-./app/src/processing/app/tools/Tool.java,Federico Fissore
-./app/src/processing/app/UpdateCheck.java,Iván Pérez
-./app/src/processing/app/UpdateCheck.java,Luigi
-./app/src/processing/app/UpdateCheck.java,Shigeru KANEMOTO
-./app/test/cc/arduino/contributions/GPGDetachedSignatureVerifierTest.java,Federico Fissore
-./app/test/cc/arduino/contributions/GzippedJsonDownloaderTest.java,Cristian Maglie
-./app/test/cc/arduino/contributions/GzippedJsonDownloaderTest.java,Mattia Bertorello
-./app/test/cc/arduino/contributions/GzippedJsonDownloaderTest.java,Thomas L. Kjeldsen
-./app/test/cc/arduino/contributions/JsonDownloaderTest.java,Cristian Maglie
-./app/test/cc/arduino/contributions/JsonDownloaderTest.java,Mattia Bertorello
-./app/test/cc/arduino/contributions/JsonDownloaderTest.java,Thomas L. Kjeldsen
-./app/test/cc/arduino/contributions/libraries/LibraryOfTypeComparatorTest.java,Federico Fissore
-./app/test/cc/arduino/contributions/package_index.json,Federico Fissore
-./app/test/cc/arduino/contributions/package_index.json.sig,Federico Fissore
-./app/test/cc/arduino/contributions/public.gpg.key,Federico Fissore
-./app/test/cc/arduino/contributions/UpdatableLibraryTest.java,Ricardo JL Rufino
-./app/test/cc/arduino/net/CustomProxySelectorTest.java,Cristian Maglie
-./app/test/cc/arduino/net/PACSupportMethodsTest.java,Federico Fissore
-./app/test/cc/arduino/net/proxy_complex.pac,Federico Fissore
-./app/test/cc/arduino/net/proxy_direct.pac,Federico Fissore
-./app/test/cc/arduino/net/proxy_http.pac,Federico Fissore
-./app/test/cc/arduino/net/proxy_socks.pac,Federico Fissore
-./app/test/cc/arduino/packages/uploaders/MergeSketchWithUploaderTest.java,Federico Fissore
-./app/test/cc/arduino/packages/uploaders/MergeSketchWithUploaderTest.java,Pieter12345
-./app/test/Keypad_mac.zip,Federico Fissore
-./app/test/Keypad_with_hidden_files.zip,Federico Fissore
-./app/test/optiboot_atmega328.hex,Federico Fissore
-./app/test/processing/app/AbstractGUITest.java,Claudio Indellicati
-./app/test/processing/app/AutoformatProducesOneUndoActionTest.java,Cristian Maglie
-./app/test/processing/app/AutoformatSavesCaretPositionTest.java,ricardo.jl.rufino
-./app/test/processing/app/AutoformatTest.java,ricardo.jl.rufino
-./app/test/processing/app/BlockCommentGeneratesOneUndoActionTest.java,Cristian Maglie
-./app/test/processing/app/BlockCommentGeneratesOneUndoActionTest.java,Matthijs Kooijman
-./app/test/processing/app/BlockCommentGeneratesOneUndoActionTest.java,ricardo.jl.rufino
-./app/test/processing/app/CommandLineTest.java,per1234
-./app/test/processing/app/CommandLineTest.java,Pieter12345
-./app/test/processing/app/CommandLineTest.java,Yohsuke FURUTA
-./app/test/processing/app/debug/TargetPackageStub.java,Federico Fissore
-./app/test/processing/app/debug/TargetPlatformStub.java,Martino Facchin
-./app/test/processing/app/DefaultTargetTest.java,Matthijs Kooijman
-./app/test/processing/app/EditorConsoleTest.java,Matthijs Kooijman
-./app/test/processing/app/helpers/ArduinoFrameFixture.java,ricardo.jl.rufino
-./app/test/processing/app/helpers/SketchTextAreaComponentDriver.java,Federico Fissore
-./app/test/processing/app/helpers/SketchTextAreaComponentMatcher.java,Federico Fissore
-./app/test/processing/app/helpers/SketchTextAreaFixture.java,Federico Fissore
-./app/test/processing/app/helpers/StringReplacerTest.java,Cristian Maglie
-./app/test/processing/app/helpers/StringReplacerTest.java,Federico Fissore
-./app/test/processing/app/HittingEscapeOnCloseConfirmationDialogTest.java,Matthijs Kooijman
-./app/test/processing/app/HittingEscapeOnCloseConfirmationDialogTest.java,ricardo.jl.rufino
-./app/test/processing/app/linux/udev_output.txt,Federico Fissore
-./app/test/processing/app/macosx/SystemProfilerParserTest.java,Kristian Lauszus
-./app/test/processing/app/macosx/system_profiler_output.txt,Federico Fissore
-./app/test/processing/app/macosx/system_profiler_output2.txt,Federico Fissore
-./app/test/processing/app/macosx/system_profiler_output3.txt,Federico Fissore
-./app/test/processing/app/macosx/system_profiler_output4.txt,Federico Fissore
-./app/test/processing/app/macosx/system_profiler_output5.txt,Federico Fissore
-./app/test/processing/app/macosx/system_profiler_output6.txt,Federico Fissore
-./app/test/processing/app/macosx/system_profiler_output7.txt,Federico Fissore
-./app/test/processing/app/macosx/system_profiler_output8.txt,Federico Fissore
-./app/test/processing/app/macosx/system_profiler_output9.txt,Cristian Maglie
-./app/test/processing/app/ReduceIndentWith1CharOnLastLineTest.java,Cristian Maglie
-./app/test/processing/app/ReduceIndentWith1CharOnLastLineTest.java,ricardo.jl.rufino
-./app/test/processing/app/ReplacingTextGeneratesTwoUndoActionsTest.java,Cristian Maglie
-./app/test/processing/app/ReplacingTextGeneratesTwoUndoActionsTest.java,ricardo.jl.rufino
-./app/test/processing/app/SerialTest.java,Cristian Maglie
-./app/test/processing/app/syntax/PdeKeywordsTest.java,Cristian Maglie
-./app/test/processing/app/tools/test_partial_boards.txt,Federico Fissore
-./app/test/processing/app/tools/ZipDeflaterTest.java,Cristian Maglie
-./app/test/processing/app/UpdateTextAreaActionTest.java,Martino Facchin
-./app/test/processing/app/windows/german.reg.query.output.txt,Federico Fissore
-./app/test/processing/app/windows/RegexpTest.java,Federico Fissore
-./app/test/sketch.hex,Federico Fissore
-./app/test/Test.zip,Federico Fissore
-./app/test/Test2.zip,Federico Fissore
-./app/test-lib/fest-assert-1.2.jar,Federico Fissore
-./app/test-lib/fest-reflect-1.2.jar,Federico Fissore
-./app/test-lib/fest-swing-1.2.jar,Federico Fissore
-./app/test-lib/fest-util-1.1.2.jar,Federico Fissore
-./app/test-lib/fest.LICENSE.ASL-2.0.txt,Federico Fissore
-./app/test-lib/jcip-annotations-1.0.jar,Federico Fissore
-./app/test-lib/jcip-annotations.LICENSE.cc-by.2.5.txt,Federico Fissore
-./app/test-lib/junit-4.11.jar,Federico Fissore
-./app/test-lib/junit.LICENSE.EPL-1.0.txt,Federico Fissore
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/Bridge/Bridge.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/ConsoleAsciiTable/ConsoleAsciiTable.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/ConsolePixel/ConsolePixel.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/ConsoleRead/ConsoleRead.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/Datalogger/Datalogger.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/FileWriteScript/FileWriteScript.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/HttpClient/HttpClient.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/HttpClientConsole/HttpClientConsole.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/MailboxReadMessage/MailboxReadMessage.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/Process/Process.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/RemoteDueBlink/RemoteDueBlink.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/ShellCommands/ShellCommands.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/TemperatureWebPanel/TemperatureWebPanel.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/TemperatureWebPanel/www/index.html,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/TemperatureWebPanel/www/zepto.min.js,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/TimeCheck/TimeCheck.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/WiFiStatus/WiFiStatus.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/YunFirstConfig/YunFirstConfig.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/examples/YunSerialTerminal/YunSerialTerminal.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/keywords.txt,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/library.properties,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/README.adoc,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/Bridge.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/Bridge.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeClient.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeClient.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeServer.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeServer.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeSSLClient.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeSSLClient.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeUdp.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeUdp.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/Console.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/Console.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/FileIO.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/FileIO.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/HttpClient.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/HttpClient.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/Mailbox.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/Mailbox.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/Process.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/Process.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/YunClient.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.6.3/Bridge/src/YunServer.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/Bridge/Bridge.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/ConsoleAsciiTable/ConsoleAsciiTable.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/ConsolePixel/ConsolePixel.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/ConsoleRead/ConsoleRead.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/Datalogger/Datalogger.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/FileWriteScript/FileWriteScript.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/HttpClient/HttpClient.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/HttpClientConsole/HttpClientConsole.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/MailboxReadMessage/MailboxReadMessage.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/Process/Process.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/RemoteDueBlink/RemoteDueBlink.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/ShellCommands/ShellCommands.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/TemperatureWebPanel/TemperatureWebPanel.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/TemperatureWebPanel/www/index.html,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/TemperatureWebPanel/www/zepto.min.js,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/TimeCheck/TimeCheck.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/WiFiStatus/WiFiStatus.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/YunFirstConfig/YunFirstConfig.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/examples/YunSerialTerminal/YunSerialTerminal.ino,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/keywords.txt,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/library.properties,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/README.adoc,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/Bridge.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/Bridge.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeClient.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeClient.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeServer.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeServer.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeSSLClient.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeSSLClient.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeUdp.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeUdp.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/Console.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/Console.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/FileIO.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/FileIO.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/HttpClient.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/HttpClient.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/Mailbox.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/Mailbox.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/Process.cpp,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/Process.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/YunClient.h,Cristian Maglie
-./app/testdata/libraries/Bridge_1.7.0/Bridge/src/YunServer.h,Cristian Maglie
-./app/testdata/libraries/index_Bridge_only/library_index.json,Cristian Maglie
-./app/testdata/libraries/index_SD_only/library_index.json,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/examples/CardInfo/CardInfo.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/examples/Datalogger/Datalogger.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/examples/DumpFile/DumpFile.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/examples/Files/Files.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/examples/listfiles/listfiles.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/examples/ReadWrite/ReadWrite.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/keywords.txt,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/library.properties,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/README.adoc,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/File.cpp,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/README.txt,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/SD.cpp,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/SD.h,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/FatStructs.h,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/Sd2Card.cpp,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/Sd2Card.h,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/Sd2PinMap.h,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/SdFat.h,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/SdFatmainpage.h,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/SdFatUtil.h,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/SdFile.cpp,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/SdInfo.h,Cristian Maglie
-./app/testdata/libraries/SD_1.1.1/SD/src/utility/SdVolume.cpp,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/examples/CardInfo/CardInfo.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/examples/Datalogger/Datalogger.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/examples/DumpFile/DumpFile.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/examples/Files/Files.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/examples/listfiles/listfiles.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/examples/ReadWrite/ReadWrite.ino,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/keywords.txt,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/library.properties,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/README.adoc,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/File.cpp,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/README.txt,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/SD.cpp,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/SD.h,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/FatStructs.h,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/Sd2Card.cpp,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/Sd2Card.h,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/Sd2PinMap.h,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/SdFat.h,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/SdFatmainpage.h,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/SdFatUtil.h,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/SdFile.cpp,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/SdInfo.h,Cristian Maglie
-./app/testdata/libraries/SD_1.2.1/SD/src/utility/SdVolume.cpp,Cristian Maglie
-./app/testdata/sketches/Blink/Blink.ino,per1234
-./arduino-core/.classpath,Claudio Indellicati
-./arduino-core/.classpath,Mattia Bertorello
-./arduino-core/.classpath,Pieter12345
-./arduino-core/.classpath,Thomas L. Kjeldsen
-./arduino-core/.editorconfig,Federico Fissore
-./arduino-core/.gitignore,Cristian Maglie
-./arduino-core/.project,Cristian Maglie
-./arduino-core/build.xml,Cristian Maglie
-./arduino-core/lib/commons-net.LICENSE.ASL-2.0.txt,Federico Fissore
-./arduino-core/lib/apple.jar,Cristian Maglie
-./arduino-core/lib/apple.jar,Federico Fissore
-./arduino-core/lib/apple.LICENSE.BSD-like.txt,Cristian Maglie
-./arduino-core/lib/bcpg-jdk15on-152.jar,Federico Fissore
-./arduino-core/lib/bcprov-jdk15on-152.jar,Federico Fissore
-./arduino-core/lib/commons-codec-1.7.jar,Cristian Maglie
-./arduino-core/lib/commons-compress-1.8.jar,Cristian Maglie
-./arduino-core/lib/commons-compress.LICENSE.ASL-2.0.txt,Federico Fissore
-./arduino-core/lib/commons-exec-1.1.jar,Claudio Indellicati
-./arduino-core/lib/commons-exec.LICENSE.ASL-2.0.txt,Claudio Indellicati
-./arduino-core/lib/commons-io-2.6.jar,Mattia Bertorello
-./arduino-core/lib/commons-lang3-3.8.1.jar,Pieter12345
-./arduino-core/lib/commons-lang3.LICENSE.ASL-2.0.txt,Federico Fissore
-./arduino-core/lib/commons-logging-1.0.4.jar,Cristian Maglie
-./arduino-core/lib/commons-logging.LICENSE.ASL-2.0.txt,Cristian Maglie
-./arduino-core/lib/commons-net-3.3.jar,Federico Fissore
-./arduino-core/lib/jackson-annotations-2.9.5.jar,Martino Facchin
-./arduino-core/lib/jackson-core-2.9.5.jar,Martino Facchin
-./arduino-core/lib/jackson-databind-2.9.5.jar,Martino Facchin
-./arduino-core/lib/java-semver-0.8.0.jar,Federico Fissore
-./arduino-core/lib/java-semver.LICENSE.MIT.txt,Federico Fissore
-./arduino-core/lib/jmdns-3.5.5.jar,Martino Facchin
-./arduino-core/lib/jmdns.LICENSE.ASL-2.0-LGPL-2.1.txt,Cristian Maglie
-./arduino-core/lib/jmdns.LICENSE.ASL-2.0-LGPL-2.1.txt,Martino Facchin
-./arduino-core/lib/jna-4.2.2.jar,Cristian Maglie
-./arduino-core/lib/jna-platform-4.2.2.jar,Cristian Maglie
-./arduino-core/lib/jsch-0.1.50.jar,Cristian Maglie
-./arduino-core/lib/jsch.LICENSE.BSD.txt,Cristian Maglie
-./arduino-core/lib/jssc-2.8.0-arduino4.jar,Martino Facchin
-./arduino-core/lib/jssc.LICENSE.GPL.txt,Cristian Maglie
-./arduino-core/lib/jssc.LICENSE.LGPL.txt,Cristian Maglie
-./arduino-core/lib/log4j-api-2.12.0.jar,Mattia Bertorello
-./arduino-core/lib/log4j-core-2.12.0.jar,Mattia Bertorello
-./arduino-core/lib/slf4j-api-1.7.22.jar,Martino Facchin
-./arduino-core/lib/slf4j-simple-1.7.22.jar,Martino Facchin
-./arduino-core/src/cc/arduino/Compiler.java,Jesse Vincent
-./arduino-core/src/cc/arduino/Compiler.java,per1234
-./arduino-core/src/cc/arduino/Compiler.java,Sandeep Mistry
-./arduino-core/src/cc/arduino/Compiler.java,tomneutens
-./arduino-core/src/cc/arduino/CompilerProgressListener.java,Federico Fissore
-./arduino-core/src/cc/arduino/Constants.java,Mattia Bertorello
-./arduino-core/src/cc/arduino/Constants.java,Peter Gren
-./arduino-core/src/cc/arduino/contributions/ConsoleProgressListener.java,Cristian Maglie
-./arduino-core/src/cc/arduino/contributions/DownloadableContributionsDownloader.java,Martino Facchin
-./arduino-core/src/cc/arduino/contributions/DownloadableContributionVersionComparator.java,Cristian Maglie
-./arduino-core/src/cc/arduino/contributions/JsonDownloader.java,Mattia Bertorello
-./arduino-core/src/cc/arduino/contributions/libraries/ContributedLibrary.java,Martin Sidaway
-./arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndex.java,Thomas L. Kjeldsen
-./arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,Chris--A
-./arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,PaulStoffregen
-./arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,per1234
-./arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,Ricardo JL Rufino
-./arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,Thomas L. Kjeldsen
-./arduino-core/src/cc/arduino/contributions/libraries/LibraryInstaller.java,Martino Facchin
-./arduino-core/src/cc/arduino/contributions/packages/ContributedBoard.java,Thomas L. Kjeldsen
-./arduino-core/src/cc/arduino/contributions/packages/ContributedHelp.java,Thomas L. Kjeldsen
-./arduino-core/src/cc/arduino/contributions/packages/ContributedTargetPackage.java,Cristian Maglie
-./arduino-core/src/cc/arduino/contributions/packages/ContributionInstaller.java,Martino Facchin
-./arduino-core/src/cc/arduino/contributions/packages/ContributionsIndex.java,Thomas L. Kjeldsen
-./arduino-core/src/cc/arduino/contributions/packages/ContributionsIndexer.java,Martino Facchin
-./arduino-core/src/cc/arduino/contributions/packages/ContributionsIndexer.java,Sandeep Mistry
-./arduino-core/src/cc/arduino/contributions/packages/ContributionsIndexer.java,Thomas L. Kjeldsen
-./arduino-core/src/cc/arduino/contributions/packages/HostDependentDownloadableContribution.java,Cristian Maglie
-./arduino-core/src/cc/arduino/contributions/packages/HostDependentDownloadableContribution.java,Martino Facchin
-./arduino-core/src/cc/arduino/contributions/ProgressListener.java,Federico Fissore
-./arduino-core/src/cc/arduino/contributions/SignatureVerifier.java,Federico Fissore
-./arduino-core/src/cc/arduino/contributions/SignatureVerifier.java,Mattia Bertorello
-./arduino-core/src/cc/arduino/contributions/VersionComparator.java,Sandeep Mistry
-./arduino-core/src/cc/arduino/files/DeleteFilesOnShutdown.java,Cristian Maglie
-./arduino-core/src/cc/arduino/MyStreamPumper.java,Cristian Maglie
-./arduino-core/src/cc/arduino/packages/BoardPort.java,Federico Fissore
-./arduino-core/src/cc/arduino/packages/discoverers/network/BoardReachabilityFilter.java,Cristian Maglie
-./arduino-core/src/cc/arduino/packages/discoverers/network/BoardReachabilityFilter.java,Martino Facchin
-./arduino-core/src/cc/arduino/packages/discoverers/network/BoardReachabilityFilter.java,Me No Dev
-./arduino-core/src/cc/arduino/packages/discoverers/NetworkDiscovery.java,Me No Dev
-./arduino-core/src/cc/arduino/packages/discoverers/PluggableDiscovery.java,Pieter12345
-./arduino-core/src/cc/arduino/packages/discoverers/PluggableDiscoveryMessage.java,Cristian Maglie
-./arduino-core/src/cc/arduino/packages/discoverers/PluggableDiscoveryMessage.java,PaulStoffregen
-./arduino-core/src/cc/arduino/packages/discoverers/serial/SerialDiscovery.java,Martino Facchin
-./arduino-core/src/cc/arduino/packages/discoverers/serial/SerialDiscovery.java,Mattia Bertorello
-./arduino-core/src/cc/arduino/packages/Discovery.java,Cristian Maglie
-./arduino-core/src/cc/arduino/packages/Discovery.java,Federico Fissore
-./arduino-core/src/cc/arduino/packages/DiscoveryManager.java,PaulStoffregen
-./arduino-core/src/cc/arduino/packages/ssh/NoInteractionUserInfo.java,Federico Fissore
-./arduino-core/src/cc/arduino/packages/ssh/SCP.java,Cristian Maglie
-./arduino-core/src/cc/arduino/packages/ssh/SSH.java,Cristian Maglie
-./arduino-core/src/cc/arduino/packages/ssh/SSHClientSetupChainRing.java,Cristian Maglie
-./arduino-core/src/cc/arduino/packages/ssh/SSHClientSetupChainRing.java,Federico Fissore
-./arduino-core/src/cc/arduino/packages/ssh/SSHConfigFileSetup.java,Federico Fissore
-./arduino-core/src/cc/arduino/packages/ssh/SSHConfigFileSetup.java,Martino Facchin
-./arduino-core/src/cc/arduino/packages/ssh/SSHPwdSetup.java,Cristian Maglie
-./arduino-core/src/cc/arduino/packages/ssh/SSHPwdSetup.java,Federico Fissore
-./arduino-core/src/cc/arduino/packages/Uploader.java,gh-megabit
-./arduino-core/src/cc/arduino/packages/Uploader.java,per1234
-./arduino-core/src/cc/arduino/packages/Uploader.java,Pieter12345
-./arduino-core/src/cc/arduino/packages/Uploader.java,Sandeep Mistry
-./arduino-core/src/cc/arduino/packages/UploaderFactory.java,Cristian Maglie
-./arduino-core/src/cc/arduino/packages/UploaderFactory.java,Me No Dev
-./arduino-core/src/cc/arduino/packages/uploaders/GenericNetworkUploader.java,Matthijs Kooijman
-./arduino-core/src/cc/arduino/packages/uploaders/GenericNetworkUploader.java,Me No Dev
-./arduino-core/src/cc/arduino/packages/uploaders/MergeSketchWithBooloader.java,Federico Fissore
-./arduino-core/src/cc/arduino/packages/uploaders/MergeSketchWithBooloader.java,Pieter12345
-./arduino-core/src/cc/arduino/packages/uploaders/SerialUploader.java,Angus Gratton
-./arduino-core/src/cc/arduino/packages/uploaders/SerialUploader.java,gh-megabit
-./arduino-core/src/cc/arduino/packages/uploaders/SerialUploader.java,Me No Dev
-./arduino-core/src/cc/arduino/ProgressAwareMessageConsumer.java,Cristian Maglie
-./arduino-core/src/cc/arduino/ProgressAwareMessageConsumer.java,tomneutens
-./arduino-core/src/cc/arduino/UploaderUtils.java,Federico Fissore
-./arduino-core/src/cc/arduino/utils/ArchiveExtractor.java,Huang Rui
-./arduino-core/src/cc/arduino/utils/ArchiveExtractor.java,per1234
-./arduino-core/src/cc/arduino/utils/FileHash.java,Cristian Maglie
-./arduino-core/src/cc/arduino/utils/MultiStepProgress.java,Cristian Maglie
-./arduino-core/src/cc/arduino/utils/network/FileDownloader.java,Martino Facchin
-./arduino-core/src/cc/arduino/utils/network/FileDownloader.java,Matthijs Kooijman
-./arduino-core/src/cc/arduino/utils/network/HttpConnectionManager.java,Cristian Maglie
-./arduino-core/src/cc/arduino/utils/Progress.java,Cristian Maglie
-./arduino-core/src/edazdarevic/commons/net/CIDRUtils.java,Cristian Maglie
-./arduino-core/src/edazdarevic/commons/net/CIDRUtils.java,Federico Fissore
-./arduino-core/src/processing/app/BaseNoGui.java,Arnav Gupta
-./arduino-core/src/processing/app/BaseNoGui.java,Chris--A
-./arduino-core/src/processing/app/BaseNoGui.java,Pieter12345
-./arduino-core/src/processing/app/debug/LegacyTargetBoard.java,Cristian Maglie
-./arduino-core/src/processing/app/debug/LegacyTargetBoard.java,Martino Facchin
-./arduino-core/src/processing/app/debug/LegacyTargetPackage.java,Cristian Maglie
-./arduino-core/src/processing/app/debug/LegacyTargetPlatform.java,Richard Wackerbarth
-./arduino-core/src/processing/app/debug/MessageConsumer.java,Cristian Maglie
-./arduino-core/src/processing/app/debug/MessageConsumer.java,Federico Fissore
-./arduino-core/src/processing/app/debug/MessageSiphon.java,Federico Fissore
-./arduino-core/src/processing/app/debug/TargetBoard.java,Martino Facchin
-./arduino-core/src/processing/app/debug/TargetPackage.java,Federico Fissore
-./arduino-core/src/processing/app/debug/TargetPlatform.java,Martino Facchin
-./arduino-core/src/processing/app/debug/TargetPlatformException.java,Cristian Maglie
-./arduino-core/src/processing/app/helpers/BasicUserNotifier.java,Federico Fissore
-./arduino-core/src/processing/app/helpers/BoardCloudResolver.java,Cristian Maglie
-./arduino-core/src/processing/app/helpers/BoardCloudResolver.java,Mattia Bertorello
-./arduino-core/src/processing/app/helpers/CommandlineParser.java,Yohsuke FURUTA
-./arduino-core/src/processing/app/helpers/filefilters/OnlyFilesWithExtension.java,Federico Fissore
-./arduino-core/src/processing/app/helpers/NetUtils.java,Cristian Maglie
-./arduino-core/src/processing/app/helpers/OSUtils.java,Federico Fissore
-./arduino-core/src/processing/app/helpers/OSUtils.java,Sandeep Mistry
-./arduino-core/src/processing/app/helpers/PreferencesMapException.java,Cristian Maglie
-./arduino-core/src/processing/app/helpers/ProcessUtils.java,Cristian Maglie
-./arduino-core/src/processing/app/helpers/StringReplacer.java,Federico Fissore
-./arduino-core/src/processing/app/helpers/StringReplacer.java,Martino Facchin
-./arduino-core/src/processing/app/helpers/UserNotifier.java,Cristian Maglie
-./arduino-core/src/processing/app/i18n/push.sh,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/.gitignore,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/pull.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/pull.py,Martino Facchin
-./arduino-core/src/processing/app/i18n/python/push.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/push.py,Martino Facchin
-./arduino-core/src/processing/app/i18n/python/requests/adapters.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/api.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/auth.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/cacert.pem,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/certs.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/compat.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/cookies.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/exceptions.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/hooks.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/models.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/hebrewprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/big5freq.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/big5prober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/chardistribution.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/charsetgroupprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/charsetprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/codingstatemachine.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/compat.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/constants.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/escprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/escsm.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/eucjpprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/euckrfreq.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/euckrprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/euctwfreq.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/euctwprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/gb2312freq.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/gb2312prober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/jisfreq.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/jpcntx.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/langbulgarianmodel.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/langcyrillicmodel.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/langgreekmodel.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/langhebrewmodel.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/langhungarianmodel.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/langthaimodel.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/latin1prober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/mbcharsetprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/mbcsgroupprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/mbcssm.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/sbcharsetprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/sbcsgroupprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/sjisprober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/universaldetector.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/utf8prober.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/charade/__init__.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/connectionpool.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/contrib/ntlmpool.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/contrib/__init__.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/exceptions.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/filepost.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/packages/ordered_dict.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/packages/six.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/packages/__init__.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/poolmanager.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/request.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/response.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/util.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/_collections.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/__init__.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/packages/__init__.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/sessions.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/status_codes.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/structures.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/utils.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/requests/__init__.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/transifex.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/transifex.py,Martino Facchin
-./arduino-core/src/processing/app/i18n/python/update.py,Cristian Maglie
-./arduino-core/src/processing/app/i18n/python/update.py,Martino Facchin
-./arduino-core/src/processing/app/i18n/README.md,Cristian Maglie
-./arduino-core/src/processing/app/i18n/update.sh,Martino Facchin
-./arduino-core/src/processing/app/I18n.java,Hasso Tepper
-./arduino-core/src/processing/app/I18n.java,Matthijs Kooijman
-./arduino-core/src/processing/app/legacy/PApplet.java,Richard Körber
-./arduino-core/src/processing/app/legacy/PConstants.java,Cristian Maglie
-./arduino-core/src/processing/app/linux/GTKLookAndFeelFixer.java,Federico Fissore
-./arduino-core/src/processing/app/linux/Platform.java,Claudio Indellicati
-./arduino-core/src/processing/app/linux/Platform.java,Martino Facchin
-./arduino-core/src/processing/app/linux/Platform.java,Matthijs Kooijman
-./arduino-core/src/processing/app/linux/UDevAdmParser.java,Cristian Maglie
-./arduino-core/src/processing/app/macosx/Platform.java,Claudio Indellicati
-./arduino-core/src/processing/app/macosx/Platform.java,Matthijs Kooijman
-./arduino-core/src/processing/app/packages/LibraryList.java,Federico Fissore
-./arduino-core/src/processing/app/packages/LibraryList.java,PaulStoffregen
-./arduino-core/src/processing/app/packages/UserLibrary.java,PaulStoffregen
-./arduino-core/src/processing/app/packages/UserLibraryFolder.java,Cristian Maglie
-./arduino-core/src/processing/app/packages/UserLibraryPriorityComparator.java,Cristian Maglie
-./arduino-core/src/processing/app/PreferencesData.java,Matthijs Kooijman
-./arduino-core/src/processing/app/Serial.java,Andreas Krüger
-./arduino-core/src/processing/app/Serial.java,Angus Gratton
-./arduino-core/src/processing/app/Serial.java,David Gauchard
-./arduino-core/src/processing/app/SerialException.java,Cristian Maglie
-./arduino-core/src/processing/app/SerialNotFoundException.java,Cristian Maglie
-./arduino-core/src/processing/app/Sketch.java,jeroenoverman
-./arduino-core/src/processing/app/SketchFile.java,Martino Facchin
-./arduino-core/src/processing/app/SketchFile.java,Michael michael.sytko
-./arduino-core/src/processing/app/windows/ListComPortsParser.java,Cristian Maglie
-./arduino-core/src/processing/app/windows/ListComPortsParser.java,Federico Fissore
-./arduino-core/src/processing/app/windows/Platform.java,Chris--A
-./arduino-core/src/processing/app/windows/Platform.java,Claudio Indellicati
-./arduino-core/src/processing/app/windows/Platform.java,Matthijs Kooijman
-./build/Firmata-2.5.8.zip.sha,Martino Facchin
-./build/.editorconfig,Federico Fissore
-./build/Adafruit_Circuit_Playground-1.11.3.zip.sha,Cristian Maglie
-./build/arduino-builder-linux32-1.6.1.tar.bz2.sha,Cristian Maglie
-./build/arduino-builder-linux64-1.6.1.tar.bz2.sha,Cristian Maglie
-./build/arduino-builder-linuxaarch64-1.6.1.tar.bz2.sha,Cristian Maglie
-./build/arduino-builder-linuxarm-1.6.1.tar.bz2.sha,Cristian Maglie
-./build/arduino-builder-macosx-1.6.1-signed.tar.bz2.sha,Cristian Maglie
-./build/arduino-builder-windows-1.6.1.zip.sha,Cristian Maglie
-./build/arduino-examples-1.9.1.zip.sha,per1234
-./build/avr-1.8.3.tar.bz2.sha,Martino Facchin
-./build/Bridge-1.7.0.zip.sha,Martino Facchin
-./build/build.xml,Arturo Rinaldi
-./build/build.xml,Christian Fiebig
-./build/build.xml,David Mellis
-./build/build.xml,Jesse Vincent
-./build/build.xml,Martin Sidaway
-./build/build.xml,PaulStoffregen
-./build/build.xml,ricardo.jl.rufino
-./build/build.xml,ricklon
-./build/build.xml,R P Herrold
-./build/build.xml,Stephen Warren
-./build/build.xml,Travis Geiselbrecht
-./build/build_all_dist.bash,Cristian Maglie
-./build/build_all_dist.bash,Martino Facchin
-./build/build_pull_request.bash,Cristian Maglie
-./build/build_pull_request.bash,Martino Facchin
-./build/compile_everything.bash,Federico Fissore
-./build/create_reference.pl,Federico Fissore
-./build/Esplora-1.0.4.zip.sha,Federico Fissore
-./build/Ethernet-2.0.0.zip.sha,Martino Facchin
-./build/fetch.sh,Federico Fissore
-./build/GSM-1.0.6.zip.sha,Martino Facchin
-./build/Keyboard-1.0.2.zip.sha,Martino Facchin
-./build/libastylej-2.05.1-5.zip.sha,Cristian Maglie
-./build/liblistSerials-1.4.2-2.zip.sha,Cristian Maglie
-./build/linux/avr-gcc-5.4.0-atmel3.6.1-arduino2-aarch64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/arduinoOTA-1.1.1-linux_aarch64.tar.bz2.sha,Stephen Warren
-./build/linux/arduinoOTA-1.2.1-linux_386.tar.bz2.sha,Martino Facchin
-./build/linux/arduinoOTA-1.2.1-linux_aarch64.tar.bz2.sha,Martino Facchin
-./build/linux/arduinoOTA-1.2.1-linux_amd64.tar.bz2.sha,Martino Facchin
-./build/linux/arduinoOTA-1.2.1-linux_arm.tar.bz2.sha,Martino Facchin
-./build/linux/arduinoOTA-1.3.0-linux_386.tar.bz2.sha,Martino Facchin
-./build/linux/arduinoOTA-1.3.0-linux_aarch64.tar.bz2.sha,Martino Facchin
-./build/linux/arduinoOTA-1.3.0-linux_amd64.tar.bz2.sha,Martino Facchin
-./build/linux/arduinoOTA-1.3.0-linux_arm.tar.bz2.sha,Martino Facchin
-./build/linux/avr-gcc-4.9.2-atmel3.5.4-arduino2-aarch64-pc-linux-gnu.tar.bz2.sha,Stephen Warren
-./build/linux/avr-gcc-5.4.0-atmel3.6.1-arduino2-armhf-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avr-gcc-5.4.0-atmel3.6.1-arduino2-i686-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avr-gcc-5.4.0-atmel3.6.1-arduino2-x86_64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avr-gcc-7.3.0-atmel3.6.1-arduino7-aarch64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avr-gcc-7.3.0-atmel3.6.1-arduino7-arm-linux-gnueabihf.tar.bz2.sha,Martino Facchin
-./build/linux/avr-gcc-7.3.0-atmel3.6.1-arduino7-i686-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avr-gcc-7.3.0-atmel3.6.1-arduino7-x86_64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avrdude-6.3.0-arduino14-aarch64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avrdude-6.3.0-arduino14-armhf-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avrdude-6.3.0-arduino14-i686-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avrdude-6.3.0-arduino14-x86_64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
-./build/linux/avrdude-6.3.0-arduino9-aarch64-pc-linux-gnu.tar.bz2.sha,Stephen Warren
-./build/linux/dist/appdata.xml,Cristian Maglie
-./build/linux/dist/appdata.xml,Federico Fissore
-./build/linux/dist/appdata.xml,Martino Facchin
-./build/linux/dist/appdata.xml,Matthias Klumpp
-./build/linux/dist/appdata.xml,Matthijs Kooijman
-./build/linux/dist/appdata.xml,Peter Oliver
-./build/linux/dist/arduino,Dag Wieers
-./build/linux/dist/arduino,Martino Facchin
-./build/linux/dist/arduino,Matthijs Kooijman
-./build/linux/dist/arduino,ricardo.jl.rufino
-./build/linux/dist/arduino-linux-setup.sh,Edoardo T
-./build/linux/dist/desktop.template,probonopd
-./build/linux/dist/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz.sha,Cristian Maglie
-./build/linux/dist/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz.sha,Cristian Maglie
-./build/linux/dist/install.sh,Avamander
-./build/linux/dist/install.sh,Matthias Klumpp
-./build/linux/dist/install.sh,ricardo.jl.rufino
-./build/linux/dist/install.sh,Vladyslav Burzakovskyy
-./build/linux/dist/mime.xml,Matthijs Kooijman
-./build/linux/dist/uninstall.sh,Christian Fiebig
-./build/LiquidCrystal-1.0.7.zip.sha,Martino Facchin
-./build/macosx/appbundler-1.0ea-arduino8.jar.zip.sha,Cristian Maglie
-./build/macosx/appbundler-1.0ea-arduino9.jar.zip.sha,Cristian Maglie
-./build/macosx/avr-gcc-5.4.0-atmel3.6.1-arduino2-i386-apple-darwin11.tar.bz2.sha,Martino Facchin
-./build/macosx/avr-gcc-7.3.0-atmel3.6.1-arduino7-x86_64-apple-darwin14-signed.tar.bz2.sha,Martino Facchin
-./build/macosx/avrdude-6.3.0-arduino14-i386-apple-darwin11.tar.bz2.sha,Martino Facchin
-./build/macosx/avrdude-6.3.0-arduino17-x86_64-apple-darwin12-signed.tar.bz2.sha,Cristian Maglie
-./build/macosx/dist/drivers/SiliconLabs-CP2105/ReleaseNotes.txt,Martino Facchin
-./build/macosx/dist/drivers/SiliconLabs-CP2105/uninstaller.sh,Martino Facchin
-./build/macosx/dist/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz.sha,Cristian Maglie
-./build/macosx/gcc.entitlements,Cristian Maglie
-./build/macosx/jre2.entitlements,Cristian Maglie
-./build/macosx/mkdmg,David A. Mellis
-./build/macosx/pde.icns,Federico Fissore
-./build/macosx/processing.icns,Federico Fissore
-./build/macosx/processing.icns,Sebastian Hunkeler
-./build/Mouse-1.0.1.zip.sha,Martino Facchin
-./build/readme.md,Federico Fissore
-./build/readme.md,Ramon van Belzen
-./build/RobotIRremote-2.0.0.zip.sha,Cristian Maglie
-./build/Robot_Control-1.0.4.zip.sha,Cristian Maglie
-./build/Robot_Motor-1.0.3.zip.sha,Cristian Maglie
-./build/SD-1.2.4.zip.sha,Cristian Maglie
-./build/Servo-1.1.7.zip.sha,Cristian Maglie
-./build/shared/ArduinoSerialPlotterProtocol.md,Martino Facchin
-./build/shared/ArduinoSerialPlotterProtocol.pdf,Martino Facchin
-./build/shared/examples/README.md,per1234
-./build/shared/icons/128x128/apps/arduino.png,Matthijs Kooijman
-./build/shared/icons/128x128/apps/arduino.png,Sebastian Hunkeler
-./build/shared/icons/16x16/apps/arduino.png,Matthijs Kooijman
-./build/shared/icons/16x16/apps/arduino.png,Sebastian Hunkeler
-./build/shared/icons/24x24/apps/arduino.png,Matthijs Kooijman
-./build/shared/icons/24x24/apps/arduino.png,Sebastian Hunkeler
-./build/shared/icons/256x256/apps/arduino.png,Matthijs Kooijman
-./build/shared/icons/256x256/apps/arduino.png,Sebastian Hunkeler
-./build/shared/icons/32x32/apps/arduino.png,Matthijs Kooijman
-./build/shared/icons/32x32/apps/arduino.png,Sebastian Hunkeler
-./build/shared/icons/48x48/apps/arduino.png,Matthijs Kooijman
-./build/shared/icons/48x48/apps/arduino.png,Sebastian Hunkeler
-./build/shared/icons/64x64/apps/arduino.png,Christian Fiebig
-./build/shared/icons/64x64/apps/arduino.png,Sebastian Hunkeler
-./build/shared/icons/72x72/apps/arduino.png,Christian Fiebig
-./build/shared/icons/72x72/apps/arduino.png,Sebastian Hunkeler
-./build/shared/icons/96x96/apps/arduino.png,Christian Fiebig
-./build/shared/icons/96x96/apps/arduino.png,Sebastian Hunkeler
-./build/shared/icons/arduino.xpm,Matthijs Kooijman
-./build/shared/lib/about@2x.png,Cristian Maglie
-./build/shared/lib/arduino.png,ricardo.jl.rufino
-./build/shared/lib/arduino_icon.ico,Federico Fissore
-./build/shared/lib/arduino_icon.ico,Zachary Eveland
-./build/shared/lib/keywords.txt,Chris--A
-./build/shared/lib/keywords.txt,Martino Facchin
-./build/shared/lib/keywords.txt,Michael Braverman
-./build/shared/lib/keywords.txt,Nico
-./build/shared/lib/keywords.txt,PaulStoffregen
-./build/shared/lib/keywords.txt,per1234
-./build/shared/lib/keywords.txt,Tom Igoe
-./build/shared/lib/keywords.txt,Zach Eveland
-./build/shared/lib/preferences.txt,Alogitt
-./build/shared/lib/preferences.txt,bob
-./build/shared/lib/preferences.txt,Cayci
-./build/shared/lib/preferences.txt,David Cuartielles
-./build/shared/lib/preferences.txt,Loren M. Lang
-./build/shared/lib/preferences.txt,Matthijs Kooijman
-./build/shared/lib/preferences.txt,PaulStoffregen
-./build/shared/lib/preferences.txt,Zach Eveland
-./build/shared/lib/public.gpg.key,Federico Fissore
-./build/shared/lib/theme/tab-sel-left.svg,Cristian Maglie
-./build/shared/lib/theme/buttons.png,Cristian Maglie
-./build/shared/lib/theme/buttons.svg,Cristian Maglie
-./build/shared/lib/theme/buttons@2x.png,Cristian Maglie
-./build/shared/lib/theme/close.png,Federico Fissore
-./build/shared/lib/theme/close.svg,Cristian Maglie
-./build/shared/lib/theme/close@2x.png,Cristian Maglie
-./build/shared/lib/theme/lock.svg,Cristian Maglie
-./build/shared/lib/theme/lock@2x.png,Cristian Maglie
-./build/shared/lib/theme/newwindow.png,Cristian Maglie
-./build/shared/lib/theme/newwindow.svg,Cristian Maglie
-./build/shared/lib/theme/newwindow@2x.png,Cristian Maglie
-./build/shared/lib/theme/resize.png,Cristian Maglie
-./build/shared/lib/theme/resize.svg,Cristian Maglie
-./build/shared/lib/theme/resize@2x.png,Cristian Maglie
-./build/shared/lib/theme/syntax/dark.xml,Federico Fissore
-./build/shared/lib/theme/syntax/dark.xml,ricardo.jl.rufino
-./build/shared/lib/theme/syntax/default.xml,ricardo.jl.rufino
-./build/shared/lib/theme/tab-sel-left.png,Cristian Maglie
-./build/shared/lib/theme/tab-sel-left@2x.png,Cristian Maglie
-./build/shared/lib/theme/tab-sel-menu.png,Cristian Maglie
-./build/shared/lib/theme/tab-sel-menu.svg,Cristian Maglie
-./build/shared/lib/theme/tab-sel-menu@2x.png,Cristian Maglie
-./build/shared/lib/theme/tab-sel-mid.png,Cristian Maglie
-./build/shared/lib/theme/tab-sel-mid.svg,Cristian Maglie
-./build/shared/lib/theme/tab-sel-mid@2x.png,Cristian Maglie
-./build/shared/lib/theme/tab-sel-right.png,Cristian Maglie
-./build/shared/lib/theme/tab-sel-right.svg,Cristian Maglie
-./build/shared/lib/theme/tab-sel-right@2x.png,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-left.png,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-left.svg,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-left@2x.png,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-menu.png,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-menu.svg,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-menu@2x.png,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-mid.png,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-mid.svg,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-mid@2x.png,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-right.png,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-right.svg,Cristian Maglie
-./build/shared/lib/theme/tab-unsel-right@2x.png,Cristian Maglie
-./build/shared/lib/theme/theme.txt,Arturo Guadalupi
-./build/shared/lib/theme/theme.txt,cousteau
-./build/shared/lib/theme/theme.txt,duff2013
-./build/shared/lib/theme/theme.txt,Henning Pohl
-./build/shared/lib/theme/theme.txt,Zach Eveland
-./build/shared/manpage.adoc,Ayke van Laethem
-./build/shared/manpage.adoc,Carlos
-./build/shared/manpage.adoc,Mattias Schlenker
-./build/shared/manpage.adoc,pfeerick
-./build/shared/manpage.adoc,SATOH Fumiyasu
-./build/shared/manpage.adoc,Yohsuke FURUTA
-./build/shared/reference-1.6.6-3.zip.sha,Federico Fissore
-./build/shared/revisions.txt,45gfg9
-./build/shared/revisions.txt,Christopher Andrews
-./build/shared/revisions.txt,dpslwk
-./build/shared/revisions.txt,jenkins
-./build/shared/revisions.txt,jogo-
-./build/shared/tools/howto.txt,David A. Mellis
-./build/shared/tools/howto.txt,Far McKon
-./build/shared/tools/Mangler/make.sh,David A. Mellis
-./build/shared/tools/Mangler/src/Mangler.java,David A. Mellis
-./build/shared/tools/Mangler/src/Mangler.java,Geert Roumen
-./build/shared/WiFi101-Updater-ArduinoIDE-Plugin-0.11.0.zip.sha,Cristian Maglie
-./build/SpacebrewYun-1.0.2.zip.sha,Cristian Maglie
-./build/Stepper-1.1.3.zip.sha,Martino Facchin
-./build/Temboo-1.2.1.zip.sha,Martino Facchin
-./build/TFT-1.0.6.zip.sha,Martino Facchin
-./build/WiFi-1.2.7.zip.sha,Martino Facchin
-./build/windows/arduinoOTA-1.2.1-windows_386.zip.sha,Martino Facchin
-./build/windows/arduinoOTA-1.3.0-windows_386.zip.sha,Martino Facchin
-./build/windows/avr-gcc-5.4.0-atmel3.6.1-arduino2-i686-w64-mingw32.zip.sha,Martino Facchin
-./build/windows/avr-gcc-7.3.0-atmel3.6.1-arduino7-i686-w64-mingw32.zip.sha,Martino Facchin
-./build/windows/avrdude-6.3.0-arduino14-i686-w64-mingw32.zip.sha,Martino Facchin
-./build/windows/dist/drivers/AdafruitCircuitPlayground.cat,Cristian Maglie
-./build/windows/dist/drivers/amd64/libusb0.dll,Cristian Maglie
-./build/windows/dist/drivers/amd64/libusb0.sys,Cristian Maglie
-./build/windows/dist/drivers/arduino-org.cat,Arturo Rinaldi
-./build/windows/dist/drivers/arduino-org.cat,Federico Fissore
-./build/windows/dist/drivers/arduino-org.cat,Martino Facchin
-./build/windows/dist/drivers/arduino-org.inf,Federico Fissore
-./build/windows/dist/drivers/arduino-org.inf,Martino Facchin
-./build/windows/dist/drivers/arduino_gemma.cat,Cristian Maglie
-./build/windows/dist/drivers/arduino_gemma.inf,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/ReleaseNotes.txt,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/slabvcp.cat,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/slabvcp.inf,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/SLAB_License_Agreement_VCP_Windows.txt,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/x64/silabenm.sys,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/x64/silabser.sys,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/x64/WdfCoInstaller01009.dll,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/x86/silabenm.sys,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/x86/silabser.sys,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7/x86/WdfCoInstaller01009.dll,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7.4/slabvcp.cat,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7.4/slabvcp.inf,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7.4/x64/silabser.sys,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7.4/x64/WdfCoInstaller01009.dll,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7.4/x86/silabser.sys,Cristian Maglie
-./build/windows/dist/drivers/CP210x_6.7.4/x86/WdfCoInstaller01009.dll,Cristian Maglie
-./build/windows/dist/drivers/dpinst-amd64.exe,Zachary Eveland
-./build/windows/dist/drivers/dpinst-x86.exe,Zachary Eveland
-./build/windows/dist/drivers/ia64/libusb0.dll,Cristian Maglie
-./build/windows/dist/drivers/ia64/libusb0.sys,Cristian Maglie
-./build/windows/dist/drivers/license/libusb0/installer_license.txt,Cristian Maglie
-./build/windows/dist/drivers/linino-boards_amd64.cat,Arturo Rinaldi
-./build/windows/dist/drivers/linino-boards_amd64.cat,Martino Facchin
-./build/windows/dist/drivers/linino-boards_x86.cat,Arturo Rinaldi
-./build/windows/dist/drivers/linino-boards_x86.cat,Martino Facchin
-./build/windows/dist/drivers/linino.inf,Martino Facchin
-./build/windows/dist/drivers/README.txt,Cristian Maglie
-./build/windows/dist/drivers/README.txt,jogo-
-./build/windows/dist/drivers/x86/libusb0.sys,Cristian Maglie
-./build/windows/dist/drivers/x86/libusb0_x86.dll,Cristian Maglie
-./build/windows/launch4j-3.9-linux.tgz.sha,Cristian Maglie
-./build/windows/launch4j-3.9-win32.zip.sha,Cristian Maglie
-./build/windows/launcher/application.ico,Sebastian Hunkeler
-./build/windows/launcher/arduino.l4j.ini,Gianluca Varisco
-./build/windows/launcher/arduino.l4j.ini,Mattia Bertorello
-./build/windows/launcher/config.xml,Matthijs Kooijman
-./build/windows/launcher/config.xml,Pieter12345
-./build/windows/launcher/config.xml,ricardo.jl.rufino
-./build/windows/launcher/config.xml,Sandeep Mistry
-./build/windows/launcher/config.xml,Thomas L. Kjeldsen
-./build/windows/launcher/config_debug.xml,Matthijs Kooijman
-./build/windows/launcher/config_debug.xml,Pieter12345
-./build/windows/launcher/config_debug.xml,ricardo.jl.rufino
-./build/windows/launcher/config_debug.xml,Sandeep Mistry
-./build/windows/launcher/config_debug.xml,Thomas L. Kjeldsen
-./build/windows/launcher/wrapper-manifest.xml,Cristian Maglie
-./build/windows/msvcp100.dll,Cristian Maglie
-./build/windows/msvcr100.dll,Cristian Maglie
-./CONTRIBUTING.md,Cristian Maglie
-./CONTRIBUTING.md,Gabriel Staples
-./hardware/README.md,Matthijs Kooijman
-./hardware/README.md,Polymetric
-./README.md,Aarav Borthakur
-./README.md,atharwa_24
-./README.md,Federico Fissore
-./README.md,felixphew
-./README.md,Frank Lyder Bredland
-./README.md,info
-./README.md,Konrad Iturbe
-./README.md,Matthijs Kooijman
-./README.md,per1234
-./README.md,Peter Mortensen
-./README.md,Ramon van Belzen
-./README.md,Suryaveer
-./README.md,Vishan07
+.classpath,David A. Mellis
+.classpath,Martino Facchin
+.classpath,Mattia Bertorello
+.classpath,Pieter12345
+.classpath,Thomas L. Kjeldsen
+.github/ISSUE_TEMPLATE.md,Matthijs Kooijman
+.github/PULL_REQUEST_TEMPLATE.md,Matthijs Kooijman
+.github/workflows/ant.yml,Cristian Maglie
+.github/workflows/ant.yml,Matthijs Kooijman
+.gitignore,Christopher Andrews
+.gitignore,per1234
+.gitignore,s17t.net
+.gitignore,tigoe
+.gitignore,Tom Igoe
+.gitignore,Zachary Eveland
+.project,Cristian Maglie
+.project,David A. Mellis
+.project,Thibaut VIARD
+.settings/org.eclipse.jdt.core.prefs,David A. Mellis
+.settings/org.eclipse.jdt.core.prefs,Zach Eveland
+.settings/org.eclipse.jdt.ui.prefs,Cristian Maglie
+.settings/org.eclipse.jdt.ui.prefs,David A. Mellis
+.settings/org.eclipse.jdt.ui.prefs,Zach Eveland
+app/.classpath,David A. Mellis
+app/.classpath,Matthijs Kooijman
+app/.classpath,Mattia Bertorello
+app/.classpath,ricardo.jl.rufino
+app/.classpath,Thomas L. Kjeldsen
+app/.classpath_macosx,David A. Mellis
+app/.editorconfig,Federico Fissore
+app/.project,David A. Mellis
+app/.settings/org.eclipse.jdt.core.prefs,David A. Mellis
+app/.settings/org.eclipse.jdt.ui.prefs,Cristian Maglie
+app/.settings/org.eclipse.jdt.ui.prefs,David A. Mellis
+app/build.xml,Mattia Bertorello
+app/build.xml,Shigeru KANEMOTO
+app/build.xml,Thomas L. Kjeldsen
+app/lib/apple.jar,David A. Mellis
+app/lib/apple.LICENSE.BSD-like.txt,Federico Fissore
+app/lib/batik-1.8.jar,Cristian Maglie
+app/lib/batik-anim-1.8.jar,Cristian Maglie
+app/lib/batik-awt-util-1.8.jar,Cristian Maglie
+app/lib/batik-bridge-1.8.jar,Cristian Maglie
+app/lib/batik-codec-1.8.jar,Cristian Maglie
+app/lib/batik-css-1.8.jar,Cristian Maglie
+app/lib/batik-dom-1.8.jar,Cristian Maglie
+app/lib/batik-ext-1.8.jar,Cristian Maglie
+app/lib/batik-gvt-1.8.jar,Cristian Maglie
+app/lib/batik-parser-1.8.jar,Cristian Maglie
+app/lib/batik-rasterizer-1.8.jar,Cristian Maglie
+app/lib/batik-script-1.8.jar,Cristian Maglie
+app/lib/batik-squiggle-1.8.jar,Cristian Maglie
+app/lib/batik-svgpp-1.8.jar,Cristian Maglie
+app/lib/batik-transcoder-1.8.jar,Cristian Maglie
+app/lib/batik-util-1.8.jar,Cristian Maglie
+app/lib/batik-xml-1.8.jar,Cristian Maglie
+app/lib/batik.LICENSE.ASL-2.0.txt,Cristian Maglie
+app/lib/bcpg-jdk15on-152.jar,Federico Fissore
+app/lib/bcprov-jdk15on-152.jar,Federico Fissore
+app/lib/commons-codec-1.7.jar,Federico Fissore
+app/lib/commons-codec.LICENSE.ASL-2.0.txt,Federico Fissore
+app/lib/commons-compress-1.8.jar,Cristian Maglie
+app/lib/commons-compress.LICENSE.ASL-2.0.txt,Federico Fissore
+app/lib/commons-exec-1.1.jar,Federico Fissore
+app/lib/commons-exec.LICENSE.ASL-2.0.txt,Federico Fissore
+app/lib/commons-httpclient-3.1.jar,Federico Fissore
+app/lib/commons-io-2.6.jar,Mattia Bertorello
+app/lib/commons-lang3-3.8.1.jar,Pieter12345
+app/lib/commons-lang3.LICENSE.ASL-2.0.txt,Federico Fissore
+app/lib/commons-logging-1.0.4.jar,Federico Fissore
+app/lib/commons-logging.LICENSE.ASL-2.0.txt,Federico Fissore
+app/lib/commons-net-3.3.jar,Federico Fissore
+app/lib/commons-net.LICENSE.ASL-2.0.txt,Federico Fissore
+app/lib/jackson-annotations-2.9.5.jar,Martino Facchin
+app/lib/jackson-core-2.9.5.jar,Martino Facchin
+app/lib/jackson-databind-2.9.5.jar,Martino Facchin
+app/lib/java-semver-0.8.0.jar,Federico Fissore
+app/lib/java-semver.LICENSE.MIT.txt,Federico Fissore
+app/lib/jmdns-3.5.5.jar,Martino Facchin
+app/lib/jmdns.LICENSE.ASL-2.0-LGPL-2.1.txt,Federico Fissore
+app/lib/jmdns.LICENSE.ASL-2.0-LGPL-2.1.txt,Martino Facchin
+app/lib/jsch-0.1.50.jar,Federico Fissore
+app/lib/jssc-2.8.0-arduino4.jar,Martino Facchin
+app/lib/jssc.LICENSE.GPL.txt,Federico Fissore
+app/lib/jssc.LICENSE.LGPL.txt,Federico Fissore
+app/lib/jtouchbar-1.0.0.jar,Cristian Maglie
+app/lib/jtouchbar-1.0.0.jar,Sandeep Mistry
+app/lib/jtouchbar.LICENSE.MIT.txt,Sandeep Mistry
+app/lib/log4j-api-2.12.0.jar,Mattia Bertorello
+app/lib/log4j-core-2.12.0.jar,Mattia Bertorello
+app/lib/README.xml-apis-1.3.04.txt,Cristian Maglie
+app/lib/README.xml-apis-ext-1.3.04.txt,Cristian Maglie
+app/lib/rsyntaxtextarea-3.0.3-SNAPSHOT.jar,Martino Facchin
+app/lib/RSyntaxTextArea.License.txt,Martino Facchin
+app/lib/slf4j-api-1.7.22.jar,Martino Facchin
+app/lib/slf4j-simple-1.7.22.jar,Martino Facchin
+app/lib/xml-apis-1.3.04.jar,Cristian Maglie
+app/lib/xml-apis-ext-1.3.04.jar,Cristian Maglie
+app/lib/xmlgraphics-commons-2.0.jar,Cristian Maglie
+app/lib/batik-svg-dom-1.8.jar,Cristian Maglie
+app/lib/commons-httpclient.LICENSE.ASL-2.0.txt,Federico Fissore
+app/lib/jsch.LICENSE.BSD.txt,Federico Fissore
+app/src/cc/arduino/ConsoleOutputStream.java,Martino Facchin
+app/src/cc/arduino/contributions/ContributionsSelfCheck.java,Joe Wegner
+app/src/cc/arduino/contributions/libraries/LibraryOfSameTypeComparator.java,Martino Facchin
+app/src/cc/arduino/contributions/libraries/ui/ContributedLibraryTableCellEditor.java,Martino Facchin
+app/src/cc/arduino/contributions/libraries/ui/ContributedLibraryTableCellEditor.java,Matthijs Kooijman
+app/src/cc/arduino/contributions/libraries/ui/ContributedLibraryTableCellJPanel.java,Fabián Inostroza
+app/src/cc/arduino/contributions/libraries/ui/ContributedLibraryTableCellRenderer.java,Matthijs Kooijman
+app/src/cc/arduino/contributions/packages/filters/CategoryPredicate.java,Cristian Maglie
+app/src/cc/arduino/contributions/packages/filters/UpdatablePlatformPredicate.java,Cristian Maglie
+app/src/cc/arduino/contributions/packages/ui/ContributedPlatformTableCellEditor.java,Martino Facchin
+app/src/cc/arduino/contributions/packages/ui/ContributedPlatformTableCellJPanel.java,Martino Facchin
+app/src/cc/arduino/contributions/packages/ui/ContributionIndexTableModel.java,Martino Facchin
+app/src/cc/arduino/contributions/packages/ui/DropdownCoreOfCategoryItem.java,Cristian Maglie
+app/src/cc/arduino/contributions/packages/ui/DropdownUpdatableCoresItem.java,Cristian Maglie
+app/src/cc/arduino/contributions/ui/FilteredAbstractTableModel.java,Cristian Maglie
+app/src/cc/arduino/contributions/ui/FilterJTextField.java,Adrian Hughes
+app/src/cc/arduino/contributions/ui/FilterJTextField.java,Cristian Maglie
+app/src/cc/arduino/contributions/ui/FilterJTextField.java,Pieter12345
+app/src/cc/arduino/contributions/ui/InstallerJDialog.java,Joe Wegner
+app/src/cc/arduino/contributions/ui/InstallerJDialog.java,Matthijs Kooijman
+app/src/cc/arduino/contributions/ui/InstallerJDialog.java,Pieter12345
+app/src/cc/arduino/contributions/ui/InstallerTableCell.java,Cristian Maglie
+app/src/cc/arduino/contributions/ui/InstallerTableCell.java,Martino Facchin
+app/src/cc/arduino/contributions/ui/ProgressJProgressBar.java,Joe Wegner
+app/src/cc/arduino/packages/formatter/AStyle.java,ricardo.jl.rufino
+app/src/cc/arduino/packages/MonitorFactory.java,Claudio Indellicati
+app/src/cc/arduino/packages/MonitorFactory.java,Cristian Maglie
+app/src/cc/arduino/packages/MonitorFactory.java,Federico Fissore
+app/src/cc/arduino/packages/MonitorFactory.java,Pieter12345
+app/src/cc/arduino/packages/MonitorFactory.java,Sandeep Mistry
+app/src/cc/arduino/view/Event.java,Cristian Maglie
+app/src/cc/arduino/view/EventListener.java,Federico Fissore
+app/src/cc/arduino/view/GoToLineNumber.form,Federico Fissore
+app/src/cc/arduino/view/GoToLineNumber.java,Federico Fissore
+app/src/cc/arduino/view/GoToLineNumber.java,Matthijs Kooijman
+app/src/cc/arduino/view/JMenuUtils.java,Federico Fissore
+app/src/cc/arduino/view/NotificationPopup.java,Martino Facchin
+app/src/cc/arduino/view/preferences/Preferences.form,Cristian Maglie
+app/src/cc/arduino/view/preferences/Preferences.java,Corey Knapp
+app/src/cc/arduino/view/preferences/Preferences.java,Georges A
+app/src/cc/arduino/view/preferences/Preferences.java,Mumfrey
+app/src/processing/app/AbstractMonitor.java,Avishay Orpaz
+app/src/processing/app/AbstractMonitor.java,Chris--A
+app/src/processing/app/AbstractMonitor.java,Dan Stutts
+app/src/processing/app/AbstractTextMonitor.java,Matthijs Kooijman
+app/src/processing/app/AbstractTextMonitor.java,Michael michael.sytko
+app/src/processing/app/AbstractTextMonitor.java,nitram509
+app/src/processing/app/Base.java,Chris--A
+app/src/processing/app/Base.java,David Cuartielles
+app/src/processing/app/Base.java,Flavio Monteiro
+app/src/processing/app/Base.java,Kristian Sloth Lauszus
+app/src/processing/app/Base.java,Michael G
+app/src/processing/app/Base.java,ReAlUA
+app/src/processing/app/Base.java,ricardo.jl.rufino
+app/src/processing/app/Base.java,Thomas
+app/src/processing/app/Base.java,Yohsuke FURUTA
+app/src/processing/app/Editor.java,Arturo Vargas
+app/src/processing/app/Editor.java,Avishay Orpaz
+app/src/processing/app/Editor.java,David Mellis
+app/src/processing/app/Editor.java,Geronimo Bareiro
+app/src/processing/app/Editor.java,Hasso Tepper
+app/src/processing/app/Editor.java,Henning Pohl
+app/src/processing/app/Editor.java,Jose Juan Juarez Monsivais
+app/src/processing/app/Editor.java,maged
+app/src/processing/app/Editor.java,Michael G
+app/src/processing/app/Editor.java,Paul Stoffregen
+app/src/processing/app/Editor.java,ricklon
+app/src/processing/app/Editor.java,Sandeep Mistry
+app/src/processing/app/Editor.java,tomneutens
+app/src/processing/app/Editor.java,Zach Eveland
+app/src/processing/app/EditorConsole.java,Shigeru KANEMOTO
+app/src/processing/app/EditorHeader.java,Claudio Indellicati
+app/src/processing/app/EditorHeader.java,ricardo.jl.rufino
+app/src/processing/app/EditorHeader.java,Ricardo JL Rufino
+app/src/processing/app/EditorLineStatus.java,Hasso Tepper
+app/src/processing/app/EditorLineStatus.java,maged
+app/src/processing/app/EditorLineStatus.java,Martino Facchin
+app/src/processing/app/EditorLineStatus.java,ricardo.jl.rufino
+app/src/processing/app/EditorStatus.java,David A. Mellis
+app/src/processing/app/EditorStatus.java,Hasso Tepper
+app/src/processing/app/EditorStatus.java,PaulStoffregen
+app/src/processing/app/EditorStatus.java,tomneutens
+app/src/processing/app/EditorTab.java,bob
+app/src/processing/app/EditorTab.java,Maged Ahmed Rifaat
+app/src/processing/app/EditorTab.java,Mumfrey
+app/src/processing/app/EditorToolbar.java,Nicola Elia
+app/src/processing/app/EditorToolbar.java,Shigeru KANEMOTO
+app/src/processing/app/helpers/CircularBuffer.java,Federico Fissore
+app/src/processing/app/helpers/CircularBuffer.java,Henning Pohl
+app/src/processing/app/helpers/ConsoleLogger.java,ricardo.jl.rufino
+app/src/processing/app/helpers/DocumentTextChangeListener.java,Cristian Maglie
+app/src/processing/app/helpers/DocumentTextChangeListener.java,Matthijs Kooijman
+app/src/processing/app/helpers/Keys.java,Flavio Monteiro
+app/src/processing/app/helpers/LogFormatter.java,ricardo.jl.rufino
+app/src/processing/app/helpers/SimpleAction.java,Matthijs Kooijman
+app/src/processing/app/helpers/Ticks.java,Federico Fissore
+app/src/processing/app/helpers/Ticks.java,Henning Pohl
+app/src/processing/app/javax/swing/filechooser/FileNameExtensionFilter.java,Federico Fissore
+app/src/processing/app/macosx/ThinkDifferent.java,Claudio Indellicati
+app/src/processing/app/macosx/ThinkDifferent.java,Cristian Maglie
+app/src/processing/app/macosx/ThinkDifferent.java,Martino Facchin
+app/src/processing/app/NetworkMonitor.java,Henning Pohl
+app/src/processing/app/NetworkMonitor.java,Martino Facchin
+app/src/processing/app/NetworkMonitor.java,Pieter12345
+app/src/processing/app/NewBoardListener.java,Cristian Maglie
+app/src/processing/app/NewBoardListener.java,Martino Facchin
+app/src/processing/app/Preferences.java,Cayci
+app/src/processing/app/Preferences.java,dcuartielles
+app/src/processing/app/Preferences.java,Fulvio Ieva
+app/src/processing/app/Preferences.java,ricklon
+app/src/processing/app/Preferences.java,Rune Fauske
+app/src/processing/app/PresentMode.java,Cristian Maglie
+app/src/processing/app/PresentMode.java,Federico Fissore
+app/src/processing/app/Resources.java,Shigeru KANEMOTO
+app/src/processing/app/RunnerListener.java,Federico Fissore
+app/src/processing/app/SerialMonitor.java,Henning Pohl
+app/src/processing/app/SerialMonitor.java,Matthijs Kooijman
+app/src/processing/app/SerialMonitor.java,Michael michael.sytko
+app/src/processing/app/SerialMonitor.java,Shigeru KANEMOTO
+app/src/processing/app/SerialPlotter.java,Kelvin Ly
+app/src/processing/app/SerialPlotter.java,Matthijs Kooijman
+app/src/processing/app/SerialPlotter.java,QuocViet Le
+app/src/processing/app/SerialPlotter.java,Sandeep Mistry
+app/src/processing/app/SerialPlotter.java,Wilhelm
+app/src/processing/app/SketchController.java,Jose Juan Juarez Monsivais
+app/src/processing/app/SketchController.java,PaulStoffregen
+app/src/processing/app/SketchController.java,per1234
+app/src/processing/app/SketchController.java,Petri Laarne
+app/src/processing/app/SketchController.java,tomneutens
+app/src/processing/app/syntax/MyConfigurableCaret.java,Federico Fissore
+app/src/processing/app/syntax/PdeKeywords.java,agdl
+app/src/processing/app/syntax/PdeKeywords.java,Brett Hagman
+app/src/processing/app/syntax/PdeKeywords.java,PaulStoffregen
+app/src/processing/app/syntax/PdeKeywords.java,ricardo.jl.rufino
+app/src/processing/app/syntax/SketchTextArea.java,Cristian Maglie
+app/src/processing/app/syntax/SketchTextArea.java,PaulStoffregen
+app/src/processing/app/syntax/SketchTextAreaDefaultInputMap.java,Jay Carlson
+app/src/processing/app/syntax/SketchTextAreaDefaultInputMap.java,Matthijs Kooijman
+app/src/processing/app/syntax/SketchTextAreaEditorKit.java,David A. Mellis
+app/src/processing/app/syntax/SketchTokenMaker.java,ricardo.jl.rufino
+app/src/processing/app/syntax/Token.java,Cristian Maglie
+app/src/processing/app/syntax/Token.java,David A. Mellis
+app/src/processing/app/syntax/Token.java,Federico Fissore
+app/src/processing/app/TextAreaFIFO.java,Federico Fissore
+app/src/processing/app/Theme.java,Claudio Indellicati
+app/src/processing/app/Theme.java,Henning Pohl
+app/src/processing/app/Theme.java,Martino Facchin
+app/src/processing/app/Theme.java,ricardo.jl.rufino
+app/src/processing/app/Theme.java,Shigeru KANEMOTO
+app/src/processing/app/tools/Archiver.java,Matthijs Kooijman
+app/src/processing/app/tools/Archiver.java,Shigeru KANEMOTO
+app/src/processing/app/tools/DiscourseFormat.java,Cristian Maglie
+app/src/processing/app/tools/DiscourseFormat.java,Matthijs Kooijman
+app/src/processing/app/tools/DiscourseFormat.java,PaulStoffregen
+app/src/processing/app/tools/DiscourseFormat.java,ricardo.jl.rufino
+app/src/processing/app/tools/FixEncoding.java,David A. Mellis
+app/src/processing/app/tools/FixEncoding.java,Shigeru KANEMOTO
+app/src/processing/app/tools/Tool.java,David A. Mellis
+app/src/processing/app/tools/Tool.java,Federico Fissore
+app/src/processing/app/UpdateCheck.java,Iván Pérez
+app/src/processing/app/UpdateCheck.java,Luigi
+app/src/processing/app/UpdateCheck.java,Shigeru KANEMOTO
+app/test/cc/arduino/contributions/GPGDetachedSignatureVerifierTest.java,Federico Fissore
+app/test/cc/arduino/contributions/GzippedJsonDownloaderTest.java,Cristian Maglie
+app/test/cc/arduino/contributions/GzippedJsonDownloaderTest.java,Mattia Bertorello
+app/test/cc/arduino/contributions/GzippedJsonDownloaderTest.java,Thomas L. Kjeldsen
+app/test/cc/arduino/contributions/JsonDownloaderTest.java,Cristian Maglie
+app/test/cc/arduino/contributions/JsonDownloaderTest.java,Mattia Bertorello
+app/test/cc/arduino/contributions/JsonDownloaderTest.java,Thomas L. Kjeldsen
+app/test/cc/arduino/contributions/libraries/LibraryOfTypeComparatorTest.java,Federico Fissore
+app/test/cc/arduino/contributions/package_index.json,Federico Fissore
+app/test/cc/arduino/contributions/package_index.json.sig,Federico Fissore
+app/test/cc/arduino/contributions/public.gpg.key,Federico Fissore
+app/test/cc/arduino/contributions/UpdatableLibraryTest.java,Ricardo JL Rufino
+app/test/cc/arduino/net/CustomProxySelectorTest.java,Cristian Maglie
+app/test/cc/arduino/net/PACSupportMethodsTest.java,Federico Fissore
+app/test/cc/arduino/net/proxy_complex.pac,Federico Fissore
+app/test/cc/arduino/net/proxy_direct.pac,Federico Fissore
+app/test/cc/arduino/net/proxy_http.pac,Federico Fissore
+app/test/cc/arduino/net/proxy_socks.pac,Federico Fissore
+app/test/cc/arduino/packages/uploaders/MergeSketchWithUploaderTest.java,Federico Fissore
+app/test/cc/arduino/packages/uploaders/MergeSketchWithUploaderTest.java,Pieter12345
+app/test/Keypad_mac.zip,Federico Fissore
+app/test/Keypad_with_hidden_files.zip,Federico Fissore
+app/test/optiboot_atmega328.hex,Federico Fissore
+app/test/processing/app/AbstractGUITest.java,Claudio Indellicati
+app/test/processing/app/AbstractGUITest.java,Cristian Maglie
+app/test/processing/app/AutoformatProducesOneUndoActionTest.java,Cristian Maglie
+app/test/processing/app/AutoformatSavesCaretPositionTest.java,ricardo.jl.rufino
+app/test/processing/app/AutoformatTest.java,ricardo.jl.rufino
+app/test/processing/app/BlockCommentGeneratesOneUndoActionTest.java,Cristian Maglie
+app/test/processing/app/BlockCommentGeneratesOneUndoActionTest.java,Matthijs Kooijman
+app/test/processing/app/BlockCommentGeneratesOneUndoActionTest.java,ricardo.jl.rufino
+app/test/processing/app/CommandLineTest.java,per1234
+app/test/processing/app/CommandLineTest.java,Pieter12345
+app/test/processing/app/CommandLineTest.java,Yohsuke FURUTA
+app/test/processing/app/debug/TargetPackageStub.java,Federico Fissore
+app/test/processing/app/debug/TargetPlatformStub.java,Martino Facchin
+app/test/processing/app/DefaultTargetTest.java,Matthijs Kooijman
+app/test/processing/app/EditorConsoleTest.java,Matthijs Kooijman
+app/test/processing/app/helpers/ArduinoFrameFixture.java,ricardo.jl.rufino
+app/test/processing/app/helpers/SketchTextAreaComponentDriver.java,Federico Fissore
+app/test/processing/app/helpers/SketchTextAreaComponentMatcher.java,Federico Fissore
+app/test/processing/app/helpers/SketchTextAreaFixture.java,Federico Fissore
+app/test/processing/app/helpers/StringReplacerTest.java,Cristian Maglie
+app/test/processing/app/helpers/StringReplacerTest.java,Federico Fissore
+app/test/processing/app/HittingEscapeOnCloseConfirmationDialogTest.java,Cristian Maglie
+app/test/processing/app/HittingEscapeOnCloseConfirmationDialogTest.java,Matthijs Kooijman
+app/test/processing/app/HittingEscapeOnCloseConfirmationDialogTest.java,ricardo.jl.rufino
+app/test/processing/app/linux/udev_output.txt,Federico Fissore
+app/test/processing/app/macosx/SystemProfilerParserTest.java,Kristian Lauszus
+app/test/processing/app/macosx/system_profiler_output.txt,Federico Fissore
+app/test/processing/app/macosx/system_profiler_output2.txt,Federico Fissore
+app/test/processing/app/macosx/system_profiler_output3.txt,Federico Fissore
+app/test/processing/app/macosx/system_profiler_output4.txt,Federico Fissore
+app/test/processing/app/macosx/system_profiler_output5.txt,Federico Fissore
+app/test/processing/app/macosx/system_profiler_output6.txt,Federico Fissore
+app/test/processing/app/macosx/system_profiler_output7.txt,Federico Fissore
+app/test/processing/app/macosx/system_profiler_output8.txt,Federico Fissore
+app/test/processing/app/macosx/system_profiler_output9.txt,Cristian Maglie
+app/test/processing/app/ReduceIndentWith1CharOnLastLineTest.java,Cristian Maglie
+app/test/processing/app/ReduceIndentWith1CharOnLastLineTest.java,ricardo.jl.rufino
+app/test/processing/app/ReplacingTextGeneratesTwoUndoActionsTest.java,Cristian Maglie
+app/test/processing/app/ReplacingTextGeneratesTwoUndoActionsTest.java,ricardo.jl.rufino
+app/test/processing/app/SerialTest.java,Cristian Maglie
+app/test/processing/app/syntax/PdeKeywordsTest.java,Cristian Maglie
+app/test/processing/app/tools/test_partial_boards.txt,Federico Fissore
+app/test/processing/app/tools/ZipDeflaterTest.java,Cristian Maglie
+app/test/processing/app/UpdateTextAreaActionTest.java,Martino Facchin
+app/test/processing/app/windows/german.reg.query.output.txt,Federico Fissore
+app/test/processing/app/windows/RegexpTest.java,Federico Fissore
+app/test/sketch.hex,Federico Fissore
+app/test/Test.zip,Federico Fissore
+app/test/Test2.zip,Federico Fissore
+app/test-lib/fest-assert-1.2.jar,Federico Fissore
+app/test-lib/fest-reflect-1.2.jar,Federico Fissore
+app/test-lib/fest-swing-1.2.jar,Federico Fissore
+app/test-lib/fest-util-1.1.2.jar,Federico Fissore
+app/test-lib/fest.LICENSE.ASL-2.0.txt,Federico Fissore
+app/test-lib/jcip-annotations-1.0.jar,Federico Fissore
+app/test-lib/jcip-annotations.LICENSE.cc-by.2.5.txt,Federico Fissore
+app/test-lib/junit-4.11.jar,Federico Fissore
+app/test-lib/junit.LICENSE.EPL-1.0.txt,Federico Fissore
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/Bridge/Bridge.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/ConsoleAsciiTable/ConsoleAsciiTable.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/ConsolePixel/ConsolePixel.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/ConsoleRead/ConsoleRead.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/Datalogger/Datalogger.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/FileWriteScript/FileWriteScript.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/HttpClient/HttpClient.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/HttpClientConsole/HttpClientConsole.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/MailboxReadMessage/MailboxReadMessage.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/Process/Process.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/RemoteDueBlink/RemoteDueBlink.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/ShellCommands/ShellCommands.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/TemperatureWebPanel/TemperatureWebPanel.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/TemperatureWebPanel/www/index.html,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/TemperatureWebPanel/www/zepto.min.js,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/TimeCheck/TimeCheck.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/WiFiStatus/WiFiStatus.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/YunFirstConfig/YunFirstConfig.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/examples/YunSerialTerminal/YunSerialTerminal.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/keywords.txt,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/library.properties,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/README.adoc,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/Bridge.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/Bridge.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeClient.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeClient.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeServer.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeServer.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeSSLClient.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeSSLClient.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeUdp.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/BridgeUdp.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/Console.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/Console.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/FileIO.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/FileIO.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/HttpClient.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/HttpClient.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/Mailbox.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/Mailbox.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/Process.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/Process.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/YunClient.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.6.3/Bridge/src/YunServer.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/Bridge/Bridge.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/ConsoleAsciiTable/ConsoleAsciiTable.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/ConsolePixel/ConsolePixel.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/ConsoleRead/ConsoleRead.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/Datalogger/Datalogger.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/FileWriteScript/FileWriteScript.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/HttpClient/HttpClient.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/HttpClientConsole/HttpClientConsole.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/MailboxReadMessage/MailboxReadMessage.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/Process/Process.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/RemoteDueBlink/RemoteDueBlink.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/ShellCommands/ShellCommands.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/TemperatureWebPanel/TemperatureWebPanel.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/TemperatureWebPanel/www/index.html,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/TemperatureWebPanel/www/zepto.min.js,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/TimeCheck/TimeCheck.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/WiFiStatus/WiFiStatus.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/YunFirstConfig/YunFirstConfig.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/examples/YunSerialTerminal/YunSerialTerminal.ino,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/keywords.txt,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/library.properties,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/README.adoc,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/Bridge.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/Bridge.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeClient.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeClient.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeServer.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeServer.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeSSLClient.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeSSLClient.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeUdp.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/BridgeUdp.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/Console.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/Console.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/FileIO.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/FileIO.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/HttpClient.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/HttpClient.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/Mailbox.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/Mailbox.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/Process.cpp,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/Process.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/YunClient.h,Cristian Maglie
+app/testdata/libraries/Bridge_1.7.0/Bridge/src/YunServer.h,Cristian Maglie
+app/testdata/libraries/index_Bridge_only/library_index.json,Cristian Maglie
+app/testdata/libraries/index_SD_only/library_index.json,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/examples/CardInfo/CardInfo.ino,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/examples/Datalogger/Datalogger.ino,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/examples/DumpFile/DumpFile.ino,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/examples/Files/Files.ino,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/examples/listfiles/listfiles.ino,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/examples/ReadWrite/ReadWrite.ino,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/keywords.txt,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/library.properties,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/README.adoc,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/File.cpp,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/README.txt,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/SD.cpp,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/SD.h,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/FatStructs.h,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/Sd2Card.cpp,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/Sd2Card.h,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/Sd2PinMap.h,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/SdFat.h,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/SdFatmainpage.h,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/SdFatUtil.h,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/SdFile.cpp,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/SdInfo.h,Cristian Maglie
+app/testdata/libraries/SD_1.1.1/SD/src/utility/SdVolume.cpp,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/examples/CardInfo/CardInfo.ino,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/examples/Datalogger/Datalogger.ino,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/examples/DumpFile/DumpFile.ino,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/examples/Files/Files.ino,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/examples/listfiles/listfiles.ino,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/examples/ReadWrite/ReadWrite.ino,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/keywords.txt,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/library.properties,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/README.adoc,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/File.cpp,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/README.txt,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/SD.cpp,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/SD.h,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/FatStructs.h,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/Sd2Card.cpp,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/Sd2Card.h,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/Sd2PinMap.h,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/SdFat.h,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/SdFatmainpage.h,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/SdFatUtil.h,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/SdFile.cpp,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/SdInfo.h,Cristian Maglie
+app/testdata/libraries/SD_1.2.1/SD/src/utility/SdVolume.cpp,Cristian Maglie
+app/testdata/sketches/Blink/Blink.ino,per1234
+arduino-core/.classpath,Claudio Indellicati
+arduino-core/.classpath,Mattia Bertorello
+arduino-core/.classpath,Pieter12345
+arduino-core/.classpath,Thomas L. Kjeldsen
+arduino-core/.editorconfig,Federico Fissore
+arduino-core/.gitignore,Cristian Maglie
+arduino-core/.project,Cristian Maglie
+arduino-core/build.xml,Cristian Maglie
+arduino-core/lib/commons-net.LICENSE.ASL-2.0.txt,Federico Fissore
+arduino-core/lib/apple.jar,Cristian Maglie
+arduino-core/lib/apple.jar,Federico Fissore
+arduino-core/lib/apple.LICENSE.BSD-like.txt,Cristian Maglie
+arduino-core/lib/bcpg-jdk15on-152.jar,Federico Fissore
+arduino-core/lib/bcprov-jdk15on-152.jar,Federico Fissore
+arduino-core/lib/commons-codec-1.7.jar,Cristian Maglie
+arduino-core/lib/commons-compress-1.8.jar,Cristian Maglie
+arduino-core/lib/commons-compress.LICENSE.ASL-2.0.txt,Federico Fissore
+arduino-core/lib/commons-exec-1.1.jar,Claudio Indellicati
+arduino-core/lib/commons-exec.LICENSE.ASL-2.0.txt,Claudio Indellicati
+arduino-core/lib/commons-io-2.6.jar,Mattia Bertorello
+arduino-core/lib/commons-lang3-3.8.1.jar,Pieter12345
+arduino-core/lib/commons-lang3.LICENSE.ASL-2.0.txt,Federico Fissore
+arduino-core/lib/commons-logging-1.0.4.jar,Cristian Maglie
+arduino-core/lib/commons-logging.LICENSE.ASL-2.0.txt,Cristian Maglie
+arduino-core/lib/commons-net-3.3.jar,Federico Fissore
+arduino-core/lib/jackson-annotations-2.9.5.jar,Martino Facchin
+arduino-core/lib/jackson-core-2.9.5.jar,Martino Facchin
+arduino-core/lib/jackson-databind-2.9.5.jar,Martino Facchin
+arduino-core/lib/java-semver-0.8.0.jar,Federico Fissore
+arduino-core/lib/java-semver.LICENSE.MIT.txt,Federico Fissore
+arduino-core/lib/jmdns-3.5.5.jar,Martino Facchin
+arduino-core/lib/jmdns.LICENSE.ASL-2.0-LGPL-2.1.txt,Cristian Maglie
+arduino-core/lib/jmdns.LICENSE.ASL-2.0-LGPL-2.1.txt,Martino Facchin
+arduino-core/lib/jna-4.2.2.jar,Cristian Maglie
+arduino-core/lib/jna-platform-4.2.2.jar,Cristian Maglie
+arduino-core/lib/jsch-0.1.50.jar,Cristian Maglie
+arduino-core/lib/jsch.LICENSE.BSD.txt,Cristian Maglie
+arduino-core/lib/jssc-2.8.0-arduino4.jar,Martino Facchin
+arduino-core/lib/jssc.LICENSE.GPL.txt,Cristian Maglie
+arduino-core/lib/jssc.LICENSE.LGPL.txt,Cristian Maglie
+arduino-core/lib/log4j-api-2.12.0.jar,Mattia Bertorello
+arduino-core/lib/log4j-core-2.12.0.jar,Mattia Bertorello
+arduino-core/lib/slf4j-api-1.7.22.jar,Martino Facchin
+arduino-core/lib/slf4j-simple-1.7.22.jar,Martino Facchin
+arduino-core/src/cc/arduino/Compiler.java,Jesse Vincent
+arduino-core/src/cc/arduino/Compiler.java,per1234
+arduino-core/src/cc/arduino/Compiler.java,Sandeep Mistry
+arduino-core/src/cc/arduino/Compiler.java,tomneutens
+arduino-core/src/cc/arduino/CompilerProgressListener.java,Federico Fissore
+arduino-core/src/cc/arduino/Constants.java,Mattia Bertorello
+arduino-core/src/cc/arduino/Constants.java,Peter Gren
+arduino-core/src/cc/arduino/contributions/ConsoleProgressListener.java,Cristian Maglie
+arduino-core/src/cc/arduino/contributions/DownloadableContributionsDownloader.java,Martino Facchin
+arduino-core/src/cc/arduino/contributions/DownloadableContributionVersionComparator.java,Cristian Maglie
+arduino-core/src/cc/arduino/contributions/JsonDownloader.java,Mattia Bertorello
+arduino-core/src/cc/arduino/contributions/libraries/ContributedLibrary.java,Martin Sidaway
+arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndex.java,Thomas L. Kjeldsen
+arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,Chris--A
+arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,PaulStoffregen
+arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,per1234
+arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,Ricardo JL Rufino
+arduino-core/src/cc/arduino/contributions/libraries/LibrariesIndexer.java,Thomas L. Kjeldsen
+arduino-core/src/cc/arduino/contributions/libraries/LibraryInstaller.java,Martino Facchin
+arduino-core/src/cc/arduino/contributions/packages/ContributedBoard.java,Thomas L. Kjeldsen
+arduino-core/src/cc/arduino/contributions/packages/ContributedHelp.java,Thomas L. Kjeldsen
+arduino-core/src/cc/arduino/contributions/packages/ContributedTargetPackage.java,Cristian Maglie
+arduino-core/src/cc/arduino/contributions/packages/ContributionInstaller.java,Martino Facchin
+arduino-core/src/cc/arduino/contributions/packages/ContributionsIndex.java,Thomas L. Kjeldsen
+arduino-core/src/cc/arduino/contributions/packages/ContributionsIndexer.java,Martino Facchin
+arduino-core/src/cc/arduino/contributions/packages/ContributionsIndexer.java,Sandeep Mistry
+arduino-core/src/cc/arduino/contributions/packages/ContributionsIndexer.java,Thomas L. Kjeldsen
+arduino-core/src/cc/arduino/contributions/packages/HostDependentDownloadableContribution.java,Cristian Maglie
+arduino-core/src/cc/arduino/contributions/packages/HostDependentDownloadableContribution.java,Martino Facchin
+arduino-core/src/cc/arduino/contributions/ProgressListener.java,Federico Fissore
+arduino-core/src/cc/arduino/contributions/SignatureVerifier.java,Federico Fissore
+arduino-core/src/cc/arduino/contributions/SignatureVerifier.java,Mattia Bertorello
+arduino-core/src/cc/arduino/contributions/VersionComparator.java,Sandeep Mistry
+arduino-core/src/cc/arduino/files/DeleteFilesOnShutdown.java,Cristian Maglie
+arduino-core/src/cc/arduino/MyStreamPumper.java,Cristian Maglie
+arduino-core/src/cc/arduino/packages/BoardPort.java,Federico Fissore
+arduino-core/src/cc/arduino/packages/discoverers/network/BoardReachabilityFilter.java,Cristian Maglie
+arduino-core/src/cc/arduino/packages/discoverers/network/BoardReachabilityFilter.java,Martino Facchin
+arduino-core/src/cc/arduino/packages/discoverers/network/BoardReachabilityFilter.java,Me No Dev
+arduino-core/src/cc/arduino/packages/discoverers/NetworkDiscovery.java,Me No Dev
+arduino-core/src/cc/arduino/packages/discoverers/PluggableDiscovery.java,Pieter12345
+arduino-core/src/cc/arduino/packages/discoverers/PluggableDiscoveryMessage.java,Cristian Maglie
+arduino-core/src/cc/arduino/packages/discoverers/PluggableDiscoveryMessage.java,PaulStoffregen
+arduino-core/src/cc/arduino/packages/discoverers/serial/SerialDiscovery.java,Martino Facchin
+arduino-core/src/cc/arduino/packages/discoverers/serial/SerialDiscovery.java,Mattia Bertorello
+arduino-core/src/cc/arduino/packages/Discovery.java,Cristian Maglie
+arduino-core/src/cc/arduino/packages/Discovery.java,Federico Fissore
+arduino-core/src/cc/arduino/packages/DiscoveryManager.java,PaulStoffregen
+arduino-core/src/cc/arduino/packages/ssh/NoInteractionUserInfo.java,Federico Fissore
+arduino-core/src/cc/arduino/packages/ssh/SCP.java,Cristian Maglie
+arduino-core/src/cc/arduino/packages/ssh/SSH.java,Cristian Maglie
+arduino-core/src/cc/arduino/packages/ssh/SSHClientSetupChainRing.java,Cristian Maglie
+arduino-core/src/cc/arduino/packages/ssh/SSHClientSetupChainRing.java,Federico Fissore
+arduino-core/src/cc/arduino/packages/ssh/SSHConfigFileSetup.java,Federico Fissore
+arduino-core/src/cc/arduino/packages/ssh/SSHConfigFileSetup.java,Martino Facchin
+arduino-core/src/cc/arduino/packages/ssh/SSHPwdSetup.java,Cristian Maglie
+arduino-core/src/cc/arduino/packages/ssh/SSHPwdSetup.java,Federico Fissore
+arduino-core/src/cc/arduino/packages/Uploader.java,gh-megabit
+arduino-core/src/cc/arduino/packages/Uploader.java,per1234
+arduino-core/src/cc/arduino/packages/Uploader.java,Pieter12345
+arduino-core/src/cc/arduino/packages/Uploader.java,Sandeep Mistry
+arduino-core/src/cc/arduino/packages/UploaderFactory.java,Cristian Maglie
+arduino-core/src/cc/arduino/packages/UploaderFactory.java,Me No Dev
+arduino-core/src/cc/arduino/packages/uploaders/GenericNetworkUploader.java,Matthijs Kooijman
+arduino-core/src/cc/arduino/packages/uploaders/GenericNetworkUploader.java,Me No Dev
+arduino-core/src/cc/arduino/packages/uploaders/MergeSketchWithBooloader.java,Federico Fissore
+arduino-core/src/cc/arduino/packages/uploaders/MergeSketchWithBooloader.java,Pieter12345
+arduino-core/src/cc/arduino/packages/uploaders/SerialUploader.java,Angus Gratton
+arduino-core/src/cc/arduino/packages/uploaders/SerialUploader.java,gh-megabit
+arduino-core/src/cc/arduino/packages/uploaders/SerialUploader.java,Me No Dev
+arduino-core/src/cc/arduino/ProgressAwareMessageConsumer.java,Cristian Maglie
+arduino-core/src/cc/arduino/ProgressAwareMessageConsumer.java,tomneutens
+arduino-core/src/cc/arduino/UploaderUtils.java,Federico Fissore
+arduino-core/src/cc/arduino/utils/ArchiveExtractor.java,Huang Rui
+arduino-core/src/cc/arduino/utils/ArchiveExtractor.java,per1234
+arduino-core/src/cc/arduino/utils/FileHash.java,Cristian Maglie
+arduino-core/src/cc/arduino/utils/MultiStepProgress.java,Cristian Maglie
+arduino-core/src/cc/arduino/utils/network/FileDownloader.java,Martino Facchin
+arduino-core/src/cc/arduino/utils/network/FileDownloader.java,Matthijs Kooijman
+arduino-core/src/cc/arduino/utils/network/HttpConnectionManager.java,Cristian Maglie
+arduino-core/src/cc/arduino/utils/Progress.java,Cristian Maglie
+arduino-core/src/edazdarevic/commons/net/CIDRUtils.java,Cristian Maglie
+arduino-core/src/edazdarevic/commons/net/CIDRUtils.java,Federico Fissore
+arduino-core/src/processing/app/BaseNoGui.java,Arnav Gupta
+arduino-core/src/processing/app/BaseNoGui.java,Chris--A
+arduino-core/src/processing/app/BaseNoGui.java,Pieter12345
+arduino-core/src/processing/app/debug/LegacyTargetBoard.java,Cristian Maglie
+arduino-core/src/processing/app/debug/LegacyTargetBoard.java,Martino Facchin
+arduino-core/src/processing/app/debug/LegacyTargetPackage.java,Cristian Maglie
+arduino-core/src/processing/app/debug/LegacyTargetPlatform.java,Richard Wackerbarth
+arduino-core/src/processing/app/debug/MessageConsumer.java,Cristian Maglie
+arduino-core/src/processing/app/debug/MessageConsumer.java,Federico Fissore
+arduino-core/src/processing/app/debug/MessageSiphon.java,Federico Fissore
+arduino-core/src/processing/app/debug/TargetBoard.java,Martino Facchin
+arduino-core/src/processing/app/debug/TargetPackage.java,Federico Fissore
+arduino-core/src/processing/app/debug/TargetPlatform.java,Martino Facchin
+arduino-core/src/processing/app/debug/TargetPlatformException.java,Cristian Maglie
+arduino-core/src/processing/app/helpers/BasicUserNotifier.java,Federico Fissore
+arduino-core/src/processing/app/helpers/BoardCloudResolver.java,Cristian Maglie
+arduino-core/src/processing/app/helpers/BoardCloudResolver.java,Mattia Bertorello
+arduino-core/src/processing/app/helpers/CommandlineParser.java,Yohsuke FURUTA
+arduino-core/src/processing/app/helpers/filefilters/OnlyFilesWithExtension.java,Federico Fissore
+arduino-core/src/processing/app/helpers/NetUtils.java,Cristian Maglie
+arduino-core/src/processing/app/helpers/OSUtils.java,Federico Fissore
+arduino-core/src/processing/app/helpers/OSUtils.java,Sandeep Mistry
+arduino-core/src/processing/app/helpers/PreferencesMapException.java,Cristian Maglie
+arduino-core/src/processing/app/helpers/ProcessUtils.java,Cristian Maglie
+arduino-core/src/processing/app/helpers/StringReplacer.java,Federico Fissore
+arduino-core/src/processing/app/helpers/StringReplacer.java,Martino Facchin
+arduino-core/src/processing/app/helpers/UserNotifier.java,Cristian Maglie
+arduino-core/src/processing/app/i18n/push.sh,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/.gitignore,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/pull.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/pull.py,Martino Facchin
+arduino-core/src/processing/app/i18n/python/push.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/push.py,Martino Facchin
+arduino-core/src/processing/app/i18n/python/requests/adapters.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/api.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/auth.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/cacert.pem,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/certs.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/compat.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/cookies.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/exceptions.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/hooks.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/models.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/hebrewprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/big5freq.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/big5prober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/chardistribution.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/charsetgroupprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/charsetprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/codingstatemachine.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/compat.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/constants.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/escprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/escsm.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/eucjpprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/euckrfreq.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/euckrprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/euctwfreq.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/euctwprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/gb2312freq.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/gb2312prober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/jisfreq.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/jpcntx.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/langbulgarianmodel.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/langcyrillicmodel.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/langgreekmodel.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/langhebrewmodel.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/langhungarianmodel.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/langthaimodel.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/latin1prober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/mbcharsetprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/mbcsgroupprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/mbcssm.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/sbcharsetprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/sbcsgroupprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/sjisprober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/universaldetector.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/utf8prober.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/charade/__init__.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/connectionpool.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/contrib/ntlmpool.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/contrib/__init__.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/exceptions.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/filepost.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/packages/ordered_dict.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/packages/six.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/packages/__init__.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/poolmanager.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/request.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/response.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/util.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/_collections.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/urllib3/__init__.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/packages/__init__.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/sessions.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/status_codes.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/structures.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/utils.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/requests/__init__.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/transifex.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/transifex.py,Martino Facchin
+arduino-core/src/processing/app/i18n/python/update.py,Cristian Maglie
+arduino-core/src/processing/app/i18n/python/update.py,Martino Facchin
+arduino-core/src/processing/app/i18n/README.md,Cristian Maglie
+arduino-core/src/processing/app/i18n/update.sh,Martino Facchin
+arduino-core/src/processing/app/I18n.java,Hasso Tepper
+arduino-core/src/processing/app/I18n.java,Matthijs Kooijman
+arduino-core/src/processing/app/legacy/PApplet.java,Richard Körber
+arduino-core/src/processing/app/legacy/PConstants.java,Cristian Maglie
+arduino-core/src/processing/app/linux/GTKLookAndFeelFixer.java,Federico Fissore
+arduino-core/src/processing/app/linux/Platform.java,Claudio Indellicati
+arduino-core/src/processing/app/linux/Platform.java,Martino Facchin
+arduino-core/src/processing/app/linux/Platform.java,Matthijs Kooijman
+arduino-core/src/processing/app/linux/UDevAdmParser.java,Cristian Maglie
+arduino-core/src/processing/app/macosx/Platform.java,Claudio Indellicati
+arduino-core/src/processing/app/macosx/Platform.java,Matthijs Kooijman
+arduino-core/src/processing/app/packages/LibraryList.java,Federico Fissore
+arduino-core/src/processing/app/packages/LibraryList.java,PaulStoffregen
+arduino-core/src/processing/app/packages/UserLibrary.java,PaulStoffregen
+arduino-core/src/processing/app/packages/UserLibraryFolder.java,Cristian Maglie
+arduino-core/src/processing/app/packages/UserLibraryPriorityComparator.java,Cristian Maglie
+arduino-core/src/processing/app/PreferencesData.java,Matthijs Kooijman
+arduino-core/src/processing/app/Serial.java,Andreas Krüger
+arduino-core/src/processing/app/Serial.java,Angus Gratton
+arduino-core/src/processing/app/Serial.java,David Gauchard
+arduino-core/src/processing/app/SerialException.java,Cristian Maglie
+arduino-core/src/processing/app/SerialNotFoundException.java,Cristian Maglie
+arduino-core/src/processing/app/Sketch.java,jeroenoverman
+arduino-core/src/processing/app/SketchFile.java,Martino Facchin
+arduino-core/src/processing/app/SketchFile.java,Michael michael.sytko
+arduino-core/src/processing/app/windows/ListComPortsParser.java,Cristian Maglie
+arduino-core/src/processing/app/windows/ListComPortsParser.java,Federico Fissore
+arduino-core/src/processing/app/windows/Platform.java,Chris--A
+arduino-core/src/processing/app/windows/Platform.java,Claudio Indellicati
+arduino-core/src/processing/app/windows/Platform.java,Matthijs Kooijman
+build/Firmata-2.5.8.zip.sha,Martino Facchin
+build/.editorconfig,Federico Fissore
+build/Adafruit_Circuit_Playground-1.11.3.zip.sha,Cristian Maglie
+build/arduino-builder-linux32-1.6.1.tar.bz2.sha,Cristian Maglie
+build/arduino-builder-linux64-1.6.1.tar.bz2.sha,Cristian Maglie
+build/arduino-builder-linuxaarch64-1.6.1.tar.bz2.sha,Cristian Maglie
+build/arduino-builder-linuxarm-1.6.1.tar.bz2.sha,Cristian Maglie
+build/arduino-builder-macosx-1.6.1-signed.tar.bz2.sha,Cristian Maglie
+build/arduino-builder-windows-1.6.1.zip.sha,Cristian Maglie
+build/arduino-examples-1.9.1.zip.sha,per1234
+build/avr-1.8.3.tar.bz2.sha,Martino Facchin
+build/Bridge-1.7.0.zip.sha,Martino Facchin
+build/build.xml,Arturo Rinaldi
+build/build.xml,Christian Fiebig
+build/build.xml,David Mellis
+build/build.xml,Jesse Vincent
+build/build.xml,Martin Sidaway
+build/build.xml,PaulStoffregen
+build/build.xml,ricardo.jl.rufino
+build/build.xml,ricklon
+build/build.xml,R P Herrold
+build/build.xml,Stephen Warren
+build/build.xml,Travis Geiselbrecht
+build/build_all_dist.bash,Cristian Maglie
+build/build_all_dist.bash,Martino Facchin
+build/build_pull_request.bash,Cristian Maglie
+build/build_pull_request.bash,Martino Facchin
+build/compile_everything.bash,Federico Fissore
+build/create_reference.pl,Federico Fissore
+build/Esplora-1.0.4.zip.sha,Federico Fissore
+build/Ethernet-2.0.0.zip.sha,Martino Facchin
+build/fetch.sh,Federico Fissore
+build/GSM-1.0.6.zip.sha,Martino Facchin
+build/Keyboard-1.0.2.zip.sha,Martino Facchin
+build/libastylej-2.05.1-5.zip.sha,Cristian Maglie
+build/liblistSerials-1.4.2-2.zip.sha,Cristian Maglie
+build/linux/avr-gcc-5.4.0-atmel3.6.1-arduino2-aarch64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/arduinoOTA-1.1.1-linux_aarch64.tar.bz2.sha,Stephen Warren
+build/linux/arduinoOTA-1.2.1-linux_386.tar.bz2.sha,Martino Facchin
+build/linux/arduinoOTA-1.2.1-linux_aarch64.tar.bz2.sha,Martino Facchin
+build/linux/arduinoOTA-1.2.1-linux_amd64.tar.bz2.sha,Martino Facchin
+build/linux/arduinoOTA-1.2.1-linux_arm.tar.bz2.sha,Martino Facchin
+build/linux/arduinoOTA-1.3.0-linux_386.tar.bz2.sha,Martino Facchin
+build/linux/arduinoOTA-1.3.0-linux_aarch64.tar.bz2.sha,Martino Facchin
+build/linux/arduinoOTA-1.3.0-linux_amd64.tar.bz2.sha,Martino Facchin
+build/linux/arduinoOTA-1.3.0-linux_arm.tar.bz2.sha,Martino Facchin
+build/linux/avr-gcc-4.9.2-atmel3.5.4-arduino2-aarch64-pc-linux-gnu.tar.bz2.sha,Stephen Warren
+build/linux/avr-gcc-5.4.0-atmel3.6.1-arduino2-armhf-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avr-gcc-5.4.0-atmel3.6.1-arduino2-i686-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avr-gcc-5.4.0-atmel3.6.1-arduino2-x86_64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avr-gcc-7.3.0-atmel3.6.1-arduino7-aarch64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avr-gcc-7.3.0-atmel3.6.1-arduino7-arm-linux-gnueabihf.tar.bz2.sha,Martino Facchin
+build/linux/avr-gcc-7.3.0-atmel3.6.1-arduino7-i686-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avr-gcc-7.3.0-atmel3.6.1-arduino7-x86_64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avrdude-6.3.0-arduino14-aarch64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avrdude-6.3.0-arduino14-armhf-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avrdude-6.3.0-arduino14-i686-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avrdude-6.3.0-arduino14-x86_64-pc-linux-gnu.tar.bz2.sha,Martino Facchin
+build/linux/avrdude-6.3.0-arduino9-aarch64-pc-linux-gnu.tar.bz2.sha,Stephen Warren
+build/linux/dist/appdata.xml,Cristian Maglie
+build/linux/dist/appdata.xml,Federico Fissore
+build/linux/dist/appdata.xml,Martino Facchin
+build/linux/dist/appdata.xml,Matthias Klumpp
+build/linux/dist/appdata.xml,Matthijs Kooijman
+build/linux/dist/appdata.xml,Peter Oliver
+build/linux/dist/arduino,Dag Wieers
+build/linux/dist/arduino,Martino Facchin
+build/linux/dist/arduino,Matthijs Kooijman
+build/linux/dist/arduino,ricardo.jl.rufino
+build/linux/dist/arduino-linux-setup.sh,Edoardo T
+build/linux/dist/desktop.template,probonopd
+build/linux/dist/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz.sha,Cristian Maglie
+build/linux/dist/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz.sha,Cristian Maglie
+build/linux/dist/install.sh,Avamander
+build/linux/dist/install.sh,Matthias Klumpp
+build/linux/dist/install.sh,ricardo.jl.rufino
+build/linux/dist/install.sh,Vladyslav Burzakovskyy
+build/linux/dist/mime.xml,Matthijs Kooijman
+build/linux/dist/uninstall.sh,Christian Fiebig
+build/LiquidCrystal-1.0.7.zip.sha,Martino Facchin
+build/macosx/appbundler-1.0ea-arduino8.jar.zip.sha,Cristian Maglie
+build/macosx/appbundler-1.0ea-arduino9.jar.zip.sha,Cristian Maglie
+build/macosx/avr-gcc-5.4.0-atmel3.6.1-arduino2-i386-apple-darwin11.tar.bz2.sha,Martino Facchin
+build/macosx/avr-gcc-7.3.0-atmel3.6.1-arduino7-x86_64-apple-darwin14-signed.tar.bz2.sha,Martino Facchin
+build/macosx/avrdude-6.3.0-arduino14-i386-apple-darwin11.tar.bz2.sha,Martino Facchin
+build/macosx/avrdude-6.3.0-arduino17-x86_64-apple-darwin12-signed.tar.bz2.sha,Cristian Maglie
+build/macosx/dist/drivers/SiliconLabs-CP2105/ReleaseNotes.txt,Martino Facchin
+build/macosx/dist/drivers/SiliconLabs-CP2105/uninstaller.sh,Martino Facchin
+build/macosx/dist/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz.sha,Cristian Maglie
+build/macosx/gcc.entitlements,Cristian Maglie
+build/macosx/jre2.entitlements,Cristian Maglie
+build/macosx/mkdmg,David A. Mellis
+build/macosx/pde.icns,Federico Fissore
+build/macosx/processing.icns,Federico Fissore
+build/macosx/processing.icns,Sebastian Hunkeler
+build/Mouse-1.0.1.zip.sha,Martino Facchin
+build/readme.md,Federico Fissore
+build/readme.md,Ramon van Belzen
+build/RobotIRremote-2.0.0.zip.sha,Cristian Maglie
+build/Robot_Control-1.0.4.zip.sha,Cristian Maglie
+build/Robot_Motor-1.0.3.zip.sha,Cristian Maglie
+build/SD-1.2.4.zip.sha,Cristian Maglie
+build/Servo-1.1.7.zip.sha,Cristian Maglie
+build/shared/ArduinoSerialPlotterProtocol.md,Martino Facchin
+build/shared/ArduinoSerialPlotterProtocol.pdf,Martino Facchin
+build/shared/examples/README.md,per1234
+build/shared/icons/128x128/apps/arduino.png,Matthijs Kooijman
+build/shared/icons/128x128/apps/arduino.png,Sebastian Hunkeler
+build/shared/icons/16x16/apps/arduino.png,Matthijs Kooijman
+build/shared/icons/16x16/apps/arduino.png,Sebastian Hunkeler
+build/shared/icons/24x24/apps/arduino.png,Matthijs Kooijman
+build/shared/icons/24x24/apps/arduino.png,Sebastian Hunkeler
+build/shared/icons/256x256/apps/arduino.png,Matthijs Kooijman
+build/shared/icons/256x256/apps/arduino.png,Sebastian Hunkeler
+build/shared/icons/32x32/apps/arduino.png,Matthijs Kooijman
+build/shared/icons/32x32/apps/arduino.png,Sebastian Hunkeler
+build/shared/icons/48x48/apps/arduino.png,Matthijs Kooijman
+build/shared/icons/48x48/apps/arduino.png,Sebastian Hunkeler
+build/shared/icons/64x64/apps/arduino.png,Christian Fiebig
+build/shared/icons/64x64/apps/arduino.png,Sebastian Hunkeler
+build/shared/icons/72x72/apps/arduino.png,Christian Fiebig
+build/shared/icons/72x72/apps/arduino.png,Sebastian Hunkeler
+build/shared/icons/96x96/apps/arduino.png,Christian Fiebig
+build/shared/icons/96x96/apps/arduino.png,Sebastian Hunkeler
+build/shared/icons/arduino.xpm,Matthijs Kooijman
+build/shared/lib/about@2x.png,Cristian Maglie
+build/shared/lib/arduino.png,ricardo.jl.rufino
+build/shared/lib/arduino_icon.ico,Federico Fissore
+build/shared/lib/arduino_icon.ico,Zachary Eveland
+build/shared/lib/keywords.txt,Chris--A
+build/shared/lib/keywords.txt,Martino Facchin
+build/shared/lib/keywords.txt,Michael Braverman
+build/shared/lib/keywords.txt,Nico
+build/shared/lib/keywords.txt,PaulStoffregen
+build/shared/lib/keywords.txt,per1234
+build/shared/lib/keywords.txt,Tom Igoe
+build/shared/lib/keywords.txt,Zach Eveland
+build/shared/lib/preferences.txt,Alogitt
+build/shared/lib/preferences.txt,bob
+build/shared/lib/preferences.txt,Cayci
+build/shared/lib/preferences.txt,David Cuartielles
+build/shared/lib/preferences.txt,Loren M. Lang
+build/shared/lib/preferences.txt,Matthijs Kooijman
+build/shared/lib/preferences.txt,PaulStoffregen
+build/shared/lib/preferences.txt,Zach Eveland
+build/shared/lib/public.gpg.key,Federico Fissore
+build/shared/lib/theme/tab-sel-left.svg,Cristian Maglie
+build/shared/lib/theme/buttons.png,Cristian Maglie
+build/shared/lib/theme/buttons.svg,Cristian Maglie
+build/shared/lib/theme/buttons@2x.png,Cristian Maglie
+build/shared/lib/theme/close.png,Federico Fissore
+build/shared/lib/theme/close.svg,Cristian Maglie
+build/shared/lib/theme/close@2x.png,Cristian Maglie
+build/shared/lib/theme/lock.svg,Cristian Maglie
+build/shared/lib/theme/lock@2x.png,Cristian Maglie
+build/shared/lib/theme/newwindow.png,Cristian Maglie
+build/shared/lib/theme/newwindow.svg,Cristian Maglie
+build/shared/lib/theme/newwindow@2x.png,Cristian Maglie
+build/shared/lib/theme/resize.png,Cristian Maglie
+build/shared/lib/theme/resize.svg,Cristian Maglie
+build/shared/lib/theme/resize@2x.png,Cristian Maglie
+build/shared/lib/theme/syntax/dark.xml,Federico Fissore
+build/shared/lib/theme/syntax/dark.xml,ricardo.jl.rufino
+build/shared/lib/theme/syntax/default.xml,ricardo.jl.rufino
+build/shared/lib/theme/tab-sel-left.png,Cristian Maglie
+build/shared/lib/theme/tab-sel-left@2x.png,Cristian Maglie
+build/shared/lib/theme/tab-sel-menu.png,Cristian Maglie
+build/shared/lib/theme/tab-sel-menu.svg,Cristian Maglie
+build/shared/lib/theme/tab-sel-menu@2x.png,Cristian Maglie
+build/shared/lib/theme/tab-sel-mid.png,Cristian Maglie
+build/shared/lib/theme/tab-sel-mid.svg,Cristian Maglie
+build/shared/lib/theme/tab-sel-mid@2x.png,Cristian Maglie
+build/shared/lib/theme/tab-sel-right.png,Cristian Maglie
+build/shared/lib/theme/tab-sel-right.svg,Cristian Maglie
+build/shared/lib/theme/tab-sel-right@2x.png,Cristian Maglie
+build/shared/lib/theme/tab-unsel-left.png,Cristian Maglie
+build/shared/lib/theme/tab-unsel-left.svg,Cristian Maglie
+build/shared/lib/theme/tab-unsel-left@2x.png,Cristian Maglie
+build/shared/lib/theme/tab-unsel-menu.png,Cristian Maglie
+build/shared/lib/theme/tab-unsel-menu.svg,Cristian Maglie
+build/shared/lib/theme/tab-unsel-menu@2x.png,Cristian Maglie
+build/shared/lib/theme/tab-unsel-mid.png,Cristian Maglie
+build/shared/lib/theme/tab-unsel-mid.svg,Cristian Maglie
+build/shared/lib/theme/tab-unsel-mid@2x.png,Cristian Maglie
+build/shared/lib/theme/tab-unsel-right.png,Cristian Maglie
+build/shared/lib/theme/tab-unsel-right.svg,Cristian Maglie
+build/shared/lib/theme/tab-unsel-right@2x.png,Cristian Maglie
+build/shared/lib/theme/theme.txt,Arturo Guadalupi
+build/shared/lib/theme/theme.txt,cousteau
+build/shared/lib/theme/theme.txt,duff2013
+build/shared/lib/theme/theme.txt,Henning Pohl
+build/shared/lib/theme/theme.txt,Zach Eveland
+build/shared/manpage.adoc,Ayke van Laethem
+build/shared/manpage.adoc,Carlos
+build/shared/manpage.adoc,Mattias Schlenker
+build/shared/manpage.adoc,pfeerick
+build/shared/manpage.adoc,SATOH Fumiyasu
+build/shared/manpage.adoc,Yohsuke FURUTA
+build/shared/reference-1.6.6-3.zip.sha,Federico Fissore
+build/shared/revisions.txt,45gfg9
+build/shared/revisions.txt,Christopher Andrews
+build/shared/revisions.txt,dpslwk
+build/shared/revisions.txt,jenkins
+build/shared/revisions.txt,jogo-
+build/shared/tools/howto.txt,David A. Mellis
+build/shared/tools/howto.txt,Far McKon
+build/shared/tools/Mangler/make.sh,David A. Mellis
+build/shared/tools/Mangler/src/Mangler.java,David A. Mellis
+build/shared/tools/Mangler/src/Mangler.java,Geert Roumen
+build/shared/WiFi101-Updater-ArduinoIDE-Plugin-0.11.0.zip.sha,Cristian Maglie
+build/SpacebrewYun-1.0.2.zip.sha,Cristian Maglie
+build/Stepper-1.1.3.zip.sha,Martino Facchin
+build/Temboo-1.2.1.zip.sha,Martino Facchin
+build/TFT-1.0.6.zip.sha,Martino Facchin
+build/WiFi-1.2.7.zip.sha,Martino Facchin
+build/windows/arduinoOTA-1.2.1-windows_386.zip.sha,Martino Facchin
+build/windows/arduinoOTA-1.3.0-windows_386.zip.sha,Martino Facchin
+build/windows/avr-gcc-5.4.0-atmel3.6.1-arduino2-i686-w64-mingw32.zip.sha,Martino Facchin
+build/windows/avr-gcc-7.3.0-atmel3.6.1-arduino7-i686-w64-mingw32.zip.sha,Martino Facchin
+build/windows/avrdude-6.3.0-arduino14-i686-w64-mingw32.zip.sha,Martino Facchin
+build/windows/dist/drivers/AdafruitCircuitPlayground.cat,Cristian Maglie
+build/windows/dist/drivers/amd64/libusb0.dll,Cristian Maglie
+build/windows/dist/drivers/amd64/libusb0.sys,Cristian Maglie
+build/windows/dist/drivers/arduino-org.cat,Arturo Rinaldi
+build/windows/dist/drivers/arduino-org.cat,Federico Fissore
+build/windows/dist/drivers/arduino-org.cat,Martino Facchin
+build/windows/dist/drivers/arduino-org.inf,Federico Fissore
+build/windows/dist/drivers/arduino-org.inf,Martino Facchin
+build/windows/dist/drivers/arduino_gemma.cat,Cristian Maglie
+build/windows/dist/drivers/arduino_gemma.inf,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/ReleaseNotes.txt,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/slabvcp.cat,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/slabvcp.inf,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/SLAB_License_Agreement_VCP_Windows.txt,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/x64/silabenm.sys,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/x64/silabser.sys,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/x64/WdfCoInstaller01009.dll,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/x86/silabenm.sys,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/x86/silabser.sys,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7/x86/WdfCoInstaller01009.dll,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7.4/slabvcp.cat,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7.4/slabvcp.inf,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7.4/x64/silabser.sys,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7.4/x64/WdfCoInstaller01009.dll,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7.4/x86/silabser.sys,Cristian Maglie
+build/windows/dist/drivers/CP210x_6.7.4/x86/WdfCoInstaller01009.dll,Cristian Maglie
+build/windows/dist/drivers/dpinst-amd64.exe,Zachary Eveland
+build/windows/dist/drivers/dpinst-x86.exe,Zachary Eveland
+build/windows/dist/drivers/ia64/libusb0.dll,Cristian Maglie
+build/windows/dist/drivers/ia64/libusb0.sys,Cristian Maglie
+build/windows/dist/drivers/license/libusb0/installer_license.txt,Cristian Maglie
+build/windows/dist/drivers/linino-boards_amd64.cat,Arturo Rinaldi
+build/windows/dist/drivers/linino-boards_amd64.cat,Martino Facchin
+build/windows/dist/drivers/linino-boards_x86.cat,Arturo Rinaldi
+build/windows/dist/drivers/linino-boards_x86.cat,Martino Facchin
+build/windows/dist/drivers/linino.inf,Martino Facchin
+build/windows/dist/drivers/README.txt,Cristian Maglie
+build/windows/dist/drivers/README.txt,jogo-
+build/windows/dist/drivers/x86/libusb0.sys,Cristian Maglie
+build/windows/dist/drivers/x86/libusb0_x86.dll,Cristian Maglie
+build/windows/launch4j-3.9-linux.tgz.sha,Cristian Maglie
+build/windows/launch4j-3.9-win32.zip.sha,Cristian Maglie
+build/windows/launcher/application.ico,Sebastian Hunkeler
+build/windows/launcher/arduino.l4j.ini,Gianluca Varisco
+build/windows/launcher/arduino.l4j.ini,Mattia Bertorello
+build/windows/launcher/config.xml,Matthijs Kooijman
+build/windows/launcher/config.xml,Pieter12345
+build/windows/launcher/config.xml,ricardo.jl.rufino
+build/windows/launcher/config.xml,Sandeep Mistry
+build/windows/launcher/config.xml,Thomas L. Kjeldsen
+build/windows/launcher/config_debug.xml,Matthijs Kooijman
+build/windows/launcher/config_debug.xml,Pieter12345
+build/windows/launcher/config_debug.xml,ricardo.jl.rufino
+build/windows/launcher/config_debug.xml,Sandeep Mistry
+build/windows/launcher/config_debug.xml,Thomas L. Kjeldsen
+build/windows/launcher/wrapper-manifest.xml,Cristian Maglie
+build/windows/msvcp100.dll,Cristian Maglie
+build/windows/msvcr100.dll,Cristian Maglie
+CONTRIBUTING.md,Cristian Maglie
+CONTRIBUTING.md,Gabriel Staples
+hardware/README.md,Matthijs Kooijman
+hardware/README.md,Polymetric
+README.md,Aarav Borthakur
+README.md,atharwa_24
+README.md,Federico Fissore
+README.md,felixphew
+README.md,Frank Lyder Bredland
+README.md,info
+README.md,Konrad Iturbe
+README.md,Matthijs Kooijman
+README.md,per1234
+README.md,Peter Mortensen
+README.md,Ramon van Belzen
+README.md,Suryaveer
+README.md,Vishan07

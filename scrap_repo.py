@@ -1,5 +1,7 @@
 import os
 
+import progressbar
+
 from scrapgitubapi.util import Config, Util
 
 
@@ -22,12 +24,18 @@ def scrap_repo():
     author_names_csv_file_path = f"{temp_dir}/author_names.txt"
     commiter_names_csv_file_path = f"{temp_dir}/commiter_names.txt"
     user_names_csv_file_path = f"{temp_dir}/user_names.txt"
+    files_in_repo_csv_file_path = f"{data_dir}/files_in_repo.txt"
+    list_files_csv_file_path = f"{temp_dir}/list_files.txt"
+    changed_files_csv_file_path = f"{data_dir}/changed_files.txt"
+
     for file in [
         commits_csv_file_path,
         commit_hash_csv_file_path,
         author_names_csv_file_path,
         commiter_names_csv_file_path,
-        user_names_csv_file_path
+        user_names_csv_file_path,
+        files_in_repo_csv_file_path,
+        changed_files_csv_file_path
     ]:
         Util.mkdir(file)
 
@@ -39,8 +47,31 @@ def scrap_repo():
         'git -C ' + repo_download_dir + ' log --pretty=format:\'%ce\' --abbrev-commit | sort | uniq -u | grep -o \'^[^@]*\' > ' + commiter_names_csv_file_path,
         'cat ' + author_names_csv_file_path + ' > ' + user_names_csv_file_path + '.tmp',
         'cat ' + commiter_names_csv_file_path + ' >> ' + user_names_csv_file_path + '.tmp',
-        'cat ' + user_names_csv_file_path + '.tmp | sort | uniq -u > ' + user_names_csv_file_path
+        'cat ' + user_names_csv_file_path + '.tmp | sort | uniq -u > ' + user_names_csv_file_path,
+        'git -C ' + repo_download_dir + ' ls-files | wc -l > ' + files_in_repo_csv_file_path,
     ]
     for command in commands:
         print(f"command: {command}")
         os.system(command)
+
+    find_files_command = f"find {repo_download_dir} -type f -not -path '*/.git/*' -exec echo {{}} \;"
+    repo_files = []
+    for repo_file in os.popen(find_files_command).readlines():
+        x = repo_file.strip()[len(repo_download_dir) + 1:]
+        repo_files.append(x)
+    with open(list_files_csv_file_path, 'w') as list_files:
+        for x in repo_files:
+            list_files.write(f"{x}\n")
+        list_files.close()
+
+    with open(changed_files_csv_file_path, 'w') as changed_files:
+        for repo_file in progressbar.progressbar(repo_files):
+            authors_command = f"git -C {repo_download_dir} log --pretty=format:\"%an\" {repo_file} | sort | uniq -u"
+            # print(f"command: {authors_command}")
+            authors = []
+            for author in os.popen(authors_command).readlines():
+                authors.append(author.strip())
+            # print(authors)
+            for author in authors:
+                changed_files.write(f"{repo_file},{author}\n")
+        changed_files.close()
