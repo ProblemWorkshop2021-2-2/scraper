@@ -17,6 +17,7 @@
     <mapping directory="$PROJECT_DIR$/nginx/commandline_scraped_data_from_git_log/nginx" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/old/audacity/commandline_scraped_data_from_git_log/audacity" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/old/capistrano/commandline_scraped_data_from_git_log/capistrano" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/old/commandline_scraped_data_from_git_log/tensorflow" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/old/ganttproject/commandline_scraped_data_from_git_log/ganttproject" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/old/nginx/commandline_scraped_data_from_git_log/nginx" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/old/tornado/commandline_scraped_data_from_git_log/tornado" vcs="Git" />

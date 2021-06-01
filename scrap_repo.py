@@ -6,14 +6,15 @@ from scrapgitubapi.util import Config, Util
 
 
 def scrap_repo():
-    print(Config.repository_name())
     repo_download_dir = f"{Config.working_directory()}/{Config.repo_dir()}/{Config.repository_owner()}_{Config.repository_name()}"
     repo_url = f"https://github.com/{Config.repository_owner()}/{Config.repository_name()}.git"
     Util.mkdir(repo_download_dir)
     if os.path.exists(repo_download_dir):
+        print(f"git -c {repo_download_dir} fetch\ngit -c {repo_download_dir} pull")
         os.system(f"git -C {repo_download_dir} fetch")
         os.system(f"git -C {repo_download_dir} pull")
     else:
+        print(f"git clone -q {repo_url} {repo_download_dir}")
         os.system(f"git clone -q {repo_url} {repo_download_dir}")
 
     data_dir = f"{Config.working_directory()}/{Config.data_dir()}/{Config.repository_owner()}_{Config.repository_name()}"
@@ -27,6 +28,7 @@ def scrap_repo():
     files_in_repo_csv_file_path = f"{data_dir}/files_in_repo.txt"
     list_files_csv_file_path = f"{temp_dir}/list_files.txt"
     changed_files_csv_file_path = f"{data_dir}/changed_files.txt"
+    insertions_files_csv_file_path = f"{data_dir}/insertions_commits.csv"
 
     for file in [
         commits_csv_file_path,
@@ -35,7 +37,8 @@ def scrap_repo():
         commiter_names_csv_file_path,
         user_names_csv_file_path,
         files_in_repo_csv_file_path,
-        changed_files_csv_file_path
+        changed_files_csv_file_path,
+        insertions_files_csv_file_path
     ]:
         Util.mkdir(file)
 
@@ -45,6 +48,8 @@ def scrap_repo():
         'git -C ' + repo_download_dir + ' log --pretty=format:\'%H\' --abbrev-commit | sort | uniq -u >> ' + commit_hash_csv_file_path,
         'git -C ' + repo_download_dir + ' log --pretty=format:\'%ae\' --abbrev-commit | sort | uniq -u | grep -o \'^[^@]*\' > ' + author_names_csv_file_path,
         'git -C ' + repo_download_dir + ' log --pretty=format:\'%ce\' --abbrev-commit | sort | uniq -u | grep -o \'^[^@]*\' > ' + commiter_names_csv_file_path,
+        'echo "tree_hash,commith_hash,changed,insert,delete" > ' + insertions_files_csv_file_path,
+        'git -C ' + repo_download_dir + ' log  --oneline --pretty="@%T,%H,"  --stat   |grep -v \| |  tr "\n" " "  |  tr "@" "\n" >> ' + insertions_files_csv_file_path,
         'cat ' + author_names_csv_file_path + ' > ' + user_names_csv_file_path + '.tmp',
         'cat ' + commiter_names_csv_file_path + ' >> ' + user_names_csv_file_path + '.tmp',
         'cat ' + user_names_csv_file_path + '.tmp | sort | uniq -u > ' + user_names_csv_file_path,

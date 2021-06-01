@@ -946,7 +946,6 @@ build/shared/revisions.txt,45gfg9
 build/shared/revisions.txt,Christopher Andrews
 build/shared/revisions.txt,dpslwk
 build/shared/revisions.txt,jenkins
-build/shared/revisions.txt,jogo-
 build/shared/tools/howto.txt,David A. Mellis
 build/shared/tools/howto.txt,Far McKon
 build/shared/tools/Mangler/make.sh,David A. Mellis
