@@ -379,6 +379,9 @@ tensorflow/cc/experimental/base/tests/tensor_types_test_util.h
 tensorflow/cc/experimental/libexport/BUILD
 tensorflow/cc/experimental/libexport/constants.cc
 tensorflow/cc/experimental/libexport/constants.h
+tensorflow/cc/experimental/libexport/load.cc
+tensorflow/cc/experimental/libexport/load.h
+tensorflow/cc/experimental/libexport/load_test.cc
 tensorflow/cc/experimental/libexport/metrics.cc
 tensorflow/cc/experimental/libexport/metrics.h
 tensorflow/cc/experimental/libexport/metrics_test.cc
@@ -786,6 +789,7 @@ tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/CMakeLists.txt
 tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/hlo_legalize_to_lhlo.cc
 tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_control_flow.cc
 tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_gather_to_torch_index_select.cc
+tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_tensor_load_op.cc
 tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_linalg.cc
 tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_standard.cc
 tensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/legalize_to_standard_patterns.td
@@ -815,6 +819,9 @@ tensorflow/compiler/mlir/hlo/lib/utils/convert_op_folder.cc
 tensorflow/compiler/mlir/hlo/lib/utils/cycle_detector.cc
 tensorflow/compiler/mlir/hlo/lib/utils/cycle_detector_test.cc
 tensorflow/compiler/mlir/hlo/lib/utils/hlo_utils.cc
+tensorflow/compiler/mlir/hlo/python/CMakeLists.txt
+tensorflow/compiler/mlir/hlo/python/mhlo.py
+tensorflow/compiler/mlir/hlo/python/MhloOps.td
 tensorflow/compiler/mlir/hlo/README.md
 tensorflow/compiler/mlir/hlo/tests/legalize-control-flow.mlir
 tensorflow/compiler/mlir/hlo/tests/BUILD
@@ -837,6 +844,7 @@ tensorflow/compiler/mlir/hlo/tests/legalize-trigonometric-to-approximation.mlir
 tensorflow/compiler/mlir/hlo/tests/legalize_to_scf.mlir
 tensorflow/compiler/mlir/hlo/tests/lhlo-fuse-linalg.mlir
 tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-select-and-scatter.mlir
+tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-tensor-load-op.mlir
 tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-affine.mlir
 tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-gpu.mlir
 tensorflow/compiler/mlir/hlo/tests/lhlo-legalize-to-linalg.mlir
@@ -891,6 +899,13 @@ tensorflow/compiler/mlir/lite/ir/tfl_ops.td
 tensorflow/compiler/mlir/lite/ir/tfl_op_interfaces.td
 tensorflow/compiler/mlir/lite/ir/tfl_structs.td
 tensorflow/compiler/mlir/lite/json_to_flatbuffer.cc
+tensorflow/compiler/mlir/lite/metrics/BUILD
+tensorflow/compiler/mlir/lite/metrics/error_collector.cc
+tensorflow/compiler/mlir/lite/metrics/error_collector.h
+tensorflow/compiler/mlir/lite/metrics/error_collector_test.cc
+tensorflow/compiler/mlir/lite/metrics/testdata/strided_slice.mlir
+tensorflow/compiler/mlir/lite/metrics/types_util.cc
+tensorflow/compiler/mlir/lite/metrics/types_util.h
 tensorflow/compiler/mlir/lite/mlir_tflite_runner.cc
 tensorflow/compiler/mlir/lite/python/BUILD
 tensorflow/compiler/mlir/lite/python/graphdef_to_tfl_flatbuffer.cc
@@ -991,6 +1006,7 @@ tensorflow/compiler/mlir/lite/tests/flatbuffer2mlir/pruning_function_input_as_ou
 tensorflow/compiler/mlir/lite/tests/flatbuffer2mlir/quantization.mlir
 tensorflow/compiler/mlir/lite/tests/flatbuffer2mlir/quant_stats.mlir
 tensorflow/compiler/mlir/lite/tests/flatbuffer2mlir/reshape.mlir
+tensorflow/compiler/mlir/lite/tests/flatbuffer2mlir/signature.mlir
 tensorflow/compiler/mlir/lite/tests/flatbuffer2mlir/simple.mlir
 tensorflow/compiler/mlir/lite/tests/flatbuffer2mlir/test_schema.fbs
 tensorflow/compiler/mlir/lite/tests/flatbuffer2mlir/unranked_function_output.mlir
@@ -1063,6 +1079,7 @@ tensorflow/compiler/mlir/lite/tests/prepare-composite-functions-tf.mlir
 tensorflow/compiler/mlir/lite/tests/prepare-quantize-post-training.mlir
 tensorflow/compiler/mlir/lite/tests/prepare-quantize-signed.mlir
 tensorflow/compiler/mlir/lite/tests/prepare-quantize.mlir
+tensorflow/compiler/mlir/lite/tests/prepare-tf-fake-quant.mlir
 tensorflow/compiler/mlir/lite/tests/prepare-tf-with-allowing-bf16-and-f16-type-legalization.mlir
 tensorflow/compiler/mlir/lite/tests/prepare-tf.mlir
 tensorflow/compiler/mlir/lite/tests/quantize.mlir
@@ -1931,6 +1948,7 @@ tensorflow/compiler/mlir/xla/hlo_to_mlir_hlo.cc
 tensorflow/compiler/mlir/xla/hlo_to_mlir_hlo.h
 tensorflow/compiler/mlir/xla/hlo_utils.cc
 tensorflow/compiler/mlir/xla/hlo_utils.h
+tensorflow/compiler/mlir/xla/hlo_utils_test.cc
 tensorflow/compiler/mlir/xla/ir/mlir_hlo_builder.cc
 tensorflow/compiler/mlir/xla/ir/mlir_hlo_builder.h
 tensorflow/compiler/mlir/xla/mlir_hlo_to_hlo.cc
@@ -2023,7 +2041,7 @@ tensorflow/compiler/tests/categorical_op_test.py
 tensorflow/compiler/tests/cholesky_op_test.py
 tensorflow/compiler/tests/clustering_test.py
 tensorflow/compiler/tests/complex_div_test.py
-tensorflow/compiler/tests/cond_test.py
+tensorflow/compiler/tests/concat_ops_test.py
 tensorflow/compiler/tests/const_op_test.py
 tensorflow/compiler/tests/conv2d_test.py
 tensorflow/compiler/tests/conv3d_test.py
@@ -2071,7 +2089,7 @@ tensorflow/compiler/tests/quantized_ops_test.py
 tensorflow/compiler/tests/randomized_tests.cc
 tensorflow/compiler/tests/random_ops_test.py
 tensorflow/compiler/tests/reduce_ops_test.py
-tensorflow/compiler/tests/concat_ops_test.py
+tensorflow/compiler/tests/cond_test.py
 tensorflow/compiler/tests/fifo_queue_test.py
 tensorflow/compiler/tests/matrix_inverse_op_test.py
 tensorflow/compiler/tests/reduce_window_test.py
@@ -2764,6 +2782,9 @@ tensorflow/compiler/xla/service/all_to_all_decomposer.h
 tensorflow/compiler/xla/service/ar_crs_combiner.cc
 tensorflow/compiler/xla/service/ar_crs_combiner.h
 tensorflow/compiler/xla/service/ar_crs_combiner_test.cc
+tensorflow/compiler/xla/service/async_all_reduce_creator.cc
+tensorflow/compiler/xla/service/async_all_reduce_creator.h
+tensorflow/compiler/xla/service/async_all_reduce_creator_test.cc
 tensorflow/compiler/xla/service/backend.cc
 tensorflow/compiler/xla/service/backend.h
 tensorflow/compiler/xla/service/batchnorm_expander.cc
@@ -2814,7 +2835,7 @@ tensorflow/compiler/xla/service/dynamic_dimension_simplifier_test.cc
 tensorflow/compiler/xla/service/elemental_ir_emitter.h
 tensorflow/compiler/xla/service/generic_transfer_manager.cc
 tensorflow/compiler/xla/service/hlo_clone_context.h
-tensorflow/compiler/xla/service/hlo_dataflow_analysis.h
+tensorflow/compiler/xla/service/hlo_dce.cc
 tensorflow/compiler/xla/service/hlo_element_type_converter.cc
 tensorflow/compiler/xla/service/hlo_evaluator_typed_visitor_int16.cc
 tensorflow/compiler/xla/service/collective_ops_utils_test.cc
@@ -3070,6 +3091,9 @@ tensorflow/compiler/xla/service/gpu/cudnn_fused_conv_rewriter_test.cc
 tensorflow/compiler/xla/service/gpu/cudnn_pad_for_convolutions.cc
 tensorflow/compiler/xla/service/gpu/cudnn_pad_for_convolutions.h
 tensorflow/compiler/xla/service/gpu/cudnn_pad_for_convolutions_test.cc
+tensorflow/compiler/xla/service/gpu/cudnn_vectorize_convolutions.cc
+tensorflow/compiler/xla/service/gpu/cudnn_vectorize_convolutions.h
+tensorflow/compiler/xla/service/gpu/cudnn_vectorize_convolutions_test.cc
 tensorflow/compiler/xla/service/gpu/cusolver_context.cc
 tensorflow/compiler/xla/service/gpu/cusolver_context.h
 tensorflow/compiler/xla/service/gpu/cusolver_rewriter.cc
@@ -3298,7 +3322,6 @@ tensorflow/compiler/xla/service/gpu/tests/tree_reduction_rewriter_test.cc
 tensorflow/compiler/xla/service/gpu/tests/xla_thunks_opt.cc
 tensorflow/compiler/xla/service/gpu/thunk.cc
 tensorflow/compiler/xla/service/gpu/thunk.h
-tensorflow/compiler/xla/service/gpu/thunk_config.bzl
 tensorflow/compiler/xla/service/gpu/thunk_schedule.cc
 tensorflow/compiler/xla/service/gpu/thunk_schedule.h
 tensorflow/compiler/xla/service/gpu/tree_reduction_rewriter.cc
@@ -3346,8 +3369,8 @@ tensorflow/compiler/xla/service/hlo_cse.cc
 tensorflow/compiler/xla/service/hlo_cse.h
 tensorflow/compiler/xla/service/hlo_cse_test.cc
 tensorflow/compiler/xla/service/hlo_dataflow_analysis.cc
+tensorflow/compiler/xla/service/hlo_dataflow_analysis.h
 tensorflow/compiler/xla/service/hlo_dataflow_analysis_test.cc
-tensorflow/compiler/xla/service/hlo_dce.cc
 tensorflow/compiler/xla/service/hlo_dce.h
 tensorflow/compiler/xla/service/hlo_dce_test.cc
 tensorflow/compiler/xla/service/hlo_domain_isolator.cc
@@ -3509,7 +3532,7 @@ tensorflow/compiler/xla/service/interpreter/platform_id.cc
 tensorflow/compiler/xla/service/interpreter/platform_id.h
 tensorflow/compiler/xla/service/interpreter/README.md
 tensorflow/compiler/xla/service/layout_assignment.cc
-tensorflow/compiler/xla/service/layout_assignment_test.cc
+tensorflow/compiler/xla/service/layout_assignment.h
 tensorflow/compiler/xla/service/llvm_compiler.cc
 tensorflow/compiler/xla/service/llvm_compiler.h
 tensorflow/compiler/xla/service/llvm_ir/alias_analysis.cc
@@ -3642,9 +3665,9 @@ tensorflow/compiler/xla/service/spmd/custom_call_handler.h
 tensorflow/compiler/xla/service/spmd/dot_handler.cc
 tensorflow/compiler/xla/service/spmd/fft_handler.cc
 tensorflow/compiler/xla/service/spmd/gather_scatter_handler.cc
-tensorflow/compiler/xla/service/spmd/schedule_aware_all_gather_cse.cc
-tensorflow/compiler/xla/service/spmd/schedule_aware_all_gather_cse.h
-tensorflow/compiler/xla/service/spmd/schedule_aware_all_gather_cse_test.cc
+tensorflow/compiler/xla/service/spmd/schedule_aware_collective_ops_cse.cc
+tensorflow/compiler/xla/service/spmd/schedule_aware_collective_ops_cse.h
+tensorflow/compiler/xla/service/spmd/schedule_aware_collective_ops_cse_test.cc
 tensorflow/compiler/xla/service/spmd/spmd_partitioner.cc
 tensorflow/compiler/xla/service/spmd/spmd_partitioner.h
 tensorflow/compiler/xla/service/spmd/spmd_partitioner_test.cc
@@ -3681,7 +3704,7 @@ tensorflow/compiler/xla/service/hlo_ordering_test.cc
 tensorflow/compiler/xla/service/hlo_proto_util.h
 tensorflow/compiler/xla/service/hlo_runner.h
 tensorflow/compiler/xla/service/hlo_subcomputation_unification_test.cc
-tensorflow/compiler/xla/service/layout_assignment.h
+tensorflow/compiler/xla/service/layout_assignment_test.cc
 tensorflow/compiler/xla/service/loop_schedule_linearizer.h
 tensorflow/compiler/xla/service/memory_space_assignment_utils.h
 tensorflow/compiler/xla/service/op_expander_pass.h
@@ -7757,6 +7780,9 @@ tensorflow/core/distributed_runtime/collective_param_resolver_distributed.h
 tensorflow/core/distributed_runtime/collective_param_resolver_distributed_test.cc
 tensorflow/core/distributed_runtime/collective_rma_distributed.cc
 tensorflow/core/distributed_runtime/collective_rma_distributed_test.cc
+tensorflow/core/distributed_runtime/coordination/BUILD
+tensorflow/core/distributed_runtime/coordination/coordination_client.h
+tensorflow/core/distributed_runtime/coordination/coordination_service.h
 tensorflow/core/distributed_runtime/device_resolver_distributed.cc
 tensorflow/core/distributed_runtime/device_resolver_distributed.h
 tensorflow/core/distributed_runtime/device_resolver_distributed_test.cc
@@ -7838,6 +7864,9 @@ tensorflow/core/distributed_runtime/message_wrappers.cc
 tensorflow/core/distributed_runtime/rpc/grpc_remote_worker.h
 tensorflow/core/distributed_runtime/rpc/async_service_interface.h
 tensorflow/core/distributed_runtime/rpc/BUILD
+tensorflow/core/distributed_runtime/rpc/coordination/BUILD
+tensorflow/core/distributed_runtime/rpc/coordination/grpc_coordination_client.cc
+tensorflow/core/distributed_runtime/rpc/coordination/grpc_coordination_client.h
 tensorflow/core/distributed_runtime/rpc/eager/BUILD
 tensorflow/core/distributed_runtime/rpc/eager/grpc_eager_client.cc
 tensorflow/core/distributed_runtime/rpc/eager/grpc_eager_client.h
@@ -8293,7 +8322,7 @@ tensorflow/core/grappler/optimizers/BUILD
 tensorflow/core/grappler/optimizers/common_subgraph_elimination.cc
 tensorflow/core/grappler/optimizers/common_subgraph_elimination.h
 tensorflow/core/grappler/optimizers/common_subgraph_elimination_test.cc
-tensorflow/core/grappler/optimizers/constant_folding.h
+tensorflow/core/grappler/optimizers/constant_folding.cc
 tensorflow/core/grappler/optimizers/constant_folding_test.cc
 tensorflow/core/grappler/optimizers/custom_graph_optimizer.h
 tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc
@@ -8435,7 +8464,7 @@ tensorflow/core/grappler/optimizers/layout_optimizer.cc
 tensorflow/core/grappler/optimizers/layout_optimizer.h
 tensorflow/core/grappler/optimizers/layout_optimizer_test.cc
 tensorflow/core/grappler/optimizers/loop_optimizer.cc
-tensorflow/core/grappler/optimizers/constant_folding.cc
+tensorflow/core/grappler/optimizers/constant_folding.h
 tensorflow/core/grappler/optimizers/evaluation_utils.h
 tensorflow/core/grappler/optimizers/generic_layout_optimizer_transposer_factory_test.cc
 tensorflow/core/grappler/optimizers/loop_optimizer.h
@@ -8631,7 +8660,7 @@ tensorflow/core/kernels/constant_op.h
 tensorflow/core/kernels/conv_2d_gpu_uint64.cu.cc
 tensorflow/core/kernels/conv_ops.cc
 tensorflow/core/kernels/cross_op_gpu.cu.cc
-tensorflow/core/kernels/cwise_op_atanh.cc
+tensorflow/core/kernels/cwise_op_bitwise_and.cc
 tensorflow/core/kernels/cwise_op_erfc.cc
 tensorflow/core/kernels/cwise_op_gpu_bitwise_and.cu.cc
 tensorflow/core/kernels/cwise_op_gpu_floor.cu.cc
@@ -8735,7 +8764,7 @@ tensorflow/core/kernels/cwise_op_asin.cc
 tensorflow/core/kernels/cwise_op_asinh.cc
 tensorflow/core/kernels/cwise_op_atan.cc
 tensorflow/core/kernels/cwise_op_atan2.cc
-tensorflow/core/kernels/cwise_op_bitwise_and.cc
+tensorflow/core/kernels/cwise_op_atanh.cc
 tensorflow/core/kernels/cwise_op_bitwise_or.cc
 tensorflow/core/kernels/cwise_op_bitwise_xor.cc
 tensorflow/core/kernels/cwise_op_ceil.cc
@@ -8871,10 +8900,10 @@ tensorflow/core/kernels/cwise_op_square.cc
 tensorflow/core/kernels/cwise_op_squared_difference.cc
 tensorflow/core/kernels/cwise_op_sub.cc
 tensorflow/core/kernels/cwise_op_tan.cc
+tensorflow/core/kernels/cwise_op_tanh.cc
 tensorflow/core/kernels/cwise_op_xdivy.cc
 tensorflow/core/kernels/cwise_op_xlog1py.cc
 tensorflow/core/kernels/cwise_op_xlogy.cc
-tensorflow/core/kernels/cwise_op_zeta.cc
 tensorflow/core/kernels/data/batch_dataset_op.cc
 tensorflow/core/kernels/data/batch_dataset_op.h
 tensorflow/core/kernels/data/batch_dataset_op_test.cc
@@ -9666,7 +9695,7 @@ tensorflow/core/kernels/lrn_op.cc
 tensorflow/core/kernels/cwise_op_gpu_xdivy.cu.cc
 tensorflow/core/kernels/cwise_op_log1p.cc
 tensorflow/core/kernels/cwise_op_random_grad.cc
-tensorflow/core/kernels/cwise_op_tanh.cc
+tensorflow/core/kernels/cwise_op_zeta.cc
 tensorflow/core/kernels/decode_raw_op.cc
 tensorflow/core/kernels/depthwise_conv_ops_test.cc
 tensorflow/core/kernels/dynamic_partition_op.cc
@@ -9765,6 +9794,7 @@ tensorflow/core/kernels/mlir_generated/build_test.sh
 tensorflow/core/kernels/mlir_generated/cpu_binary_ops_test.cc
 tensorflow/core/kernels/mlir_generated/cpu_op_abs.cc
 tensorflow/core/kernels/mlir_generated/cpu_op_add.cc
+tensorflow/core/kernels/mlir_generated/cpu_op_angle.cc
 tensorflow/core/kernels/mlir_generated/cpu_op_bitwise_and.cc
 tensorflow/core/kernels/mlir_generated/cpu_op_bitwise_or.cc
 tensorflow/core/kernels/mlir_generated/cpu_op_bitwise_xor.cc
@@ -9778,6 +9808,7 @@ tensorflow/core/kernels/mlir_generated/cpu_op_sin.cc
 tensorflow/core/kernels/mlir_generated/cpu_op_sqrt.cc
 tensorflow/core/kernels/mlir_generated/cpu_op_square.cc
 tensorflow/core/kernels/mlir_generated/cpu_op_tan.cc
+tensorflow/core/kernels/mlir_generated/cpu_op_tanh.cc
 tensorflow/core/kernels/mlir_generated/cpu_unary_ops_test.cc
 tensorflow/core/kernels/mlir_generated/gpu_binary_ops_test.cc
 tensorflow/core/kernels/mlir_generated/gpu_op_abs.cc
@@ -9848,6 +9879,9 @@ tensorflow/core/kernels/mlir_generated/gpu_op_squared_difference.cc
 tensorflow/core/kernels/mlir_generated/gpu_op_sub.cc
 tensorflow/core/kernels/mlir_generated/gpu_op_tan.cc
 tensorflow/core/kernels/mlir_generated/gpu_op_tanh.cc
+tensorflow/core/kernels/mlir_generated/gpu_op_xdivy.cc
+tensorflow/core/kernels/mlir_generated/gpu_op_xlog1py.cc
+tensorflow/core/kernels/mlir_generated/gpu_op_xlogy.cc
 tensorflow/core/kernels/mlir_generated/gpu_op_zeta.cc
 tensorflow/core/kernels/mlir_generated/gpu_unary_ops_test.cc
 tensorflow/core/kernels/mlir_generated/op_definitions/abs.mlir.tmpl
@@ -9919,6 +9953,9 @@ tensorflow/core/kernels/mlir_generated/op_definitions/squared_difference.mlir.tm
 tensorflow/core/kernels/mlir_generated/op_definitions/sub.mlir.tmpl
 tensorflow/core/kernels/mlir_generated/op_definitions/tan.mlir.tmpl
 tensorflow/core/kernels/mlir_generated/op_definitions/tanh.mlir.tmpl
+tensorflow/core/kernels/mlir_generated/op_definitions/xdivy.mlir.tmpl
+tensorflow/core/kernels/mlir_generated/op_definitions/xlog1py.mlir.tmpl
+tensorflow/core/kernels/mlir_generated/op_definitions/xlogy.mlir.tmpl
 tensorflow/core/kernels/mlir_generated/op_definitions/zeta.mlir.tmpl
 tensorflow/core/kernels/mlir_generated/op_definitions/complex_abs.mlir.tmpl
 tensorflow/core/kernels/mlir_generated/op_definitions/is_inf.mlir.tmpl
@@ -10297,7 +10334,7 @@ tensorflow/core/kernels/sparse_conditional_accumulator_op.cc
 tensorflow/core/kernels/sparse_cross_op.cc
 tensorflow/core/kernels/sparse_dense_binary_op_shared.cc
 tensorflow/core/kernels/sparse_dense_binary_op_shared_test.cc
-tensorflow/core/kernels/sparse_fill_empty_rows_op.h
+tensorflow/core/kernels/sparse_fill_empty_rows_op.cc
 tensorflow/core/kernels/sparse_fill_empty_rows_op_gpu.cu.cc
 tensorflow/core/kernels/sparse_matmul_op.cc
 tensorflow/core/kernels/sparse_matmul_op.h
@@ -10468,7 +10505,7 @@ tensorflow/core/kernels/segment_reduction_ops.h
 tensorflow/core/kernels/set_kernels.cc
 tensorflow/core/kernels/smooth-hinge-loss.h
 tensorflow/core/kernels/spacetobatch_functor.h
-tensorflow/core/kernels/sparse_fill_empty_rows_op.cc
+tensorflow/core/kernels/sparse_fill_empty_rows_op.h
 tensorflow/core/kernels/sparse_sparse_binary_op_shared.cc
 tensorflow/core/kernels/sparse_xent_op.cc
 tensorflow/core/kernels/split_lib_gpu.h
@@ -14114,6 +14151,7 @@ tensorflow/core/profiler/internal/tpu/tpu_tracer.cc
 tensorflow/core/profiler/lib/annotated_traceme.h
 tensorflow/core/profiler/lib/BUILD
 tensorflow/core/profiler/lib/connected_traceme.h
+tensorflow/core/profiler/lib/device_profiler_session.h
 tensorflow/core/profiler/lib/profiler_factory.cc
 tensorflow/core/profiler/lib/profiler_factory.h
 tensorflow/core/profiler/lib/profiler_interface.h
@@ -14176,7 +14214,7 @@ tensorflow/core/profiler/tfprof_options.cc
 tensorflow/core/profiler/tfprof_options.h
 tensorflow/core/profiler/tfprof_options.proto
 tensorflow/core/profiler/tfprof_output.proto
-tensorflow/core/profiler/utils/group_events_test.cc
+tensorflow/core/profiler/utils/hardware_type_utils.cc
 tensorflow/core/profiler/utils/step_intersection.h
 tensorflow/core/profiler/utils/BUILD
 tensorflow/core/profiler/utils/cost_utils.cc
@@ -14194,7 +14232,7 @@ tensorflow/core/profiler/utils/file_system_utils.h
 tensorflow/core/profiler/utils/format_utils.h
 tensorflow/core/profiler/utils/group_events.cc
 tensorflow/core/profiler/utils/group_events.h
-tensorflow/core/profiler/utils/hardware_type_utils.cc
+tensorflow/core/profiler/utils/group_events_test.cc
 tensorflow/core/profiler/utils/hardware_type_utils.h
 tensorflow/core/profiler/utils/html_utils.h
 tensorflow/core/profiler/utils/kernel_stats_utils.cc
@@ -16105,7 +16143,7 @@ tensorflow/lite/experimental/microfrontend/audio_microfrontend.cc
 tensorflow/lite/experimental/microfrontend/audio_microfrontend.h
 tensorflow/lite/experimental/microfrontend/audio_microfrontend_test.cc
 tensorflow/lite/experimental/microfrontend/BUILD
-tensorflow/lite/experimental/microfrontend/lib/frontend_io.c
+tensorflow/lite/experimental/microfrontend/lib/frontend_io.h
 tensorflow/lite/experimental/microfrontend/lib/noise_reduction.h
 tensorflow/lite/experimental/microfrontend/lib/bits.h
 tensorflow/lite/experimental/microfrontend/lib/BUILD
@@ -16123,9 +16161,10 @@ tensorflow/lite/experimental/microfrontend/lib/filterbank_io.h
 tensorflow/lite/experimental/microfrontend/lib/filterbank_test.cc
 tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c
 tensorflow/lite/experimental/microfrontend/lib/filterbank_util.h
+tensorflow/lite/experimental/microfrontend/lib/fprintf_shim.h
 tensorflow/lite/experimental/microfrontend/lib/frontend.c
 tensorflow/lite/experimental/microfrontend/lib/frontend.h
-tensorflow/lite/experimental/microfrontend/lib/frontend_io.h
+tensorflow/lite/experimental/microfrontend/lib/frontend_io.c
 tensorflow/lite/experimental/microfrontend/lib/frontend_main.c
 tensorflow/lite/experimental/microfrontend/lib/frontend_memmap_generator.c
 tensorflow/lite/experimental/microfrontend/lib/frontend_memmap_main.c
@@ -16141,6 +16180,10 @@ tensorflow/lite/experimental/microfrontend/lib/log_scale_io.h
 tensorflow/lite/experimental/microfrontend/lib/log_scale_test.cc
 tensorflow/lite/experimental/microfrontend/lib/log_scale_util.c
 tensorflow/lite/experimental/microfrontend/lib/log_scale_util.h
+tensorflow/lite/experimental/microfrontend/lib/memory_util.h
+tensorflow/lite/experimental/microfrontend/lib/memory_util_fixed_pool.c
+tensorflow/lite/experimental/microfrontend/lib/memory_util_stdlib.c
+tensorflow/lite/experimental/microfrontend/lib/memory_util_test.cc
 tensorflow/lite/experimental/microfrontend/lib/noise_reduction.c
 tensorflow/lite/experimental/microfrontend/lib/noise_reduction_io.c
 tensorflow/lite/experimental/microfrontend/lib/noise_reduction_io.h
@@ -16524,6 +16567,7 @@ tensorflow/lite/java/src/main/java/org/tensorflow/lite/package-info.java
 tensorflow/lite/java/src/main/java/org/tensorflow/lite/Tensor.java
 tensorflow/lite/java/src/main/java/org/tensorflow/lite/TensorFlowLite.java
 tensorflow/lite/java/src/main/native/BUILD
+tensorflow/lite/java/src/main/native/default/jni_utils.cc
 tensorflow/lite/java/src/main/native/exported_symbols.lds
 tensorflow/lite/java/src/main/native/jni_utils.cc
 tensorflow/lite/java/src/main/native/jni_utils.h
@@ -16614,6 +16658,8 @@ tensorflow/lite/kernels/concatenation_test.cc
 tensorflow/lite/kernels/conv.cc
 tensorflow/lite/kernels/conv3d.cc
 tensorflow/lite/kernels/conv3d_test.cc
+tensorflow/lite/kernels/conv3d_transpose.cc
+tensorflow/lite/kernels/conv3d_transpose_test.cc
 tensorflow/lite/kernels/conv_mem_test.cc
 tensorflow/lite/kernels/conv_test.cc
 tensorflow/lite/kernels/cpu_backend_context.h
@@ -16650,7 +16696,7 @@ tensorflow/lite/kernels/hashtable_lookup_test.cc
 tensorflow/lite/kernels/lsh_projection.cc
 tensorflow/lite/kernels/mul.cc
 tensorflow/lite/kernels/pad_test.cc
-tensorflow/lite/kernels/read_variable.cc
+tensorflow/lite/kernels/reduce.cc
 tensorflow/lite/kernels/rfft2d.cc
 tensorflow/lite/kernels/slice_test.cc
 tensorflow/lite/kernels/sub.cc
@@ -16800,6 +16846,7 @@ tensorflow/lite/kernels/internal/reference/comparisons.h
 tensorflow/lite/kernels/internal/reference/concatenation.h
 tensorflow/lite/kernels/internal/reference/conv.h
 tensorflow/lite/kernels/internal/reference/conv3d.h
+tensorflow/lite/kernels/internal/reference/conv3d_transpose.h
 tensorflow/lite/kernels/internal/reference/cumsum.h
 tensorflow/lite/kernels/internal/reference/densify.h
 tensorflow/lite/kernels/internal/reference/depthwiseconv_float.h
@@ -16958,7 +17005,7 @@ tensorflow/lite/kernels/range.cc
 tensorflow/lite/kernels/range_test.cc
 tensorflow/lite/kernels/rank.cc
 tensorflow/lite/kernels/rank_test.cc
-tensorflow/lite/kernels/reduce.cc
+tensorflow/lite/kernels/read_variable.cc
 tensorflow/lite/kernels/reduce_test.cc
 tensorflow/lite/kernels/register.cc
 tensorflow/lite/kernels/register.h
@@ -17072,6 +17119,7 @@ tensorflow/lite/kernels/variable_ops.cc
 tensorflow/lite/kernels/variable_ops.h
 tensorflow/lite/kernels/variable_ops_test.cc
 tensorflow/lite/kernels/variable_ops_wrapper.cc
+tensorflow/lite/kernels/var_handle.cc
 tensorflow/lite/kernels/where.cc
 tensorflow/lite/kernels/where_test.cc
 tensorflow/lite/kernels/while.cc
@@ -17105,6 +17153,7 @@ tensorflow/lite/micro/ceva/system_setup.cc
 tensorflow/lite/micro/chre/debug_log.cc
 tensorflow/lite/micro/compatibility.h
 tensorflow/lite/micro/CONTRIBUTING.md
+tensorflow/lite/micro/cortex_m_corstone_300/micro_time.cc
 tensorflow/lite/micro/cortex_m_corstone_300/README.md
 tensorflow/lite/micro/cortex_m_corstone_300/system_setup.cc
 tensorflow/lite/micro/cortex_m_generic/debug_log.cc
@@ -17299,6 +17348,7 @@ tensorflow/lite/micro/examples/micro_speech/recognize_commands.cc
 tensorflow/lite/micro/examples/micro_speech/recognize_commands.h
 tensorflow/lite/micro/examples/micro_speech/recognize_commands_test.cc
 tensorflow/lite/micro/examples/micro_speech/riscv32_mcu/Makefile.inc
+tensorflow/lite/micro/examples/micro_speech/simple_features/bluepill/simple_features_generator_test.cc
 tensorflow/lite/micro/examples/micro_speech/simple_features/CMSIS/simple_features_generator.cc
 tensorflow/lite/micro/examples/micro_speech/simple_features/fixed_point/simple_features_generator.cc
 tensorflow/lite/micro/examples/micro_speech/simple_features/model.cc
@@ -17878,6 +17928,12 @@ tensorflow/lite/nnapi/nnapi_implementation_test.cc
 tensorflow/lite/nnapi/nnapi_util.cc
 tensorflow/lite/nnapi/nnapi_util.h
 tensorflow/lite/nnapi/README.md
+tensorflow/lite/nnapi/sl/BUILD
+tensorflow/lite/nnapi/sl/include/SupportLibrary.h
+tensorflow/lite/nnapi/sl/include/SupportLibrarySymbols.h
+tensorflow/lite/nnapi/sl/public/NeuralNetworksSupportLibraryImpl.h
+tensorflow/lite/nnapi/sl/README.md
+tensorflow/lite/nnapi/sl/SupportLibrary.cc
 tensorflow/lite/objc/apis/TFLCoreMLDelegate.h
 tensorflow/lite/objc/apis/TFLDelegate.h
 tensorflow/lite/objc/apis/TFLInterpreter.h
@@ -17990,6 +18046,7 @@ tensorflow/lite/python/metrics_nonportable_test.py
 tensorflow/lite/python/metrics_portable.py
 tensorflow/lite/python/metrics_portable_test.py
 tensorflow/lite/python/metrics_wrapper/BUILD
+tensorflow/lite/python/metrics_wrapper/converter_error_data.proto
 tensorflow/lite/python/metrics_wrapper/metrics_wrapper.h
 tensorflow/lite/python/metrics_wrapper/metrics_wrapper_nonportable.cc
 tensorflow/lite/python/metrics_wrapper/metrics_wrapper_portable.cc
@@ -19196,7 +19253,6 @@ tensorflow/python/data/experimental/kernel_tests/prefetch_with_slack_test.py
 tensorflow/python/data/experimental/kernel_tests/rebatch_dataset_test.py
 tensorflow/python/data/experimental/kernel_tests/rejection_resample_test.py
 tensorflow/python/data/experimental/kernel_tests/replicate_test.py
-tensorflow/python/data/experimental/kernel_tests/scan_test.py
 tensorflow/python/data/experimental/kernel_tests/service/BUILD
 tensorflow/python/data/experimental/kernel_tests/service/coordinated_read_ft_test.py
 tensorflow/python/data/experimental/kernel_tests/service/coordinated_read_test.py
@@ -19254,6 +19310,7 @@ tensorflow/python/data/experimental/service/utils_wrapper.cc
 tensorflow/python/data/experimental/service/__init__.py
 tensorflow/python/data/experimental/__init__.py
 tensorflow/python/data/kernel_tests/from_sparse_tensor_slices_test.py
+tensorflow/python/data/kernel_tests/prefetch_test.py
 tensorflow/python/data/kernel_tests/as_numpy_iterator_test.py
 tensorflow/python/data/kernel_tests/batch_test.py
 tensorflow/python/data/kernel_tests/bucket_by_sequence_length_test.py
@@ -19286,15 +19343,16 @@ tensorflow/python/data/kernel_tests/optional_test.py
 tensorflow/python/data/kernel_tests/options_test.py
 tensorflow/python/data/kernel_tests/padded_batch_test.py
 tensorflow/python/data/kernel_tests/placement_test.py
-tensorflow/python/data/kernel_tests/prefetch_test.py
 tensorflow/python/data/kernel_tests/random_dataset_test.py
 tensorflow/python/data/kernel_tests/range_test.py
 tensorflow/python/data/kernel_tests/reduce_test.py
 tensorflow/python/data/kernel_tests/repeat_test.py
+tensorflow/python/data/kernel_tests/scan_test.py
 tensorflow/python/data/kernel_tests/shard_test.py
 tensorflow/python/data/kernel_tests/shuffle_test.py
 tensorflow/python/data/kernel_tests/skip_test.py
 tensorflow/python/data/kernel_tests/take_test.py
+tensorflow/python/data/kernel_tests/take_while_test.py
 tensorflow/python/data/kernel_tests/test_base.py
 tensorflow/python/data/kernel_tests/text_line_dataset_test.py
 tensorflow/python/data/kernel_tests/tf_record_dataset_test.py
@@ -20505,10 +20563,11 @@ tensorflow/python/kernel_tests/cudnn_deterministic_test.py
 tensorflow/python/kernel_tests/cumulative_logsumexp_test.py
 tensorflow/python/kernel_tests/cwise_ops_binary_test.py
 tensorflow/python/kernel_tests/cwise_ops_test.py
+tensorflow/python/kernel_tests/cwise_ops_unary_test.py
 tensorflow/python/kernel_tests/batch_scatter_ops_test.py
 tensorflow/python/kernel_tests/cholesky_op_test.py
 tensorflow/python/kernel_tests/conv2d_backprop_filter_grad_test.py
-tensorflow/python/kernel_tests/cwise_ops_unary_test.py
+tensorflow/python/kernel_tests/decode_bmp_op_test.py
 tensorflow/python/kernel_tests/division_future_test.py
 tensorflow/python/kernel_tests/fingerprint_op_test.py
 tensorflow/python/kernel_tests/linalg/BUILD
@@ -20557,7 +20616,6 @@ tensorflow/python/kernel_tests/signal/window_ops_test.py
 tensorflow/python/kernel_tests/sparse_slice_op_test.py
 tensorflow/python/kernel_tests/string_split_op_test.py
 tensorflow/python/kernel_tests/tensor_priority_test.py
-tensorflow/python/kernel_tests/decode_bmp_op_test.py
 tensorflow/python/kernel_tests/decode_compressed_op_test.py
 tensorflow/python/kernel_tests/decode_csv_op_test.py
 tensorflow/python/kernel_tests/decode_image_op_test.py
@@ -20828,6 +20886,7 @@ tensorflow/python/module/module_test.py
 tensorflow/python/modules_with_exports.py
 tensorflow/python/ops/accumulate_n_benchmark.py
 tensorflow/python/ops/array_grad.py
+tensorflow/python/ops/array_grad_test.py
 tensorflow/python/ops/array_ops.py
 tensorflow/python/ops/array_ops_test.py
 tensorflow/python/ops/batch_norm_benchmark.py
@@ -21320,6 +21379,7 @@ tensorflow/python/saved_model/tag_constants.py
 tensorflow/python/saved_model/utils.py
 tensorflow/python/saved_model/utils_impl.py
 tensorflow/python/saved_model/utils_test.py
+tensorflow/python/summary/BUILD
 tensorflow/python/summary/plugin_asset.py
 tensorflow/python/summary/plugin_asset_test.py
 tensorflow/python/summary/README.md
@@ -21327,6 +21387,7 @@ tensorflow/python/summary/summary.py
 tensorflow/python/summary/summary_iterator.py
 tensorflow/python/summary/summary_iterator_test.py
 tensorflow/python/summary/summary_test.py
+tensorflow/python/summary/writer/BUILD
 tensorflow/python/summary/writer/event_file_writer.py
 tensorflow/python/summary/writer/event_file_writer_v2.py
 tensorflow/python/summary/writer/fake_summary_writer.py
@@ -21879,7 +21940,7 @@ tensorflow/stream_executor/cuda/cuda_gpu_executor.h
 tensorflow/stream_executor/cuda/cuda_helpers.h
 tensorflow/stream_executor/cuda/cuda_kernel.cc
 tensorflow/stream_executor/cuda/cuda_kernel.h
-tensorflow/stream_executor/cuda/cuda_platform.h
+tensorflow/stream_executor/cuda/cuda_platform.cc
 tensorflow/stream_executor/cuda/cuda_platform_id.cc
 tensorflow/stream_executor/cuda/cuda_platform_id.h
 tensorflow/stream_executor/cuda/cuda_rng.cc
@@ -21914,7 +21975,7 @@ tensorflow/stream_executor/cuda/cupti_10_1.inc
 tensorflow/stream_executor/cuda/cupti_10_2.inc
 tensorflow/stream_executor/cuda/cupti_11_0.inc
 tensorflow/stream_executor/cuda/cuda_blas.cc
-tensorflow/stream_executor/cuda/cuda_platform.cc
+tensorflow/stream_executor/cuda/cuda_platform.h
 tensorflow/stream_executor/cuda/cudnn_7_3.inc
 tensorflow/stream_executor/cuda/cupti_9_0.inc
 tensorflow/stream_executor/cuda/cupti_stub.cc
@@ -24314,10 +24375,14 @@ tensorflow/tools/ci_build/pi/build_raspberry_pi.sh
 tensorflow/tools/ci_build/presubmit/macos/py37_cc/build.sh
 tensorflow/tools/ci_build/presubmit/ubuntu_16/android/build.sh
 tensorflow/tools/ci_build/presubmit/ubuntu_16/cpu_py36_full/build.sh
+tensorflow/tools/ci_build/presubmit/ubuntu_16/cpu_py39_full/build.sh
 tensorflow/tools/ci_build/presubmit/ubuntu_16/gpu_py36_full/build.sh
+tensorflow/tools/ci_build/presubmit/ubuntu_16/gpu_py39_full/build.sh
 tensorflow/tools/ci_build/presubmit/ubuntu_16/sanity/build.sh
 tensorflow/tools/ci_build/presubmit/windows/cpu_py36_full/build.bat
+tensorflow/tools/ci_build/presubmit/windows/cpu_py39_full/build.bat
 tensorflow/tools/ci_build/presubmit/windows/gpu_py36_full/build.bat
+tensorflow/tools/ci_build/presubmit/windows/gpu_py39_full/build.bat
 tensorflow/tools/ci_build/protobuf/protobuf_optimized_pip.sh
 tensorflow/tools/ci_build/pylintrc
 tensorflow/tools/ci_build/README.md

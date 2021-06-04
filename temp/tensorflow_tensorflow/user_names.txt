@@ -160,6 +160,7 @@ ashutoshdas96
 ashwhall
 asmita.poddar
 ATHundt
+atondwal
 awk
 ayazdan
 b00902042
@@ -401,6 +402,7 @@ guoguo12
 guptarohit
 gustav.m.larsson
 g.varisco
+gysit
 gyuhox
 habarlack
 habernal
@@ -596,7 +598,6 @@ krajcevski
 kr-ish
 krivard
 krzysztof.gorgolewski
-k.vignesh1420
 kwotsin
 kyle.mills
 lahead

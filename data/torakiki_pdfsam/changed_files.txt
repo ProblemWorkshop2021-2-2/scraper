@@ -1,0 +1,316 @@
+.github/FUNDING.yml,Andrea Vacondio
+.gitignore,Edi Weissmann
+.gitignore,torakiki
+pdfsam-alternate-mix/graphics/alternate_mix.png,Andrea Vacondio
+pdfsam-alternate-mix/graphics/alternate_mix.svg,Andrea Vacondio
+pdfsam-alternate-mix/LICENSE.txt,Andrea Vacondio
+pdfsam-alternate-mix/src/main/resources/alternate_mix.png,Andrea Vacondio
+pdfsam-alternate-mix/src/test/java/org/pdfsam/Cycles.java,Andrea Vacondio
+pdfsam-basic/.gitignore,torakiki
+pdfsam-basic/doc/third-party/bouncy-castle/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/commons-io/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/commons-io/NOTICE.txt,torakiki
+pdfsam-basic/doc/third-party/commons-lang/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/commons-lang/NOTICE.txt,torakiki
+pdfsam-basic/doc/third-party/event-studio/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/fontawesomeFx/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/fontbox/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/fontbox/NOTICE.txt,torakiki
+pdfsam-basic/doc/third-party/gettext-commons/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/hibernate-validator/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/Inject/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/jackson/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/jackson/NOTICE.txt,torakiki
+pdfsam-basic/doc/third-party/logback/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/sambox/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/sejda/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/sejda-injector/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/sejda-io/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/slf4j/LICENSE.txt,torakiki
+pdfsam-basic/doc/third-party/validation-api/LICENSE.txt,torakiki
+pdfsam-basic/LICENSE.txt,torakiki
+pdfsam-basic/src/assembly/portable-linux.xml,torakiki
+pdfsam-basic/src/assembly/portable.xml,torakiki
+pdfsam-basic/src/deb/control/postinst,torakiki
+pdfsam-basic/src/deb/pdfsam-basic.desktop,torakiki
+pdfsam-basic/src/detached-sign.sh,torakiki
+pdfsam-basic/src/dmg/entitlements.mac.plist,torakiki
+pdfsam-basic/src/dmg/resources/background.png,torakiki
+pdfsam-basic/src/dmg/resources/background@2x.png,torakiki
+pdfsam-basic/src/dmg/resources/Info.plist,torakiki
+pdfsam-basic/src/main/resources/images/basic/splash.gif,torakiki
+pdfsam-basic/src/main/resources/sejda.xml,torakiki
+pdfsam-basic/src/msi/CA/AddLine/AddLine/AddLine.csproj,torakiki
+pdfsam-basic/src/msi/CA/AddLine/AddLine/AddLine.csproj.user,torakiki
+pdfsam-basic/src/msi/CA/AddLine/AddLine/CustomAction.config,torakiki
+pdfsam-basic/src/msi/CA/AddLine/AddLine.sln,torakiki
+pdfsam-basic/src/msi/CA/AddLine/AddLine.suo,torakiki
+pdfsam-basic/src/msi/culture.wxl,torakiki
+pdfsam-basic/src/msi/exitDlg.wxs,torakiki
+pdfsam-basic/src/msi/featuresTree.wxs,torakiki
+pdfsam-basic/src/msi/pdfsamVariables.wxi,torakiki
+pdfsam-basic/src/msi/requirementsDlg.wxs,torakiki
+pdfsam-basic/src/msi/resources/BannerBmp.bmp,torakiki
+pdfsam-basic/src/msi/resources/installer.bmp,torakiki
+pdfsam-basic/src/msi/resources/ko.bmp,torakiki
+pdfsam-basic/src/msi/resources/LICENSE.rtf,torakiki
+pdfsam-basic/src/msi/resources/ok.bmp,torakiki
+pdfsam-basic/src/msi/sign.txt,torakiki
+pdfsam-basic/src/msi/verifyWithLanguageDlg.wxs,torakiki
+pdfsam-basic/src/test/resources/pdfsam.properties,torakiki
+pdfsam-core/LICENSE.txt,Andrea Vacondio
+pdfsam-core/LICENSE.txt,torakiki
+pdfsam-core/src/main/java/org/pdfsam/module/ModuleInputOutputType.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/module/ModulePriority.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/module/RequiredPdfData.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/news/FetchLatestNewsRequest.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/news/HideNewsPanelRequest.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/news/LatestNewsEvent.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/news/NewImportantNewsEvent.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/news/ShowNewsPanelRequest.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/pdf/MultipleFilesDroppedEvent.java,torakiki
+pdfsam-core/src/main/java/org/pdfsam/pdf/PdfDocumentDescriptorProvider.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/pdf/SingleFileDroppedEvent.java,torakiki
+pdfsam-core/src/main/java/org/pdfsam/premium/FetchPremiumModulesRequest.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/premium/PremiumModulesEvent.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/ShutdownEvent.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/support/EncryptionUtils.java,torakiki
+pdfsam-core/src/main/java/org/pdfsam/support/filter/BaseFileChooserFilter.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/support/io/OngoingWrite.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/support/KeyValueItem.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/support/params/ConversionUtils.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/support/params/SingleOutputTaskParametersBuilder.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/support/params/TaskParametersBuildStep.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/support/validation/ContainedIntegerValidator.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/support/XmlUtils.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/ui/ResettableView.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/ui/SetLatestStageStatusRequest.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/ui/workspace/RestorableView.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/ui/workspace/WorkspaceLoadedEvent.java,Andrea Vacondio
+pdfsam-core/src/main/java/org/pdfsam/update/NoUpdateAvailable.java,torakiki
+pdfsam-core/src/main/resources/images/enhanced32.png,Andrea Vacondio
+pdfsam-core/src/main/resources/images/visual32.png,Andrea Vacondio
+pdfsam-core/src/main/resources/images/visual32.png,torakiki
+pdfsam-core/src/test/java/org/pdfsam/module/ModuleKeyValueItemTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/module/ModulePriorityTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/news/LatestNewsEventTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/news/NewImportantNewsEventTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/NoHeadless.java,torakiki
+pdfsam-core/src/test/java/org/pdfsam/NoWindows.java,torakiki
+pdfsam-core/src/test/java/org/pdfsam/pdf/SingleFileDroppedEventTest.java,torakiki
+pdfsam-core/src/test/java/org/pdfsam/premium/PremiumModulesEventTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/premium/PremiumModuleTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/support/EncryptionUtilsTest.java,torakiki
+pdfsam-core/src/test/java/org/pdfsam/support/filter/BaseFileChooserFilterTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/support/filter/FileFilterTypeTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/support/io/ObjectCollectionWriterTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/support/ObservableAtomicReferenceTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/support/params/ConversionUtilsTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/support/validation/ContainedIntegerValidatorTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/support/validation/ValidatorsTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/support/XmlUtilsTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/task/BulkRotateParametersTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/task/PdfRotationInputTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/test/InitializeAndApplyJavaFxThreadRule.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/test/JavaFXInitlializer.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/TestCycles.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/TestUtils.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/ui/InputPdfArgumentsLoadRequestTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/ui/SetLatestStageStatusRequestTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/ui/StageModeTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/ui/workspace/SaveWorkspaceEventTest.java,Andrea Vacondio
+pdfsam-core/src/test/java/org/pdfsam/ui/workspace/WorkspaceLoadedEventTest.java,Andrea Vacondio
+pdfsam-core/src/test/resources/test.xml,torakiki
+pdfsam-docs/development/eclipse/checkstyle_plugin/checkstyle.xml,Andrea Vacondio
+pdfsam-docs/development/eclipse/checkstyle_plugin/suppression.xml,Andrea Vacondio
+pdfsam-docs/development/eclipse/codetemplates.xml,Andrea Vacondio
+pdfsam-docs/development/eclipse/code_format.xml,Andrea Vacondio
+pdfsam-docs/development/eclipse/eclipse_compiler_settings.epf,Andrea Vacondio
+pdfsam-docs/development/eclipse/eclipse_style_and_compiler_settings.epf,Andrea Vacondio
+pdfsam-docs/graphics/basic.png,torakiki
+pdfsam-docs/graphics/basic.svg,torakiki
+pdfsam-docs/graphics/LICENSE.txt,Andrea Vacondio
+pdfsam-docs/graphics/PDFsam_basic.ico,torakiki
+pdfsam-docs/graphics/sansation.zip,Andrea Vacondio
+pdfsam-docs/LICENSE.txt,Andrea Vacondio
+pdfsam-docs/news-template/css/Sansation_Regular.ttf,Andrea Vacondio
+pdfsam-docs/news-template/css/style.css,Andrea Vacondio
+pdfsam-docs/news-template/images/logo.png,Andrea Vacondio
+pdfsam-docs/news-template/news.html,Andrea Vacondio
+pdfsam-extract/graphics/extract.png,Andrea Vacondio
+pdfsam-extract/graphics/extract.svg,Andrea Vacondio
+pdfsam-extract/LICENSE.txt,Andrea Vacondio
+pdfsam-extract/src/main/java/org/pdfsam/extract/ExtractSelectionPane.java,Andrea Vacondio
+pdfsam-extract/src/main/resources/extract.png,Andrea Vacondio
+pdfsam-extract/src/test/java/org/pdfsam/Cycles.java,Andrea Vacondio
+pdfsam-extract/src/test/java/org/pdfsam/extract/ExtractSelectionPaneTest.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/Animations.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/ClearModuleEvent.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/HideStageRequest.java,torakiki
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/NonExistingOutputDirectoryEvent.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/OpenFileRequest.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/OpenUrlRequest.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/RemoveSelectedEvent.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/SetActiveModuleRequest.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/SetPageRangesRequest.java,torakiki
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/ShowPdfDescriptorRequest.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/ShowStageRequest.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/commons/UrlButton.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/help/HelpPopup.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/help/HelpPopupSkin.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/help/HelpUtils.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/io/DestinationPane.java,Asier Iturralde Sarasola
+pdfsam-fx/src/main/java/org/pdfsam/ui/io/SetLatestDirectoryEvent.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/module/OpenButton.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/module/RunButton.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/module/RunButtonTriggerRequest.java,torakiki
+pdfsam-fx/src/main/java/org/pdfsam/ui/module/TaskFailedButton.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/notification/NotificationType.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/LoadingStatusIndicatorUpdater.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/multiple/DuplicateSelectedEvent.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/multiple/move/MoveSelectedEvent.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/multiple/PaceColumn.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/multiple/ReverseColumn.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/multiple/SelectionTable.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/multiple/TableColumnProvider.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/PasswordFieldPopup.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/PasswordFieldPopupSkin.java,Andrea Vacondio
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/single/SingleSelectionPane.java,Markus Koschany
+pdfsam-fx/src/main/java/org/pdfsam/ui/selection/ToolbarButton.java,torakiki
+pdfsam-fx/src/main/java/org/pdfsam/ui/support/CircularObservableList.java,Andrea Vacondio
+pdfsam-fx/src/main/resources/themes/combo.css,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/Cycles.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/commons/OpenFileRequestTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/commons/ShowPdfDescriptorRequestTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/io/AddPdfVersionConstraintEventTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/io/BasePdfVersionEventTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/io/RemovePdfVersionConstraintEventTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/io/SetLatestDirectoryEventTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/selection/multiple/move/MoveSelectedEventTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/selection/multiple/move/MultipleSelectionAndFocusTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/selection/multiple/move/SingleSelectionAndFocusTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/selection/multiple/SelectionChangedEventTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/selection/multiple/SelectionTableToolbarWithoutMoveTest.java,Andrea Vacondio
+pdfsam-fx/src/test/java/org/pdfsam/ui/support/CircularObservableListTest.java,Andrea Vacondio
+pdfsam-gui/LICENSE.txt,Andrea Vacondio
+pdfsam-gui/LICENSE.txt,torakiki
+pdfsam-gui/pom.xml,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/configuration/StylesConfig.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/banner/BannerButton.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/dashboard/about/AboutDashboardPane.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/dashboard/AboutDashboadItem.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/dashboard/DashboardConfig.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/dashboard/modules/ModulesDashboardTile.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/dashboard/modules/PremiumModuleTile.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/dashboard/ModulesDashboardItem.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/dashboard/preference/PreferenceIntTextField.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/dashboard/PreferencesDashboardItem.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/dialog/AddSubdirectoriesConfirmationDialog.java,torakiki
+pdfsam-gui/src/main/java/org/pdfsam/ui/dialog/ClearModuleConfirmationDialog.java,torakiki
+pdfsam-gui/src/main/java/org/pdfsam/ui/dialog/ConfirmationDialogContent.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/dialog/ConfirmationDialogContent.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/dialog/DialogStyle.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/dialog/LenientExecutionConfirmationDialog.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/dialog/LenientTaskExecutionDialogController.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/event/SetActiveDashboardItemRequest.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/log/LogAreaVisiblityChangedEvent.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/log/LogLevel.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/log/MaxLogRowsChangedEvent.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/log/UpToInfoFilter.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/ui/news/News.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/news/NewsPanel.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/notification/Notification.java,Markus Koschany
+pdfsam-gui/src/main/java/org/pdfsam/ui/quickbar/BaseQuickbarButtonsPane.java,Andrea Vacondio
+pdfsam-gui/src/main/java/org/pdfsam/WindowStatusController.java,Edi Weissmann
+pdfsam-gui/src/main/resources/sounds/error_sound.wav,Andrea Vacondio
+pdfsam-gui/src/main/resources/sounds/ok_sound.wav,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/Cycles.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/InputPdfArgumentsControllerTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/sound/PlaySoundControllerTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/banner/NewsButtonTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/banner/SettingsMenuTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/dashboard/preference/PreferenceOutputPaneTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/dashboard/QuickbarDashboardButtonsPaneTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/dialog/ConfirmationDialogContentTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/dialog/LenientExecutionConfirmationDialogTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/dialog/LenientTaskExecutionDialogControllerTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/log/LogLevelTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/log/LogMessageTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/notification/RemoveNotificationRequestEventTest.java,Andrea Vacondio
+pdfsam-gui/src/test/java/org/pdfsam/ui/workarea/QuickbarModuleButtonsProviderTest.java,Andrea Vacondio
+pdfsam-gui/src/test/resources/htmltest.html,Andrea Vacondio
+pdfsam-i18n/extract-pot.sh,torakiki
+pdfsam-i18n/LICENSE.txt,Andrea Vacondio
+pdfsam-i18n/LICENSE.txt,torakiki
+pdfsam-i18n/po/ar.po,Andrea Vacondio
+pdfsam-i18n/po/bg.po,Andrea Vacondio
+pdfsam-i18n/po/de.po,Alexander Blesius
+pdfsam-i18n/po/lt.po,Andrea Vacondio
+pdfsam-i18n/po/lv.po,Andrea Vacondio
+pdfsam-i18n/po/ru.po,anrus
+pdfsam-i18n/po/sl.po,Andrea Vacondio
+pdfsam-i18n/src/main/java/org/pdfsam/i18n/SetLocaleEvent.java,Andrea Vacondio
+pdfsam-i18n/src/main/resources/i18n.properties,torakiki
+pdfsam-i18n/src/test/java/org/pdfsam/i18n/DefaultI18nContextTest.java,Andrea Vacondio
+pdfsam-i18n/src/test/java/org/pdfsam/i18n/SetLocaleEventTest.java,Andrea Vacondio
+pdfsam-merge/graphics/merge.png,Andrea Vacondio
+pdfsam-merge/graphics/merge.svg,Andrea Vacondio
+pdfsam-merge/LICENSE.txt,Andrea Vacondio
+pdfsam-merge/src/main/resources/merge.png,Andrea Vacondio
+pdfsam-merge/src/test/java/org/pdfsam/Cycles.java,Andrea Vacondio
+pdfsam-rotate/graphics/rotate.png,Andrea Vacondio
+pdfsam-rotate/graphics/rotate.svg,Andrea Vacondio
+pdfsam-rotate/LICENSE.txt,Andrea Vacondio
+pdfsam-rotate/src/main/resources/rotate.png,Andrea Vacondio
+pdfsam-rotate/src/test/java/org/pdfsam/Cycles.java,Andrea Vacondio
+pdfsam-service/LICENSE.txt,Andrea Vacondio
+pdfsam-service/LICENSE.txt,torakiki
+pdfsam-service/src/main/java/org/pdfsam/module/ModuleUsage.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/news/NewsServiceConfig.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/pdf/PdfServiceConfig.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/premium/DefaultPremiumModulesService.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/premium/PremiumModulesController.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/premium/PremiumModulesService.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/premium/PremiumServiceConfig.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/service/Services.java,torakiki
+pdfsam-service/src/main/java/org/pdfsam/task/TaskExecutionServiceConfig.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/ui/RecentWorkspacesService.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/ui/UIServiceConfig.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/ui/WorkspaceService.java,Andrea Vacondio
+pdfsam-service/src/main/java/org/pdfsam/update/UpdateServiceConfig.java,Andrea Vacondio
+pdfsam-service/src/test/java/org/pdfsam/Cycles.java,Andrea Vacondio
+pdfsam-service/src/test/java/org/pdfsam/module/ModuleUsageTest.java,Andrea Vacondio
+pdfsam-service/src/test/java/org/pdfsam/pdf/DefaultSAMBoxLoaderTest.java,Andrea Vacondio
+pdfsam-service/src/test/java/org/pdfsam/premium/DefaultPremiumModulesServiceTest.java,Andrea Vacondio
+pdfsam-service/src/test/java/org/pdfsam/premium/PremiumModulesControllerTest.java,Andrea Vacondio
+pdfsam-service/src/test/java/org/pdfsam/task/BulkRotateTaskTest.java,Andrea Vacondio
+pdfsam-service/src/test/java/org/pdfsam/ui/DefaultStageServiceTest.java,Andrea Vacondio
+pdfsam-service/src/test/java/org/pdfsam/ui/PreferencesRecentWorkspacesServiceTest.java,Andrea Vacondio
+pdfsam-service/src/test/java/org/pdfsam/ui/StageServiceControllerTest.java,Andrea Vacondio
+pdfsam-service/src/test/resources/broken_workspace.json,Andrea Vacondio
+pdfsam-service/src/test/resources/enc_test_pdfsam.pdf,Andrea Vacondio
+pdfsam-service/src/test/resources/im_empty.pdf,Andrea Vacondio
+pdfsam-service/src/test/resources/logback-test.xml,Andrea Vacondio
+pdfsam-service/src/test/resources/test_news.json,Andrea Vacondio
+pdfsam-service/src/test/resources/test_outline.pdf,Andrea Vacondio
+pdfsam-service/src/test/resources/test_pdfsam.pdf,torakiki
+pdfsam-service/src/test/resources/test_premium_modules.json,Andrea Vacondio
+pdfsam-service/src/test/resources/workspace.json,Andrea Vacondio
+pdfsam-simple-split/graphics/split.png,Andrea Vacondio
+pdfsam-simple-split/graphics/split.svg,Andrea Vacondio
+pdfsam-simple-split/LICENSE.txt,Andrea Vacondio
+pdfsam-simple-split/src/main/java/org/pdfsam/split/SplitParametersBuilderCreator.java,Andrea Vacondio
+pdfsam-simple-split/src/main/resources/split.png,Andrea Vacondio
+pdfsam-simple-split/src/test/java/org/pdfsam/Cycles.java,Andrea Vacondio
+pdfsam-split-by-bookmarks/graphics/split_by_bookmarks.png,Andrea Vacondio
+pdfsam-split-by-bookmarks/graphics/split_by_bookmarks.svg,Andrea Vacondio
+pdfsam-split-by-bookmarks/LICENSE.txt,Andrea Vacondio
+pdfsam-split-by-bookmarks/src/main/resources/split_by_bookmarks.png,Andrea Vacondio
+pdfsam-split-by-bookmarks/src/test/java/org/pdfsam/Cycles.java,Andrea Vacondio
+pdfsam-split-by-size/graphics/split_by_size.png,Andrea Vacondio
+pdfsam-split-by-size/graphics/split_by_size.svg,Andrea Vacondio
+pdfsam-split-by-size/LICENSE.txt,Andrea Vacondio
+pdfsam-split-by-size/src/main/resources/split_by_size.png,Andrea Vacondio
+pdfsam-split-by-size/src/test/java/org/pdfsam/splitbysize/SizeUnitRadioTest.java,Andrea Vacondio
+pdfsam-split-by-size/src/test/java/org/pdfsam/splitbysize/SizeUnitTest.java,Andrea Vacondio
+README.md,The Gitter Badger

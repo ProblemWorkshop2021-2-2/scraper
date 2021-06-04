@@ -1,6 +1,5 @@
 import os
 
-from scrap_repo import scrap_repo
 from scrapgitubapi.util import Config
 
 
@@ -11,15 +10,15 @@ def main():
         # "arduino": ["Arduino"],
         # "audacity": ["audacity"],
         # "capistrano": ["capistrano"],
-        # To jeszcze nie
         # "cloudera": ["hue"],
-        # "floweisshardt": ["atf"],
-        # "bardsoftware": ["ganttproject"],
-        # "nginx": ["nginx"],
-        # "torakiki": ["pdfsam"],
-        # "scala": ["scala"],
-        # "Squirrel": ["Squirrel.Windows"],
-        # "tornadoweb": ["tornado"]
+
+        "floweisshardt": ["atf"],
+        "bardsoftware": ["ganttproject"],
+        "nginx": ["nginx"],
+        "torakiki": ["pdfsam"],
+        "scala": ["scala"],
+        "Squirrel": ["Squirrel.Windows"],
+        "tornadoweb": ["tornado"]
     }
     if len(repos.keys()) <= 0:
         print("Odkomentuj lub dodaj coś do tego pliku w zmiennej repos")
@@ -47,7 +46,7 @@ def main():
                 Config.set_repository_name(repository)
 
             print("Scrap repo")
-            scrap_repo()
+            # scrap_repo()
 
 
 if __name__ == "__main__":

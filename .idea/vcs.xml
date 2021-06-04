@@ -21,7 +21,18 @@
     <mapping directory="$PROJECT_DIR$/old/ganttproject/commandline_scraped_data_from_git_log/ganttproject" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/old/nginx/commandline_scraped_data_from_git_log/nginx" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/old/tornado/commandline_scraped_data_from_git_log/tornado" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/Squirrel_Squirrel.Windows" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/repo/arduino_Arduino" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/audacity_audacity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/bardsoftware_ganttproject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/capistrano_capistrano" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/cloudera_hue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/floweisshardt_atf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/nginx_nginx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/scala_scala" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/tensorflow_tensorflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/torakiki_pdfsam" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo/tornadoweb_tornado" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/template" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/template (copy 1)" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tornado/commandline_scraped_data_from_git_log/tornado" vcs="Git" />
