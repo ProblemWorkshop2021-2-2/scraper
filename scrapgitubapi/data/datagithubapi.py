@@ -21,3 +21,11 @@ class DataGithubApi(Data):
     @subscribers_url.setter
     def subscribers_url(self, value: str):
         self.set_key('subscribers_url', value)
+
+    # @property
+    # def milestones_url(self) -> str:
+    #     return self.get_key('milestones_url')
+    #
+    # @milestones_url.setter
+    # def milestones_url(self, value: str):
+    #     self.set_key('milestones_url', value)

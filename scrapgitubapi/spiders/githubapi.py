@@ -27,4 +27,5 @@ class GithubapiSpider(scrapy.Spider):
         data = DataGithubApi()
         data.contributors_url = obj['contributors_url']
         data.subscribers_url = obj['subscribers_url']
+        # data.milestones_url = obj['milestones_url']
         return {}
