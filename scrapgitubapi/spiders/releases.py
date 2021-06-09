@@ -8,7 +8,7 @@ from scrapgitubapi.table.TableReleases import TableReleases
 from scrapgitubapi.util import Config
 
 
-class MilestonesSpider(scrapy.Spider):
+class ReleasesSpider(scrapy.Spider):
     name = 'releases'
     allowed_domains = ['api.github.com']
 
@@ -40,7 +40,7 @@ class MilestonesSpider(scrapy.Spider):
         obj = json.loads(text)
         for x in obj:
             tag_name = x['tag_name']
-            self.table_milestones.write(tag_name)
+            self.table_releases.write(tag_name)
             # self.data_user.add_user_login(login)
         if len(text) > 2 and text != '[]':
             yield scrapy.Request(url=self.next_url, callback=self.parse)

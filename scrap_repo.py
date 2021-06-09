@@ -29,6 +29,7 @@ def scrap_repo():
     list_files_csv_file_path = f"{temp_dir}/list_files.txt"
     changed_files_csv_file_path = f"{data_dir}/changed_files.txt"
     insertions_files_csv_file_path = f"{data_dir}/insertions_commits.csv"
+    lines_files_csv_file_path = f"{data_dir}/lines_of_code.txt"
 
     for file in [
         commits_csv_file_path,
@@ -38,7 +39,8 @@ def scrap_repo():
         user_names_csv_file_path,
         files_in_repo_csv_file_path,
         changed_files_csv_file_path,
-        insertions_files_csv_file_path
+        insertions_files_csv_file_path,
+        lines_files_csv_file_path
     ]:
         Util.mkdir(file)
 
@@ -54,6 +56,7 @@ def scrap_repo():
         'cat ' + commiter_names_csv_file_path + ' >> ' + user_names_csv_file_path + '.tmp',
         'cat ' + user_names_csv_file_path + '.tmp | sort | uniq -u > ' + user_names_csv_file_path,
         'git -C ' + repo_download_dir + ' ls-files | wc -l > ' + files_in_repo_csv_file_path,
+        'git ' + repo_download_dir + ' ls - files | xargs wc - l | sort - n>> ' + lines_files_csv_file_path
     ]
     for command in commands:
         print(f"command: {command}")
